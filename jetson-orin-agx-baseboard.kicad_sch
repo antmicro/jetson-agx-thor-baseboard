@@ -12,6 +12,48 @@
 		(comment 1 "www.antmicro.com")
 	)
 	(lib_symbols)
+	(sheet
+		(at 173.99 119.38)
+		(size 38.1 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4579c4a7-22a6-485d-a5cb-a4d2e4f367db")
+		(property "Sheetname" "SoM"
+			(at 173.99 118.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SoM.kicad_sch"
+			(at 173.99 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "jetson-orin-agx-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
