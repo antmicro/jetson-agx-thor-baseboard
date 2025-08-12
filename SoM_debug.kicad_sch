@@ -13224,9 +13224,150 @@
 			(embedded_fonts no)
 		)
 	)
+	(global_label "JTAG_TDI"
+		(shape input)
+		(at 73.66 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1dc82203-fad6-4094-94fd-c4c4761b9583")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.66 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NVDBG_SEL"
+		(shape input)
+		(at 73.66 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2cea3c56-d4a9-45f1-b81a-297b3663ff2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JTAG_TCK"
+		(shape input)
+		(at 73.66 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48c1044b-68af-49c8-9979-be20cefc3088")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.66 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NVJTAG_SEL"
+		(shape input)
+		(at 73.66 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "671e65ff-2d3d-4815-8522-3b508d078005")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JTAG_TMS"
+		(shape input)
+		(at 73.66 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d0db4c3-596f-4f64-9951-c262695e240a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.66 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JTAG_TRST_N"
+		(shape input)
+		(at 73.66 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1fd22ae-62fd-4f8e-a689-ff160bfe6ca1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.66 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JTAG_TDO"
+		(shape input)
+		(at 73.66 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bfe330a5-3a89-46c1-bcc3-0fc322c0d690")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "antmicroB2BConnectors:Hermaphroditic_Molex_203456-0003_CUSTOM_Jetson_Orin_AGX_H8mm")
-		(at 52.07 48.26 0)
+		(at 73.66 60.96 0)
+		(mirror y)
 		(unit 10)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13235,7 +13376,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f49a8c6-9a95-4469-82ae-4d0958ec9537")
 		(property "Reference" "J2"
-			(at 73.66 55.2449 0)
+			(at 52.07 67.9449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13244,7 +13385,7 @@
 			)
 		)
 		(property "Value" "Hermaphroditic_Molex_203456-0003_CUSTOM_Jetson_Orin_AGX_H8mm"
-			(at 128.524 54.356 0)
+			(at -2.794 67.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13254,7 +13395,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:Conn_Hermaphroditic_Molex_203456-0003_mirrored"
-			(at 128.524 56.642 0)
+			(at -2.794 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13264,7 +13405,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/203/203456/2034560003_sd.pdf?inline"
-			(at 128.524 58.928 0)
+			(at -2.794 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13274,7 +13415,7 @@
 			)
 		)
 		(property "Description" "Mirror Mezz Hermaphroditic Connector, 5.50mm Connector Height, BGA-Attach Mounting, 7 Pair, 11 Row, 699 Circuits, 0.76µm Gold Plating, without Pegs"
-			(at 128.524 67.564 0)
+			(at -2.794 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13284,7 +13425,7 @@
 			)
 		)
 		(property "MPN" "203456-0003"
-			(at 73.66 57.7849 0)
+			(at 52.07 70.4849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13293,7 +13434,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 128.524 61.214 0)
+			(at -2.794 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13303,7 +13444,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 128.524 63.246 0)
+			(at -2.794 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13313,7 +13454,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 128.524 65.278 0)
+			(at -2.794 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
