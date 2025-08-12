@@ -17196,7 +17196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD_SoM_MV"
+		(property "Value" "+5V_SoM"
 			(at 78.74 54.61 0)
 			(effects
 				(font
@@ -17593,16 +17593,16 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+5V")
-		(at 149.86 27.94 0)
+		(at 77.47 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3d660654-a690-4a00-86fd-b3e63c77329b")
-		(property "Reference" "#PWR06"
-			(at 165.1 30.48 0)
+		(uuid "49574227-7dbe-4e9d-afa9-23fe515ea38f")
+		(property "Reference" "#PWR012"
+			(at 92.71 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17612,8 +17612,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD_SoM_MV"
-			(at 149.86 22.86 0)
+		(property "Value" "+5V_SoM"
+			(at 77.47 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17622,7 +17622,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 35.56 0)
+			(at 92.71 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17633,7 +17633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 38.1 0)
+			(at 92.71 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17644,7 +17644,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 27.94 0)
+			(at 77.47 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17653,7 +17653,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 165.1 35.56 0)
+			(at 92.71 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17664,7 +17664,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 165.1 38.1 0)
+			(at 92.71 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17675,12 +17675,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7c405d20-ca6b-4787-a3b6-527b5d68e41e")
+			(uuid "0a2d50ad-73e7-46f5-87c6-f1be87bd87d2")
 		)
 		(instances
 			(project "jetson-orin-agx-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/4579c4a7-22a6-485d-a5cb-a4d2e4f367db/ee8699d0-a5ca-448c-bd2c-e78e8401ec10"
-					(reference "#PWR06")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -17832,101 +17832,6 @@
 			(project "jetson-orin-agx-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/4579c4a7-22a6-485d-a5cb-a4d2e4f367db/ee8699d0-a5ca-448c-bd2c-e78e8401ec10"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:+5V")
-		(at 77.47 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56ea955c-eb0b-4351-aef0-079c2c530c13")
-		(property "Reference" "#PWR04"
-			(at 92.71 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD_SoM_MV"
-			(at 77.47 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 92.71 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 92.71 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f38b818-ff57-48d3-8dee-12750dce857c")
-		)
-		(instances
-			(project "jetson-orin-agx-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/4579c4a7-22a6-485d-a5cb-a4d2e4f367db/ee8699d0-a5ca-448c-bd2c-e78e8401ec10"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -18086,6 +17991,101 @@
 			(project "jetson-orin-agx-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/4579c4a7-22a6-485d-a5cb-a4d2e4f367db/ee8699d0-a5ca-448c-bd2c-e78e8401ec10"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:+5V")
+		(at 149.86 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62468ab6-29bf-4d46-a00f-76a4aac162d3")
+		(property "Reference" "#PWR04"
+			(at 165.1 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_SoM"
+			(at 149.86 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 165.1 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 165.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "921e8691-4930-43dc-897a-1f6983d51c7a")
+		)
+		(instances
+			(project "jetson-orin-agx-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/4579c4a7-22a6-485d-a5cb-a4d2e4f367db/ee8699d0-a5ca-448c-bd2c-e78e8401ec10"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
