@@ -430,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -478,7 +478,23 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(D11-Pad1)": [
+        "PoE"
+      ],
+      "Net-(D11-Pad2)": [
+        "PoE"
+      ],
+      "Net-(D14-A)": [
+        "PoE"
+      ],
+      "Net-(J5-P4)": [
+        "PoE"
+      ],
+      "Net-(R76-Pad2)": [
+        "PoE"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -631,7 +647,7 @@
     ],
     [
       "a94d9c53-c5ac-439c-b57f-c8751a5ad590",
-      "HDMI"
+      "SFP"
     ],
     [
       "33df10a9-5b30-4fa6-b34e-d62ce1b48c65",
