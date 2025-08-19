@@ -609,6 +609,48 @@
 		)
 	)
 	(sheet
+		(at 228.6 119.38)
+		(size 34.29 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9d0ae878-eee6-447d-aff4-b22a12e4cfda")
+		(property "Sheetname" "Power"
+			(at 228.6 118.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 228.6 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "jetson-orin-agx-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 346.71 236.22)
 		(size 34.29 36.83)
 		(exclude_from_sim no)
@@ -688,48 +730,6 @@
 			(project "jetson-orin-agx-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
 					(page "13")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 228.6 119.38)
-		(size 34.29 34.29)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "9d0ae878-eee6-447d-aff4-b22a12e4cfda")
-		(property "Sheetname" "Power"
-			(at 228.6 118.6684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Power.kicad_sch"
-			(at 228.6 154.2546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "jetson-orin-agx-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
-					(page "7")
 				)
 			)
 		)
