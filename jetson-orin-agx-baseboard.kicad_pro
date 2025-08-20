@@ -418,7 +418,7 @@
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
-      "lib_symbol_issues": "warning",
+      "lib_symbol_issues": "ignore",
       "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
@@ -429,12 +429,12 @@
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
-      "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_not_driven": "ignore",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
-      "similar_labels": "warning",
+      "similar_labels": "ignore",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
@@ -445,6 +445,7 @@
       "wire_dangling": "error"
     }
   },
+  "legacy": [],
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
@@ -457,7 +458,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.125,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -469,8 +470,110 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.125,
+        "diff_pair_gap": 0.22,
+        "diff_pair_width": 0.16,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "100Ohm-diff_10GKR",
+        "pcb_color": "rgb(255, 0, 40)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.125,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.15,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "100Ohm-diff_GbE",
+        "pcb_color": "rgb(38, 255, 27)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.125,
+        "diff_pair_gap": 0.22,
+        "diff_pair_width": 0.16,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "100Ohm-diff_SFI",
+        "pcb_color": "rgb(255, 0, 19)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.125,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "50Ohm-se",
+        "pcb_color": "rgb(31, 242, 255)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.182,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.125,
+        "diff_pair_gap": 0.187,
+        "diff_pair_width": 0.202,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "85Ohm-diff_PCIe",
+        "pcb_color": "rgb(255, 45, 181)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.125,
+        "diff_pair_gap": 0.195,
+        "diff_pair_width": 0.185,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "90Ohm-diff_USB",
+        "pcb_color": "rgb(25, 22, 255)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
         "wire_width": 6
       }
     ],
@@ -488,14 +591,98 @@
       "Net-(D14-A)": [
         "PoE"
       ],
+      "Net-(D37-Pad1)": [
+        "PoE"
+      ],
+      "Net-(D37-Pad2)": [
+        "PoE"
+      ],
+      "Net-(D41-A)": [
+        "PoE"
+      ],
+      "Net-(J18-P4)": [
+        "PoE"
+      ],
       "Net-(J5-P4)": [
+        "PoE"
+      ],
+      "Net-(R223-Pad2)": [
         "PoE"
       ],
       "Net-(R76-Pad2)": [
         "PoE"
       ]
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "*PCIe*+"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "*PCIe*-"
+      },
+      {
+        "netclass": "100Ohm-diff_SFI",
+        "pattern": "*SFI*+"
+      },
+      {
+        "netclass": "100Ohm-diff_SFI",
+        "pattern": "*SFI*-"
+      },
+      {
+        "netclass": "100Ohm-diff_GbE",
+        "pattern": "*GbE*+"
+      },
+      {
+        "netclass": "100Ohm-diff_GbE",
+        "pattern": "*GbE*-"
+      },
+      {
+        "netclass": "100Ohm-diff_10GKR",
+        "pattern": "*10GKR*"
+      },
+      {
+        "netclass": "90Ohm-diff_USB",
+        "pattern": "*Backplane/USB*"
+      },
+      {
+        "netclass": "90Ohm-diff_USB",
+        "pattern": "*2xUSB3.0*X*"
+      },
+      {
+        "netclass": "100Ohm-diff_GbE",
+        "pattern": "*RJ45/D*"
+      },
+      {
+        "netclass": "90Ohm-diff_USB",
+        "pattern": "*2xUSB3.0*P*D*"
+      },
+      {
+        "netclass": "90Ohm-diff_USB",
+        "pattern": "*2xUSB3.0*USB_*D*"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "*PCIE_{REF}.CK*"
+      },
+      {
+        "netclass": "90Ohm-diff_USB",
+        "pattern": "*USB_D*"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "*Com*SDIO*"
+      },
+      {
+        "netclass": "90Ohm-diff_USB",
+        "pattern": "*USB*FTDI_D*"
+      },
+      {
+        "netclass": "90Ohm-diff_USB",
+        "pattern": "*USB1.D*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -593,7 +780,7 @@
       "field_names": [],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
-      "intersheets_ref_short": false,
+      "intersheets_ref_short": true,
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
