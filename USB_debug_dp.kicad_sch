@@ -17272,6 +17272,26 @@
 		)
 		(uuid "3323dbc4-a36b-45bf-a15d-60d6d7412643")
 	)
+	(text "USB DP\n"
+		(exclude_from_sim no)
+		(at 194.056 20.32 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "3f49700a-67a7-4e95-a145-2f4bb67f6f8e")
+	)
+	(text "USB Debug"
+		(exclude_from_sim no)
+		(at 240.284 189.23 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "40d0e020-d6a5-427e-b165-a5bbd0313440")
+	)
 	(text "H"
 		(exclude_from_sim no)
 		(at 148.59 97.155 0)
@@ -17304,16 +17324,6 @@
 			(justify left bottom)
 		)
 		(uuid "608b320b-228e-4e4c-981e-e580ef466615")
-	)
-	(text "I_{LIM}(A) = 6800/R_{LIM} = 3.09\n"
-		(exclude_from_sim no)
-		(at 320.802 171.958 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6cc1293c-486b-4dbc-986b-1882f92afd88")
 	)
 	(text "L"
 		(exclude_from_sim no)
@@ -19500,6 +19510,16 @@
 		)
 		(uuid "455018e1-ba39-4f41-b20f-81f2d235948d")
 	)
+	(polyline
+		(pts
+			(xy 11.43 213.36) (xy 101.6 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45d640b4-9f33-4665-a768-83ef2c027835")
+	)
 	(wire
 		(pts
 			(xy 254 232.41) (xy 250.19 232.41)
@@ -21032,6 +21052,16 @@
 	)
 	(polyline
 		(pts
+			(xy 101.6 184.15) (xy 101.6 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97cc5ea0-6f32-40d2-b1c1-500a886eed23")
+	)
+	(polyline
+		(pts
 			(xy 179.07 101.6) (xy 147.32 101.6)
 		)
 		(stroke
@@ -22229,6 +22259,16 @@
 			(type default)
 		)
 		(uuid "d5bf57e7-8b1d-48b0-8c6c-80afd7fc6c75")
+	)
+	(polyline
+		(pts
+			(xy 407.67 184.15) (xy 101.6 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d70dc5-5f8a-44c6-a644-c3074327886b")
 	)
 	(wire
 		(pts
