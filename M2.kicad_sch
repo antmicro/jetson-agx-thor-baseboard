@@ -9693,29 +9693,45 @@
 			(embedded_fonts no)
 		)
 	)
-	(bus_alias ""
-		(members)
+	(bus_alias "CAN"
+		(members "D-" "D+")
+	)
+	(bus_alias "CSI"
+		(members "D0+" "D0-" "D1+" "D1-" "CLK+" "CLK-")
+	)
+	(bus_alias "DP"
+		(members "TX0+" "TX0-" "TX1+" "TX1-" "TX2+" "TX2-" "TX3+" "TX3-" "AUX+"
+			"AUX-" "HPD"
+		)
 	)
 	(bus_alias "GbE"
 		(members "MDI3+" "MDI3-" "MDI2+" "MDI2-" "MDI1+" "MDI1-" "MDI0+" "MDI0-"
 			"CTREF"
 		)
 	)
+	(bus_alias "HDMI"
+		(members "D2+" "D2-" "D1+" "D1-" "D0+" "D0-" "CK+" "CK-" "SCL" "SDA" "HPD")
+	)
 	(bus_alias "I2C"
 		(members "SDA" "SCL" "~{INT}")
+	)
+	(bus_alias "MDI"
+		(members "TD1_P" "TD1_N" "TD2_P" "TD2_N" "TD3_P" "TD3_N" "TD4_P" "TD4_N")
 	)
 	(bus_alias "MDIO"
 		(members "MDIO" "MDC")
 	)
 	(bus_alias "PCIe"
-		(members "TX7+" "TX7-" "TX6+" "TX6-" "TX5+" "TX5-" "TX4+" "TX4-" "TX3+"
-			"TX3-" "TX2+" "TX2-" "TX1+" "TX1-" "TX0+" "TX0-" "RX7+" "RX7-" "RX6+"
-			"RX6-" "RX5+" "RX5-" "RX4+" "RX4-" "RX3+" "RX3-" "RX2+" "RX2-" "RX1+"
-			"RX1-" "RX0+" "RX0-"
+		(members "TX0+" "TX0-" "TX1+" "TX1-" "TX2+" "TX2-" "TX3+" "TX3-" "RX0+"
+			"RX0-" "RX1+" "RX1-" "RX2+" "RX2-" "RX3+" "RX3-" "~{RST}" "~{CLKREQ}"
+			"CLK+" "CLK-" "TX4+" "TX4-" "TX5+" "TX5-" "TX6+" "TX6-" "TX7+" "TX7-"
+			"RX4+" "RX4-" "RX5+" "RX5-" "RX6+" "RX6-" "RX7+" "RX7-"
 		)
 	)
-	(bus_alias "PCIe_{REF}"
-		(members "CK+" "CK-")
+	(bus_alias "RGMII"
+		(members "TX0" "TX1" "TX2" "TX3" "TXC" "TX_CTL" "RX0" "RX1" "RX2" "RX3"
+			"RXC" "RX_CTL" "MDC" "MDIO" "~{RESET}" "~{INT}"
+		)
 	)
 	(bus_alias "SDIO"
 		(members "DAT0" "DAT1" "DAT2" "DAT3" "CLK" "CMD")
@@ -9726,8 +9742,11 @@
 	(bus_alias "SPI"
 		(members "MISO" "MOSI" "CLK" "~{CS}")
 	)
+	(bus_alias "SWD"
+		(members "IO" "CLK")
+	)
 	(bus_alias "UART"
-		(members "RX" "TX")
+		(members "TX" "RX" "CTS" "RTS")
 	)
 	(bus_alias "USB"
 		(members "D+" "D-")
@@ -9750,7 +9769,7 @@
 	)
 	(text "Do we want to use 2x PCIe x1\nor only one and other \nfor eg. Oculink?"
 		(exclude_from_sim no)
-		(at 202.692 135.636 0)
+		(at 234.95 140.208 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9864,12 +9883,6 @@
 		(uuid "1a5700a0-e9e0-4770-9b01-cdaac1171441")
 	)
 	(junction
-		(at 246.38 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f30afbc-a144-4c84-8847-ee9105db3fd0")
-	)
-	(junction
 		(at 137.16 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9924,6 +9937,12 @@
 		(uuid "9709460f-ab9b-4b63-adb2-4a8bb170dcc9")
 	)
 	(junction
+		(at 255.27 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f71ebc6-f1dc-4171-a3d2-fb5d6028c90f")
+	)
+	(junction
 		(at 314.96 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9954,10 +9973,10 @@
 		(uuid "d9372f74-1632-436b-a27f-92e4864beb38")
 	)
 	(junction
-		(at 255.27 96.52)
+		(at 246.38 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e6e37f31-3179-479e-9e50-113d9d9d3db0")
+		(uuid "e8edcaf2-c886-4fc1-b45f-36f3c676f68e")
 	)
 	(junction
 		(at 147.32 99.06)
@@ -9976,11 +9995,15 @@
 		(uuid "002d606c-5846-44b4-9e07-3bd2596e2564")
 	)
 	(no_connect
+		(at 215.9 127)
+		(uuid "031a88dd-24d2-4a43-a0f9-07ef1ab724f0")
+	)
+	(no_connect
 		(at 262.89 142.24)
 		(uuid "0a4d912a-df5f-4a6e-810c-0c6ccadf529a")
 	)
 	(no_connect
-		(at 237.49 134.62)
+		(at 215.9 134.62)
 		(uuid "0d309729-4fb1-4c60-9b60-2097e7ce5fe1")
 	)
 	(no_connect
@@ -10010,10 +10033,6 @@
 	(no_connect
 		(at 293.37 173.99)
 		(uuid "21d307bb-324b-44a9-8084-3df06345fa5f")
-	)
-	(no_connect
-		(at 262.89 99.06)
-		(uuid "239278f8-bc7b-45a6-a208-8286afa6bfab")
 	)
 	(no_connect
 		(at 262.89 154.94)
@@ -10056,7 +10075,7 @@
 		(uuid "6c5056b0-85e3-4932-ac57-48034d9c5379")
 	)
 	(no_connect
-		(at 237.49 142.24)
+		(at 215.9 142.24)
 		(uuid "7d37a6b8-8ccc-4665-b048-3381ef0cc1fa")
 	)
 	(no_connect
@@ -10100,7 +10119,11 @@
 		(uuid "c4e92400-a2d8-4965-b7a3-8bf76fba36c9")
 	)
 	(no_connect
-		(at 237.49 144.78)
+		(at 215.9 129.54)
+		(uuid "ca700d62-4c8d-4a78-a8a3-7a96c1ac4144")
+	)
+	(no_connect
+		(at 215.9 144.78)
 		(uuid "cd069381-9dfa-46a9-9be0-d56f9ce968df")
 	)
 	(no_connect
@@ -10120,7 +10143,7 @@
 		(uuid "dcc552e8-e84b-4e70-8606-ffde34f2af29")
 	)
 	(no_connect
-		(at 237.49 137.16)
+		(at 215.9 137.16)
 		(uuid "de151ead-eac8-4b8d-ad8f-03f1d05078d7")
 	)
 	(no_connect
@@ -10167,6 +10190,15 @@
 		(uuid "2bee922a-5209-45d8-875d-052c4bab656d")
 	)
 	(bus_entry
+		(at 199.39 105.41)
+		(size 1.27 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c6223f0-bb3a-4245-999a-3ff5e8299603")
+	)
+	(bus_entry
 		(at 36.83 161.29)
 		(size 1.27 1.27)
 		(stroke
@@ -10185,7 +10217,7 @@
 		(uuid "4006e1c3-c012-4363-add9-6e1b0e07817e")
 	)
 	(bus_entry
-		(at 218.44 120.65)
+		(at 199.39 120.65)
 		(size 1.27 1.27)
 		(stroke
 			(width 0)
@@ -10212,7 +10244,25 @@
 		(uuid "494308b1-331b-46fb-9db3-ebef87f1ebd4")
 	)
 	(bus_entry
-		(at 218.44 113.03)
+		(at 199.39 92.71)
+		(size 1.27 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58d98615-2cd7-4b12-a08a-4ab93d81f0e9")
+	)
+	(bus_entry
+		(at 199.39 102.87)
+		(size 1.27 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b0f3213-1327-4307-932b-97a8dc4f8120")
+	)
+	(bus_entry
+		(at 199.39 113.03)
 		(size 1.27 1.27)
 		(stroke
 			(width 0)
@@ -10230,7 +10280,7 @@
 		(uuid "681f3911-426d-4507-b4c1-36971d10d360")
 	)
 	(bus_entry
-		(at 218.44 110.49)
+		(at 199.39 110.49)
 		(size 1.27 1.27)
 		(stroke
 			(width 0)
@@ -10266,24 +10316,6 @@
 		(uuid "6cff6849-5653-4467-98bd-a01705879d6b")
 	)
 	(bus_entry
-		(at 238.76 104.14)
-		(size -1.27 -1.27)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f8d8330-ce42-4bac-a3b5-9ef215aa76f5")
-	)
-	(bus_entry
-		(at 238.76 106.68)
-		(size -1.27 -1.27)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "701b16cf-d565-4427-8aba-759b64462a43")
-	)
-	(bus_entry
 		(at 36.83 130.81)
 		(size 1.27 1.27)
 		(stroke
@@ -10311,7 +10343,7 @@
 		(uuid "769f9916-f624-417a-891b-f427a763751c")
 	)
 	(bus_entry
-		(at 219.71 144.78)
+		(at 200.66 144.78)
 		(size -1.27 -1.27)
 		(stroke
 			(width 0)
@@ -10329,7 +10361,7 @@
 		(uuid "7bccfd50-7e62-4411-b398-cb6335ce3e72")
 	)
 	(bus_entry
-		(at 219.71 134.62)
+		(at 200.66 134.62)
 		(size -1.27 -1.27)
 		(stroke
 			(width 0)
@@ -10347,13 +10379,22 @@
 		(uuid "93c10295-6d06-4b70-b667-36a241f776c2")
 	)
 	(bus_entry
-		(at 219.71 142.24)
+		(at 200.66 142.24)
 		(size -1.27 -1.27)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aa6fb130-832d-4247-bb6c-12632a06f8e3")
+	)
+	(bus_entry
+		(at 199.39 128.27)
+		(size 1.27 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae17e0d4-0a68-4008-ae54-9316b0eca54b")
 	)
 	(bus_entry
 		(at 36.83 138.43)
@@ -10365,7 +10406,7 @@
 		(uuid "b3907431-97d9-4003-bc9a-5f2ea75564e1")
 	)
 	(bus_entry
-		(at 218.44 118.11)
+		(at 199.39 118.11)
 		(size 1.27 1.27)
 		(stroke
 			(width 0)
@@ -10383,6 +10424,15 @@
 		(uuid "cc7e61fb-f751-4511-950c-1c84dfc9ad65")
 	)
 	(bus_entry
+		(at 199.39 125.73)
+		(size 1.27 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d62c44da-6fc8-45cc-912f-43839d140a71")
+	)
+	(bus_entry
 		(at 36.83 101.6)
 		(size 1.27 1.27)
 		(stroke
@@ -10392,7 +10442,7 @@
 		(uuid "db8361c1-39cf-4a03-bfb9-7e3735ea4270")
 	)
 	(bus_entry
-		(at 219.71 137.16)
+		(at 200.66 137.16)
 		(size -1.27 -1.27)
 		(stroke
 			(width 0)
@@ -10408,6 +10458,15 @@
 			(type default)
 		)
 		(uuid "e60ab547-dbe0-4591-bafa-a9d81aaede22")
+	)
+	(bus_entry
+		(at 199.39 95.25)
+		(size 1.27 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7f279cb-6211-4411-b220-450e0aabad41")
 	)
 	(bus_entry
 		(at 207.01 170.18)
@@ -10509,7 +10568,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 137.16) (xy 219.71 137.16)
+			(xy 215.9 137.16) (xy 200.66 137.16)
 		)
 		(stroke
 			(width 0)
@@ -10519,7 +10578,7 @@
 	)
 	(bus
 		(pts
-			(xy 30.48 121.92) (xy 35.56 121.92)
+			(xy 30.48 99.06) (xy 35.56 99.06)
 		)
 		(stroke
 			(width 0)
@@ -10556,6 +10615,16 @@
 			(type default)
 		)
 		(uuid "128ca2ee-56da-4889-87ed-8223d4b6acfd")
+	)
+	(bus
+		(pts
+			(xy 199.39 95.25) (xy 199.39 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a0486c-4274-43ce-a2a3-be81493b5bc6")
 	)
 	(wire
 		(pts
@@ -10599,13 +10668,23 @@
 	)
 	(bus
 		(pts
-			(xy 218.44 110.49) (xy 218.44 113.03)
+			(xy 199.39 110.49) (xy 199.39 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1a562d8d-0fe7-45d5-b829-76955c5216f1")
+	)
+	(wire
+		(pts
+			(xy 200.66 127) (xy 215.9 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d4fdbb2-ef98-414a-9f3e-aedfd250030a")
 	)
 	(bus
 		(pts
@@ -10629,23 +10708,13 @@
 	)
 	(bus
 		(pts
-			(xy 236.22 99.06) (xy 212.09 99.06)
+			(xy 196.85 123.19) (xy 198.12 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "206be5b8-f287-4a9c-8c21-2c768143bafd")
-	)
-	(wire
-		(pts
-			(xy 229.87 93.98) (xy 246.38 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "225e69af-0dc2-4eb9-bb85-5121b2574abb")
+		(uuid "2014327f-6f8a-4ff4-88a6-c8653b6e3297")
 	)
 	(bus
 		(pts
@@ -10687,16 +10756,6 @@
 		)
 		(uuid "24556fc7-5990-4bb9-9b40-848b7b9d2737")
 	)
-	(bus
-		(pts
-			(xy 237.49 102.87) (xy 237.49 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24add777-6a17-43c0-b6ec-f49c5c0c385e")
-	)
 	(wire
 		(pts
 			(xy 38.1 115.57) (xy 100.33 115.57)
@@ -10729,7 +10788,7 @@
 	)
 	(bus
 		(pts
-			(xy 218.44 135.89) (xy 218.44 140.97)
+			(xy 199.39 135.89) (xy 199.39 140.97)
 		)
 		(stroke
 			(width 0)
@@ -10819,7 +10878,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 157.48) (xy 57.15 157.48)
+			(xy 38.1 157.48) (xy 64.77 157.48)
 		)
 		(stroke
 			(width 0)
@@ -10839,7 +10898,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 124.46) (xy 100.33 124.46)
+			(xy 63.5 124.46) (xy 100.33 124.46)
 		)
 		(stroke
 			(width 0)
@@ -10859,7 +10918,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 124.46) (xy 52.07 124.46)
+			(xy 38.1 124.46) (xy 58.42 124.46)
 		)
 		(stroke
 			(width 0)
@@ -10869,13 +10928,13 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 104.14) (xy 238.76 104.14)
+			(xy 200.66 93.98) (xy 223.52 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36f1abfe-1bb1-4acf-a552-8e341c0e851e")
+		(uuid "36f5f541-ebdf-478e-8ebf-cbd742c32c9c")
 	)
 	(wire
 		(pts
@@ -10899,6 +10958,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 96.52) (xy 255.27 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39359c34-0b66-4b5f-9b72-571c9f66e77d")
+	)
+	(wire
+		(pts
 			(xy 294.64 142.24) (xy 309.88 142.24)
 		)
 		(stroke
@@ -10919,7 +10988,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 142.24) (xy 100.33 142.24)
+			(xy 69.85 142.24) (xy 100.33 142.24)
 		)
 		(stroke
 			(width 0)
@@ -10939,7 +11008,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 148.59) (xy 369.57 148.59)
+			(xy 323.85 154.94) (xy 344.17 154.94)
 		)
 		(stroke
 			(width 0)
@@ -10956,6 +11025,16 @@
 			(type default)
 		)
 		(uuid "42e6ddd5-18c6-4ed4-88bf-7f4cfbf196b2")
+	)
+	(wire
+		(pts
+			(xy 200.66 134.62) (xy 215.9 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45860f85-84aa-4d03-a67e-61f5ec343a0f")
 	)
 	(wire
 		(pts
@@ -10976,6 +11055,16 @@
 			(type default)
 		)
 		(uuid "45fb901d-8770-4d7c-9001-1abbf8bd39d3")
+	)
+	(bus
+		(pts
+			(xy 199.39 105.41) (xy 199.39 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4636bd98-2fea-4746-9022-62a3788388b5")
 	)
 	(wire
 		(pts
@@ -10999,7 +11088,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 143.51) (xy 392.43 143.51)
+			(xy 354.33 149.86) (xy 367.03 149.86)
 		)
 		(stroke
 			(width 0)
@@ -11007,19 +11096,9 @@
 		)
 		(uuid "485ebf3b-ef67-4163-bda7-9fc3fa049ef9")
 	)
-	(bus
-		(pts
-			(xy 218.44 120.65) (xy 218.44 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4aa0f9ce-5a23-4eb3-a5ab-595afbd7b027")
-	)
 	(wire
 		(pts
-			(xy 349.25 143.51) (xy 369.57 143.51)
+			(xy 323.85 149.86) (xy 344.17 149.86)
 		)
 		(stroke
 			(width 0)
@@ -11029,7 +11108,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 139.7) (xy 100.33 139.7)
+			(xy 63.5 139.7) (xy 100.33 139.7)
 		)
 		(stroke
 			(width 0)
@@ -11069,6 +11148,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 129.54) (xy 215.9 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c7a43d6-919b-411b-90f0-173c7fa1625d")
+	)
+	(wire
+		(pts
 			(xy 293.37 198.12) (xy 298.45 198.12)
 		)
 		(stroke
@@ -11079,7 +11168,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 127) (xy 57.15 127)
+			(xy 38.1 127) (xy 64.77 127)
 		)
 		(stroke
 			(width 0)
@@ -11117,16 +11206,6 @@
 		)
 		(uuid "50d1d4bd-be70-4229-bfee-6ae6f5841757")
 	)
-	(bus
-		(pts
-			(xy 217.17 109.22) (xy 218.44 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51a4797e-769e-47a0-b6bd-d24b66b142fb")
-	)
 	(wire
 		(pts
 			(xy 38.1 165.1) (xy 100.33 165.1)
@@ -11139,23 +11218,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 114.3) (xy 241.3 114.3)
+			(xy 200.66 114.3) (xy 241.3 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "53672c37-38a8-401e-b1ca-dd9873edb49b")
-	)
-	(polyline
-		(pts
-			(xy 187.96 284.48) (xy 189.23 284.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54fecdc1-52b4-4882-9480-42f3c1edb92b")
 	)
 	(wire
 		(pts
@@ -11166,16 +11235,6 @@
 			(type default)
 		)
 		(uuid "5605f7e4-b421-48ae-aa9c-ef2d3fa65337")
-	)
-	(wire
-		(pts
-			(xy 38.1 172.72) (xy 57.15 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56cdb1b4-9681-42ac-8a6a-63170a283ecc")
 	)
 	(wire
 		(pts
@@ -11197,16 +11256,6 @@
 		)
 		(uuid "57d36e1c-bfc9-48b8-ae30-fd6fbd7bb64b")
 	)
-	(bus
-		(pts
-			(xy 36.83 99.06) (xy 36.83 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58292b6e-b328-4783-b7d0-656ce13180fe")
-	)
 	(wire
 		(pts
 			(xy 33.02 261.62) (xy 33.02 260.35)
@@ -11219,7 +11268,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 142.24) (xy 57.15 142.24)
+			(xy 38.1 142.24) (xy 64.77 142.24)
 		)
 		(stroke
 			(width 0)
@@ -11229,7 +11278,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 172.72) (xy 100.33 172.72)
+			(xy 69.85 172.72) (xy 100.33 172.72)
 		)
 		(stroke
 			(width 0)
@@ -11279,7 +11328,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 142.24) (xy 219.71 142.24)
+			(xy 215.9 142.24) (xy 200.66 142.24)
 		)
 		(stroke
 			(width 0)
@@ -11296,6 +11345,26 @@
 			(type default)
 		)
 		(uuid "60eccbba-7c08-49b9-ac77-9d0fb5df9cda")
+	)
+	(bus
+		(pts
+			(xy 36.83 104.14) (xy 36.83 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61749cdb-4063-4a79-ba10-39074d47ad10")
+	)
+	(bus
+		(pts
+			(xy 199.39 128.27) (xy 199.39 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63be3475-b3c8-40e5-9c29-df943876c5b2")
 	)
 	(wire
 		(pts
@@ -11329,7 +11398,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 146.05) (xy 369.57 146.05)
+			(xy 323.85 152.4) (xy 344.17 152.4)
 		)
 		(stroke
 			(width 0)
@@ -11349,7 +11418,7 @@
 	)
 	(bus
 		(pts
-			(xy 218.44 133.35) (xy 218.44 135.89)
+			(xy 199.39 133.35) (xy 199.39 135.89)
 		)
 		(stroke
 			(width 0)
@@ -11366,6 +11435,26 @@
 			(type default)
 		)
 		(uuid "6735c9a4-1b52-4efe-ab6c-d2cd736f672f")
+	)
+	(wire
+		(pts
+			(xy 200.66 96.52) (xy 223.52 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a4311ce-7d79-439f-a459-7de5cd5af67d")
+	)
+	(bus
+		(pts
+			(xy 199.39 124.46) (xy 199.39 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c909f3c-b3a3-4b20-9b79-e31480102a17")
 	)
 	(bus
 		(pts
@@ -11409,13 +11498,23 @@
 	)
 	(bus
 		(pts
-			(xy 218.44 118.11) (xy 218.44 120.65)
+			(xy 199.39 118.11) (xy 199.39 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "70b32d20-cad9-4acf-86bc-0f1024f9856c")
+	)
+	(wire
+		(pts
+			(xy 228.6 93.98) (xy 246.38 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7105f2c6-afbf-4c82-9ff5-d9eb6555d465")
 	)
 	(wire
 		(pts
@@ -11477,16 +11576,6 @@
 		)
 		(uuid "775cf863-900d-44e5-893d-f0ad6662c0ec")
 	)
-	(bus
-		(pts
-			(xy 212.09 109.22) (xy 217.17 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78ecd81e-9bb7-4590-bf8c-d1c98266a94e")
-	)
 	(wire
 		(pts
 			(xy 66.04 107.95) (xy 100.33 107.95)
@@ -11499,7 +11588,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 111.76) (xy 241.3 111.76)
+			(xy 200.66 111.76) (xy 241.3 111.76)
 		)
 		(stroke
 			(width 0)
@@ -11527,9 +11616,19 @@
 		)
 		(uuid "7990e79f-1de0-4d49-ba38-9cd7c75a0489")
 	)
+	(bus
+		(pts
+			(xy 199.39 102.87) (xy 199.39 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a3a0f2d-4577-476d-81b4-b4d1365aaf18")
+	)
 	(wire
 		(pts
-			(xy 241.3 121.92) (xy 219.71 121.92)
+			(xy 200.66 121.92) (xy 241.3 121.92)
 		)
 		(stroke
 			(width 0)
@@ -11549,13 +11648,23 @@
 	)
 	(polyline
 		(pts
-			(xy 12.7 233.68) (xy 181.61 233.68)
+			(xy 12.7 233.68) (xy 177.8 233.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7d2ee21a-d663-43aa-ac8c-712aef9fcfc3")
+	)
+	(bus
+		(pts
+			(xy 199.39 92.71) (xy 199.39 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "822f2ee1-2940-4a74-8614-86c3ca7dea85")
 	)
 	(wire
 		(pts
@@ -11589,7 +11698,7 @@
 	)
 	(polyline
 		(pts
-			(xy 181.61 12.7) (xy 181.61 284.48)
+			(xy 177.8 12.7) (xy 177.8 284.48)
 		)
 		(stroke
 			(width 0)
@@ -11599,7 +11708,17 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 154.94) (xy 100.33 154.94)
+			(xy 219.71 99.06) (xy 223.52 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87001ae1-108c-44c5-9780-e62c1559f6b0")
+	)
+	(wire
+		(pts
+			(xy 63.5 154.94) (xy 100.33 154.94)
 		)
 		(stroke
 			(width 0)
@@ -11657,6 +11776,16 @@
 		)
 		(uuid "8ae9adfb-3333-4bed-91a4-b9ceda5dd63d")
 	)
+	(bus
+		(pts
+			(xy 36.83 116.84) (xy 36.83 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c993f3c-7424-4e37-ae28-3c2ce5a7d187")
+	)
 	(wire
 		(pts
 			(xy 92.71 101.6) (xy 92.71 105.41)
@@ -11689,7 +11818,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 154.94) (xy 52.07 154.94)
+			(xy 38.1 154.94) (xy 58.42 154.94)
 		)
 		(stroke
 			(width 0)
@@ -11769,6 +11898,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 172.72) (xy 64.77 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "942142e6-c8c2-444a-a1d1-9d2955d0e42e")
+	)
+	(wire
+		(pts
 			(xy 209.55 172.72) (xy 234.95 172.72)
 		)
 		(stroke
@@ -11776,16 +11915,6 @@
 			(type default)
 		)
 		(uuid "955dc594-7cd2-47ad-abd3-aa663bf27f77")
-	)
-	(bus
-		(pts
-			(xy 237.49 105.41) (xy 237.49 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "959c634a-ddce-43b2-b0c0-3b5aa91a0f5c")
 	)
 	(bus
 		(pts
@@ -11827,15 +11956,15 @@
 		)
 		(uuid "9cd313b1-28ea-4346-b8d0-6e0b7f8058dc")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 255.27 106.68) (xy 238.76 106.68)
+			(xy 196.85 90.17) (xy 198.12 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e5fb27b-4994-4086-9701-cef2f2a80d32")
+		(uuid "9e096cad-abf6-4a90-8778-8768f8b87759")
 	)
 	(wire
 		(pts
@@ -11897,6 +12026,16 @@
 		)
 		(uuid "a510cad9-1006-488b-bf04-9a2825f50400")
 	)
+	(bus
+		(pts
+			(xy 199.39 125.73) (xy 199.39 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a611b127-e2a1-489c-a56e-af999568e2cf")
+	)
 	(wire
 		(pts
 			(xy 309.88 86.36) (xy 318.77 86.36)
@@ -11949,7 +12088,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 139.7) (xy 52.07 139.7)
+			(xy 38.1 139.7) (xy 58.42 139.7)
 		)
 		(stroke
 			(width 0)
@@ -11969,7 +12108,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 144.78) (xy 219.71 144.78)
+			(xy 215.9 144.78) (xy 200.66 144.78)
 		)
 		(stroke
 			(width 0)
@@ -12049,7 +12188,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 148.59) (xy 392.43 148.59)
+			(xy 354.33 154.94) (xy 367.03 154.94)
 		)
 		(stroke
 			(width 0)
@@ -12067,9 +12206,19 @@
 		)
 		(uuid "bab81965-138f-495d-8e74-354645a1b36c")
 	)
+	(bus
+		(pts
+			(xy 36.83 100.33) (xy 36.83 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd3a477f-2bb4-4724-b18f-1de6f981e1b4")
+	)
 	(wire
 		(pts
-			(xy 349.25 140.97) (xy 369.57 140.97)
+			(xy 323.85 147.32) (xy 344.17 147.32)
 		)
 		(stroke
 			(width 0)
@@ -12139,16 +12288,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 96.52) (xy 255.27 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c57a9760-16a3-41d1-8142-e00a26232597")
-	)
-	(wire
-		(pts
 			(xy 33.02 267.97) (xy 33.02 269.24)
 		)
 		(stroke
@@ -12169,13 +12308,23 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 140.97) (xy 392.43 140.97)
+			(xy 354.33 147.32) (xy 367.03 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c8d2b27a-657e-47a3-a850-80769d2acb64")
+	)
+	(bus
+		(pts
+			(xy 199.39 91.44) (xy 199.39 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca0d3aa2-12b2-4edf-84c2-098b26ebd2ed")
 	)
 	(wire
 		(pts
@@ -12189,7 +12338,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 170.18) (xy 100.33 170.18)
+			(xy 63.5 170.18) (xy 100.33 170.18)
 		)
 		(stroke
 			(width 0)
@@ -12199,7 +12348,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 146.05) (xy 392.43 146.05)
+			(xy 354.33 152.4) (xy 367.03 152.4)
 		)
 		(stroke
 			(width 0)
@@ -12209,17 +12358,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 134.62) (xy 219.71 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd55e324-79f0-4bd3-998d-e4d55c69004c")
-	)
-	(wire
-		(pts
-			(xy 62.23 127) (xy 100.33 127)
+			(xy 69.85 127) (xy 100.33 127)
 		)
 		(stroke
 			(width 0)
@@ -12229,7 +12368,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 119.38) (xy 219.71 119.38)
+			(xy 200.66 119.38) (xy 241.3 119.38)
 		)
 		(stroke
 			(width 0)
@@ -12259,7 +12398,7 @@
 	)
 	(bus
 		(pts
-			(xy 218.44 140.97) (xy 218.44 143.51)
+			(xy 199.39 140.97) (xy 199.39 143.51)
 		)
 		(stroke
 			(width 0)
@@ -12319,13 +12458,23 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 170.18) (xy 52.07 170.18)
+			(xy 38.1 170.18) (xy 58.42 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d9ec0092-f6b3-430a-8c8f-7e900f79b74c")
+	)
+	(bus
+		(pts
+			(xy 198.12 123.19) (xy 199.39 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da966860-714a-4fd8-ba4f-4c9048cfd064")
 	)
 	(wire
 		(pts
@@ -12339,7 +12488,7 @@
 	)
 	(bus
 		(pts
-			(xy 36.83 123.19) (xy 35.56 121.92)
+			(xy 36.83 100.33) (xy 35.56 99.06)
 		)
 		(stroke
 			(width 0)
@@ -12347,15 +12496,15 @@
 		)
 		(uuid "dde6c798-330a-4965-916c-8ae9d822e23f")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 237.49 100.33) (xy 236.22 99.06)
+			(xy 228.6 99.06) (xy 262.89 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df8d197d-61c8-4234-bcaa-b3b2d6190bc2")
+		(uuid "df16c0e7-8080-4aff-b68b-008df1754c23")
 	)
 	(bus
 		(pts
@@ -12409,13 +12558,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 93.98) (xy 224.79 93.98)
+			(xy 200.66 104.14) (xy 255.27 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8971e78-436f-422a-991b-e33cf2d4d690")
+		(uuid "ea874707-4fab-40b0-819d-b5802baf8590")
 	)
 	(bus
 		(pts
@@ -12509,7 +12658,7 @@
 	)
 	(bus
 		(pts
-			(xy 218.44 113.03) (xy 218.44 118.11)
+			(xy 199.39 113.03) (xy 199.39 118.11)
 		)
 		(stroke
 			(width 0)
@@ -12526,6 +12675,16 @@
 			(type default)
 		)
 		(uuid "f7de916e-b153-402d-8827-f0a15aae82e8")
+	)
+	(wire
+		(pts
+			(xy 200.66 106.68) (xy 255.27 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f805025f-f52a-4832-9cfe-67495c5850ee")
 	)
 	(wire
 		(pts
@@ -12559,13 +12718,23 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 157.48) (xy 100.33 157.48)
+			(xy 69.85 157.48) (xy 100.33 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fb9e7f9b-c5dd-4ab5-b31e-05820cea5666")
+	)
+	(bus
+		(pts
+			(xy 198.12 90.17) (xy 199.39 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc4407fa-d311-4781-9e1c-b2519bfc752e")
 	)
 	(bus
 		(pts
@@ -12647,6 +12816,16 @@
 		)
 		(uuid "00f483ed-5f90-45a2-ace6-e31ced053c15")
 	)
+	(label "~{PERST}"
+		(at 242.57 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "02b47f92-1a3a-465d-aecf-a596ad99f35d")
+	)
 	(label "3V3_M2"
 		(at 148.59 99.06 0)
 		(effects
@@ -12658,7 +12837,7 @@
 		(uuid "06f5c38c-8cb0-4d7c-a199-a8d59aa87963")
 	)
 	(label "M2_E_UART_CTS"
-		(at 349.25 143.51 0)
+		(at 323.85 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12667,7 +12846,7 @@
 		)
 		(uuid "07ab65b3-76fb-412a-8893-ea89509dab78")
 	)
-	(label "PCIe.TX1-"
+	(label "PCIe_{C4x4}.TX1-"
 		(at 39.37 142.24 0)
 		(effects
 			(font
@@ -12687,7 +12866,7 @@
 		)
 		(uuid "0d8a3f85-71ed-4175-8517-b97ccedeea09")
 	)
-	(label "PCIe.RX3-"
+	(label "PCIe_{C4x4}.RX3-"
 		(at 39.37 180.34 0)
 		(effects
 			(font
@@ -12696,16 +12875,6 @@
 			(justify left bottom)
 		)
 		(uuid "1175794e-642a-4c8d-bc9c-6a6d62761660")
-	)
-	(label "C_PCIE0_TX3_N"
-		(at 96.52 172.72 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "139b03f1-8eb3-4175-bd0d-3a8040bde6b2")
 	)
 	(label "SUSCLK"
 		(at 322.58 106.68 180)
@@ -12737,25 +12906,35 @@
 		)
 		(uuid "23b96881-6016-462e-beaa-4c1f9b5529c4")
 	)
-	(label "C_PCIE0_TX0_N"
-		(at 97.79 127 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "28e3bedb-8e7d-4c62-809e-d8a74b6607e5")
-	)
-	(label "PCIe_{x1}.RX1+"
-		(at 237.49 142.24 180)
+	(label "PCIe_{C0x1}.CK+"
+		(at 201.93 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
+		)
+		(uuid "287b3adb-76ef-4da8-a3d0-fb8bdb51266b")
+	)
+	(label "PCIe_{C0x1}.RX1+"
+		(at 201.93 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
 		(uuid "292fa1a7-08ed-4558-a97e-b0a02f557fe6")
+	)
+	(label "PET0_N"
+		(at 87.63 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2941522a-087d-447f-9d34-02542cb5e45d")
 	)
 	(label "~{PERST}"
 		(at 80.01 102.87 180)
@@ -12777,7 +12956,17 @@
 		)
 		(uuid "2b775bee-e15b-424e-8ccb-a230f58c59dd")
 	)
-	(label "PCIe.CLK+"
+	(label "PET0_P"
+		(at 87.63 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c0af129-c064-40ae-affd-09d46fb7e998")
+	)
+	(label "PCIe_{C4x4}.CLK+"
 		(at 39.37 115.57 0)
 		(effects
 			(font
@@ -12797,17 +12986,7 @@
 		)
 		(uuid "34c09f16-8cf4-4338-a2b1-4e00fcf440fd")
 	)
-	(label "~{PERST_D}"
-		(at 233.68 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3774ec86-ff71-4b67-8005-5d31cbfa148d")
-	)
-	(label "PCIe.RX0-"
+	(label "PCIe_{C4x4}.RX0-"
 		(at 39.37 134.62 0)
 		(effects
 			(font
@@ -12817,7 +12996,7 @@
 		)
 		(uuid "37b8ccac-9174-4f3f-bcea-17cd14c47581")
 	)
-	(label "PCIe.RX1+"
+	(label "PCIe_{C4x4}.RX1+"
 		(at 39.37 147.32 0)
 		(effects
 			(font
@@ -12827,7 +13006,7 @@
 		)
 		(uuid "38632604-f467-419d-b038-ec0f1ee129bc")
 	)
-	(label "PCIe.TX0-"
+	(label "PCIe_{C4x4}.TX0-"
 		(at 39.37 127 0)
 		(effects
 			(font
@@ -12837,18 +13016,8 @@
 		)
 		(uuid "3afa0d65-39ae-42b1-8667-a79cb2b0a000")
 	)
-	(label "C_PCIE0_TX1_N"
-		(at 97.79 142.24 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "3bbf14d0-9875-4827-a1ef-af9a7f7d7404")
-	)
-	(label "PCIe_{x1}.TX0+"
-		(at 220.98 111.76 0)
+	(label "PCIe_{C1x1}.TX0+"
+		(at 201.93 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12857,7 +13026,7 @@
 		)
 		(uuid "3d514220-0a8c-4194-9d84-e9268fb24de0")
 	)
-	(label "PCIe.TX3-"
+	(label "PCIe_{C4x4}.TX3-"
 		(at 39.37 172.72 0)
 		(effects
 			(font
@@ -12877,8 +13046,18 @@
 		)
 		(uuid "417dec9b-f968-4126-95c9-028b3a5a5040")
 	)
+	(label "PET3_P"
+		(at 87.63 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41b37d32-746a-45cd-bde3-db28b6fd7ce7")
+	)
 	(label "M2_E_UART_RTS"
-		(at 349.25 146.05 0)
+		(at 323.85 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12888,7 +13067,7 @@
 		(uuid "4247efdf-5feb-4538-864a-58d339c6c337")
 	)
 	(label "M2_E_UART_RX"
-		(at 349.25 148.59 0)
+		(at 323.85 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12897,17 +13076,7 @@
 		)
 		(uuid "42eb05ba-3456-49b2-ae7e-64111d121a32")
 	)
-	(label "C_PCIE0_TX3_P"
-		(at 96.52 170.18 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "46110ffa-54b0-4469-8fe1-5190cf401ada")
-	)
-	(label "PCIe.RX0+"
+	(label "PCIe_{C4x4}.RX0+"
 		(at 39.37 132.08 0)
 		(effects
 			(font
@@ -12927,7 +13096,7 @@
 		)
 		(uuid "49199864-453c-4dc7-b18e-0b1ff6f44c5c")
 	)
-	(label "PCIe.TX2-"
+	(label "PCIe_{C4x4}.TX2-"
 		(at 39.37 157.48 0)
 		(effects
 			(font
@@ -12937,17 +13106,17 @@
 		)
 		(uuid "4c0dd728-c323-44c0-8571-b2c7edcdf486")
 	)
-	(label "C_PCIE0_TX2_P"
-		(at 97.79 154.94 180)
+	(label "~{CLKREQ}"
+		(at 242.57 96.52 180)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "538b7969-b923-402b-82e3-c33e05b486af")
+		(uuid "50af557b-7c5b-4a78-bd78-c512aa43a1bc")
 	)
-	(label "PCIe.TX2+"
+	(label "PCIe_{C4x4}.TX2+"
 		(at 39.37 154.94 0)
 		(effects
 			(font
@@ -12967,7 +13136,7 @@
 		)
 		(uuid "58ceabbe-4c73-415c-b401-1ae2aa5ecd65")
 	)
-	(label "PCIe.RX1-"
+	(label "PCIe_{C4x4}.RX1-"
 		(at 39.37 149.86 0)
 		(effects
 			(font
@@ -12987,7 +13156,7 @@
 		)
 		(uuid "5f533957-20d4-4910-a7ab-f5616d457c64")
 	)
-	(label "PCIe.~{CLKREQ}"
+	(label "PCIe_{C4x4}.~{CLKREQ}"
 		(at 39.37 105.41 0)
 		(effects
 			(font
@@ -13017,7 +13186,17 @@
 		)
 		(uuid "6d54e953-34b1-4c2a-adbd-0accb4be6633")
 	)
-	(label "PCIe.~{RST}"
+	(label "PET2_P"
+		(at 87.63 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d950961-f2af-4076-9c41-1bbd5e4eb322")
+	)
+	(label "PCIe_{C4x4}.~{RST}"
 		(at 39.37 102.87 0)
 		(effects
 			(font
@@ -13037,7 +13216,7 @@
 		)
 		(uuid "6f201ed3-e633-418d-8810-5eaaaafeb974")
 	)
-	(label "PCIe.RX3+"
+	(label "PCIe_{C4x4}.RX3+"
 		(at 39.37 177.8 0)
 		(effects
 			(font
@@ -13046,6 +13225,16 @@
 			(justify left bottom)
 		)
 		(uuid "6f579531-3423-486f-b6ea-892017779692")
+	)
+	(label "PET2_N"
+		(at 87.63 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71012d03-a734-42c4-8a03-8d9b704c8ce5")
 	)
 	(label "M2_E_UART_TX"
 		(at 309.88 139.7 180)
@@ -13057,6 +13246,16 @@
 		)
 		(uuid "7118b057-5c8c-4ca3-8608-f4cd784ef40b")
 	)
+	(label "PCIe_{C1x1}.~{RST}"
+		(at 201.93 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71a51c48-c44d-46e5-94cf-6630a5efa272")
+	)
 	(label "~{LED_1}"
 		(at 298.45 179.07 0)
 		(effects
@@ -13067,13 +13266,13 @@
 		)
 		(uuid "74c9374e-2de9-4f33-b813-068605c5ae63")
 	)
-	(label "PCIe_{x1}.TX1-"
-		(at 237.49 137.16 180)
+	(label "PCIe_{C0x1}.TX1-"
+		(at 201.93 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "74fa1f36-2cf2-4b8a-b344-b9683e18eea3")
 	)
@@ -13086,6 +13285,16 @@
 			(justify right bottom)
 		)
 		(uuid "752e0318-c787-4652-9fa4-df414f8917e9")
+	)
+	(label "PCIe_{C0x1}.CK-"
+		(at 201.93 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "752efb83-3f63-4540-acdb-bd6a4da79aca")
 	)
 	(label "USB.D-"
 		(at 209.55 175.26 0)
@@ -13107,18 +13316,38 @@
 		)
 		(uuid "7e1e4e8b-1b07-4cb3-9d48-6d1d93c9822e")
 	)
-	(label "PCIe_{x1}.RX1-"
-		(at 237.49 144.78 180)
+	(label "PCIe_{C0x1}.RX1-"
+		(at 201.93 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86e2f681-1298-47d5-be57-fb2b2f88e3ba")
+	)
+	(label "~{PEWAKE_R}"
+		(at 242.57 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "86e2f681-1298-47d5-be57-fb2b2f88e3ba")
+		(uuid "8c1dc84a-7ea1-46bc-9865-d6c93dbf76ce")
 	)
-	(label "PCIe_{x1}.TX0-"
-		(at 220.98 114.3 0)
+	(label "PET3_N"
+		(at 87.63 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c735536-bec6-4ae8-91d6-d8b9c4b4639f")
+	)
+	(label "PCIe_{C1x1}.TX0-"
+		(at 201.93 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13126,26 +13355,6 @@
 			(justify left bottom)
 		)
 		(uuid "9a9564e0-5736-46c7-90e7-2b6b33548146")
-	)
-	(label "C_PCIE0_TX2_N"
-		(at 97.79 157.48 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "a21b3ba7-4d35-4cb6-a11e-edc134da27ef")
-	)
-	(label "C_PCIE0_TX0_P"
-		(at 97.79 124.46 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right bottom)
-		)
-		(uuid "a7e20be1-9329-45ae-89b5-5e0b4a38b174")
 	)
 	(label "M2_E_PCM_OUT"
 		(at 243.84 165.1 0)
@@ -13167,15 +13376,15 @@
 		)
 		(uuid "b2b00d4b-6370-4d6f-9079-4eb11af8ca44")
 	)
-	(label "C_PCIE0_TX1_P"
-		(at 97.79 139.7 180)
+	(label "PET1_P"
+		(at 87.63 139.7 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "b3645c27-4915-4c78-9974-75efb8477667")
+		(uuid "bd910361-01bd-410b-a4f1-1c18b80cb175")
 	)
 	(label "M2_E_UART_RTS"
 		(at 311.15 144.78 180)
@@ -13187,7 +13396,7 @@
 		)
 		(uuid "c08b5cde-cdf2-47f9-9e3d-0e156adac0a0")
 	)
-	(label "PCIe.RX2+"
+	(label "PCIe_{C4x4}.RX2+"
 		(at 39.37 162.56 0)
 		(effects
 			(font
@@ -13217,7 +13426,17 @@
 		)
 		(uuid "c621feb3-7836-42a6-9556-63a2711a13af")
 	)
-	(label "PCIe.CLK-"
+	(label "PET1_N"
+		(at 87.63 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c96c23f2-aa44-471a-9b9c-033562390510")
+	)
+	(label "PCIe_{C4x4}.CLK-"
 		(at 39.37 118.11 0)
 		(effects
 			(font
@@ -13227,18 +13446,18 @@
 		)
 		(uuid "c9969dbc-f453-480a-bc78-dbe9731d255e")
 	)
-	(label "PCIe_{x1}.TX1+"
-		(at 237.49 134.62 180)
+	(label "PCIe_{C0x1}.TX1+"
+		(at 201.93 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "cacd1117-3f48-4c55-8ff6-f2a7fecdb2c3")
 	)
-	(label "PCIE_{REF}.CK-"
-		(at 238.76 106.68 0)
+	(label "PCIe_{C1x1}.CK-"
+		(at 201.93 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13267,7 +13486,7 @@
 		)
 		(uuid "d059b810-9e95-4887-988e-c114b94bf28b")
 	)
-	(label "PCIe.TX1+"
+	(label "PCIe_{C4x4}.TX1+"
 		(at 39.37 139.7 0)
 		(effects
 			(font
@@ -13277,8 +13496,8 @@
 		)
 		(uuid "d2d6f565-0f17-4854-86b7-60eab92af46f")
 	)
-	(label "PCIe_{x1}.RX0-"
-		(at 220.98 121.92 0)
+	(label "PCIe_{C1x1}.RX0-"
+		(at 201.93 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13297,7 +13516,7 @@
 		)
 		(uuid "d4ba6204-371c-4cda-bbc1-61b17d19cd38")
 	)
-	(label "PCIe.TX0+"
+	(label "PCIe_{C4x4}.TX0+"
 		(at 39.37 124.46 0)
 		(effects
 			(font
@@ -13307,8 +13526,8 @@
 		)
 		(uuid "d6ea0af4-6134-4d7f-ab20-3c96d823094e")
 	)
-	(label "PCIE_{REF}.CK+"
-		(at 238.76 104.14 0)
+	(label "PCIe_{C1x1}.CK+"
+		(at 201.93 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13318,7 +13537,7 @@
 		(uuid "dc926d26-6569-4cc2-b1b9-aa36b250d50b")
 	)
 	(label "M2_E_UART_TX"
-		(at 349.25 140.97 0)
+		(at 323.85 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13337,7 +13556,17 @@
 		)
 		(uuid "e93fb592-59fe-43e8-986b-29d705e34a41")
 	)
-	(label "PCIe.RX2-"
+	(label "PCIe_{C1x1}.~{CLKREQ}"
+		(at 201.93 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f096db69-16cb-4922-8f2f-c1e475593ea2")
+	)
+	(label "PCIe_{C4x4}.RX2-"
 		(at 39.37 165.1 0)
 		(effects
 			(font
@@ -13347,8 +13576,8 @@
 		)
 		(uuid "f59c1ba7-1586-4910-b190-b0087312bb2a")
 	)
-	(label "PCIe_{x1}.RX0+"
-		(at 220.98 119.38 0)
+	(label "PCIe_{C1x1}.RX0+"
+		(at 201.93 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13357,7 +13586,7 @@
 		)
 		(uuid "f893541a-6135-42c2-a3c3-94f7c2077b1b")
 	)
-	(label "PCIe.TX3+"
+	(label "PCIe_{C4x4}.TX3+"
 		(at 39.37 170.18 0)
 		(effects
 			(font
@@ -13394,13 +13623,12 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "UART0_RTS"
 		(shape input)
-		(at 392.43 146.05 0)
+		(at 367.03 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13409,13 +13637,12 @@
 		)
 		(uuid "0e8d93cc-c82e-49e3-a6e6-0b8ab06d105e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 406.4 146.05 0)
+			(at 381 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13436,7 +13663,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -13457,7 +13683,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -13478,13 +13703,12 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "UART0_TXD"
 		(shape output)
-		(at 392.43 140.97 0)
+		(at 367.03 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13493,19 +13717,18 @@
 		)
 		(uuid "6b831071-297c-49aa-ad11-db09dfc3e063")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 406.4 140.97 0)
+			(at 381 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "UART0_RXD"
 		(shape input)
-		(at 392.43 148.59 0)
+		(at 367.03 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13514,13 +13737,12 @@
 		)
 		(uuid "a0f1ace0-5f3e-4288-a27f-d9e2e9b0dbe9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 406.4 148.59 0)
+			(at 381 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13541,13 +13763,12 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "UART0_CTS"
 		(shape output)
-		(at 392.43 143.51 0)
+		(at 367.03 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13556,13 +13777,12 @@
 		)
 		(uuid "c80ea7e1-a0e3-41f6-95ec-aa17475e04b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 406.4 143.51 0)
+			(at 381 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13583,13 +13803,12 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
-	(hierarchical_label "PCIe_{C5x4}{PCIe}"
+	(hierarchical_label "PCIe_{C4x4}{PCIe}"
 		(shape bidirectional)
-		(at 30.48 121.92 180)
+		(at 30.48 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13598,27 +13817,27 @@
 		)
 		(uuid "1be7cb6e-728d-4dd3-bdee-79a46f6c9b13")
 	)
-	(hierarchical_label "~{PERST}"
+	(hierarchical_label "PCIe_{C0x1}{PCIe}"
 		(shape input)
-		(at 212.09 93.98 180)
+		(at 196.85 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "4a0723fc-376e-4c07-81b2-2ba2032eabad")
+		(uuid "32b69eec-4096-402c-85d0-0e5a5363dfe1")
 	)
-	(hierarchical_label "~{CLKREQ}"
-		(shape output)
-		(at 212.09 96.52 180)
+	(hierarchical_label "PCIe_{C1x1}{PCIe}"
+		(shape input)
+		(at 196.85 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "a744b9f9-b244-4ad8-8ba2-8349e1da6865")
+		(uuid "38222867-b554-4af3-8385-f6ca7de20c05")
 	)
 	(hierarchical_label "~{PEWAKE}"
 		(shape output)
@@ -13631,17 +13850,6 @@
 		)
 		(uuid "b2b854e5-4d7e-4a22-b25f-bacfbed41c2a")
 	)
-	(hierarchical_label "PCIE_{REF}{PCIe_{REF}}"
-		(shape input)
-		(at 212.09 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c0587504-413f-46b3-8a90-cefbae136169")
-	)
 	(hierarchical_label "USB{USB}"
 		(shape input)
 		(at 201.93 167.64 180)
@@ -13653,16 +13861,16 @@
 		)
 		(uuid "f061ef8f-7e04-460c-9732-aa48f20aed2f")
 	)
-	(hierarchical_label "PCIe_{x1}{PCIe}"
-		(shape input)
-		(at 212.09 109.22 180)
+	(hierarchical_label "~{PEWAKE}"
+		(shape output)
+		(at 219.71 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f126d672-468f-4134-94b2-42f55d7d07dd")
+		(uuid "f1ff125c-5484-45b3-b591-09be021a0bcf")
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
@@ -14607,7 +14815,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_220n_6V3_X7R_0402")
-		(at 57.15 127 0)
+		(at 64.77 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14615,7 +14823,7 @@
 		(dnp no)
 		(uuid "1502637a-3a25-4e74-a0df-8428fc52fdab")
 		(property "Reference" "C82"
-			(at 57.15 125.73 0)
+			(at 64.77 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14624,7 +14832,7 @@
 			)
 		)
 		(property "Value" "C_220n_6V3_X7R_0402"
-			(at 72.39 149.86 0)
+			(at 80.01 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14635,7 +14843,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 72.39 152.4 0)
+			(at 80.01 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14646,7 +14854,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C224M9RACTU.html"
-			(at 72.39 154.94 0)
+			(at 80.01 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14657,7 +14865,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 220nF, 6.3V, 0402, ±20%, X7R"
-			(at 57.15 127 0)
+			(at 64.77 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14666,7 +14874,7 @@
 			)
 		)
 		(property "MPN" "C0402C224M9RACTU"
-			(at 72.39 157.48 0)
+			(at 80.01 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14677,7 +14885,7 @@
 			)
 		)
 		(property "Val" "220n"
-			(at 63.5 125.73 0)
+			(at 71.12 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14686,7 +14894,7 @@
 			)
 		)
 		(property "Voltage" "6.3V"
-			(at 72.39 137.16 0)
+			(at 80.01 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14697,7 +14905,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 72.39 139.7 0)
+			(at 80.01 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14708,7 +14916,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 72.39 142.24 0)
+			(at 80.01 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14719,7 +14927,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 72.39 144.78 0)
+			(at 80.01 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14730,7 +14938,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 72.39 147.32 0)
+			(at 80.01 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16062,7 +16270,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_220n_6V3_X7R_0402")
-		(at 57.15 157.48 0)
+		(at 64.77 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16070,7 +16278,7 @@
 		(dnp no)
 		(uuid "372b1b37-f829-4c74-895d-976e77fd3a1c")
 		(property "Reference" "C84"
-			(at 57.15 156.21 0)
+			(at 64.77 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16079,7 +16287,7 @@
 			)
 		)
 		(property "Value" "C_220n_6V3_X7R_0402"
-			(at 72.39 180.34 0)
+			(at 80.01 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16090,7 +16298,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 72.39 182.88 0)
+			(at 80.01 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16101,7 +16309,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C224M9RACTU.html"
-			(at 72.39 185.42 0)
+			(at 80.01 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16112,7 +16320,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 220nF, 6.3V, 0402, ±20%, X7R"
-			(at 57.15 157.48 0)
+			(at 64.77 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16121,7 +16329,7 @@
 			)
 		)
 		(property "MPN" "C0402C224M9RACTU"
-			(at 72.39 187.96 0)
+			(at 80.01 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16132,7 +16340,7 @@
 			)
 		)
 		(property "Val" "220n"
-			(at 63.5 156.21 0)
+			(at 71.12 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16141,7 +16349,7 @@
 			)
 		)
 		(property "Voltage" "6.3V"
-			(at 72.39 167.64 0)
+			(at 80.01 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16152,7 +16360,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 72.39 170.18 0)
+			(at 80.01 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16163,7 +16371,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 72.39 172.72 0)
+			(at 80.01 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16174,7 +16382,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 72.39 175.26 0)
+			(at 80.01 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16185,7 +16393,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 72.39 177.8 0)
+			(at 80.01 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16479,7 +16687,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_220n_6V3_X7R_0402")
-		(at 57.15 172.72 0)
+		(at 64.77 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16487,7 +16695,7 @@
 		(dnp no)
 		(uuid "3e86a835-7d9f-49cc-8336-c89526f22915")
 		(property "Reference" "C85"
-			(at 57.15 171.45 0)
+			(at 64.77 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16496,7 +16704,7 @@
 			)
 		)
 		(property "Value" "C_220n_6V3_X7R_0402"
-			(at 72.39 195.58 0)
+			(at 80.01 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16507,7 +16715,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 72.39 198.12 0)
+			(at 80.01 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16518,7 +16726,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C224M9RACTU.html"
-			(at 72.39 200.66 0)
+			(at 80.01 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16529,7 +16737,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 220nF, 6.3V, 0402, ±20%, X7R"
-			(at 57.15 172.72 0)
+			(at 64.77 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16538,7 +16746,7 @@
 			)
 		)
 		(property "MPN" "C0402C224M9RACTU"
-			(at 72.39 203.2 0)
+			(at 80.01 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16549,7 +16757,7 @@
 			)
 		)
 		(property "Val" "220n"
-			(at 63.5 171.45 0)
+			(at 71.12 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16558,7 +16766,7 @@
 			)
 		)
 		(property "Voltage" "6.3V"
-			(at 72.39 182.88 0)
+			(at 80.01 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16569,7 +16777,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 72.39 185.42 0)
+			(at 80.01 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16580,7 +16788,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 72.39 187.96 0)
+			(at 80.01 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16591,7 +16799,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 72.39 190.5 0)
+			(at 80.01 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16602,7 +16810,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 72.39 193.04 0)
+			(at 80.01 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17096,7 +17304,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_220n_6V3_X7R_0402")
-		(at 52.07 170.18 0)
+		(at 58.42 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17104,7 +17312,7 @@
 		(dnp no)
 		(uuid "43c55197-6cc3-47b4-ab17-349920d4c165")
 		(property "Reference" "C81"
-			(at 52.07 168.91 0)
+			(at 58.42 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17113,7 +17321,7 @@
 			)
 		)
 		(property "Value" "C_220n_6V3_X7R_0402"
-			(at 67.31 193.04 0)
+			(at 73.66 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17124,7 +17332,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 67.31 195.58 0)
+			(at 73.66 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17135,7 +17343,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C224M9RACTU.html"
-			(at 67.31 198.12 0)
+			(at 73.66 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17146,7 +17354,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 220nF, 6.3V, 0402, ±20%, X7R"
-			(at 52.07 170.18 0)
+			(at 58.42 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17155,7 +17363,7 @@
 			)
 		)
 		(property "MPN" "C0402C224M9RACTU"
-			(at 67.31 200.66 0)
+			(at 73.66 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17166,7 +17374,7 @@
 			)
 		)
 		(property "Val" "220n"
-			(at 58.42 168.91 0)
+			(at 64.77 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17175,7 +17383,7 @@
 			)
 		)
 		(property "Voltage" "6.3V"
-			(at 67.31 180.34 0)
+			(at 73.66 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17186,7 +17394,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 67.31 182.88 0)
+			(at 73.66 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17197,7 +17405,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 67.31 185.42 0)
+			(at 73.66 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17208,7 +17416,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 67.31 187.96 0)
+			(at 73.66 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17219,7 +17427,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 67.31 190.5 0)
+			(at 73.66 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17866,16 +18074,16 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_220n_6V3_X7R_0402")
-		(at 52.07 139.7 0)
+		(lib_id "antmicroResistors0402:R_0R_0402")
+		(at 223.52 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "58d7f069-7d50-4e09-8bb5-fed41835a4ee")
-		(property "Reference" "C79"
-			(at 52.07 138.43 0)
+		(uuid "5735c2c8-7653-4d06-9320-3c337175edb1")
+		(property "Reference" "R92"
+			(at 222.25 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17883,19 +18091,8 @@
 				)
 			)
 		)
-		(property "Value" "C_220n_6V3_X7R_0402"
-			(at 67.31 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 67.31 165.1 0)
+		(property "Value" "R_0R_0402"
+			(at 243.84 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17905,8 +18102,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C224M9RACTU.html"
-			(at 67.31 167.64 0)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 243.84 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17916,17 +18113,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 220nF, 6.3V, 0402, ±20%, X7R"
-			(at 52.07 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0402C224M9RACTU"
-			(at 67.31 170.18 0)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+			(at 243.84 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17936,17 +18124,17 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "220n"
-			(at 58.42 138.43 0)
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 223.52 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
+				(hide yes)
 			)
 		)
-		(property "Voltage" "6.3V"
-			(at 67.31 149.86 0)
+		(property "MPN" "ERJ2GE0R00X"
+			(at 243.84 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17956,19 +18144,8 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
-			(at 67.31 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 67.31 154.94 0)
+		(property "Manufacturer" "Panasonic"
+			(at 243.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17979,7 +18156,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 67.31 157.48 0)
+			(at 243.84 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17990,7 +18167,187 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 67.31 160.02 0)
+			(at 243.84 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 229.87 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "~"
+			(at 243.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Current" "1A"
+			(at 243.84 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "97fb87fd-e001-4fa0-b802-1d44f097c01c")
+		)
+		(pin "1"
+			(uuid "56faba8e-b71b-4f3f-bb9a-3b9cdd0aa2af")
+		)
+		(instances
+			(project "jetson-orin-agx-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/456a2f48-4934-4d0e-aaf0-f39b01ccc0c1"
+					(reference "R92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_220n_6V3_X7R_0402")
+		(at 58.42 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58d7f069-7d50-4e09-8bb5-fed41835a4ee")
+		(property "Reference" "C79"
+			(at 58.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "C_220n_6V3_X7R_0402"
+			(at 73.66 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 73.66 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C224M9RACTU.html"
+			(at 73.66 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 220nF, 6.3V, 0402, ±20%, X7R"
+			(at 58.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C224M9RACTU"
+			(at 73.66 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "220n"
+			(at 64.77 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "6.3V"
+			(at 73.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 73.66 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 73.66 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 73.66 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 73.66 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18010,6 +18367,155 @@
 			(project "jetson-orin-agx-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/456a2f48-4934-4d0e-aaf0-f39b01ccc0c1"
 					(reference "C79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_0R_0402")
+		(at 223.52 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ccd05b2-8c6c-4917-b344-bef61d107eb2")
+		(property "Reference" "R93"
+			(at 222.25 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_0402"
+			(at 243.84 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 243.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+			(at 243.84 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ2GE0R00X"
+			(at 243.84 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 243.84 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 243.84 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 243.84 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 229.87 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "~"
+			(at 243.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Current" "1A"
+			(at 243.84 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e2f682c-ea0f-45f5-b3f9-6fa28e011a63")
+		)
+		(pin "1"
+			(uuid "0d17419f-1907-41a2-98af-e29cbf7fedb5")
+		)
+		(instances
+			(project "jetson-orin-agx-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/456a2f48-4934-4d0e-aaf0-f39b01ccc0c1"
+					(reference "R93")
 					(unit 1)
 				)
 			)
@@ -18652,7 +19158,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistorNetworksArrays:R_4x0R_0201_array")
-		(at 379.73 140.97 0)
+		(at 354.33 147.32 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18662,7 +19168,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d51ebea-e212-4ec6-89a7-2a16f8d85c54")
 		(property "Reference" "R99"
-			(at 374.65 134.62 0)
+			(at 349.25 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18670,7 +19176,7 @@
 			)
 		)
 		(property "Value" "R_4x0R_0201_array"
-			(at 353.06 148.59 0)
+			(at 327.66 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18681,7 +19187,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_Array_4x0201_Panasonic_EXB18V"
-			(at 353.06 153.67 0)
+			(at 327.66 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18692,7 +19198,7 @@
 			)
 		)
 		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
-			(at 353.06 156.21 0)
+			(at 327.66 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18703,7 +19209,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 379.73 140.97 0)
+			(at 354.33 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18712,7 +19218,7 @@
 			)
 		)
 		(property "MPN" "EXB-18VR000X"
-			(at 353.06 158.75 0)
+			(at 327.66 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18723,7 +19229,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 353.06 161.29 0)
+			(at 327.66 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18734,7 +19240,7 @@
 			)
 		)
 		(property "Val" "4x0R_0201"
-			(at 374.65 137.16 0)
+			(at 349.25 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18743,7 +19249,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 353.06 163.83 0)
+			(at 327.66 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18754,7 +19260,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 353.06 166.37 0)
+			(at 327.66 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20787,165 +21293,6 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
-		(at 224.79 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d092a61-882d-40cb-9001-8949d6c5d90d")
-		(property "Reference" "R132"
-			(at 222.25 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "R_0R_0402"
-			(at 245.11 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 245.11 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 245.11 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 224.79 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ2GE0R00X"
-			(at 245.11 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 245.11 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 245.11 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 245.11 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "0R"
-			(at 231.14 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Tolerance" "~"
-			(at 245.11 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Current" "1A"
-			(at 245.11 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 245.11 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38905dc7-3d1f-4d9a-805d-1225ae1917b0")
-		)
-		(pin "2"
-			(uuid "e448e2f4-fde5-4bbd-a33a-e2b38caef302")
-		)
-		(instances
-			(project "jetson-orin-agx-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/456a2f48-4934-4d0e-aaf0-f39b01ccc0c1"
-					(reference "R132")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 60.96 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21246,6 +21593,155 @@
 			(project "jetson-orin-agx-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/456a2f48-4934-4d0e-aaf0-f39b01ccc0c1"
 					(reference "R91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_0R_0402")
+		(at 223.52 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a839ad70-6b02-46e1-a03d-8651420544f0")
+		(property "Reference" "R94"
+			(at 222.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_0402"
+			(at 243.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 243.84 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+			(at 243.84 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 223.52 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ2GE0R00X"
+			(at 243.84 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 243.84 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 243.84 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 243.84 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 229.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "~"
+			(at 243.84 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Current" "1A"
+			(at 243.84 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca37e4b1-b719-45aa-b249-7541f3a65d53")
+		)
+		(pin "1"
+			(uuid "557299de-6dda-4da6-bb43-323332df2930")
+		)
+		(instances
+			(project "jetson-orin-agx-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/456a2f48-4934-4d0e-aaf0-f39b01ccc0c1"
+					(reference "R94")
 					(unit 1)
 				)
 			)
@@ -22487,7 +22983,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_220n_6V3_X7R_0402")
-		(at 52.07 124.46 0)
+		(at 58.42 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22495,7 +22991,7 @@
 		(dnp no)
 		(uuid "d5768f31-2243-4861-bd8a-700353ec3dcc")
 		(property "Reference" "C78"
-			(at 52.07 123.19 0)
+			(at 58.42 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22504,7 +23000,7 @@
 			)
 		)
 		(property "Value" "C_220n_6V3_X7R_0402"
-			(at 67.31 147.32 0)
+			(at 73.66 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22515,7 +23011,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 67.31 149.86 0)
+			(at 73.66 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22526,7 +23022,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C224M9RACTU.html"
-			(at 67.31 152.4 0)
+			(at 73.66 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22537,7 +23033,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 220nF, 6.3V, 0402, ±20%, X7R"
-			(at 52.07 124.46 0)
+			(at 58.42 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22546,7 +23042,7 @@
 			)
 		)
 		(property "MPN" "C0402C224M9RACTU"
-			(at 67.31 154.94 0)
+			(at 73.66 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22557,7 +23053,7 @@
 			)
 		)
 		(property "Val" "220n"
-			(at 58.42 123.19 0)
+			(at 64.77 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22566,7 +23062,7 @@
 			)
 		)
 		(property "Voltage" "6.3V"
-			(at 67.31 134.62 0)
+			(at 73.66 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22577,7 +23073,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 67.31 137.16 0)
+			(at 73.66 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22588,7 +23084,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 67.31 139.7 0)
+			(at 73.66 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22599,7 +23095,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 67.31 142.24 0)
+			(at 73.66 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22610,7 +23106,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 67.31 144.78 0)
+			(at 73.66 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23021,7 +23517,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_220n_6V3_X7R_0402")
-		(at 52.07 154.94 0)
+		(at 58.42 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23029,7 +23525,7 @@
 		(dnp no)
 		(uuid "ebda9d01-c727-48aa-beab-5d577fceb6d4")
 		(property "Reference" "C80"
-			(at 52.07 153.67 0)
+			(at 58.42 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23038,7 +23534,7 @@
 			)
 		)
 		(property "Value" "C_220n_6V3_X7R_0402"
-			(at 67.31 177.8 0)
+			(at 73.66 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23049,7 +23545,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 67.31 180.34 0)
+			(at 73.66 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23060,7 +23556,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C224M9RACTU.html"
-			(at 67.31 182.88 0)
+			(at 73.66 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23071,7 +23567,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 220nF, 6.3V, 0402, ±20%, X7R"
-			(at 52.07 154.94 0)
+			(at 58.42 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23080,7 +23576,7 @@
 			)
 		)
 		(property "MPN" "C0402C224M9RACTU"
-			(at 67.31 185.42 0)
+			(at 73.66 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23091,7 +23587,7 @@
 			)
 		)
 		(property "Val" "220n"
-			(at 58.42 153.67 0)
+			(at 64.77 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23100,7 +23596,7 @@
 			)
 		)
 		(property "Voltage" "6.3V"
-			(at 67.31 165.1 0)
+			(at 73.66 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23111,7 +23607,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 67.31 167.64 0)
+			(at 73.66 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23122,7 +23618,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 67.31 170.18 0)
+			(at 73.66 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23133,7 +23629,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 67.31 172.72 0)
+			(at 73.66 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23144,7 +23640,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 67.31 175.26 0)
+			(at 73.66 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23880,7 +24376,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_220n_6V3_X7R_0402")
-		(at 57.15 142.24 0)
+		(at 64.77 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23888,7 +24384,7 @@
 		(dnp no)
 		(uuid "fcf33bec-1774-4aa8-8291-c937c0805cd7")
 		(property "Reference" "C83"
-			(at 57.15 140.97 0)
+			(at 64.77 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23897,7 +24393,7 @@
 			)
 		)
 		(property "Value" "C_220n_6V3_X7R_0402"
-			(at 72.39 165.1 0)
+			(at 80.01 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23908,7 +24404,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 72.39 167.64 0)
+			(at 80.01 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23919,7 +24415,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C224M9RACTU.html"
-			(at 72.39 170.18 0)
+			(at 80.01 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23930,7 +24426,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 220nF, 6.3V, 0402, ±20%, X7R"
-			(at 57.15 142.24 0)
+			(at 64.77 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23939,7 +24435,7 @@
 			)
 		)
 		(property "MPN" "C0402C224M9RACTU"
-			(at 72.39 172.72 0)
+			(at 80.01 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23950,7 +24446,7 @@
 			)
 		)
 		(property "Val" "220n"
-			(at 63.5 140.97 0)
+			(at 71.12 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23959,7 +24455,7 @@
 			)
 		)
 		(property "Voltage" "6.3V"
-			(at 72.39 152.4 0)
+			(at 80.01 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23970,7 +24466,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 72.39 154.94 0)
+			(at 80.01 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23981,7 +24477,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 72.39 157.48 0)
+			(at 80.01 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23992,7 +24488,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 72.39 160.02 0)
+			(at 80.01 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24003,7 +24499,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 72.39 162.56 0)
+			(at 80.01 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
