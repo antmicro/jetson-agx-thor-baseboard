@@ -9697,7 +9697,7 @@
 		(members "D-" "D+")
 	)
 	(bus_alias "CSI"
-		(members "D0+" "D0-" "D1+" "D1-" "CLK+" "CLK-")
+		(members "D0+" "D0-" "D1+" "D1-" "D2+" "D2-" "D3+" "D3-" "CLK+" "CLK-")
 	)
 	(bus_alias "DP"
 		(members "TX0+" "TX0-" "TX1+" "TX1-" "TX2+" "TX2-" "TX3+" "TX3-" "AUX+"
@@ -9757,19 +9757,6 @@
 	(bus_alias "USBSS"
 		(members "TX+" "TX-" "RX+" "RX-")
 	)
-	(text "M.2 KEY M"
-		(exclude_from_sim no)
-		(at 77.47 41.148 0)
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.8)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "1f0d47b6-4e54-4484-a1a5-e0ebee3978c6")
-	)
 	(text "Do we want to use 2x PCIe x1\nor only one and other \nfor eg. Oculink?"
 		(exclude_from_sim no)
 		(at 234.95 140.208 0)
@@ -9779,6 +9766,32 @@
 			)
 		)
 		(uuid "25072cd4-55ce-4e69-96da-0759fcda4b8b")
+	)
+	(text "M.2 key E"
+		(exclude_from_sim no)
+		(at 266.192 20.066 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ac5fe32-6a01-4702-b617-700d51e9ea60")
+	)
+	(text "M.2 key M"
+		(exclude_from_sim no)
+		(at 85.852 20.574 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "32c8f9d4-7f66-4dea-a6fe-aa585cb0428b")
 	)
 	(text "NOTE:\nPlace bulk caps near \nto the M.2 power pads"
 		(exclude_from_sim no)
@@ -9793,7 +9806,7 @@
 	)
 	(text "2x PCIe x1, USB 2.0, I2C, UART and PCM"
 		(exclude_from_sim no)
-		(at 242.316 46.482 0)
+		(at 242.062 26.67 0)
 		(effects
 			(font
 				(size 2 2)
@@ -9803,18 +9816,18 @@
 		)
 		(uuid "3c04e43b-4aa1-4705-a3d2-bb53f4fb0d80")
 	)
-	(text "M.2 KEY E"
+	(text "SUSCLK SOURCE"
 		(exclude_from_sim no)
-		(at 257.302 40.894 0)
+		(at 77.724 241.808 0)
 		(effects
 			(font
-				(size 4 4)
-				(thickness 0.8)
+				(size 2 2)
+				(thickness 0.508)
 				(bold yes)
 			)
 			(justify left bottom)
 		)
-		(uuid "3d95f755-2e72-4c9e-9590-3b3ed4b33992")
+		(uuid "6f1cf053-7af1-4cf9-8c81-1810f539f063")
 	)
 	(text "M.2 Gen 4 \nKey: M\nType: Right Angle\nHeight: 4.2mm"
 		(exclude_from_sim no)
@@ -9825,19 +9838,6 @@
 			)
 		)
 		(uuid "7f624488-8a79-49d0-9dca-100ac7834cf3")
-	)
-	(text "SUSCLK SOURCE"
-		(exclude_from_sim no)
-		(at 66.04 248.92 0)
-		(effects
-			(font
-				(size 4 4)
-				(thickness 0.8)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0271fc3-f133-4708-b68b-0ad40ea684f2")
 	)
 	(text "WiFi LED"
 		(exclude_from_sim no)
@@ -9863,7 +9863,7 @@
 	)
 	(text "PCIe x4"
 		(exclude_from_sim no)
-		(at 87.884 45.974 0)
+		(at 87.884 26.162 0)
 		(effects
 			(font
 				(size 2 2)
