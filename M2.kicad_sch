@@ -9754,16 +9754,6 @@
 	(bus_alias "USB"
 		(members "D+" "D-")
 	)
-	(text "Do we want to use 2x PCIe x1\nor only one and other \nfor eg. Oculink?"
-		(exclude_from_sim no)
-		(at 234.95 140.208 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "25072cd4-55ce-4e69-96da-0759fcda4b8b")
-	)
 	(text "M.2 key E"
 		(exclude_from_sim no)
 		(at 266.192 20.066 0)
@@ -9991,28 +9981,8 @@
 		(uuid "f7407766-d82a-454d-a7c6-440f82ea093e")
 	)
 	(no_connect
-		(at 262.89 127)
-		(uuid "002d606c-5846-44b4-9e07-3bd2596e2564")
-	)
-	(no_connect
-		(at 215.9 127)
-		(uuid "031a88dd-24d2-4a43-a0f9-07ef1ab724f0")
-	)
-	(no_connect
-		(at 262.89 142.24)
-		(uuid "0a4d912a-df5f-4a6e-810c-0c6ccadf529a")
-	)
-	(no_connect
-		(at 215.9 134.62)
-		(uuid "0d309729-4fb1-4c60-9b60-2097e7ce5fe1")
-	)
-	(no_connect
 		(at 262.89 152.4)
 		(uuid "0d631d19-007f-4ff9-95f5-44a30e53f143")
-	)
-	(no_connect
-		(at 262.89 137.16)
-		(uuid "0da2cfd0-cb49-4d96-85c7-95c089cb1701")
 	)
 	(no_connect
 		(at 262.89 195.58)
@@ -10023,24 +9993,12 @@
 		(uuid "13ed33ba-d091-4c33-a38a-f9a986a521c7")
 	)
 	(no_connect
-		(at 262.89 144.78)
-		(uuid "1ab6dc7e-1c58-4a73-b979-19d30a235550")
-	)
-	(no_connect
-		(at 262.89 134.62)
-		(uuid "20fa1510-c162-42dd-a6e4-3d5c3ea9a9ef")
-	)
-	(no_connect
 		(at 293.37 173.99)
 		(uuid "21d307bb-324b-44a9-8084-3df06345fa5f")
 	)
 	(no_connect
 		(at 262.89 154.94)
 		(uuid "27721c5c-c7a0-46d2-80a0-f16607a7f64a")
-	)
-	(no_connect
-		(at 262.89 129.54)
-		(uuid "27744d70-2589-4441-a04c-39a472d4a102")
 	)
 	(no_connect
 		(at 262.89 180.34)
@@ -10063,10 +10021,6 @@
 		(uuid "5fbdc49d-fdf4-4af1-9a62-ad757ec62b06")
 	)
 	(no_connect
-		(at 215.9 142.24)
-		(uuid "7d37a6b8-8ccc-4665-b048-3381ef0cc1fa")
-	)
-	(no_connect
 		(at 262.89 187.96)
 		(uuid "885e58f9-6d37-4646-8e12-c74d94a2dd44")
 	)
@@ -10087,24 +10041,12 @@
 		(uuid "c4e92400-a2d8-4965-b7a3-8bf76fba36c9")
 	)
 	(no_connect
-		(at 215.9 129.54)
-		(uuid "ca700d62-4c8d-4a78-a8a3-7a96c1ac4144")
-	)
-	(no_connect
-		(at 215.9 144.78)
-		(uuid "cd069381-9dfa-46a9-9be0-d56f9ce968df")
-	)
-	(no_connect
 		(at 262.89 149.86)
 		(uuid "d4e95626-12fb-4704-ba52-b3e0440640b6")
 	)
 	(no_connect
 		(at 262.89 190.5)
 		(uuid "dcc552e8-e84b-4e70-8606-ffde34f2af29")
-	)
-	(no_connect
-		(at 215.9 137.16)
-		(uuid "de151ead-eac8-4b8d-ad8f-03f1d05078d7")
 	)
 	(bus_entry
 		(at 367.03 138.43)
@@ -10620,16 +10562,6 @@
 		)
 		(uuid "0ae9f6af-b625-43b8-aa33-56f99d4e2ca2")
 	)
-	(wire
-		(pts
-			(xy 215.9 137.16) (xy 200.66 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b10b8f1-2698-40b4-b7ce-b92d3017b338")
-	)
 	(bus
 		(pts
 			(xy 30.48 99.06) (xy 35.56 99.06)
@@ -10712,6 +10644,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 137.16) (xy 262.89 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1583491c-17b2-40e4-ad28-81b2b6ade50f")
+	)
+	(wire
+		(pts
 			(xy 309.88 95.25) (xy 309.88 93.98)
 		)
 		(stroke
@@ -10739,16 +10681,6 @@
 			(type default)
 		)
 		(uuid "1a562d8d-0fe7-45d5-b829-76955c5216f1")
-	)
-	(wire
-		(pts
-			(xy 200.66 127) (xy 215.9 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d4fdbb2-ef98-414a-9f3e-aedfd250030a")
 	)
 	(bus
 		(pts
@@ -10869,6 +10801,16 @@
 			(type default)
 		)
 		(uuid "26243612-268b-4dbf-9218-80cba5cce4b9")
+	)
+	(wire
+		(pts
+			(xy 200.66 127) (xy 262.89 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29fb035f-ae04-417b-9cb2-0db0be9497e3")
 	)
 	(wire
 		(pts
@@ -11032,7 +10974,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 134.62) (xy 215.9 134.62)
+			(xy 200.66 134.62) (xy 220.98 134.62)
 		)
 		(stroke
 			(width 0)
@@ -11099,16 +11041,6 @@
 			(type default)
 		)
 		(uuid "4b77126b-bf91-420e-92be-b44406c7cfe7")
-	)
-	(wire
-		(pts
-			(xy 200.66 129.54) (xy 215.9 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c7a43d6-919b-411b-90f0-173c7fa1625d")
 	)
 	(wire
 		(pts
@@ -11319,16 +11251,6 @@
 			(type default)
 		)
 		(uuid "60834f1d-c30e-4887-b328-79df2618fd6a")
-	)
-	(wire
-		(pts
-			(xy 215.9 142.24) (xy 200.66 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60c7b7e6-705c-4ed2-aaff-a40c814babdf")
 	)
 	(wire
 		(pts
@@ -11719,6 +11641,16 @@
 			(type default)
 		)
 		(uuid "85e7553a-71ec-4bfd-ba90-1b91d2ac8270")
+	)
+	(wire
+		(pts
+			(xy 200.66 142.24) (xy 262.89 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e95e2d-cd97-4d1f-b996-9092f663a68f")
 	)
 	(wire
 		(pts
@@ -12142,13 +12074,23 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 144.78) (xy 200.66 144.78)
+			(xy 200.66 144.78) (xy 262.89 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "adab2770-a583-4ef9-8b06-27b79e16f7df")
+	)
+	(wire
+		(pts
+			(xy 200.66 129.54) (xy 262.89 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1be0d56-5b5a-49af-9089-6ca7fa602cdf")
 	)
 	(wire
 		(pts
@@ -12552,6 +12494,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 134.62) (xy 262.89 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5b5df9e-497d-4d99-8c44-b67266061b1a")
+	)
+	(wire
+		(pts
 			(xy 132.08 147.32) (xy 132.08 149.86)
 		)
 		(stroke
@@ -12669,6 +12621,16 @@
 			(type default)
 		)
 		(uuid "f1772c39-91d1-422d-b24a-01d96d6aa037")
+	)
+	(wire
+		(pts
+			(xy 200.66 137.16) (xy 227.33 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f53d641a-f562-4879-9445-bac92d4b5e7f")
 	)
 	(bus
 		(pts
@@ -13260,6 +13222,16 @@
 		)
 		(uuid "6f579531-3423-486f-b6ea-892017779692")
 	)
+	(label "PET1_P"
+		(at 246.38 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70d739e8-80ec-41e4-847c-b6005a0ce686")
+	)
 	(label "PET2_N"
 		(at 87.63 157.48 0)
 		(effects
@@ -13499,6 +13471,16 @@
 			(justify left bottom)
 		)
 		(uuid "c621feb3-7836-42a6-9556-63a2711a13af")
+	)
+	(label "PET1_N"
+		(at 246.38 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c70656bf-4be4-40a0-bd9b-24a7d2dcdf89")
 	)
 	(label "PET0_P"
 		(at 246.38 111.76 0)
@@ -13798,6 +13780,156 @@
 			(justify right)
 		)
 		(uuid "f1ff125c-5484-45b3-b591-09be021a0bcf")
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_220n_6V3_X7R_0402")
+		(at 220.98 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "040e138c-dc97-4caa-86c7-233209d1b060")
+		(property "Reference" "C10"
+			(at 220.98 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "C_220n_6V3_X7R_0402"
+			(at 236.22 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 236.22 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C224M9RACTU.html"
+			(at 236.22 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 220nF, 6.3V, 0402, ±20%, X7R"
+			(at 220.98 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C224M9RACTU"
+			(at 236.22 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "220n"
+			(at 227.33 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "6.3V"
+			(at 236.22 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 236.22 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 236.22 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 236.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 236.22 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1fe1526b-3361-4478-9413-c2087dfcdeac")
+		)
+		(pin "1"
+			(uuid "2f84604b-9a96-4778-a8fc-01aef6e8fd03")
+		)
+		(instances
+			(project "jetson-orin-agx-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/456a2f48-4934-4d0e-aaf0-f39b01ccc0c1"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
@@ -22605,6 +22737,156 @@
 			(project "jetson-orin-agx-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/456a2f48-4934-4d0e-aaf0-f39b01ccc0c1"
 					(reference "C88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_220n_6V3_X7R_0402")
+		(at 227.33 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc3d83a1-879f-47e1-83de-69719b4629c1")
+		(property "Reference" "C36"
+			(at 227.33 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "C_220n_6V3_X7R_0402"
+			(at 242.57 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 242.57 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C224M9RACTU.html"
+			(at 242.57 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 220nF, 6.3V, 0402, ±20%, X7R"
+			(at 227.33 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C224M9RACTU"
+			(at 242.57 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "220n"
+			(at 233.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Voltage" "6.3V"
+			(at 242.57 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 242.57 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 242.57 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 242.57 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 242.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5b9d0e4a-5f27-429f-8339-1f4a221c2c23")
+		)
+		(pin "1"
+			(uuid "484059da-4cca-4e30-b9b8-f717a81ded13")
+		)
+		(instances
+			(project "jetson-orin-agx-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/456a2f48-4934-4d0e-aaf0-f39b01ccc0c1"
+					(reference "C36")
 					(unit 1)
 				)
 			)
