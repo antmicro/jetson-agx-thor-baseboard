@@ -9754,9 +9754,6 @@
 	(bus_alias "USB"
 		(members "D+" "D-")
 	)
-	(bus_alias "USBSS"
-		(members "TX+" "TX-" "RX+" "RX-")
-	)
 	(text "Do we want to use 2x PCIe x1\nor only one and other \nfor eg. Oculink?"
 		(exclude_from_sim no)
 		(at 234.95 140.208 0)
@@ -12843,7 +12840,7 @@
 		)
 		(uuid "06f5c38c-8cb0-4d7c-a199-a8d59aa87963")
 	)
-	(label "I2S1.SDIN"
+	(label "I2S_{M.2}.SDIN"
 		(at 209.55 167.64 0)
 		(effects
 			(font
@@ -13043,7 +13040,7 @@
 		)
 		(uuid "3d514220-0a8c-4194-9d84-e9268fb24de0")
 	)
-	(label "I2S1.CLK"
+	(label "I2S_{M.2}.CLK"
 		(at 209.55 160.02 0)
 		(effects
 			(font
@@ -13123,7 +13120,7 @@
 		)
 		(uuid "4c0dd728-c323-44c0-8571-b2c7edcdf486")
 	)
-	(label "I2C1.SCL"
+	(label "I2C_{M.2}.SCL"
 		(at 337.82 124.46 0)
 		(effects
 			(font
@@ -13333,7 +13330,7 @@
 		)
 		(uuid "752efb83-3f63-4540-acdb-bd6a4da79aca")
 	)
-	(label "USB.D-"
+	(label "USB1.D-"
 		(at 209.55 175.26 0)
 		(effects
 			(font
@@ -13373,7 +13370,7 @@
 		)
 		(uuid "86e2f681-1298-47d5-be57-fb2b2f88e3ba")
 	)
-	(label "I2C1.SDA"
+	(label "I2C_{M.2}.SDA"
 		(at 337.82 121.92 0)
 		(effects
 			(font
@@ -13493,7 +13490,7 @@
 		)
 		(uuid "c37cde7e-a62e-4caa-afda-ca34c6202534")
 	)
-	(label "USB.D+"
+	(label "USB1.D+"
 		(at 209.55 172.72 0)
 		(effects
 			(font
@@ -13563,7 +13560,7 @@
 		)
 		(uuid "cb84cc0f-09fd-4c3a-a33f-0c2e8cb19224")
 	)
-	(label "I2S1.FS"
+	(label "I2S_{M.2}.FS"
 		(at 209.55 162.56 0)
 		(effects
 			(font
@@ -13633,7 +13630,7 @@
 		)
 		(uuid "dc926d26-6569-4cc2-b1b9-aa36b250d50b")
 	)
-	(label "I2S1.SDOUT"
+	(label "I2S_{M.2}.SDOUT"
 		(at 209.55 165.1 0)
 		(effects
 			(font
@@ -13736,7 +13733,7 @@
 		)
 		(uuid "38222867-b554-4af3-8385-f6ca7de20c05")
 	)
-	(hierarchical_label "I2C1{I2C}"
+	(hierarchical_label "I2C_{M.2}{I2C}"
 		(shape input)
 		(at 353.06 118.11 0)
 		(effects
@@ -13758,7 +13755,7 @@
 		)
 		(uuid "b2b854e5-4d7e-4a22-b25f-bacfbed41c2a")
 	)
-	(hierarchical_label "I2S1{I2S}"
+	(hierarchical_label "I2S_{M.2}{I2S}"
 		(shape input)
 		(at 203.2 156.21 180)
 		(effects
@@ -13780,7 +13777,7 @@
 		)
 		(uuid "c4ca60a3-eff0-4f54-ac92-dd30ae2b3390")
 	)
-	(hierarchical_label "USB{USB}"
+	(hierarchical_label "USB1{USB}"
 		(shape input)
 		(at 203.2 168.91 180)
 		(effects
