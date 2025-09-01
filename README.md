@@ -1,9 +1,11 @@
 # Jetson AGX Thor Baseboard
 
-## Overview
-The design files were prepared in KiCad 9.x.
+Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
 
-## Key features
+## Overview
+
+This project contains open hardware design files for a baseboard supporting NVIDIA Jetson AGX Thor (P5000) System on Module.
+The design files were prepared in KiCad 9.x.
 
 ## Project structure
 The main directory contains KiCad PCB project files, a LICENSE, and a README.
