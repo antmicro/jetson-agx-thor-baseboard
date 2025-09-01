@@ -3,9 +3,9 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "f569b0be-0afd-48b7-93ee-28582a4c645c")
-	(paper "A2")
+	(paper "A3")
 	(title_block
-		(title "Jetson Orin AGX Baseboard")
+		(title "Jetson AGX Thor Baseboard")
 		(date "2025-08-11")
 		(rev "1.0.0")
 		(company "Antmicro Ltd")
@@ -14,7 +14,7 @@
 	(lib_symbols)
 	(text "SoM\n"
 		(exclude_from_sim no)
-		(at 291.846 93.726 0)
+		(at 215.646 25.146 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -23,32 +23,32 @@
 		(uuid "e24181ca-d76c-4dcf-8070-af309271095a")
 	)
 	(junction
-		(at 339.09 233.68)
+		(at 262.89 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad61f5b4-ce39-426a-9ce7-dfcedb54fdab")
 	)
 	(junction
-		(at 250.19 177.8)
+		(at 173.99 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd92c0e7-d8ca-4935-9fde-97ffae144aea")
 	)
 	(junction
-		(at 336.55 264.16)
+		(at 260.35 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3adec51-be8a-40e4-a607-1db97d276d19")
 	)
 	(junction
-		(at 391.16 233.68)
+		(at 314.96 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db7f1ff5-96db-4c25-9524-2e7703de0f88")
 	)
 	(bus
 		(pts
-			(xy 176.53 240.03) (xy 254 240.03)
+			(xy 100.33 171.45) (xy 177.8 171.45)
 		)
 		(stroke
 			(width 0)
@@ -59,7 +59,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 250.19) (xy 254 250.19)
+			(xy 100.33 181.61) (xy 177.8 181.61)
 		)
 		(stroke
 			(width 0)
@@ -69,7 +69,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 303.53) (xy 406.4 303.53)
+			(xy 297.18 234.95) (xy 331.47 234.95)
 		)
 		(stroke
 			(width 0)
@@ -79,7 +79,7 @@
 	)
 	(bus
 		(pts
-			(xy 336.55 264.16) (xy 388.62 264.16)
+			(xy 260.35 195.58) (xy 312.42 195.58)
 		)
 		(stroke
 			(width 0)
@@ -89,7 +89,7 @@
 	)
 	(bus
 		(pts
-			(xy 254 193.04) (xy 214.63 193.04)
+			(xy 177.8 124.46) (xy 138.43 124.46)
 		)
 		(stroke
 			(width 0)
@@ -100,7 +100,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 276.86) (xy 375.92 276.86)
+			(xy 254 208.28) (xy 299.72 208.28)
 		)
 		(stroke
 			(width 0)
@@ -110,7 +110,7 @@
 	)
 	(bus
 		(pts
-			(xy 381 271.78) (xy 381 295.91)
+			(xy 304.8 203.2) (xy 304.8 227.33)
 		)
 		(stroke
 			(width 0)
@@ -120,7 +120,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 266.7) (xy 386.08 266.7)
+			(xy 254 198.12) (xy 309.88 198.12)
 		)
 		(stroke
 			(width 0)
@@ -130,7 +130,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 165.1) (xy 254 165.1)
+			(xy 100.33 96.52) (xy 177.8 96.52)
 		)
 		(stroke
 			(width 0)
@@ -141,7 +141,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 110.49) (xy 254 110.49)
+			(xy 100.33 41.91) (xy 177.8 41.91)
 		)
 		(stroke
 			(width 0)
@@ -152,7 +152,7 @@
 	)
 	(wire
 		(pts
-			(xy 407.67 241.3) (xy 393.7 241.3)
+			(xy 331.47 172.72) (xy 317.5 172.72)
 		)
 		(stroke
 			(width 0)
@@ -162,7 +162,7 @@
 	)
 	(bus
 		(pts
-			(xy 254 213.36) (xy 231.14 213.36)
+			(xy 177.8 144.78) (xy 154.94 144.78)
 		)
 		(stroke
 			(width 0)
@@ -172,7 +172,7 @@
 	)
 	(bus
 		(pts
-			(xy 214.63 193.04) (xy 214.63 226.06)
+			(xy 138.43 124.46) (xy 138.43 157.48)
 		)
 		(stroke
 			(width 0)
@@ -183,7 +183,7 @@
 	)
 	(bus
 		(pts
-			(xy 330.2 264.16) (xy 336.55 264.16)
+			(xy 254 195.58) (xy 260.35 195.58)
 		)
 		(stroke
 			(width 0)
@@ -193,7 +193,7 @@
 	)
 	(bus
 		(pts
-			(xy 330.2 231.14) (xy 407.67 231.14)
+			(xy 254 162.56) (xy 331.47 162.56)
 		)
 		(stroke
 			(width 0)
@@ -203,7 +203,7 @@
 	)
 	(wire
 		(pts
-			(xy 406.4 288.29) (xy 386.08 288.29)
+			(xy 309.88 219.71) (xy 331.47 219.71)
 		)
 		(stroke
 			(width 0)
@@ -213,7 +213,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 129.54) (xy 233.68 129.54)
+			(xy 100.33 60.96) (xy 157.48 60.96)
 		)
 		(stroke
 			(width 0)
@@ -223,7 +223,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 300.99) (xy 375.92 276.86)
+			(xy 299.72 232.41) (xy 299.72 208.28)
 		)
 		(stroke
 			(width 0)
@@ -233,7 +233,7 @@
 	)
 	(bus
 		(pts
-			(xy 396.24 223.52) (xy 407.67 223.52)
+			(xy 320.04 154.94) (xy 331.47 154.94)
 		)
 		(stroke
 			(width 0)
@@ -244,7 +244,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 182.88) (xy 226.06 182.88)
+			(xy 100.33 114.3) (xy 149.86 114.3)
 		)
 		(stroke
 			(width 0)
@@ -254,7 +254,7 @@
 	)
 	(wire
 		(pts
-			(xy 406.4 300.99) (xy 375.92 300.99)
+			(xy 299.72 232.41) (xy 331.47 232.41)
 		)
 		(stroke
 			(width 0)
@@ -264,7 +264,7 @@
 	)
 	(bus
 		(pts
-			(xy 233.68 129.54) (xy 233.68 210.82)
+			(xy 157.48 60.96) (xy 157.48 142.24)
 		)
 		(stroke
 			(width 0)
@@ -274,7 +274,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 288.29) (xy 386.08 266.7)
+			(xy 309.88 219.71) (xy 309.88 198.12)
 		)
 		(stroke
 			(width 0)
@@ -284,7 +284,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 113.03) (xy 254 113.03)
+			(xy 100.33 44.45) (xy 177.8 44.45)
 		)
 		(stroke
 			(width 0)
@@ -295,7 +295,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 187.96) (xy 220.98 187.96)
+			(xy 100.33 119.38) (xy 144.78 119.38)
 		)
 		(stroke
 			(width 0)
@@ -306,7 +306,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 279.4) (xy 373.38 303.53)
+			(xy 297.18 210.82) (xy 297.18 234.95)
 		)
 		(stroke
 			(width 0)
@@ -316,7 +316,7 @@
 	)
 	(bus
 		(pts
-			(xy 231.14 132.08) (xy 176.53 132.08)
+			(xy 154.94 63.5) (xy 100.33 63.5)
 		)
 		(stroke
 			(width 0)
@@ -326,7 +326,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 299.72) (xy 254 299.72)
+			(xy 100.33 231.14) (xy 177.8 231.14)
 		)
 		(stroke
 			(width 0)
@@ -336,7 +336,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 234.95) (xy 254 234.95)
+			(xy 100.33 166.37) (xy 177.8 166.37)
 		)
 		(stroke
 			(width 0)
@@ -347,7 +347,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 302.26) (xy 254 302.26)
+			(xy 100.33 233.68) (xy 177.8 233.68)
 		)
 		(stroke
 			(width 0)
@@ -357,7 +357,7 @@
 	)
 	(bus
 		(pts
-			(xy 254 218.44) (xy 226.06 218.44)
+			(xy 177.8 149.86) (xy 149.86 149.86)
 		)
 		(stroke
 			(width 0)
@@ -367,7 +367,7 @@
 	)
 	(bus
 		(pts
-			(xy 388.62 264.16) (xy 388.62 285.75)
+			(xy 312.42 195.58) (xy 312.42 217.17)
 		)
 		(stroke
 			(width 0)
@@ -377,7 +377,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 245.11) (xy 254 245.11)
+			(xy 100.33 176.53) (xy 177.8 176.53)
 		)
 		(stroke
 			(width 0)
@@ -388,7 +388,7 @@
 	)
 	(bus
 		(pts
-			(xy 212.09 190.5) (xy 254 190.5)
+			(xy 135.89 121.92) (xy 177.8 121.92)
 		)
 		(stroke
 			(width 0)
@@ -399,7 +399,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 223.52) (xy 212.09 223.52)
+			(xy 100.33 154.94) (xy 135.89 154.94)
 		)
 		(stroke
 			(width 0)
@@ -410,7 +410,7 @@
 	)
 	(polyline
 		(pts
-			(xy 345.44 330.2) (xy 345.44 90.17)
+			(xy 269.24 261.62) (xy 269.24 21.59)
 		)
 		(stroke
 			(width 0)
@@ -420,7 +420,7 @@
 	)
 	(bus
 		(pts
-			(xy 247.65 289.56) (xy 247.65 257.81)
+			(xy 171.45 220.98) (xy 171.45 189.23)
 		)
 		(stroke
 			(width 0)
@@ -430,7 +430,7 @@
 	)
 	(bus
 		(pts
-			(xy 212.09 190.5) (xy 212.09 223.52)
+			(xy 135.89 121.92) (xy 135.89 154.94)
 		)
 		(stroke
 			(width 0)
@@ -441,7 +441,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 175.26) (xy 254 175.26)
+			(xy 100.33 106.68) (xy 177.8 106.68)
 		)
 		(stroke
 			(width 0)
@@ -452,7 +452,7 @@
 	)
 	(bus
 		(pts
-			(xy 330.2 271.78) (xy 381 271.78)
+			(xy 254 203.2) (xy 304.8 203.2)
 		)
 		(stroke
 			(width 0)
@@ -462,7 +462,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 274.32) (xy 378.46 274.32)
+			(xy 254 205.74) (xy 302.26 205.74)
 		)
 		(stroke
 			(width 0)
@@ -472,7 +472,7 @@
 	)
 	(bus
 		(pts
-			(xy 339.09 233.68) (xy 391.16 233.68)
+			(xy 262.89 165.1) (xy 314.96 165.1)
 		)
 		(stroke
 			(width 0)
@@ -482,7 +482,7 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 201.93) (xy 393.7 241.3)
+			(xy 317.5 133.35) (xy 317.5 172.72)
 		)
 		(stroke
 			(width 0)
@@ -492,7 +492,7 @@
 	)
 	(bus
 		(pts
-			(xy 336.55 264.16) (xy 336.55 289.56)
+			(xy 260.35 195.58) (xy 260.35 220.98)
 		)
 		(stroke
 			(width 0)
@@ -502,7 +502,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 118.11) (xy 254 118.11)
+			(xy 100.33 49.53) (xy 177.8 49.53)
 		)
 		(stroke
 			(width 0)
@@ -513,7 +513,7 @@
 	)
 	(bus
 		(pts
-			(xy 391.16 233.68) (xy 407.67 233.68)
+			(xy 314.96 165.1) (xy 331.47 165.1)
 		)
 		(stroke
 			(width 0)
@@ -523,7 +523,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 279.4) (xy 373.38 279.4)
+			(xy 254 210.82) (xy 297.18 210.82)
 		)
 		(stroke
 			(width 0)
@@ -533,7 +533,7 @@
 	)
 	(polyline
 		(pts
-			(xy 238.76 90.17) (xy 345.44 90.17)
+			(xy 162.56 21.59) (xy 269.24 21.59)
 		)
 		(stroke
 			(width 0)
@@ -543,7 +543,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 255.27) (xy 254 255.27)
+			(xy 100.33 186.69) (xy 177.8 186.69)
 		)
 		(stroke
 			(width 0)
@@ -554,7 +554,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 170.18) (xy 254 170.18)
+			(xy 100.33 101.6) (xy 177.8 101.6)
 		)
 		(stroke
 			(width 0)
@@ -565,7 +565,7 @@
 	)
 	(bus
 		(pts
-			(xy 396.24 190.5) (xy 396.24 223.52)
+			(xy 320.04 121.92) (xy 320.04 154.94)
 		)
 		(stroke
 			(width 0)
@@ -576,7 +576,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 247.65) (xy 254 247.65)
+			(xy 100.33 179.07) (xy 177.8 179.07)
 		)
 		(stroke
 			(width 0)
@@ -586,7 +586,7 @@
 	)
 	(bus
 		(pts
-			(xy 391.16 233.68) (xy 391.16 280.67)
+			(xy 314.96 165.1) (xy 314.96 212.09)
 		)
 		(stroke
 			(width 0)
@@ -596,7 +596,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 201.93) (xy 393.7 201.93)
+			(xy 173.99 133.35) (xy 317.5 133.35)
 		)
 		(stroke
 			(width 0)
@@ -606,7 +606,7 @@
 	)
 	(bus
 		(pts
-			(xy 381 295.91) (xy 406.4 295.91)
+			(xy 304.8 227.33) (xy 331.47 227.33)
 		)
 		(stroke
 			(width 0)
@@ -616,7 +616,7 @@
 	)
 	(bus
 		(pts
-			(xy 330.2 190.5) (xy 396.24 190.5)
+			(xy 254 121.92) (xy 320.04 121.92)
 		)
 		(stroke
 			(width 0)
@@ -627,7 +627,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 232.41) (xy 254 232.41)
+			(xy 100.33 163.83) (xy 177.8 163.83)
 		)
 		(stroke
 			(width 0)
@@ -638,7 +638,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 177.8) (xy 250.19 177.8)
+			(xy 100.33 109.22) (xy 173.99 109.22)
 		)
 		(stroke
 			(width 0)
@@ -648,7 +648,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 237.49) (xy 254 237.49)
+			(xy 100.33 168.91) (xy 177.8 168.91)
 		)
 		(stroke
 			(width 0)
@@ -659,7 +659,7 @@
 	)
 	(polyline
 		(pts
-			(xy 238.76 330.2) (xy 345.44 330.2)
+			(xy 162.56 261.62) (xy 269.24 261.62)
 		)
 		(stroke
 			(width 0)
@@ -669,7 +669,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 242.57) (xy 254 242.57)
+			(xy 100.33 173.99) (xy 177.8 173.99)
 		)
 		(stroke
 			(width 0)
@@ -680,7 +680,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 185.42) (xy 223.52 185.42)
+			(xy 100.33 116.84) (xy 147.32 116.84)
 		)
 		(stroke
 			(width 0)
@@ -690,7 +690,7 @@
 	)
 	(bus
 		(pts
-			(xy 336.55 289.56) (xy 247.65 289.56)
+			(xy 260.35 220.98) (xy 171.45 220.98)
 		)
 		(stroke
 			(width 0)
@@ -700,7 +700,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 314.96) (xy 254 314.96)
+			(xy 100.33 246.38) (xy 177.8 246.38)
 		)
 		(stroke
 			(width 0)
@@ -710,7 +710,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 252.73) (xy 254 252.73)
+			(xy 100.33 184.15) (xy 177.8 184.15)
 		)
 		(stroke
 			(width 0)
@@ -721,7 +721,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 167.64) (xy 254 167.64)
+			(xy 100.33 99.06) (xy 177.8 99.06)
 		)
 		(stroke
 			(width 0)
@@ -732,7 +732,7 @@
 	)
 	(bus
 		(pts
-			(xy 226.06 218.44) (xy 226.06 182.88)
+			(xy 149.86 149.86) (xy 149.86 114.3)
 		)
 		(stroke
 			(width 0)
@@ -742,7 +742,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 229.87) (xy 254 229.87)
+			(xy 100.33 161.29) (xy 177.8 161.29)
 		)
 		(stroke
 			(width 0)
@@ -753,7 +753,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 257.81) (xy 247.65 257.81)
+			(xy 100.33 189.23) (xy 171.45 189.23)
 		)
 		(stroke
 			(width 0)
@@ -763,7 +763,7 @@
 	)
 	(bus
 		(pts
-			(xy 231.14 213.36) (xy 231.14 132.08)
+			(xy 154.94 144.78) (xy 154.94 63.5)
 		)
 		(stroke
 			(width 0)
@@ -773,7 +773,7 @@
 	)
 	(bus
 		(pts
-			(xy 254 220.98) (xy 223.52 220.98)
+			(xy 177.8 152.4) (xy 147.32 152.4)
 		)
 		(stroke
 			(width 0)
@@ -783,7 +783,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 304.8) (xy 254 304.8)
+			(xy 100.33 236.22) (xy 177.8 236.22)
 		)
 		(stroke
 			(width 0)
@@ -793,7 +793,7 @@
 	)
 	(bus
 		(pts
-			(xy 233.68 210.82) (xy 254 210.82)
+			(xy 157.48 142.24) (xy 177.8 142.24)
 		)
 		(stroke
 			(width 0)
@@ -803,7 +803,7 @@
 	)
 	(polyline
 		(pts
-			(xy 238.76 90.17) (xy 238.76 330.2)
+			(xy 162.56 21.59) (xy 162.56 261.62)
 		)
 		(stroke
 			(width 0)
@@ -813,7 +813,7 @@
 	)
 	(bus
 		(pts
-			(xy 254 223.52) (xy 220.98 223.52)
+			(xy 177.8 154.94) (xy 144.78 154.94)
 		)
 		(stroke
 			(width 0)
@@ -824,7 +824,7 @@
 	)
 	(bus
 		(pts
-			(xy 220.98 223.52) (xy 220.98 187.96)
+			(xy 144.78 154.94) (xy 144.78 119.38)
 		)
 		(stroke
 			(width 0)
@@ -835,7 +835,7 @@
 	)
 	(bus
 		(pts
-			(xy 214.63 226.06) (xy 176.53 226.06)
+			(xy 138.43 157.48) (xy 100.33 157.48)
 		)
 		(stroke
 			(width 0)
@@ -846,7 +846,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 298.45) (xy 406.4 298.45)
+			(xy 302.26 229.87) (xy 331.47 229.87)
 		)
 		(stroke
 			(width 0)
@@ -856,7 +856,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 201.93) (xy 250.19 177.8)
+			(xy 173.99 133.35) (xy 173.99 109.22)
 		)
 		(stroke
 			(width 0)
@@ -866,7 +866,7 @@
 	)
 	(bus
 		(pts
-			(xy 223.52 220.98) (xy 223.52 185.42)
+			(xy 147.32 152.4) (xy 147.32 116.84)
 		)
 		(stroke
 			(width 0)
@@ -876,7 +876,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 115.57) (xy 254 115.57)
+			(xy 100.33 46.99) (xy 177.8 46.99)
 		)
 		(stroke
 			(width 0)
@@ -887,7 +887,7 @@
 	)
 	(bus
 		(pts
-			(xy 176.53 292.1) (xy 339.09 292.1)
+			(xy 100.33 223.52) (xy 262.89 223.52)
 		)
 		(stroke
 			(width 0)
@@ -897,7 +897,7 @@
 	)
 	(bus
 		(pts
-			(xy 406.4 280.67) (xy 391.16 280.67)
+			(xy 314.96 212.09) (xy 331.47 212.09)
 		)
 		(stroke
 			(width 0)
@@ -907,7 +907,7 @@
 	)
 	(bus
 		(pts
-			(xy 339.09 233.68) (xy 339.09 292.1)
+			(xy 262.89 165.1) (xy 262.89 223.52)
 		)
 		(stroke
 			(width 0)
@@ -917,7 +917,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 177.8) (xy 254 177.8)
+			(xy 173.99 109.22) (xy 177.8 109.22)
 		)
 		(stroke
 			(width 0)
@@ -927,7 +927,7 @@
 	)
 	(bus
 		(pts
-			(xy 388.62 285.75) (xy 406.4 285.75)
+			(xy 312.42 217.17) (xy 331.47 217.17)
 		)
 		(stroke
 			(width 0)
@@ -937,7 +937,7 @@
 	)
 	(bus
 		(pts
-			(xy 330.2 233.68) (xy 339.09 233.68)
+			(xy 254 165.1) (xy 262.89 165.1)
 		)
 		(stroke
 			(width 0)
@@ -947,7 +947,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 243.84) (xy 407.67 243.84)
+			(xy 254 175.26) (xy 331.47 175.26)
 		)
 		(stroke
 			(width 0)
@@ -957,7 +957,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 274.32) (xy 378.46 298.45)
+			(xy 302.26 205.74) (xy 302.26 229.87)
 		)
 		(stroke
 			(width 0)
@@ -966,7 +966,7 @@
 		(uuid "f5cb739c-0173-4902-b95c-d0c6abc62acc")
 	)
 	(sheet
-		(at 407.67 162.56)
+		(at 331.47 93.98)
 		(size 34.29 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -982,7 +982,7 @@
 		)
 		(uuid "12c19ba5-8fdc-4775-a33b-e8b1ade01b0a")
 		(property "Sheetname" "USB Debug, DP"
-			(at 407.67 161.8484 0)
+			(at 331.47 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -991,7 +991,7 @@
 			)
 		)
 		(property "Sheetfile" "USB_debug_dp.kicad_sch"
-			(at 407.67 199.9746 0)
+			(at 331.47 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1000,7 +1000,7 @@
 			)
 		)
 		(instances
-			(project "jetson-orin-agx-baseboard"
+			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
 					(page "13")
 				)
@@ -1008,7 +1008,7 @@
 		)
 	)
 	(sheet
-		(at 142.24 278.13)
+		(at 66.04 209.55)
 		(size 34.29 46.99)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1024,7 +1024,7 @@
 		)
 		(uuid "18ddd5dc-52e2-402c-b2e2-8bb33f110eab")
 		(property "Sheetname" "Power"
-			(at 142.24 277.4184 0)
+			(at 66.04 208.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1033,7 +1033,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 142.24 325.7046 0)
+			(at 66.04 257.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1042,7 +1042,7 @@
 			)
 		)
 		(pin "CARRIER_POWER_ON" input
-			(at 176.53 299.72 0)
+			(at 100.33 231.14 0)
 			(uuid "10a9bea0-ccfe-4414-8ec2-c441d1949187")
 			(effects
 				(font
@@ -1052,7 +1052,7 @@
 			)
 		)
 		(pin "I2C_{SYS}{I2C}" input
-			(at 176.53 292.1 0)
+			(at 100.33 223.52 0)
 			(uuid "1efa4539-6cba-45ed-aeb6-ecc7bdfaaeb7")
 			(effects
 				(font
@@ -1062,7 +1062,7 @@
 			)
 		)
 		(pin "MODULE_POWER_ON" output
-			(at 176.53 302.26 0)
+			(at 100.33 233.68 0)
 			(uuid "01460b3b-f424-47a4-8cd5-cad847108774")
 			(effects
 				(font
@@ -1072,7 +1072,7 @@
 			)
 		)
 		(pin "SYS_RESET_N" bidirectional
-			(at 176.53 304.8 0)
+			(at 100.33 236.22 0)
 			(uuid "f96f46c8-a411-40d3-b69f-991f2ca39a13")
 			(effects
 				(font
@@ -1082,7 +1082,7 @@
 			)
 		)
 		(pin "USBPD0_HV" input
-			(at 176.53 280.67 0)
+			(at 100.33 212.09 0)
 			(uuid "f5ea3d5f-ea73-43de-944e-91ef270fe496")
 			(effects
 				(font
@@ -1092,7 +1092,7 @@
 			)
 		)
 		(pin "USBPD1_HV" input
-			(at 176.53 283.21 0)
+			(at 100.33 214.63 0)
 			(uuid "4f1e839c-3a73-46ad-94f1-ac1bcd33670e")
 			(effects
 				(font
@@ -1102,7 +1102,7 @@
 			)
 		)
 		(pin "VDDIN_PWR_BAD_N" bidirectional
-			(at 176.53 314.96 0)
+			(at 100.33 246.38 0)
 			(uuid "5c5fdd3c-f2a9-4604-82ee-4c1a368a691b")
 			(effects
 				(font
@@ -1112,7 +1112,7 @@
 			)
 		)
 		(pin "~{CW_PWRBTN}" input
-			(at 176.53 309.88 0)
+			(at 100.33 241.3 0)
 			(uuid "38ab9b25-3428-41d7-9ca1-fdfcc390562d")
 			(effects
 				(font
@@ -1122,7 +1122,7 @@
 			)
 		)
 		(instances
-			(project "jetson-orin-agx-baseboard"
+			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
 					(page "8")
 				)
@@ -1130,7 +1130,7 @@
 		)
 	)
 	(sheet
-		(at 254 297.18)
+		(at 177.8 228.6)
 		(size 35.56 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1146,7 +1146,7 @@
 		)
 		(uuid "33df10a9-5b30-4fa6-b34e-d62ce1b48c65")
 		(property "Sheetname" "SoM_Power"
-			(at 254 296.4684 0)
+			(at 177.8 227.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,7 +1155,7 @@
 			)
 		)
 		(property "Sheetfile" "SoM_power.kicad_sch"
-			(at 254 323.1646 0)
+			(at 177.8 254.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1164,7 +1164,7 @@
 			)
 		)
 		(pin "CARRIER_POWER_ON" output
-			(at 254 299.72 180)
+			(at 177.8 231.14 180)
 			(uuid "cd211908-b2ac-4548-8a4e-fe3954b0ce53")
 			(effects
 				(font
@@ -1174,7 +1174,7 @@
 			)
 		)
 		(pin "MODULE_POWER_ON" input
-			(at 254 302.26 180)
+			(at 177.8 233.68 180)
 			(uuid "5fef02e3-99ab-4ad6-bcf6-79c893319633")
 			(effects
 				(font
@@ -1184,7 +1184,7 @@
 			)
 		)
 		(pin "SYS_RESET_N" bidirectional
-			(at 254 304.8 180)
+			(at 177.8 236.22 180)
 			(uuid "b524b5d1-3efc-4c48-9391-cc04771c0599")
 			(effects
 				(font
@@ -1194,7 +1194,7 @@
 			)
 		)
 		(pin "VDDIN_PWR_BAD_N" bidirectional
-			(at 254 314.96 180)
+			(at 177.8 246.38 180)
 			(uuid "e3c00809-658a-4cae-9e0e-5348f3a842f1")
 			(effects
 				(font
@@ -1204,7 +1204,7 @@
 			)
 		)
 		(instances
-			(project "jetson-orin-agx-baseboard"
+			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
 					(page "11")
 				)
@@ -1212,7 +1212,7 @@
 		)
 	)
 	(sheet
-		(at 407.67 101.6)
+		(at 331.47 33.02)
 		(size 34.29 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1228,7 +1228,7 @@
 		)
 		(uuid "3fd0fbfa-9a42-4c7b-8c1c-08c3e88df372")
 		(property "Sheetname" "USB"
-			(at 407.67 100.8884 0)
+			(at 331.47 32.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1237,7 +1237,7 @@
 			)
 		)
 		(property "Sheetfile" "USB.kicad_sch"
-			(at 407.67 140.2846 0)
+			(at 331.47 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1246,7 +1246,7 @@
 			)
 		)
 		(instances
-			(project "jetson-orin-agx-baseboard"
+			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
 					(page "7")
 				)
@@ -1254,7 +1254,7 @@
 		)
 	)
 	(sheet
-		(at 142.24 161.29)
+		(at 66.04 92.71)
 		(size 34.29 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1270,7 +1270,7 @@
 		)
 		(uuid "456a2f48-4934-4d0e-aaf0-f39b01ccc0c1")
 		(property "Sheetname" "M.2"
-			(at 142.24 160.5784 0)
+			(at 66.04 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,7 +1279,7 @@
 			)
 		)
 		(property "Sheetfile" "M2.kicad_sch"
-			(at 142.24 199.9746 0)
+			(at 66.04 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1288,7 +1288,7 @@
 			)
 		)
 		(pin "I2C_{M.2}{I2C}" input
-			(at 176.53 182.88 0)
+			(at 100.33 114.3 0)
 			(uuid "4dd8c568-36d8-402f-af42-2e780eb4a67d")
 			(effects
 				(font
@@ -1298,7 +1298,7 @@
 			)
 		)
 		(pin "I2S_{M.2}{I2S}" input
-			(at 176.53 185.42 0)
+			(at 100.33 116.84 0)
 			(uuid "6f3de70f-8871-42ef-aecb-9d8bf467832e")
 			(effects
 				(font
@@ -1308,7 +1308,7 @@
 			)
 		)
 		(pin "PCIe_{C0x1}{PCIe}" input
-			(at 176.53 165.1 0)
+			(at 100.33 96.52 0)
 			(uuid "44e02e72-0fad-4afd-b17d-05aaef68d26f")
 			(effects
 				(font
@@ -1318,7 +1318,7 @@
 			)
 		)
 		(pin "PCIe_{C1x1}{PCIe}" input
-			(at 176.53 167.64 0)
+			(at 100.33 99.06 0)
 			(uuid "06cf2b66-5b11-4843-b6b1-dd79984af369")
 			(effects
 				(font
@@ -1328,7 +1328,7 @@
 			)
 		)
 		(pin "PCIe_{C4x4}{PCIe}" input
-			(at 176.53 170.18 0)
+			(at 100.33 101.6 0)
 			(uuid "a48bf53d-d365-49a1-908a-1ea28c95be5c")
 			(effects
 				(font
@@ -1338,7 +1338,7 @@
 			)
 		)
 		(pin "UART1{UART}" input
-			(at 176.53 187.96 0)
+			(at 100.33 119.38 0)
 			(uuid "4d124b59-6e03-47f2-8297-7b352406cae6")
 			(effects
 				(font
@@ -1348,7 +1348,7 @@
 			)
 		)
 		(pin "USB{USB}" input
-			(at 176.53 175.26 0)
+			(at 100.33 106.68 0)
 			(uuid "0d0d3773-1ef9-4fc3-8315-707db63a0a33")
 			(effects
 				(font
@@ -1358,7 +1358,7 @@
 			)
 		)
 		(pin "~{PEWAKE}" output
-			(at 176.53 177.8 0)
+			(at 100.33 109.22 0)
 			(uuid "375fc922-2f28-4fc7-ac97-078be819884e")
 			(effects
 				(font
@@ -1368,7 +1368,7 @@
 			)
 		)
 		(instances
-			(project "jetson-orin-agx-baseboard"
+			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
 					(page "14")
 				)
@@ -1376,7 +1376,7 @@
 		)
 	)
 	(sheet
-		(at 142.24 101.6)
+		(at 66.04 33.02)
 		(size 34.29 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1392,7 +1392,7 @@
 		)
 		(uuid "5735e52d-0a61-43fd-a7c9-5087dffafe64")
 		(property "Sheetname" "CSI"
-			(at 142.24 100.8884 0)
+			(at 66.04 32.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1401,7 +1401,7 @@
 			)
 		)
 		(property "Sheetfile" "CSI.kicad_sch"
-			(at 142.24 140.2846 0)
+			(at 66.04 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1410,7 +1410,7 @@
 			)
 		)
 		(pin "CSI0{CSI}" input
-			(at 176.53 110.49 0)
+			(at 100.33 41.91 0)
 			(uuid "284bf539-aa10-4a96-a207-3d132a420437")
 			(effects
 				(font
@@ -1420,7 +1420,7 @@
 			)
 		)
 		(pin "CSI1{CSI}" input
-			(at 176.53 113.03 0)
+			(at 100.33 44.45 0)
 			(uuid "d26c1e39-cbc6-49ae-90b9-2d30cd3bdf1d")
 			(effects
 				(font
@@ -1430,7 +1430,7 @@
 			)
 		)
 		(pin "CSI2{CSI}" input
-			(at 176.53 115.57 0)
+			(at 100.33 46.99 0)
 			(uuid "3fa49929-9188-4093-ad9c-d3fc0a3cfd33")
 			(effects
 				(font
@@ -1440,7 +1440,7 @@
 			)
 		)
 		(pin "CSI3{CSI}" input
-			(at 176.53 118.11 0)
+			(at 100.33 49.53 0)
 			(uuid "7f58823d-1db7-4c53-b434-7776be0a87cb")
 			(effects
 				(font
@@ -1450,7 +1450,7 @@
 			)
 		)
 		(pin "I2C_{CAM}{I2C}" input
-			(at 176.53 132.08 0)
+			(at 100.33 63.5 0)
 			(uuid "7b4d9008-5a46-4ef0-b45c-83ce8100beca")
 			(effects
 				(font
@@ -1460,7 +1460,7 @@
 			)
 		)
 		(pin "CAM_CTRL{CAM_CTRL}" bidirectional
-			(at 176.53 129.54 0)
+			(at 100.33 60.96 0)
 			(uuid "e5f8d1b1-c2b5-4e43-8ed1-c396cfb90e22")
 			(effects
 				(font
@@ -1470,7 +1470,7 @@
 			)
 		)
 		(instances
-			(project "jetson-orin-agx-baseboard"
+			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
 					(page "12")
 				)
@@ -1478,7 +1478,7 @@
 		)
 	)
 	(sheet
-		(at 294.64 297.18)
+		(at 218.44 228.6)
 		(size 35.56 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1494,7 +1494,7 @@
 		)
 		(uuid "58058c98-426b-4ff8-98ff-207367cfa3e6")
 		(property "Sheetname" "SoM_debug"
-			(at 294.64 296.4684 0)
+			(at 218.44 227.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1503,7 +1503,7 @@
 			)
 		)
 		(property "Sheetfile" "SoM_debug.kicad_sch"
-			(at 294.64 323.1646 0)
+			(at 218.44 254.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1512,7 +1512,7 @@
 			)
 		)
 		(instances
-			(project "jetson-orin-agx-baseboard"
+			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
 					(page "12")
 				)
@@ -1520,7 +1520,7 @@
 		)
 	)
 	(sheet
-		(at 254 207.01)
+		(at 177.8 138.43)
 		(size 76.2 76.2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1536,7 +1536,7 @@
 		)
 		(uuid "5e8e155a-019a-4868-a371-a2eb1e119b3e")
 		(property "Sheetname" "SoM_IO"
-			(at 254 206.2984 0)
+			(at 177.8 137.7184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1545,7 +1545,7 @@
 			)
 		)
 		(property "Sheetfile" "SoM_io.kicad_sch"
-			(at 254 283.7946 0)
+			(at 177.8 215.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1554,7 +1554,7 @@
 			)
 		)
 		(pin "I2C_{CAM}{I2C}" bidirectional
-			(at 254 213.36 180)
+			(at 177.8 144.78 180)
 			(uuid "047ed3e9-1483-4e7d-8485-ac3f99ada287")
 			(effects
 				(font
@@ -1564,7 +1564,7 @@
 			)
 		)
 		(pin "I2C_{SFP}{I2C}" bidirectional
-			(at 330.2 231.14 0)
+			(at 254 162.56 0)
 			(uuid "09e8eeda-d494-4bbd-9c89-97af222f4f3a")
 			(effects
 				(font
@@ -1574,7 +1574,7 @@
 			)
 		)
 		(pin "MOD_ABS" input
-			(at 330.2 243.84 0)
+			(at 254 175.26 0)
 			(uuid "361d98b5-baed-4684-b408-13f837bf5479")
 			(effects
 				(font
@@ -1584,7 +1584,7 @@
 			)
 		)
 		(pin "UART1{UART}" output
-			(at 254 223.52 180)
+			(at 177.8 154.94 180)
 			(uuid "adbdfc3f-c501-4dc9-b44a-d8e9520a37b7")
 			(effects
 				(font
@@ -1594,7 +1594,7 @@
 			)
 		)
 		(pin "FAN_PWM" output
-			(at 330.2 276.86 0)
+			(at 254 208.28 0)
 			(uuid "ef29a210-53dc-4248-be11-e82227f72622")
 			(effects
 				(font
@@ -1604,7 +1604,7 @@
 			)
 		)
 		(pin "FAN_TACH" input
-			(at 330.2 279.4 0)
+			(at 254 210.82 0)
 			(uuid "1d6318ab-12bb-4a5a-922f-2a8cc3a38e16")
 			(effects
 				(font
@@ -1614,7 +1614,7 @@
 			)
 		)
 		(pin "I2C_{M.2}{I2C}" output
-			(at 254 218.44 180)
+			(at 177.8 149.86 180)
 			(uuid "7c291d9c-39a2-4f4b-b82d-0def1305cb60")
 			(effects
 				(font
@@ -1624,7 +1624,7 @@
 			)
 		)
 		(pin "I2C_{SYS}{I2C}" bidirectional
-			(at 330.2 233.68 0)
+			(at 254 165.1 0)
 			(uuid "76f20885-c143-4e7c-ac18-9616ba89b873")
 			(effects
 				(font
@@ -1634,7 +1634,7 @@
 			)
 		)
 		(pin "I2S_{M.2}{I2S}" output
-			(at 254 220.98 180)
+			(at 177.8 152.4 180)
 			(uuid "1f605119-d69f-4385-887e-bc9efc9620fc")
 			(effects
 				(font
@@ -1644,7 +1644,7 @@
 			)
 		)
 		(pin "I2C_{CONN}{I2C}" output
-			(at 330.2 264.16 0)
+			(at 254 195.58 0)
 			(uuid "69bb5d30-750b-4319-a614-b986a87591c3")
 			(effects
 				(font
@@ -1654,7 +1654,7 @@
 			)
 		)
 		(pin "CAM_CTRL{CAM_CTRL}" bidirectional
-			(at 254 210.82 180)
+			(at 177.8 142.24 180)
 			(uuid "dbbb5e6d-0562-48cd-a65f-266723a98936")
 			(effects
 				(font
@@ -1664,7 +1664,7 @@
 			)
 		)
 		(pin "I2C_CONN_PEN" input
-			(at 330.2 266.7 0)
+			(at 254 198.12 0)
 			(uuid "da01a686-76c1-4505-9a79-6beaa79ab459")
 			(effects
 				(font
@@ -1674,7 +1674,7 @@
 			)
 		)
 		(pin "TPM_IRQ" input
-			(at 330.2 274.32 0)
+			(at 254 205.74 0)
 			(uuid "dd478383-0dc1-4d30-a3ce-435535372ecb")
 			(effects
 				(font
@@ -1684,7 +1684,7 @@
 			)
 		)
 		(pin "GPIO{GPIO}" bidirectional
-			(at 330.2 271.78 0)
+			(at 254 203.2 0)
 			(uuid "56d0c11c-7ef6-4066-aca2-df1d282ef948")
 			(effects
 				(font
@@ -1694,7 +1694,7 @@
 			)
 		)
 		(pin "CAN0{CAN}" bidirectional
-			(at 254 252.73 180)
+			(at 177.8 184.15 180)
 			(uuid "054d3ddb-ff3b-4150-8dbd-9cc66edc9c4e")
 			(effects
 				(font
@@ -1704,7 +1704,7 @@
 			)
 		)
 		(pin "CAN1{CAN}" bidirectional
-			(at 254 255.27 180)
+			(at 177.8 186.69 180)
 			(uuid "2f9c10c1-bacd-440e-b1cb-69310f824f58")
 			(effects
 				(font
@@ -1714,7 +1714,7 @@
 			)
 		)
 		(pin "I2S2{I2S}" bidirectional
-			(at 254 247.65 180)
+			(at 177.8 179.07 180)
 			(uuid "c2051973-2387-4079-bebe-00247f228a12")
 			(effects
 				(font
@@ -1724,7 +1724,7 @@
 			)
 		)
 		(pin "I2S3{I2S}" bidirectional
-			(at 254 250.19 180)
+			(at 177.8 181.61 180)
 			(uuid "69c2dbdb-f44c-43a2-956e-b1830772dfc8")
 			(effects
 				(font
@@ -1734,7 +1734,7 @@
 			)
 		)
 		(pin "SDIO{SDIO}" bidirectional
-			(at 254 245.11 180)
+			(at 177.8 176.53 180)
 			(uuid "c90e24e1-ec10-4b39-8c1a-9ce119cd4114")
 			(effects
 				(font
@@ -1744,7 +1744,7 @@
 			)
 		)
 		(pin "SPI1{SPI}" bidirectional
-			(at 254 229.87 180)
+			(at 177.8 161.29 180)
 			(uuid "aecdbd5c-97d1-472f-aa3d-5fb5fb8481f0")
 			(effects
 				(font
@@ -1754,7 +1754,7 @@
 			)
 		)
 		(pin "SPI2{SPI}" bidirectional
-			(at 254 232.41 180)
+			(at 177.8 163.83 180)
 			(uuid "b9a1b1fd-4a62-4992-8e2e-b3477cd77aa7")
 			(effects
 				(font
@@ -1764,7 +1764,7 @@
 			)
 		)
 		(pin "SPI3{SPI}" bidirectional
-			(at 254 234.95 180)
+			(at 177.8 166.37 180)
 			(uuid "774576d0-3af9-40d0-a445-2c9a1c0d2de6")
 			(effects
 				(font
@@ -1774,7 +1774,7 @@
 			)
 		)
 		(pin "UART2{UART}" bidirectional
-			(at 254 237.49 180)
+			(at 177.8 168.91 180)
 			(uuid "e5e9baca-657a-4504-b719-1a0cbb256ae6")
 			(effects
 				(font
@@ -1784,7 +1784,7 @@
 			)
 		)
 		(pin "UART4{UART}" bidirectional
-			(at 254 240.03 180)
+			(at 177.8 171.45 180)
 			(uuid "fdb54556-08c7-487b-8f70-e87540af2c27")
 			(effects
 				(font
@@ -1794,7 +1794,7 @@
 			)
 		)
 		(pin "UART5{UART}" bidirectional
-			(at 254 242.57 180)
+			(at 177.8 173.99 180)
 			(uuid "051eafc3-0e6f-40ae-8ddb-78d181aea310")
 			(effects
 				(font
@@ -1804,7 +1804,7 @@
 			)
 		)
 		(instances
-			(project "jetson-orin-agx-baseboard"
+			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
 					(page "13")
 				)
@@ -1812,7 +1812,7 @@
 		)
 	)
 	(sheet
-		(at 142.24 219.71)
+		(at 66.04 151.13)
 		(size 34.29 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1828,7 +1828,7 @@
 		)
 		(uuid "5fb038ee-4d59-43de-81a4-b4c993aa7149")
 		(property "Sheetname" "Expansion connector"
-			(at 142.24 218.9984 0)
+			(at 66.04 150.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,7 +1837,7 @@
 			)
 		)
 		(property "Sheetfile" "Expansion_connector.kicad_sch"
-			(at 142.24 263.4746 0)
+			(at 66.04 194.8946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1846,7 +1846,7 @@
 			)
 		)
 		(pin "CAN0{CAN}" bidirectional
-			(at 176.53 252.73 0)
+			(at 100.33 184.15 0)
 			(uuid "d676e244-1507-495f-b321-eb5ec1ae708e")
 			(effects
 				(font
@@ -1856,7 +1856,7 @@
 			)
 		)
 		(pin "CAN1{CAN}" bidirectional
-			(at 176.53 255.27 0)
+			(at 100.33 186.69 0)
 			(uuid "47662de8-a452-443b-a232-66458d7f9592")
 			(effects
 				(font
@@ -1866,7 +1866,7 @@
 			)
 		)
 		(pin "GPIO{GPIO}" bidirectional
-			(at 176.53 257.81 0)
+			(at 100.33 189.23 0)
 			(uuid "aadad7cf-24b3-4d9d-aae3-9e4aeda4026e")
 			(effects
 				(font
@@ -1876,7 +1876,7 @@
 			)
 		)
 		(pin "I2S2{I2S}" bidirectional
-			(at 176.53 247.65 0)
+			(at 100.33 179.07 0)
 			(uuid "c1ab0987-89da-4d44-ae47-b4d484b88aaa")
 			(effects
 				(font
@@ -1886,7 +1886,7 @@
 			)
 		)
 		(pin "I2S3{I2S}" bidirectional
-			(at 176.53 250.19 0)
+			(at 100.33 181.61 0)
 			(uuid "60a444e2-3464-4c66-91cd-69b7d359d9d7")
 			(effects
 				(font
@@ -1896,7 +1896,7 @@
 			)
 		)
 		(pin "PCIe_{C5x8}{PCIe}" input
-			(at 176.53 223.52 0)
+			(at 100.33 154.94 0)
 			(uuid "8f89be70-ad2a-449e-adcf-c210bb1af168")
 			(effects
 				(font
@@ -1906,7 +1906,7 @@
 			)
 		)
 		(pin "RGMII{RGMII}" input
-			(at 176.53 226.06 0)
+			(at 100.33 157.48 0)
 			(uuid "abc8fe8f-4874-4127-a708-3de472e626e4")
 			(effects
 				(font
@@ -1916,7 +1916,7 @@
 			)
 		)
 		(pin "SDIO{SDIO}" bidirectional
-			(at 176.53 245.11 0)
+			(at 100.33 176.53 0)
 			(uuid "7c7ea601-5f4c-453f-92b4-3f45174a4c5c")
 			(effects
 				(font
@@ -1926,7 +1926,7 @@
 			)
 		)
 		(pin "SPI1{SPI}" bidirectional
-			(at 176.53 229.87 0)
+			(at 100.33 161.29 0)
 			(uuid "94f376ca-0eb9-4a75-8d38-30b50bbf8cc2")
 			(effects
 				(font
@@ -1936,7 +1936,7 @@
 			)
 		)
 		(pin "SPI2{SPI}" bidirectional
-			(at 176.53 232.41 0)
+			(at 100.33 163.83 0)
 			(uuid "adefca73-6736-47cc-90f8-df5591409351")
 			(effects
 				(font
@@ -1946,7 +1946,7 @@
 			)
 		)
 		(pin "SPI3{SPI}" bidirectional
-			(at 176.53 234.95 0)
+			(at 100.33 166.37 0)
 			(uuid "2e103435-3365-48fc-941c-1d0273859803")
 			(effects
 				(font
@@ -1956,7 +1956,7 @@
 			)
 		)
 		(pin "UART2{UART}" bidirectional
-			(at 176.53 237.49 0)
+			(at 100.33 168.91 0)
 			(uuid "a83ecb23-078b-45d1-91bc-4044683c7103")
 			(effects
 				(font
@@ -1966,7 +1966,7 @@
 			)
 		)
 		(pin "UART4{UART}" bidirectional
-			(at 176.53 240.03 0)
+			(at 100.33 171.45 0)
 			(uuid "965673ef-e52b-4f0d-877d-65d4d6074635")
 			(effects
 				(font
@@ -1976,7 +1976,7 @@
 			)
 		)
 		(pin "UART5{UART}" bidirectional
-			(at 176.53 242.57 0)
+			(at 100.33 173.99 0)
 			(uuid "0be21330-755d-47e0-9f64-97a0ae167334")
 			(effects
 				(font
@@ -1986,7 +1986,7 @@
 			)
 		)
 		(instances
-			(project "jetson-orin-agx-baseboard"
+			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
 					(page "16")
 				)
@@ -1994,7 +1994,7 @@
 		)
 	)
 	(sheet
-		(at 254 101.6)
+		(at 177.8 33.02)
 		(size 76.2 96.52)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2010,7 +2010,7 @@
 		)
 		(uuid "656db8bb-c788-4c93-9592-ce18fa1a48a2")
 		(property "Sheetname" "SoM_IO2"
-			(at 254 100.8884 0)
+			(at 177.8 32.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2019,7 +2019,7 @@
 			)
 		)
 		(property "Sheetfile" "SoM_io2.kicad_sch"
-			(at 254 198.7046 0)
+			(at 177.8 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2028,7 +2028,7 @@
 			)
 		)
 		(pin "CSI0{CSI}" output
-			(at 254 110.49 180)
+			(at 177.8 41.91 180)
 			(uuid "37aab0ef-8982-409b-a003-7ad986c605a1")
 			(effects
 				(font
@@ -2038,7 +2038,7 @@
 			)
 		)
 		(pin "CSI1{CSI}" output
-			(at 254 113.03 180)
+			(at 177.8 44.45 180)
 			(uuid "3c2bd66a-89cf-4023-b664-603edf1801ae")
 			(effects
 				(font
@@ -2048,7 +2048,7 @@
 			)
 		)
 		(pin "CSI2{CSI}" output
-			(at 254 115.57 180)
+			(at 177.8 46.99 180)
 			(uuid "99f2ed52-2297-4474-90a5-42cadf798fb3")
 			(effects
 				(font
@@ -2058,7 +2058,7 @@
 			)
 		)
 		(pin "CSI3{CSI}" output
-			(at 254 118.11 180)
+			(at 177.8 49.53 180)
 			(uuid "70bc14f8-7dd9-4896-b4d7-69c87adddf98")
 			(effects
 				(font
@@ -2068,7 +2068,7 @@
 			)
 		)
 		(pin "PCIe_{C0x1}{PCIe}" output
-			(at 254 165.1 180)
+			(at 177.8 96.52 180)
 			(uuid "bab65dd0-b671-4405-b5ad-6a32a97673ef")
 			(effects
 				(font
@@ -2078,7 +2078,7 @@
 			)
 		)
 		(pin "PCIe_{C1x1}{PCIe}" output
-			(at 254 167.64 180)
+			(at 177.8 99.06 180)
 			(uuid "ab5b33d0-6b34-4871-8715-6e01adfecbde")
 			(effects
 				(font
@@ -2088,7 +2088,7 @@
 			)
 		)
 		(pin "PCIe_{C4x4}{PCIe}" output
-			(at 254 170.18 180)
+			(at 177.8 101.6 180)
 			(uuid "42e14a99-c736-4e99-94ba-ceaee6e93f03")
 			(effects
 				(font
@@ -2098,7 +2098,7 @@
 			)
 		)
 		(pin "PCIe_{C5x8}{PCIe}" input
-			(at 254 190.5 180)
+			(at 177.8 121.92 180)
 			(uuid "85cf30eb-ebb1-4ce7-9f8b-b8e5fe8c7d42")
 			(effects
 				(font
@@ -2108,7 +2108,7 @@
 			)
 		)
 		(pin "SFI{SFI}" output
-			(at 330.2 190.5 0)
+			(at 254 121.92 0)
 			(uuid "fe307368-68d2-4b10-bb76-906599b93632")
 			(effects
 				(font
@@ -2118,7 +2118,7 @@
 			)
 		)
 		(pin "USB1{USB}" output
-			(at 254 175.26 180)
+			(at 177.8 106.68 180)
 			(uuid "aee3173a-3454-42e1-9efb-10c660dc9259")
 			(effects
 				(font
@@ -2128,7 +2128,7 @@
 			)
 		)
 		(pin "~{PEX_WAKE}" passive
-			(at 254 177.8 180)
+			(at 177.8 109.22 180)
 			(uuid "ffd66218-1dd5-4828-9778-d3f57beaf6af")
 			(effects
 				(font
@@ -2138,7 +2138,7 @@
 			)
 		)
 		(pin "RGMII{RGMII}" input
-			(at 254 193.04 180)
+			(at 177.8 124.46 180)
 			(uuid "34412664-0b9d-493d-8db7-4fa9e24d0e24")
 			(effects
 				(font
@@ -2148,7 +2148,7 @@
 			)
 		)
 		(instances
-			(project "jetson-orin-agx-baseboard"
+			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
 					(page "14")
 				)
@@ -2156,7 +2156,7 @@
 		)
 	)
 	(sheet
-		(at 407.67 219.71)
+		(at 331.47 151.13)
 		(size 34.29 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2172,7 +2172,7 @@
 		)
 		(uuid "a94d9c53-c5ac-439c-b57f-c8751a5ad590")
 		(property "Sheetname" "SFP"
-			(at 407.67 218.9984 0)
+			(at 331.47 150.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2181,7 +2181,7 @@
 			)
 		)
 		(property "Sheetfile" "SFP.kicad_sch"
-			(at 407.67 257.1246 0)
+			(at 331.47 188.5446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,7 +2190,7 @@
 			)
 		)
 		(pin "I2C_{SYS}{I2C}" input
-			(at 407.67 233.68 180)
+			(at 331.47 165.1 180)
 			(uuid "4483696b-33ef-43e3-b5d7-749e39b2e34e")
 			(effects
 				(font
@@ -2200,7 +2200,7 @@
 			)
 		)
 		(pin "I2C_{SFP}{I2C}" input
-			(at 407.67 231.14 180)
+			(at 331.47 162.56 180)
 			(uuid "5d84fb74-5010-4fb1-b8bf-fe1a9c9e514e")
 			(effects
 				(font
@@ -2210,7 +2210,7 @@
 			)
 		)
 		(pin "MOD_ABS" output
-			(at 407.67 243.84 180)
+			(at 331.47 175.26 180)
 			(uuid "6eba1ba6-c116-4c1e-b9ac-64d9ce62ea0a")
 			(effects
 				(font
@@ -2220,7 +2220,7 @@
 			)
 		)
 		(pin "SFI{SFI}" input
-			(at 407.67 223.52 180)
+			(at 331.47 154.94 180)
 			(uuid "c40aaec9-f19a-4b48-856c-4596af9e5d28")
 			(effects
 				(font
@@ -2230,7 +2230,7 @@
 			)
 		)
 		(pin "~{RESET}" input
-			(at 407.67 241.3 180)
+			(at 331.47 172.72 180)
 			(uuid "497750ae-56a2-49f2-8f4e-2b8256ff266a")
 			(effects
 				(font
@@ -2240,7 +2240,7 @@
 			)
 		)
 		(instances
-			(project "jetson-orin-agx-baseboard"
+			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
 					(page "10")
 				)
@@ -2248,7 +2248,7 @@
 		)
 	)
 	(sheet
-		(at 406.4 276.86)
+		(at 331.47 208.28)
 		(size 34.29 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2264,7 +2264,7 @@
 		)
 		(uuid "f57c04fe-502b-4d07-880b-2cf807d3e5a1")
 		(property "Sheetname" "Peripherals"
-			(at 406.4 276.1484 0)
+			(at 331.47 207.5684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2273,7 +2273,7 @@
 			)
 		)
 		(property "Sheetfile" "Peripherals.kicad_sch"
-			(at 406.4 314.2746 0)
+			(at 331.47 245.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2282,7 +2282,7 @@
 			)
 		)
 		(pin "FAN_PWM" input
-			(at 406.4 300.99 180)
+			(at 331.47 232.41 180)
 			(uuid "0096d776-d9d5-49b1-8cc8-9bf55f9ec298")
 			(effects
 				(font
@@ -2292,7 +2292,7 @@
 			)
 		)
 		(pin "FAN_TACH" output
-			(at 406.4 303.53 180)
+			(at 331.47 234.95 180)
 			(uuid "b6018588-8bbf-42f6-bde0-39ced336e4df")
 			(effects
 				(font
@@ -2302,7 +2302,7 @@
 			)
 		)
 		(pin "GPIO{GPIO}" bidirectional
-			(at 406.4 295.91 180)
+			(at 331.47 227.33 180)
 			(uuid "4ef69ec9-b44b-4966-aef5-f89f98bb6fe2")
 			(effects
 				(font
@@ -2312,7 +2312,7 @@
 			)
 		)
 		(pin "I2C_CONN_PEN" input
-			(at 406.4 288.29 180)
+			(at 331.47 219.71 180)
 			(uuid "71e00197-1ba3-4d4b-b98d-5cb00618e033")
 			(effects
 				(font
@@ -2322,7 +2322,7 @@
 			)
 		)
 		(pin "I2C_{CONN}{I2C}" input
-			(at 406.4 285.75 180)
+			(at 331.47 217.17 180)
 			(uuid "72427d7a-cd4d-4a62-978b-cd0df975122a")
 			(effects
 				(font
@@ -2332,7 +2332,7 @@
 			)
 		)
 		(pin "I2C_{SYS}{I2C}" input
-			(at 406.4 280.67 180)
+			(at 331.47 212.09 180)
 			(uuid "5d4d7ec3-5ad6-4fa2-90f8-0048d5861778")
 			(effects
 				(font
@@ -2342,7 +2342,7 @@
 			)
 		)
 		(pin "TPM_IRQ" output
-			(at 406.4 298.45 180)
+			(at 331.47 229.87 180)
 			(uuid "640f82ae-681f-4c5d-85ec-9ee599d694ef")
 			(effects
 				(font
@@ -2352,7 +2352,7 @@
 			)
 		)
 		(instances
-			(project "jetson-orin-agx-baseboard"
+			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
 					(page "13")
 				)
