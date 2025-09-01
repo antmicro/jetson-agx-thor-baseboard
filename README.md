@@ -1,4 +1,4 @@
-# Jetson Orin AGX Baseboard
+# Jetson AGX Thor Baseboard
 
 ## Overview
 The design files were prepared in KiCad 9.x.
