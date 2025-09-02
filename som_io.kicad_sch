@@ -13701,6 +13701,293 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicroMechanicalParts:Spacer_Drill4.45mm_H4mm_9774040960R"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 22.86 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Spacer_Drill4.45mm_H4mm_9774040960R"
+				(at 22.86 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:Spacer_Drill4.45mm_H4mm_9774040960R"
+				(at 22.86 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774040960R.pdf"
+				(at 22.86 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 6 mm x 4 mm, 3.3 mm Internal, WA-SMST Series"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Würth Elektronik"
+				(at 22.86 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "9774040960R"
+				(at 22.86 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 22.86 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 22.86 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SPACER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Spacer_Drill4.45mm_H4mm_9774040960R_1_1"
+				(rectangle
+					(start 2.54 -2.54)
+					(end 7.62 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -1.27)
+					(end 6.35 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "antmicroModules:Jetson-Orin-AGX"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "A"
+				(at 25.4 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Jetson-Orin-AGX"
+				(at 25.4 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:Module_Jetson-Orin-AGX"
+				(at 25.4 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://developer.nvidia.com/embedded/downloads#?tx=$product,jetson_agx_orin"
+				(at 25.4 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jetson Orin AGX, System-on-Module, 2048-core NVIDIA Ampere GPU, 12-Core ARM 64 Bit CPU, 64 GB LPDDR5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Nvidia"
+				(at 25.4 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "900-13701-0050-000"
+				(at 25.4 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 25.4 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 25.4 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Displayed name" "Jetson Orin AGX"
+				(at 25.4 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "MODULE, SOM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jetson-Orin-AGX_0_1"
+				(rectangle
+					(start 10.16 -6.35)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicropower:+1V8"
 			(power)
 			(pin_numbers
@@ -14246,10 +14533,28 @@
 		(uuid "8dba3baa-8587-426c-8f19-58854b447ca4")
 	)
 	(junction
+		(at 372.11 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a374581a-2387-438c-9e70-63c44b0b1ae3")
+	)
+	(junction
+		(at 372.11 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c08cd7c6-b666-4362-8b19-b3ef1da791bd")
+	)
+	(junction
 		(at 134.62 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8994b4e-976b-4a13-bdf3-513db3e28432")
+	)
+	(junction
+		(at 372.11 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0e3f40a-40b9-4342-bdad-4fb8e53911da")
 	)
 	(junction
 		(at 142.24 208.28)
@@ -15234,6 +15539,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 218.44) (xy 372.11 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e6c743b-ded8-4ffb-b770-d5fc2005e360")
+	)
+	(wire
+		(pts
 			(xy 326.39 140.97) (xy 341.63 140.97)
 		)
 		(stroke
@@ -15301,6 +15616,16 @@
 			(type default)
 		)
 		(uuid "14ae3d0b-de38-4322-bf46-ebaf68b5b39b")
+	)
+	(wire
+		(pts
+			(xy 372.11 241.3) (xy 374.65 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1680daff-8e81-4012-856f-12b03a780b80")
 	)
 	(bus
 		(pts
@@ -15381,6 +15706,16 @@
 			(type default)
 		)
 		(uuid "1dae4692-3a3c-43f4-a4eb-ba769486dcef")
+	)
+	(wire
+		(pts
+			(xy 372.11 233.68) (xy 372.11 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd8df0d-4b66-4543-86a8-5ed5fffca7aa")
 	)
 	(wire
 		(pts
@@ -16254,6 +16589,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 226.06) (xy 372.11 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58fc2e9d-9832-4df2-beb7-35511e46b76f")
+	)
+	(wire
+		(pts
 			(xy 326.39 147.32) (xy 341.63 147.32)
 		)
 		(stroke
@@ -16642,6 +16987,16 @@
 		)
 		(uuid "76e08b58-b939-4ce7-9147-431b66aeaa3c")
 	)
+	(wire
+		(pts
+			(xy 372.11 226.06) (xy 372.11 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "778add49-d1d7-4f80-9434-093e6c2699bb")
+	)
 	(bus
 		(pts
 			(xy 72.39 97.79) (xy 72.39 100.33)
@@ -17012,6 +17367,16 @@
 		)
 		(uuid "95e3737f-9439-47d2-b423-7758d02879f4")
 	)
+	(wire
+		(pts
+			(xy 374.65 218.44) (xy 372.11 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "964b0539-0b4d-435a-80bf-682f14bc6282")
+	)
 	(bus
 		(pts
 			(xy 337.82 102.87) (xy 337.82 106.68)
@@ -17264,6 +17629,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 233.68) (xy 374.65 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab77a278-08de-4edc-a0e3-3ae2d3d50cbf")
+	)
+	(wire
+		(pts
 			(xy 129.54 114.3) (xy 147.32 114.3)
 		)
 		(stroke
@@ -17501,6 +17876,16 @@
 			(type default)
 		)
 		(uuid "c2d23e61-bb70-4aff-b066-fa9282e444cf")
+	)
+	(wire
+		(pts
+			(xy 372.11 241.3) (xy 372.11 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c42944ca-990e-47e7-8627-d45428bd8a2d")
 	)
 	(bus
 		(pts
@@ -19708,7 +20093,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "044cc17f-3e7f-4836-8867-3f9d5f20c7ec")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 54.61 209.55 0)
 			(effects
 				(font
@@ -19786,7 +20171,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -22004,7 +22389,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a5acdfe-e781-4b46-a95e-8e2baa6d7795")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 85.09 187.96 0)
 			(effects
 				(font
@@ -22082,7 +22467,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -22097,7 +22482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c6499be-dc9c-415d-a152-745de24405c2")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 85.09 259.08 0)
 			(effects
 				(font
@@ -22175,7 +22560,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -22190,7 +22575,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "106b7335-850a-4ff1-a0ad-03a20b9919de")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 92.71 173.99 0)
 			(effects
 				(font
@@ -22268,7 +22653,123 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
-					(reference "#PWR011")
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill4.45mm_H4mm_9774040960R")
+		(at 374.65 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d1e9644-4f47-40d2-a8e0-b00c1cc500be")
+		(property "Reference" "H7"
+			(at 383.54 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spacer_Drill4.45mm_H4mm_9774040960R"
+			(at 383.54 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill4.45mm_H4mm_9774040960R"
+			(at 397.51 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774040960R.pdf"
+			(at 397.51 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 6 mm x 4 mm, 3.3 mm Internal, WA-SMST Series"
+			(at 374.65 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 397.51 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774040960R"
+			(at 383.54 235.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 397.51 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 397.51 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db6f39e6-c565-4126-a830-35576b529e7c")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -24634,7 +25135,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37f0fff2-fc2a-4698-9109-417230a9a4d3")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 92.71 233.68 0)
 			(effects
 				(font
@@ -24713,7 +25214,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -24728,7 +25229,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3bd960f2-dd3b-4262-bd66-4a74c4b83c68")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 172.72 198.12 0)
 			(effects
 				(font
@@ -24807,7 +25308,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -27024,7 +27525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50b3af22-f902-4f2b-9fca-0c5a0621e8de")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 92.71 198.12 0)
 			(effects
 				(font
@@ -27103,7 +27604,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -27118,7 +27619,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "513be4c8-f58f-455e-9859-d8e072d07eda")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 172.72 209.55 0)
 			(effects
 				(font
@@ -27196,7 +27697,123 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
-					(reference "#PWR025")
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill4.45mm_H4mm_9774040960R")
+		(at 374.65 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5317a8b0-f2c8-4af4-9d27-b5cbdbd0d475")
+		(property "Reference" "H6"
+			(at 383.54 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spacer_Drill4.45mm_H4mm_9774040960R"
+			(at 383.54 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill4.45mm_H4mm_9774040960R"
+			(at 397.51 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774040960R.pdf"
+			(at 397.51 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 6 mm x 4 mm, 3.3 mm Internal, WA-SMST Series"
+			(at 374.65 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 397.51 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774040960R"
+			(at 383.54 228.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 397.51 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 397.51 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a401803-1964-4dee-878b-e365910ca37e")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -27645,7 +28262,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d8fe63f-3f98-4aed-a87f-8fd4a5907004")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 92.71 245.11 0)
 			(effects
 				(font
@@ -27723,7 +28340,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -27738,7 +28355,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6030464e-114e-49b0-aaeb-953031c6f032")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 92.71 209.55 0)
 			(effects
 				(font
@@ -27816,7 +28433,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -27831,7 +28448,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "625a2e34-97ef-420b-a56e-b7c0d5295dd5")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR020"
 			(at 134.62 209.55 0)
 			(effects
 				(font
@@ -27909,7 +28526,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
-					(reference "#PWR019")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -27924,7 +28541,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64819e5c-61b3-4dd5-9961-d0c3f97b24c6")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 165.1 187.96 0)
 			(effects
 				(font
@@ -28002,7 +28619,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -28159,6 +28776,361 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill4.45mm_H4mm_9774040960R")
+		(at 374.65 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65ef0e92-bfad-410d-b82b-33407b6c7ca0")
+		(property "Reference" "H5"
+			(at 383.54 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spacer_Drill4.45mm_H4mm_9774040960R"
+			(at 383.54 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill4.45mm_H4mm_9774040960R"
+			(at 397.51 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774040960R.pdf"
+			(at 397.51 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 6 mm x 4 mm, 3.3 mm Internal, WA-SMST Series"
+			(at 374.65 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 397.51 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774040960R"
+			(at 383.54 220.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 397.51 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 397.51 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86b7da72-3122-47c4-9b51-46c403479c6f")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroModules:Jetson-Orin-AGX")
+		(at 372.11 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "68ec076c-cfc1-4f96-b952-b0f371151ad1")
+		(property "Reference" "A3"
+			(at 383.54 205.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jetson-Orin-AGX"
+			(at 397.51 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Module_Jetson-Orin-AGX"
+			(at 397.51 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://developer.nvidia.com/embedded/downloads#?tx=$product,jetson_agx_orin"
+			(at 397.51 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jetson Orin AGX, System-on-Module, 2048-core NVIDIA Ampere GPU, 12-Core ARM 64 Bit CPU, 64 GB LPDDR5"
+			(at 372.11 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nvidia"
+			(at 397.51 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "900-13701-0050-000"
+			(at 383.54 207.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 397.51 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 397.51 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Displayed name" "Jetson Orin AGX"
+			(at 383.54 210.1849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
+					(reference "A3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill4.45mm_H4mm_9774040960R")
+		(at 374.65 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75dadc64-4ffe-45f6-a6a2-0df25bcc141f")
+		(property "Reference" "H8"
+			(at 383.54 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spacer_Drill4.45mm_H4mm_9774040960R"
+			(at 383.54 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill4.45mm_H4mm_9774040960R"
+			(at 397.51 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774040960R.pdf"
+			(at 397.51 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 6 mm x 4 mm, 3.3 mm Internal, WA-SMST Series"
+			(at 374.65 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 397.51 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774040960R"
+			(at 383.54 243.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 397.51 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 397.51 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "158b400c-168f-4b7a-a32b-8a6edea0438c")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:+1V8")
 		(at 54.61 158.75 0)
 		(unit 1)
@@ -28167,7 +29139,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7604bb41-08fd-4cdc-958f-4840a95c5560")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 54.61 162.56 0)
 			(effects
 				(font
@@ -28246,7 +29218,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -28561,7 +29533,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c26ca28-5666-4dbd-9c6d-5fc08d10ea67")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 54.61 245.11 0)
 			(effects
 				(font
@@ -28639,7 +29611,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -28654,7 +29626,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85c7e4ac-8918-4a13-ac39-51b2e9750a55")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 54.61 233.68 0)
 			(effects
 				(font
@@ -28733,7 +29705,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -28748,7 +29720,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a3d7b19-1a9a-4723-8976-00b329f533e4")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 134.62 198.12 0)
 			(effects
 				(font
@@ -28827,7 +29799,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
-					(reference "#PWR018")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -28842,7 +29814,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c3b2c48-305b-4925-8923-e7d7eb574de8")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 85.09 223.52 0)
 			(effects
 				(font
@@ -28920,7 +29892,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -28935,7 +29907,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95aa9bf6-347e-4c52-8fbc-213e6f0814b9")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 165.1 223.52 0)
 			(effects
 				(font
@@ -29013,7 +29985,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -29028,7 +30000,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95ce5d34-50d1-4149-bced-12c819e47f98")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 134.62 173.99 0)
 			(effects
 				(font
@@ -29106,7 +30078,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -31607,7 +32579,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd0e5cdc-90e1-4071-aa4d-df55fc26a719")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 54.61 173.99 0)
 			(effects
 				(font
@@ -31685,7 +32657,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -31984,7 +32956,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf829be6-de4e-40a4-bac8-8ea47f56a423")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 172.72 173.99 0)
 			(effects
 				(font
@@ -32062,7 +33034,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -32227,7 +33199,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ddced3e0-5194-43ec-8472-8800d89122c6")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 172.72 162.56 0)
 			(effects
 				(font
@@ -32306,7 +33278,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -32321,7 +33293,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e308ddb7-681f-4125-b7b8-1de605c36be9")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 134.62 162.56 0)
 			(effects
 				(font
@@ -32400,7 +33372,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -32541,6 +33513,100 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:GND")
+		(at 372.11 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4b7603c-b8f8-454a-8934-0df1feea920b")
+		(property "Reference" "#PWR027"
+			(at 381 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 372.11 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 381 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 381 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f92df48b-3976-48ce-a9ac-cf9cb49cf471")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:+3V3")
 		(at 92.71 158.75 0)
 		(unit 1)
@@ -32549,7 +33615,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6085ba8-03d3-4d8f-985a-c8f80932fefb")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 92.71 162.56 0)
 			(effects
 				(font
@@ -32628,7 +33694,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -32793,7 +33859,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbf19f4a-99ac-4cfb-9bd4-126dea2cb8ff")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 54.61 198.12 0)
 			(effects
 				(font
@@ -32872,7 +33938,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)

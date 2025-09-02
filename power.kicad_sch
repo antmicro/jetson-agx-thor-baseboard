@@ -7241,281 +7241,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroPushbuttonSwitches:SW_1-1825027-1_THT"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 25.4 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "SW_1-1825027-1_THT"
-				(at 25.4 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:SW_1-1825027-1_THT"
-				(at 25.4 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1825027%7FH1%7Fpdf%7FEnglish%7FENG_CD_1825027_H1.pdf%7F1-1825027-1"
-				(at 25.4 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Tactile Switch, Side Actuated, Through Hole, Round Button, 160 gf, 50mA at 24VDC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "1-1825027-1"
-				(at 25.4 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" "TE Connectivity"
-				(at 25.4 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 25.4 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 25.4 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "HORIZONTAL, SWITCH, THT, MECHANICAL, TACTILE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_1-1825027-1_THT_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.302 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 1.27) (xy 6.858 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -1.016) (xy 6.858 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.556 0)
-					(radius 0.254)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.064 2.794) (xy 6.096 2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.27) (xy 5.08 2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.604 0)
-					(radius 0.254)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 6.858 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 5.08 -2.54) (xy 5.08 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "SH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "antmicroPushbuttonSwitches:SW_KMR211NGLFS_SMD"
 			(pin_names
 				(hide yes)
@@ -13630,12 +13355,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroWire2BoardConnectors:Molex_Nano-Fit_1x2_SMD_1054301202"
+		(symbol "antmicroWire2BoardConnectors:Molex_Nano-Fit_2x2_105314-2104_Horizontal"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 26.67 -2.54 0)
+				(at 25.4 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -13644,19 +13369,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "Molex_Nano-Fit_1x2_SMD_1054301202"
-				(at 26.67 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:Conn_Molex_Nano-Fit_1x2_SMD_1054301202"
-				(at 26.67 -10.16 0)
+			(property "Value" "Molex_Nano-Fit_2x2_105314-2104_Horizontal"
+				(at 25.4 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -13666,8 +13380,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.farnell.com/cad/3578051.pdf"
-				(at 26.67 -12.7 0)
+			(property "Footprint" "antmicro-footprints:Conn_Molex_Nano-Fit_2x2_105314-2104_Horizontal"
+				(at 25.4 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -13677,7 +13391,18 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Pin Header, Pitch 2.5 mm, 1 Row, 2 Contacts, Nano-Fit"
+			(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/1053142104_sd.pdf"
+				(at 25.4 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pin Header, Vertical, Power, 2.5 mm, 2 Rows, 4 Contacts, Through Hole Horizontal, Nano-Fit"
 				(at 0 0 0)
 				(effects
 					(font
@@ -13686,8 +13411,18 @@
 					(hide yes)
 				)
 			)
+			(property "MPN" "105314-2104"
+				(at 25.4 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
 			(property "Manufacturer" "Molex"
-				(at 26.67 -15.24 0)
+				(at 25.4 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -13697,18 +13432,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "105430-1202"
-				(at 26.67 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
 			(property "Author" "Antmicro"
-				(at 26.67 -17.78 0)
+				(at 25.4 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -13719,7 +13444,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 26.67 -20.32 0)
+				(at 25.4 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -13729,7 +13454,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "CONNECTOR, HEADER, HORIZONTAL, SMT"
+			(property "ki_keywords" "CONNECTOR, THT, WIRE-BOARD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -13738,10 +13463,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Molex_Nano-Fit_1x2_SMD_1054301202_1_1"
+			(symbol "Molex_Nano-Fit_2x2_105314-2104_Horizontal_1_1"
 				(rectangle
 					(start 2.54 2.54)
-					(end 6.35 -7.62)
+					(end 7.62 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -13751,8 +13476,8 @@
 					)
 				)
 				(rectangle
-					(start 2.54 -0.254)
-					(end 4.1402 0.381)
+					(start 3.175 0.635)
+					(end 4.445 -0.635)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -13762,8 +13487,8 @@
 					)
 				)
 				(rectangle
-					(start 2.54 -2.794)
-					(end 4.1402 -2.159)
+					(start 3.175 -1.905)
+					(end 4.445 -3.175)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -13773,8 +13498,19 @@
 					)
 				)
 				(rectangle
-					(start 2.54 -5.334)
-					(end 4.1402 -4.699)
+					(start 5.715 0.635)
+					(end 6.985 -0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 5.715 -1.905)
+					(end 6.985 -3.175)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -13820,7 +13556,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 0)
+					(at 10.16 0 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -13829,7 +13565,25 @@
 							)
 						)
 					)
-					(number "MP"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -15038,7 +14792,7 @@
 	)
 	(text "18 - 20 V "
 		(exclude_from_sim no)
-		(at 19.05 32.512 0)
+		(at 14.224 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15234,6 +14988,12 @@
 		(uuid "1e01c301-1f28-4e3c-95ac-da6086462832")
 	)
 	(junction
+		(at 29.21 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f19de2d-fe15-4c4a-813d-d6fceee4ae29")
+	)
+	(junction
 		(at 208.28 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15384,22 +15144,10 @@
 		(uuid "5e381feb-7d21-4d1c-be6b-0091b191645d")
 	)
 	(junction
-		(at 22.86 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f495fdc-8c5e-426a-b57d-f92f30f89ecb")
-	)
-	(junction
 		(at 55.88 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62e45288-7a6c-4573-8107-555c7a0ad2dc")
-	)
-	(junction
-		(at 29.21 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "63725bda-df29-485c-8923-8933ef5a2c8b")
 	)
 	(junction
 		(at 62.23 157.48)
@@ -15466,6 +15214,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7aa2404c-b46d-4b6b-b307-2aa12d760c83")
+	)
+	(junction
+		(at 16.51 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7be1e7ba-21d9-4965-b116-95c43843f859")
 	)
 	(junction
 		(at 252.73 49.53)
@@ -16065,6 +15819,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 36.83) (xy 29.21 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08331af7-1642-46b3-aa2d-a41d0bb4d6aa")
+	)
+	(wire
+		(pts
 			(xy 321.31 130.81) (xy 321.31 125.73)
 		)
 		(stroke
@@ -16355,16 +16119,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 36.83) (xy 20.32 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "162213d8-dad1-4dd2-bd58-da596e3b6a17")
-	)
-	(wire
-		(pts
 			(xy 234.95 139.7) (xy 234.95 130.81)
 		)
 		(stroke
@@ -16635,16 +16389,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 39.37) (xy 22.86 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2686193e-cb41-435e-aa31-8181012a3050")
-	)
-	(wire
-		(pts
 			(xy 35.56 34.29) (xy 53.34 34.29)
 		)
 		(stroke
@@ -16652,6 +16396,16 @@
 			(type default)
 		)
 		(uuid "26e45a7e-8219-47dc-a8c1-c7fdfc05625f")
+	)
+	(wire
+		(pts
+			(xy 16.51 38.1) (xy 16.51 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2787110a-604f-4014-a41d-f98f01cd90fd")
 	)
 	(wire
 		(pts
@@ -16732,6 +16486,16 @@
 			(type default)
 		)
 		(uuid "29ccb786-7d01-4708-8829-cbf1ad8ee142")
+	)
+	(wire
+		(pts
+			(xy 16.51 34.29) (xy 17.78 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a1d4a53-c6fd-4826-b8b0-10ad4bab9914")
 	)
 	(wire
 		(pts
@@ -17365,16 +17129,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 41.91) (xy 22.86 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4518b102-0b45-4e66-bf9c-3c1065032182")
-	)
-	(wire
-		(pts
 			(xy 262.89 138.43) (xy 262.89 139.7)
 		)
 		(stroke
@@ -17575,6 +17329,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 36.83) (xy 17.78 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f44390c-9e02-4cbf-bc5d-f5ed4762264c")
+	)
+	(wire
+		(pts
 			(xy 293.37 140.97) (xy 293.37 146.05)
 		)
 		(stroke
@@ -17732,6 +17496,16 @@
 			(type default)
 		)
 		(uuid "59417e8b-3673-4077-8071-27ffbcea3448")
+	)
+	(wire
+		(pts
+			(xy 82.55 207.01) (xy 82.55 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ca06114-5638-49d3-bd7d-77be56544cab")
 	)
 	(wire
 		(pts
@@ -18142,6 +17916,16 @@
 			(type default)
 		)
 		(uuid "7069349b-bbd3-47a8-ac20-81d7596d8e92")
+	)
+	(wire
+		(pts
+			(xy 82.55 204.47) (xy 85.09 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "708d7b98-9ab9-4a07-8b41-43dee5c8e30a")
 	)
 	(wire
 		(pts
@@ -18595,16 +18379,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 34.29) (xy 29.21 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "823a14fe-f568-4815-892f-e4a00ca6bc52")
-	)
-	(wire
-		(pts
 			(xy 292.1 52.07) (xy 293.37 52.07)
 		)
 		(stroke
@@ -18672,16 +18446,6 @@
 			(type default)
 		)
 		(uuid "871600ef-cfd4-435c-8aed-cb140088a934")
-	)
-	(wire
-		(pts
-			(xy 20.32 34.29) (xy 29.21 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87816335-0479-49cc-85f0-5b3bd2d7a150")
 	)
 	(wire
 		(pts
@@ -18985,6 +18749,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 34.29) (xy 35.56 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "932a7a70-cf91-4571-9e61-ec0b2bd9078e")
+	)
+	(wire
+		(pts
 			(xy 31.75 200.66) (xy 34.29 200.66)
 		)
 		(stroke
@@ -19112,6 +18886,16 @@
 			(type default)
 		)
 		(uuid "96c39b9e-9b54-4f87-bd72-ba59d42862e5")
+	)
+	(wire
+		(pts
+			(xy 29.21 36.83) (xy 29.21 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "976e1268-000d-4a0c-b3d6-8d1d54173b0e")
 	)
 	(wire
 		(pts
@@ -19355,6 +19139,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 36.83) (xy 16.51 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4886ef3-2b46-4ab9-bfdb-18bef40b4fd5")
+	)
+	(wire
+		(pts
 			(xy 15.24 124.46) (xy 64.77 124.46)
 		)
 		(stroke
@@ -19442,6 +19236,16 @@
 			(type default)
 		)
 		(uuid "ac906a52-cef8-4038-9063-2640765ed99c")
+	)
+	(wire
+		(pts
+			(xy 27.94 34.29) (xy 29.21 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acf1b053-58cd-467a-806a-b5fce6a8b84a")
 	)
 	(wire
 		(pts
@@ -19705,16 +19509,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 39.37) (xy 20.32 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba4b7f6c-ab16-4a8f-bc23-70efaaad7114")
-	)
-	(wire
-		(pts
 			(xy 292.1 80.01) (xy 302.26 80.01)
 		)
 		(stroke
@@ -19972,16 +19766,6 @@
 			(type default)
 		)
 		(uuid "c3b4056f-91b7-45d6-b860-56ad2652c2b5")
-	)
-	(polyline
-		(pts
-			(xy 317.754 166.37) (xy 325.882 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3dfb647-79c6-4c54-9479-ea3b486226a4")
 	)
 	(wire
 		(pts
@@ -20855,16 +20639,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 34.29) (xy 35.56 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e92e7f21-0c82-468f-a744-2d52f9404674")
-	)
-	(wire
-		(pts
 			(xy 110.49 34.29) (xy 109.22 34.29)
 		)
 		(stroke
@@ -21205,7 +20979,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 40.64) (xy 29.21 41.91)
+			(xy 35.56 40.64) (xy 35.56 41.91)
 		)
 		(stroke
 			(width 0)
@@ -21382,6 +21156,16 @@
 			(type default)
 		)
 		(uuid "fee25e05-834a-490e-9c36-0485f3da2002")
+	)
+	(wire
+		(pts
+			(xy 35.56 34.29) (xy 35.56 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffe68873-4b02-478b-b4b7-df98f765a1c0")
 	)
 	(wire
 		(pts
@@ -21940,7 +21724,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0178b46d-3f9e-47c5-a4f6-2ed82b49e082")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0101"
 			(at 226.06 152.4 0)
 			(effects
 				(font
@@ -22018,7 +21802,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR099")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -22151,7 +21935,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "029df28a-e723-44f8-b6fc-16494daf1d5a")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0143"
 			(at 340.36 111.76 0)
 			(effects
 				(font
@@ -22229,7 +22013,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0141")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -22245,7 +22029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03502c75-7345-4bde-b5c4-2dd7c814efb3")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR047"
 			(at 40.64 138.43 0)
 			(effects
 				(font
@@ -22296,7 +22080,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR045")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -22311,7 +22095,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03d82df7-e83c-44e4-a6a5-9c8a41f54e82")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR088"
 			(at 176.53 109.22 0)
 			(effects
 				(font
@@ -22361,7 +22145,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR086")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -22376,7 +22160,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04e865f6-08a1-46d3-b731-f643e356d897")
-		(property "Reference" "#PWR0158"
+		(property "Reference" "#PWR0160"
 			(at 388.62 66.04 0)
 			(effects
 				(font
@@ -22454,7 +22238,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0158")
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -22469,7 +22253,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "087c3266-f306-4ddd-905f-bdca47d3d9ba")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0104"
 			(at 234.95 152.4 0)
 			(effects
 				(font
@@ -22547,7 +22331,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0102")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -22678,7 +22462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a23282b-cd83-4b93-9dbe-e3e45ae62c4f")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0128"
 			(at 317.5 208.28 0)
 			(effects
 				(font
@@ -22756,7 +22540,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0126")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -23061,7 +22845,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0cf87f6f-6631-4453-868a-fb1d696cd92c")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR053"
 			(at 60.96 187.96 0)
 			(effects
 				(font
@@ -23140,7 +22924,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR051")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -23278,7 +23062,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f770bf5-35cb-4283-a2a5-d286b939e3a4")
-		(property "Reference" "#PWR0152"
+		(property "Reference" "#PWR0154"
 			(at 367.03 111.76 0)
 			(effects
 				(font
@@ -23356,7 +23140,130 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0152")
+					(reference "#PWR0154")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroWire2BoardConnectors:Molex_Nano-Fit_2x2_105314-2104_Horizontal")
+		(at 17.78 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1130d9f2-7b1c-4ffb-b5cf-67d39a5fe56d")
+		(property "Reference" "J2"
+			(at 15.494 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Molex_Nano-Fit_2x2_105314-2104_Horizontal"
+			(at 43.18 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Conn_Molex_Nano-Fit_2x2_105314-2104_Horizontal"
+			(at 43.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/1053142104_sd.pdf"
+			(at 43.18 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin Header, Vertical, Power, 2.5 mm, 2 Rows, 4 Contacts, Through Hole Horizontal, Nano-Fit"
+			(at 17.78 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "105314-2104"
+			(at 21.082 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 43.18 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 43.18 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 43.18 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7766aec9-cd3e-478b-acd2-f29753d1c2e9")
+		)
+		(pin "3"
+			(uuid "32c358b3-d598-45ee-9b46-02105745653e")
+		)
+		(pin "2"
+			(uuid "83cbb92c-4c70-4bbb-b9b4-f2cdeb433661")
+		)
+		(pin "1"
+			(uuid "b47a35b1-a1cf-4d5b-8ff0-c2a8f17fbb22")
+		)
+		(instances
+			(project ""
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -23372,7 +23279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "130aa8da-8dc2-4407-8bfa-d3ceedbbbc62")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR081"
 			(at 163.83 232.41 0)
 			(effects
 				(font
@@ -23422,7 +23329,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR079")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -23578,7 +23485,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15f70867-8420-4d9a-aa49-16659dc629fa")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR080"
 			(at 172.72 214.63 0)
 			(effects
 				(font
@@ -23657,7 +23564,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR078")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -23672,7 +23579,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "164afbc5-c395-42d9-9e8d-b26f3cc79dff")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0136"
 			(at 332.74 66.04 0)
 			(effects
 				(font
@@ -23750,7 +23657,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0134")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -24482,7 +24389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a74ae1e-ddca-4e46-9d7d-e363edfaac70")
-		(property "Reference" "#PWR0161"
+		(property "Reference" "#PWR0163"
 			(at 397.51 184.15 0)
 			(effects
 				(font
@@ -24532,7 +24439,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0161")
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
@@ -24826,7 +24733,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f331530-122b-4326-869b-e109dee6073d")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR071"
 			(at 132.08 189.23 0)
 			(effects
 				(font
@@ -24905,7 +24812,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR069")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -25062,7 +24969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20386f4e-ee22-42c3-b1a7-ce27d0c22603")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR079"
 			(at 173.99 113.03 0)
 			(effects
 				(font
@@ -25141,7 +25048,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR077")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -25156,7 +25063,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2113678b-b951-4087-b013-df8ab2c4c108")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR059"
 			(at 71.12 204.47 0)
 			(effects
 				(font
@@ -25235,7 +25142,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR057")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -25903,7 +25810,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2430df48-7b73-4a8d-9310-2a0e03e7cc12")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR082"
 			(at 165.1 109.22 0)
 			(effects
 				(font
@@ -25981,7 +25888,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR080")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -26487,7 +26394,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26dbc82f-d269-4517-bb9e-fda9fb00327a")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR077"
 			(at 156.21 265.43 0)
 			(effects
 				(font
@@ -26565,7 +26472,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR075")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -26720,7 +26627,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "286c0fbe-8506-4acb-8cb0-edfe14e31e83")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0126"
 			(at 308.61 182.88 0)
 			(effects
 				(font
@@ -26799,7 +26706,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0124")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -26815,7 +26722,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28db7956-32af-4982-a115-79f861253c90")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR060"
 			(at 63.5 250.19 0)
 			(effects
 				(font
@@ -26894,7 +26801,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR058")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -27068,7 +26975,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29a04d6d-5fd7-4182-b03d-3ad7fe62ff50")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0100"
 			(at 226.06 111.76 0)
 			(effects
 				(font
@@ -27146,7 +27053,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR098")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -27599,7 +27506,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d8b59f3-8461-48fb-90c5-cf14526fd793")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0115"
 			(at 262.89 152.4 0)
 			(effects
 				(font
@@ -27677,7 +27584,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0113")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -27819,7 +27726,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e4423e4-d173-4a03-9bfc-83327b7194f1")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0108"
 			(at 245.11 185.42 0)
 			(effects
 				(font
@@ -27897,7 +27804,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0106")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -28052,7 +27959,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2eeb47f9-41f5-47c0-a472-5cb198cd93eb")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR058"
 			(at 62.23 165.1 0)
 			(effects
 				(font
@@ -28130,7 +28037,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR056")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -28145,7 +28052,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2faeccfe-36d7-4d70-abfa-88e1bf1584eb")
-		(property "Reference" "#PWR0151"
+		(property "Reference" "#PWR0153"
 			(at 367.03 66.04 0)
 			(effects
 				(font
@@ -28223,7 +28130,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0151")
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -28389,7 +28296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32921856-f81a-40fd-84a0-29ae88d475c2")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR054"
 			(at 53.34 233.68 0)
 			(effects
 				(font
@@ -28439,7 +28346,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR052")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -28454,7 +28361,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "347c26c0-d49f-4f07-855a-98d1cfcffb00")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR091"
 			(at 187.96 265.43 0)
 			(effects
 				(font
@@ -28532,7 +28439,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR089")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -28547,7 +28454,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "365e09f6-4148-4a45-9c09-b2e4399ded82")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR098"
 			(at 217.17 152.4 0)
 			(effects
 				(font
@@ -28625,7 +28532,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR096")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -28782,7 +28689,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38446bdd-5c3d-49a5-9507-e5934c7f58ef")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0124"
 			(at 307.34 220.98 0)
 			(effects
 				(font
@@ -28861,7 +28768,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0122")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -29175,7 +29082,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d10c92b-7143-4b4f-ac5d-48612aa8ee2d")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR092"
 			(at 195.58 38.1 0)
 			(effects
 				(font
@@ -29227,7 +29134,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR090")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -29383,7 +29290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4063d610-f654-49c0-80e2-84e30a28e2cb")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR052"
 			(at 52.07 180.34 0)
 			(effects
 				(font
@@ -29433,7 +29340,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR050")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -29740,7 +29647,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42b602d3-4f17-4f58-b107-ea2e373a500a")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR097"
 			(at 217.17 111.76 0)
 			(effects
 				(font
@@ -29818,7 +29725,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR095")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -29955,7 +29862,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4341cfbe-95e6-41d5-a2b3-a1daa875a0b5")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0105"
 			(at 242.57 66.04 0)
 			(effects
 				(font
@@ -30033,7 +29940,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0103")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -30333,7 +30240,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "461f03a7-3c00-4aa6-9365-d9b7ea443893")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0125"
 			(at 307.34 250.19 0)
 			(effects
 				(font
@@ -30411,7 +30318,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0123")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -30426,7 +30333,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "493fa395-2b62-4ba0-9a3d-c381a69e77e3")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0103"
 			(at 233.68 111.76 0)
 			(effects
 				(font
@@ -30504,7 +30411,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0101")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -30809,6 +30716,130 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroPushbuttonSwitches:SW_KMR211NGLFS_SMD")
+		(at 85.09 207.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bd40f57-2cfa-4eff-9738-40f3d44c3cc8")
+		(property "Reference" "S4"
+			(at 78.74 210.566 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_KMR211NGLFS_SMD"
+			(at 77.47 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:SW_KMR211NGLFS_SMD"
+			(at 74.93 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.farnell.com/datasheets/2631211.pdf"
+			(at 72.39 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KMR211NGLFS"
+			(at 67.564 213.106 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 69.85 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 67.31 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 64.77 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebe4e6d6-a469-4bce-948c-b7f18ca53522")
+		)
+		(pin "2"
+			(uuid "34e41e9a-46a2-4d29-9fb4-b87903737d83")
+		)
+		(pin "3"
+			(uuid "eb3f874a-cc7a-468c-b0a0-7c419b3c7641")
+		)
+		(pin "4"
+			(uuid "132a3557-6abe-4ab2-b4fe-cfb845ea2d04")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_LTST-C190GKT")
 		(at 317.5 186.69 90)
 		(unit 1)
@@ -31064,7 +31095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ce1f951-6e51-4450-b20b-6732bf0f6834")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR084"
 			(at 165.1 187.96 0)
 			(effects
 				(font
@@ -31114,7 +31145,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR082")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -31129,7 +31160,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d472e85-dfb8-4159-adf0-8f7c65d6040e")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR076"
 			(at 156.21 149.86 0)
 			(effects
 				(font
@@ -31179,7 +31210,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR074")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -31333,7 +31364,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e12cb2b-d77f-4940-a5a2-c4e6c4dde44b")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR083"
 			(at 165.1 138.43 0)
 			(effects
 				(font
@@ -31411,7 +31442,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR081")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -31566,7 +31597,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f42b08a-b4f9-461a-9c3d-76b2b8c2081d")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0106"
 			(at 242.57 111.76 0)
 			(effects
 				(font
@@ -31644,7 +31675,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0104")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -31660,7 +31691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fc893ae-5997-4e36-ac43-800fd29ae72e")
-		(property "Reference" "#PWR0155"
+		(property "Reference" "#PWR0157"
 			(at 394.97 85.09 0)
 			(effects
 				(font
@@ -31739,7 +31770,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0155")
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -32036,7 +32067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51f541a8-ab09-4fb0-a207-a6674914bf3d")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0118"
 			(at 290.83 222.25 0)
 			(effects
 				(font
@@ -32086,7 +32117,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0116")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -32101,7 +32132,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51f7e355-5323-4b26-abae-f3593a0e4140")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR095"
 			(at 208.28 152.4 0)
 			(effects
 				(font
@@ -32179,7 +32210,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR093")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -32194,7 +32225,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52ecca03-aefd-41ac-b3e9-4ff52ae840e4")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR099"
 			(at 226.06 66.04 0)
 			(effects
 				(font
@@ -32272,7 +32303,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR097")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -32287,7 +32318,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "563ddcf3-db81-40dd-bd72-5d9d527acbbd")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR056"
 			(at 54.61 71.12 0)
 			(effects
 				(font
@@ -32365,7 +32396,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR054")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -32682,7 +32713,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57ed5dae-670a-4f12-bd83-8f6b0882215b")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0113"
 			(at 261.62 66.04 0)
 			(effects
 				(font
@@ -32760,7 +32791,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0111")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -32775,7 +32806,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a3812d2-8edf-4726-b1d6-0e8cb660dbb5")
-		(property "Reference" "#PWR0154"
+		(property "Reference" "#PWR0156"
 			(at 379.73 43.18 0)
 			(effects
 				(font
@@ -32853,7 +32884,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0154")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -32868,7 +32899,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b0d3a12-0c21-4f8d-933c-971b0c8d8ff6")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR057"
 			(at 60.96 273.05 0)
 			(effects
 				(font
@@ -32946,7 +32977,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR055")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -32961,7 +32992,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c7841a5-ddbb-42d6-b955-995077488045")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0110"
 			(at 252.73 66.04 0)
 			(effects
 				(font
@@ -33039,7 +33070,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0108")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -33255,7 +33286,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e9ecbff-5d8e-46f3-b596-6cc66dc9f0de")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR086"
 			(at 166.37 265.43 0)
 			(effects
 				(font
@@ -33333,7 +33364,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR084")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -33348,7 +33379,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f3f9232-9c2a-45e4-b48b-26b4b8ce2343")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR061"
 			(at 85.09 193.04 0)
 			(effects
 				(font
@@ -33398,7 +33429,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR059")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -33535,7 +33566,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "614cf0fe-af4b-4060-987b-130fcb0b5b83")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0111"
 			(at 252.73 111.76 0)
 			(effects
 				(font
@@ -33613,7 +33644,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0109")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -33628,7 +33659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6406d807-23d6-4f37-ae13-779323a46541")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0116"
 			(at 274.32 196.85 0)
 			(effects
 				(font
@@ -33706,7 +33737,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0114")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -33843,7 +33874,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "647c9aa6-7fa7-47b1-9373-55559f9c3f48")
-		(property "Reference" "#PWR0159"
+		(property "Reference" "#PWR0161"
 			(at 388.62 111.76 0)
 			(effects
 				(font
@@ -33921,7 +33952,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0159")
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)
@@ -34078,7 +34109,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "680cddb1-6edf-4699-9f42-602093af95ae")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0117"
 			(at 283.21 196.85 0)
 			(effects
 				(font
@@ -34156,7 +34187,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0115")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -34461,7 +34492,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68ec09b3-7632-4442-960c-2db86c2576f7")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR062"
 			(at 93.98 222.25 0)
 			(effects
 				(font
@@ -34540,7 +34571,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR060")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -34977,15 +35008,15 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 29.21 41.91 0)
+		(at 35.56 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6c67fa29-b986-4c12-82b2-50708b07fdc1")
-		(property "Reference" "#PWR042"
-			(at 29.21 48.26 0)
+		(property "Reference" "#PWR044"
+			(at 35.56 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34995,7 +35026,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 45.72 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35004,7 +35035,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 49.53 0)
+			(at 44.45 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35015,7 +35046,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 54.61 0)
+			(at 44.45 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35026,7 +35057,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 41.91 0)
+			(at 35.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35035,7 +35066,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 38.1 49.53 0)
+			(at 44.45 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35046,7 +35077,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 38.1 52.07 0)
+			(at 44.45 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35062,7 +35093,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR042")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -35877,7 +35908,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7281ae8a-34a6-423f-bb09-c155d942d7fd")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR0146"
 			(at 347.98 111.76 0)
 			(effects
 				(font
@@ -35955,7 +35986,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0144")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -36271,7 +36302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74ae1efa-feb0-435c-b03f-0d8257b80677")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR055"
 			(at 62.23 250.19 0)
 			(effects
 				(font
@@ -36350,7 +36381,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR053")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -36515,7 +36546,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7659ae6c-602d-4f2f-a26d-7e046aac55ff")
-		(property "Reference" "#PWR0160"
+		(property "Reference" "#PWR0162"
 			(at 389.89 153.67 0)
 			(effects
 				(font
@@ -36593,7 +36624,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0160")
+					(reference "#PWR0162")
 					(unit 1)
 				)
 			)
@@ -37162,7 +37193,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7942ece4-a868-4b87-a454-61c134274af7")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0123"
 			(at 297.18 196.85 0)
 			(effects
 				(font
@@ -37240,7 +37271,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0121")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -37371,7 +37402,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79d7a65b-bd03-4d3b-9d07-33c0efbd661e")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR049"
 			(at 49.53 205.74 0)
 			(effects
 				(font
@@ -37450,7 +37481,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR047")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -37465,7 +37496,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a12c244-8fa7-4674-a4a2-657b4ff83a01")
-		(property "Reference" "#PWR0153"
+		(property "Reference" "#PWR0155"
 			(at 367.03 153.67 0)
 			(effects
 				(font
@@ -37543,7 +37574,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0153")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -37837,7 +37868,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7cdbc623-ca4e-48f9-b820-315dcf0cde1b")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0139"
 			(at 337.82 196.85 0)
 			(effects
 				(font
@@ -37915,7 +37946,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0137")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -38053,7 +38084,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7eac4806-f4c6-4575-9212-f3637876ce46")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR093"
 			(at 208.28 66.04 0)
 			(effects
 				(font
@@ -38131,7 +38162,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR091")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -38572,7 +38603,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81066324-e8a1-4c5c-86d2-6de2e094c6ce")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR078"
 			(at 158.75 53.34 0)
 			(effects
 				(font
@@ -38650,7 +38681,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR076")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -38815,7 +38846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "823ef38f-6318-489c-9f4a-271283c4f679")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR048"
 			(at 40.64 185.42 0)
 			(effects
 				(font
@@ -38865,7 +38896,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR046")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -38880,7 +38911,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "844e6802-5cb5-47e9-b4a6-a7da2a455f65")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR065"
 			(at 105.41 157.48 0)
 			(effects
 				(font
@@ -38958,7 +38989,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR063")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -38973,7 +39004,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85b73d15-bab3-4803-8440-a80d66e3798e")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR042"
 			(at 15.24 135.89 0)
 			(effects
 				(font
@@ -39051,7 +39082,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR040")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -39331,7 +39362,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88df2630-30db-4352-bfd4-a38c7628347a")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0102"
 			(at 233.68 66.04 0)
 			(effects
 				(font
@@ -39409,7 +39440,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0100")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -39972,7 +40003,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "939bd8c9-2318-4442-8132-39b0a4c36629")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0114"
 			(at 261.62 111.76 0)
 			(effects
 				(font
@@ -40050,7 +40081,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0112")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -40065,7 +40096,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9487e445-2260-469d-90cc-e0b708dd996f")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0109"
 			(at 245.11 196.85 0)
 			(effects
 				(font
@@ -40143,7 +40174,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0107")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -40900,7 +40931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "966a3c3d-a424-43ba-8c73-f9b527690887")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0141"
 			(at 339.09 250.19 0)
 			(effects
 				(font
@@ -40978,7 +41009,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0139")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -40993,7 +41024,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "969ba720-2c0e-4a45-8d3d-5292bbe003b6")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0134"
 			(at 330.2 184.15 0)
 			(effects
 				(font
@@ -41045,7 +41076,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0132")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -41060,7 +41091,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96cad6c8-0e8e-45d3-90b7-509181f7928a")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR090"
 			(at 187.96 214.63 0)
 			(effects
 				(font
@@ -41139,7 +41170,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR088")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -41505,7 +41536,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98e6e65f-1b3f-4a8d-a864-226f7e7e9763")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR0150"
 			(at 355.6 196.85 0)
 			(effects
 				(font
@@ -41583,7 +41614,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0148")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -41598,7 +41629,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99d9f092-fd39-4663-8b04-db4d48963a6b")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR073"
 			(at 130.81 157.48 0)
 			(effects
 				(font
@@ -41676,7 +41707,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR071")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -42401,7 +42432,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0fe6871-7c48-4de7-b738-acd30adebe70")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR0147"
 			(at 349.25 153.67 0)
 			(effects
 				(font
@@ -42479,7 +42510,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0145")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -42494,7 +42525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2109451-1f8e-46ec-a09d-c524d3a4e1fe")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0121"
 			(at 293.37 111.76 0)
 			(effects
 				(font
@@ -42572,7 +42603,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0119")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -42709,7 +42740,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a318c21e-0a1b-4bc8-b461-8660b09e0a22")
-		(property "Reference" "#PWR0157"
+		(property "Reference" "#PWR0159"
 			(at 384.81 196.85 0)
 			(effects
 				(font
@@ -42787,7 +42818,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0157")
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -42990,7 +43021,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a46e75cc-575f-47ac-9708-352946d77b15")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR0149"
 			(at 355.6 111.76 0)
 			(effects
 				(font
@@ -43068,7 +43099,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0147")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -43353,7 +43384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a81a1e89-cfda-4ec8-8b51-98bf5391314f")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0133"
 			(at 323.85 153.67 0)
 			(effects
 				(font
@@ -43431,7 +43462,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0131")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -43595,7 +43626,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9393474-596d-4091-bcea-50284cd41401")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0130"
 			(at 321.31 111.76 0)
 			(effects
 				(font
@@ -43673,7 +43704,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0128")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -43688,7 +43719,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa2ed883-031a-4654-986b-7fcccb4195c9")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR072"
 			(at 124.46 157.48 0)
 			(effects
 				(font
@@ -43766,7 +43797,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR070")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -44091,7 +44122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac9666d1-5e33-4f34-9b7d-aed9d721c14d")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0138"
 			(at 334.01 153.67 0)
 			(effects
 				(font
@@ -44169,7 +44200,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0136")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -44177,15 +44208,15 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 22.86 41.91 0)
+		(at 16.51 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ad54d1aa-1d2f-4d10-b7d6-15ebe8a27b02")
-		(property "Reference" "#PWR041"
-			(at 22.86 48.26 0)
+		(property "Reference" "#PWR043"
+			(at 16.51 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44195,7 +44226,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 45.72 0)
+			(at 16.51 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44204,7 +44235,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 49.53 0)
+			(at 25.4 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44215,7 +44246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 54.61 0)
+			(at 25.4 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44226,7 +44257,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 41.91 0)
+			(at 16.51 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44235,7 +44266,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 31.75 49.53 0)
+			(at 25.4 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44246,7 +44277,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 31.75 52.07 0)
+			(at 25.4 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44262,7 +44293,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR041")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -44277,7 +44308,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae76fcd0-ce54-4ba4-ba08-dc3bd7c21e04")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0129"
 			(at 321.31 66.04 0)
 			(effects
 				(font
@@ -44355,7 +44386,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0127")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -44529,7 +44560,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0016690-640d-479f-b471-973e11dd006e")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR046"
 			(at 36.83 125.73 0)
 			(effects
 				(font
@@ -44607,7 +44638,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR044")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -44934,7 +44965,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b28e4beb-7735-458b-abfc-f1e735596ae0")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR064"
 			(at 109.22 250.19 0)
 			(effects
 				(font
@@ -45013,7 +45044,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR062")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -45169,7 +45200,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4899d9e-f4f5-4930-ae94-e0d13409bc88")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR050"
 			(at 43.18 280.67 0)
 			(effects
 				(font
@@ -45247,7 +45278,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR048")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -45525,126 +45556,6 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
 					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroWire2BoardConnectors:Molex_Nano-Fit_1x2_SMD_1054301202")
-		(at 20.32 34.29 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b602e002-857a-4f83-ba86-e173ac334c05")
-		(property "Reference" "J2"
-			(at 18.288 27.178 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Molex_Nano-Fit_1x2_SMD_1054301202"
-			(at -6.35 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Conn_Molex_Nano-Fit_1x2_SMD_1054301202"
-			(at -6.35 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/cad/3578051.pdf"
-			(at -6.35 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 20.32 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at -6.35 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "105430-1202"
-			(at 18.288 29.718 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at -6.35 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at -6.35 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41a56168-a400-445c-a5b9-f22320ce1169")
-		)
-		(pin "2"
-			(uuid "13f16809-55ca-411d-a872-752b0ad4794d")
-		)
-		(pin "MP"
-			(uuid "dc13fd3f-ef47-494e-bb31-e09ce4f5c44c")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -46547,7 +46458,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbd41bbd-4d1f-4863-aec5-ae0d939f07c0")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0112"
 			(at 254 152.4 0)
 			(effects
 				(font
@@ -46625,7 +46536,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0110")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -46640,7 +46551,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc2488b0-dea2-403a-879b-97e921c1c340")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0132"
 			(at 322.58 250.19 0)
 			(effects
 				(font
@@ -46718,7 +46629,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0130")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -47138,7 +47049,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf1dcb70-9dd3-428b-9a21-1e7356c45bb8")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR0145"
 			(at 347.98 66.04 0)
 			(effects
 				(font
@@ -47216,7 +47127,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0143")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -47530,7 +47441,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c11bde39-9003-43d5-968d-616226557c2f")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR087"
 			(at 177.8 214.63 0)
 			(effects
 				(font
@@ -47609,7 +47520,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR085")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -47923,7 +47834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4bf457b-a507-4f3a-a6a2-f2876aa6881a")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR045"
 			(at 36.83 114.3 0)
 			(effects
 				(font
@@ -47973,7 +47884,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR043")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -48184,7 +48095,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6af8b12-abdd-4ec7-a74b-2ee5ee4653d4")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0137"
 			(at 332.74 111.76 0)
 			(effects
 				(font
@@ -48262,7 +48173,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0135")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -48545,7 +48456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c99b2b11-078a-48d1-9279-05abb1e069bc")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR051"
 			(at 46.99 138.43 0)
 			(effects
 				(font
@@ -48595,7 +48506,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR049")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -48759,7 +48670,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca558690-8b46-4ad6-b13b-355e2e3e1910")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR094"
 			(at 208.28 111.76 0)
 			(effects
 				(font
@@ -48837,7 +48748,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR092")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -48852,7 +48763,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca9b67c2-e860-48f5-b5af-02848e2afae9")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR096"
 			(at 217.17 66.04 0)
 			(effects
 				(font
@@ -48930,7 +48841,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR094")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -49545,7 +49456,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d163a764-9538-4340-95c8-b5caa2f7e321")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0140"
 			(at 354.33 217.17 0)
 			(effects
 				(font
@@ -49624,7 +49535,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0138")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -49790,7 +49701,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d248febe-9e6e-4a60-b7df-29053eb2c837")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0120"
 			(at 293.37 66.04 0)
 			(effects
 				(font
@@ -49868,7 +49779,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0118")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -49876,7 +49787,7 @@
 	)
 	(symbol
 		(lib_id "antmicroTVSDiodes:DF2S30FS_SOD")
-		(at 29.21 35.56 270)
+		(at 35.56 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -49884,7 +49795,7 @@
 		(dnp no)
 		(uuid "d269ef27-c71d-4a69-a351-21838383054e")
 		(property "Reference" "D2"
-			(at 30.48 36.83 90)
+			(at 36.83 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49893,7 +49804,7 @@
 			)
 		)
 		(property "Value" "DF2S30FS_SOD"
-			(at 13.97 57.15 0)
+			(at 20.32 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49904,7 +49815,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:SOD-923"
-			(at 21.59 57.15 0)
+			(at 27.94 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49915,7 +49826,7 @@
 			)
 		)
 		(property "Datasheet" "https://toshiba.semicon-storage.com/info/DF2S30FS_datasheet_en_20211216.pdf?did=11156&prodName=DF2S30FS"
-			(at 19.05 57.15 0)
+			(at 25.4 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49926,7 +49837,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 35.56 0)
+			(at 35.56 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49935,7 +49846,7 @@
 			)
 		)
 		(property "Manufacturer" "Toshiba"
-			(at 16.51 57.15 0)
+			(at 22.86 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49946,7 +49857,7 @@
 			)
 		)
 		(property "MPN" "DF2S30FS"
-			(at 30.48 39.37 90)
+			(at 36.83 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49956,7 +49867,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 11.43 57.15 0)
+			(at 17.78 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49967,7 +49878,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 8.89 57.15 0)
+			(at 15.24 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50143,7 +50054,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2d16f8c-3270-4054-88cf-821e9094767c")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR068"
 			(at 118.11 157.48 0)
 			(effects
 				(font
@@ -50221,7 +50132,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR066")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -50526,7 +50437,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d454b5b5-ab9c-459b-8e58-283893243591")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR063"
 			(at 86.36 71.12 0)
 			(effects
 				(font
@@ -50604,7 +50515,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR061")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -50877,7 +50788,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da032a8c-80f6-4739-8062-f37ceb0fd234")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR089"
 			(at 176.53 138.43 0)
 			(effects
 				(font
@@ -50955,7 +50866,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR087")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -50970,7 +50881,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dcbc87e8-125e-404b-8e2c-9d3aa69c22b2")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR0148"
 			(at 355.6 66.04 0)
 			(effects
 				(font
@@ -51048,7 +50959,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0146")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -51063,7 +50974,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dcbdafa5-338d-4360-9f3a-0675f7159234")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR0151"
 			(at 356.87 153.67 0)
 			(effects
 				(font
@@ -51141,7 +51052,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0149")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -51272,7 +51183,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df436b03-43bb-406e-af75-82b67add5de9")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0122"
 			(at 293.37 152.4 0)
 			(effects
 				(font
@@ -51350,7 +51261,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0120")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -51365,7 +51276,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfd6be09-dea5-4652-9f56-414f9926df66")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0107"
 			(at 243.84 152.4 0)
 			(effects
 				(font
@@ -51443,7 +51354,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0105")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -52023,7 +51934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3f9b379-c99c-4cf1-b5b9-43afab91b7eb")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR074"
 			(at 146.05 265.43 0)
 			(effects
 				(font
@@ -52101,7 +52012,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR072")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -52460,7 +52371,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5002595-3d6e-470b-8ae2-b78e4639af83")
-		(property "Reference" "#PWR0156"
+		(property "Reference" "#PWR0158"
 			(at 379.73 129.54 0)
 			(effects
 				(font
@@ -52510,7 +52421,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0156")
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -52936,7 +52847,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea5daeca-3fca-4f47-9a0a-cb5bc2a817d6")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0131"
 			(at 322.58 220.98 0)
 			(effects
 				(font
@@ -52986,7 +52897,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0129")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -53001,7 +52912,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eaf4a4cd-f6d6-47bc-8d93-d6cb533247c1")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0135"
 			(at 330.2 196.85 0)
 			(effects
 				(font
@@ -53079,7 +52990,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0133")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -53094,7 +53005,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec3eb663-fab8-4431-8247-cd98fa065cac")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0142"
 			(at 340.36 66.04 0)
 			(effects
 				(font
@@ -53172,7 +53083,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0140")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -53478,128 +53389,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPushbuttonSwitches:SW_1-1825027-1_THT")
-		(at 85.09 207.01 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef77b7ff-5ae7-42d4-91f7-dc23a019ae8a")
-		(property "Reference" "SW2"
-			(at 81.28 210.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_1-1825027-1_THT"
-			(at 77.47 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:SW_1-1825027-1_THT"
-			(at 74.93 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1825027%7FH1%7Fpdf%7FEnglish%7FENG_CD_1825027_H1.pdf%7F1-1825027-1"
-			(at 72.39 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "1-1825027-1"
-			(at 81.28 213.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Manufacturer" "TE Connectivity"
-			(at 67.31 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 64.77 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 62.23 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b4e0dbd8-85cb-4062-9da0-006854b6a9a9")
-		)
-		(pin "2"
-			(uuid "3827fa2a-3e8d-4eb9-996a-f6f07e46eabb")
-		)
-		(pin "SH"
-			(uuid "d3dae4b8-4786-4124-8ab5-37d3829a985b")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:PWR_FLAG")
 		(at 297.18 179.07 0)
 		(unit 1)
@@ -53673,7 +53462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "efa9da53-c551-423e-897a-b53629a551f8")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR075"
 			(at 148.59 57.15 0)
 			(effects
 				(font
@@ -53751,7 +53540,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR073")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -53767,7 +53556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f059a58b-0aaa-447c-8e1d-681ced876023")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR070"
 			(at 123.19 181.61 0)
 			(effects
 				(font
@@ -53817,7 +53606,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR068")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -54115,7 +53904,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1e952a3-3e62-43f7-a79d-79e1a5902917")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0144"
 			(at 341.63 153.67 0)
 			(effects
 				(font
@@ -54193,7 +53982,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0142")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -54349,7 +54138,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3b83e99-0d36-457b-a04c-ee66b5b12900")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR085"
 			(at 166.37 166.37 0)
 			(effects
 				(font
@@ -54427,7 +54216,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR083")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -54570,7 +54359,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5a2de51-d243-4aa3-b13e-f4a4914ffd39")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR0152"
 			(at 363.22 196.85 0)
 			(effects
 				(font
@@ -54648,7 +54437,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0150")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -54663,7 +54452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f75b8041-ffaa-44c2-9efd-0ecf5d819a23")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR069"
 			(at 121.92 57.15 0)
 			(effects
 				(font
@@ -54741,7 +54530,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR067")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -54756,7 +54545,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f78b338c-d5c9-46af-be02-d3489c11a857")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0119"
 			(at 290.83 266.7 0)
 			(effects
 				(font
@@ -54834,7 +54623,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0117")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -54849,7 +54638,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc245b81-0976-4737-a577-ebc8d961ad73")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR066"
 			(at 116.84 250.19 0)
 			(effects
 				(font
@@ -54928,7 +54717,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR064")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -55206,7 +54995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff1dfa76-d061-484d-b93d-ee90ca94403a")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0127"
 			(at 317.5 177.8 0)
 			(effects
 				(font
@@ -55284,7 +55073,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR0125")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -55299,7 +55088,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff5d3192-b476-4976-91be-9e45607e77e9")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR067"
 			(at 111.76 157.48 0)
 			(effects
 				(font
@@ -55377,7 +55166,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "#PWR065")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
