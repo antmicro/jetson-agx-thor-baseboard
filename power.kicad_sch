@@ -14608,6 +14608,8 @@
 		(effects
 			(font
 				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
 			)
 		)
 		(uuid "1dfc9b0a-c40d-4aab-bb0f-9a38733d5de2")
@@ -14618,6 +14620,8 @@
 		(effects
 			(font
 				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
 			)
 		)
 		(uuid "1fa796ee-f7b5-42e7-a7e4-a0cade090fec")
@@ -14664,22 +14668,26 @@
 		)
 		(uuid "7b640b09-db51-40a2-ae4a-5810752f1067")
 	)
-	(text "3V3 STANDBY LDO"
+	(text "3V3 standby LDO"
 		(exclude_from_sim no)
 		(at 360.68 170.688 0)
 		(effects
 			(font
 				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
 			)
 		)
 		(uuid "8e5467b5-38c6-4d53-837d-471344a5e664")
 	)
-	(text "DISCHARGE CIRCUIT"
+	(text "Discharge circut"
 		(exclude_from_sim no)
 		(at 256.794 215.138 0)
 		(effects
 			(font
 				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
 			)
 		)
 		(uuid "8f5ac004-2eb6-4da9-9d81-75fdff00e6b3")
@@ -14786,6 +14794,8 @@
 		(effects
 			(font
 				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
 			)
 		)
 		(uuid "b45c1b68-71e7-43bb-a1b8-6b23ccbbc72f")
@@ -15216,12 +15226,6 @@
 		(uuid "7aa2404c-b46d-4b6b-b307-2aa12d760c83")
 	)
 	(junction
-		(at 16.51 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7be1e7ba-21d9-4965-b116-95c43843f859")
-	)
-	(junction
 		(at 252.73 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15232,6 +15236,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d26b915-37f9-437d-a579-4e250765edba")
+	)
+	(junction
+		(at 16.51 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7effd193-8f70-45a0-96dd-2619bfa6b40c")
 	)
 	(junction
 		(at 121.92 43.18)
@@ -16229,6 +16239,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 30.48) (xy 29.21 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1da80282-b713-4f3e-b833-169425d9f530")
+	)
+	(wire
+		(pts
 			(xy 146.05 251.46) (xy 146.05 252.73)
 		)
 		(stroke
@@ -16339,6 +16359,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 40.64) (xy 16.51 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23bad5e2-edc8-4551-8ea5-0f87bc8c8f12")
+	)
+	(wire
+		(pts
 			(xy 323.85 125.73) (xy 334.01 125.73)
 		)
 		(stroke
@@ -16399,7 +16429,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 38.1) (xy 16.51 36.83)
+			(xy 16.51 40.64) (xy 16.51 36.83)
 		)
 		(stroke
 			(width 0)
@@ -17046,6 +17076,16 @@
 			(type default)
 		)
 		(uuid "3f9b5d0a-db27-4a4f-8a2f-c244a54301f4")
+	)
+	(wire
+		(pts
+			(xy 29.21 36.83) (xy 29.21 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "400eb36f-f97c-43f8-8635-7e93d6d20b7b")
 	)
 	(wire
 		(pts
@@ -18239,6 +18279,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 41.91) (xy 16.51 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c7cd422-0fea-4844-9b1d-a9837373209d")
+	)
+	(wire
+		(pts
 			(xy 355.6 85.09) (xy 358.14 85.09)
 		)
 		(stroke
@@ -18516,6 +18566,16 @@
 			(type default)
 		)
 		(uuid "89c797ea-85f6-4009-b44c-8f479a59b7f7")
+	)
+	(wire
+		(pts
+			(xy 16.51 30.48) (xy 29.21 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89e8ecbf-4051-4bc5-a3e9-87a0bad3a4da")
 	)
 	(wire
 		(pts
@@ -18889,16 +18949,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 36.83) (xy 29.21 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "976e1268-000d-4a0c-b3d6-8d1d54173b0e")
-	)
-	(wire
-		(pts
 			(xy 59.69 110.49) (xy 64.77 110.49)
 		)
 		(stroke
@@ -19136,16 +19186,6 @@
 			(type default)
 		)
 		(uuid "a42380f4-77a8-4156-b6da-7dd1b5e721f8")
-	)
-	(wire
-		(pts
-			(xy 16.51 36.83) (xy 16.51 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4886ef3-2b46-4ab9-bfdb-18bef40b4fd5")
 	)
 	(wire
 		(pts
@@ -20626,6 +20666,16 @@
 			(type default)
 		)
 		(uuid "e85b2fa5-e7e6-4985-b10b-9a5ec16b1eb0")
+	)
+	(wire
+		(pts
+			(xy 16.51 34.29) (xy 16.51 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e87437a0-de41-4c0b-8a33-07958fbdd804")
 	)
 	(wire
 		(pts
@@ -44208,7 +44258,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 16.51 38.1 0)
+		(at 16.51 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -44216,7 +44266,7 @@
 		(dnp no)
 		(uuid "ad54d1aa-1d2f-4d10-b7d6-15ebe8a27b02")
 		(property "Reference" "#PWR043"
-			(at 16.51 44.45 0)
+			(at 16.51 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44226,7 +44276,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 16.51 41.91 0)
+			(at 16.51 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44235,7 +44285,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 45.72 0)
+			(at 25.4 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44246,7 +44296,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 50.8 0)
+			(at 25.4 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44257,7 +44307,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 16.51 38.1 0)
+			(at 16.51 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44266,7 +44316,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 25.4 45.72 0)
+			(at 25.4 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44277,7 +44327,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 25.4 48.26 0)
+			(at 25.4 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
