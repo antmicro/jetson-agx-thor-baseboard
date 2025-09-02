@@ -284,6 +284,9 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "USBSS"
+		(members "TX+" "TX-" "RX+" "RX-")
+	)
 	(text "SoM\n"
 		(exclude_from_sim no)
 		(at 215.646 25.146 0)
@@ -1897,8 +1900,8 @@
 		)
 	)
 	(sheet
-		(at 331.47 93.98)
-		(size 34.29 36.83)
+		(at 331.47 111.76)
+		(size 34.29 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1912,8 +1915,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "12c19ba5-8fdc-4775-a33b-e8b1ade01b0a")
-		(property "Sheetname" "USB Debug, DP"
-			(at 331.47 93.2684 0)
+		(property "Sheetname" "USB Debug, PD"
+			(at 331.47 111.0484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1921,7 +1924,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "usb_debug_dp.kicad_sch"
+		(property "Sheetfile" "usb_debug_pd.kicad_sch"
 			(at 331.47 131.3946 0)
 			(effects
 				(font
@@ -1933,7 +1936,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
-					(page "8")
+					(page "10")
 				)
 			)
 		)
@@ -2144,7 +2147,7 @@
 	)
 	(sheet
 		(at 331.47 33.02)
-		(size 34.29 38.1)
+		(size 34.29 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2158,7 +2161,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "3fd0fbfa-9a42-4c7b-8c1c-08c3e88df372")
-		(property "Sheetname" "USB"
+		(property "Sheetname" "USB Hub"
 			(at 331.47 32.3084 0)
 			(effects
 				(font
@@ -2167,8 +2170,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "usb.kicad_sch"
-			(at 331.47 71.7046 0)
+		(property "Sheetfile" "usb_hub.kicad_sch"
+			(at 331.47 52.6546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2301,7 +2304,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
-					(page "11")
+					(page "13")
 				)
 			)
 		)
@@ -2403,7 +2406,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
-					(page "9")
+					(page "11")
 				)
 			)
 		)
@@ -2919,7 +2922,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
-					(page "13")
+					(page "15")
 				)
 			)
 		)
@@ -3038,7 +3041,7 @@
 				(justify left)
 			)
 		)
-		(pin "SFI{SFI}" output
+		(pin "SFI{SFI}" bidirectional
 			(at 254 121.92 0)
 			(uuid "fe307368-68d2-4b10-bb76-906599b93632")
 			(effects
@@ -3078,10 +3081,92 @@
 				(justify left)
 			)
 		)
+		(pin "USB0{USB}" bidirectional
+			(at 254 67.31 0)
+			(uuid "4a9d3ee7-8f32-4f31-9627-6022a1454455")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBSS0{USBSS}" bidirectional
+			(at 254 69.85 0)
+			(uuid "e1b48237-8865-4317-9c0d-8ca97a39d839")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBSS1{USBSS}" bidirectional
+			(at 254 93.98 0)
+			(uuid "96c2dd2c-8cc3-4c43-9f82-cde4cfaed4ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBSS2{USBSS}" bidirectional
+			(at 254 45.72 0)
+			(uuid "b1ef9c5e-1339-4fa3-92a3-1eb19e35143b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 331.47 87.63)
+		(size 34.29 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "79924a89-4330-4c0a-9aa5-2a2f90ef321b")
+		(property "Sheetname" "USB DP Alt mode"
+			(at 331.47 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_dp.kicad_sch"
+			(at 331.47 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
+					(page "9")
 				)
 			)
 		)
@@ -3150,7 +3235,7 @@
 				(justify left)
 			)
 		)
-		(pin "SFI{SFI}" input
+		(pin "SFI{SFI}" bidirectional
 			(at 331.47 154.94 180)
 			(uuid "c40aaec9-f19a-4b48-856c-4596af9e5d28")
 			(effects
@@ -3173,7 +3258,49 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
-					(page "10")
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 331.47 62.23)
+		(size 34.29 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ee0c56cd-dc85-44e4-b5e6-458df3809c6c")
+		(property "Sheetname" "Recovery USB"
+			(at 331.47 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "recovery_usb.kicad_sch"
+			(at 331.47 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
+					(page "8")
 				)
 			)
 		)
@@ -3285,7 +3412,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
-					(page "12")
+					(page "14")
 				)
 			)
 		)
