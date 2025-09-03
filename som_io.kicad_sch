@@ -19000,6 +19000,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 270.51) (xy 262.89 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58384305-fc18-4f0e-999d-9c1351a121bb")
+	)
+	(wire
+		(pts
 			(xy 280.67 198.12) (xy 280.67 199.39)
 		)
 		(stroke
@@ -26064,7 +26074,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1098dc75-a117-4cea-b492-969a7df04efb")
 		(property "Reference" "#PWR0504"
 			(at 280.67 201.93 0)
@@ -26075,12 +26084,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V8_PER"
-			(at 280.67 193.04 0)
+		(property "Value" "+1V8"
+			(at 277.876 193.802 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -37401,7 +37411,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 262.89 266.7 0)
+		(at 262.89 270.51 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -37410,7 +37420,7 @@
 		(dnp no)
 		(uuid "aa0dd71a-dac8-4ee6-a2ee-fde538880624")
 		(property "Reference" "#PWR0502"
-			(at 254 269.24 0)
+			(at 254 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37421,7 +37431,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.89 270.51 0)
+			(at 262.89 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37430,7 +37440,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 274.32 0)
+			(at 254 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37441,7 +37451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 279.4 0)
+			(at 254 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37452,7 +37462,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 262.89 266.7 0)
+			(at 262.89 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37461,7 +37471,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 254 274.32 0)
+			(at 254 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37472,7 +37482,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 254 276.86 0)
+			(at 254 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41028,7 +41038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V8_PER"
+		(property "Value" "+1V8"
 			(at 262.89 245.11 0)
 			(effects
 				(font
