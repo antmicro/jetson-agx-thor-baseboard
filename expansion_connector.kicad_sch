@@ -11589,6 +11589,119 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicropower:VCC"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 85.09 36.83)
@@ -12576,7 +12689,7 @@
 		(uuid "920e8364-9ab2-48cf-bbc7-84d944a53976")
 	)
 	(junction
-		(at 154.94 124.46)
+		(at 152.4 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9227c9a1-2dd4-4ab6-b815-f51185277732")
@@ -16205,16 +16318,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 127) (xy 337.82 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ba63363-9379-48fd-81f0-7388c3a30aed")
-	)
-	(wire
-		(pts
 			(xy 295.91 134.62) (xy 295.91 138.43)
 		)
 		(stroke
@@ -16292,6 +16395,16 @@
 			(type default)
 		)
 		(uuid "2cfb52f7-5036-4b4d-af55-9985d3083287")
+	)
+	(wire
+		(pts
+			(xy 326.39 127) (xy 337.82 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cfecb01-42c7-4f08-a93b-a26fd5a4e5b8")
 	)
 	(wire
 		(pts
@@ -20965,7 +21078,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 124.46) (xy 168.91 124.46)
+			(xy 152.4 124.46) (xy 168.91 124.46)
 		)
 		(stroke
 			(width 0)
@@ -20995,7 +21108,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 124.46) (xy 154.94 125.73)
+			(xy 152.4 124.46) (xy 152.4 125.73)
 		)
 		(stroke
 			(width 0)
@@ -21055,7 +21168,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 121.92) (xy 154.94 124.46)
+			(xy 152.4 121.92) (xy 152.4 124.46)
 		)
 		(stroke
 			(width 0)
@@ -23543,6 +23656,16 @@
 		)
 		(uuid "79df5593-0798-4d45-b2c5-44e94996fe93")
 	)
+	(label "VDD_HV_CONN"
+		(at 326.39 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ddd5ff1-ffe8-4157-8e8f-2ff2cd4c8a9d")
+	)
 	(label "DP1.TX3-"
 		(at 74.93 124.46 0)
 		(effects
@@ -23973,8 +24096,8 @@
 		)
 		(uuid "d3e6f0b8-4684-47a9-b79e-8a50e06f8196")
 	)
-	(label "+12V_CONN"
-		(at 160.02 124.46 0)
+	(label "VDD_HV_CONN"
+		(at 157.48 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24012,16 +24135,6 @@
 			(justify left bottom)
 		)
 		(uuid "d774066f-a530-4d43-a393-c753c5fa2f98")
-	)
-	(label "+12V_CONN"
-		(at 328.93 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ddb7dccd-c0ce-4f7d-b451-b0e394d186b2")
 	)
 	(label "GPIO.16"
 		(at 313.69 129.54 180)
@@ -27056,7 +27169,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 154.94 130.81 0)
+		(at 152.4 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27064,7 +27177,7 @@
 		(dnp no)
 		(uuid "35a5911a-4697-49bc-b078-4fe84747162d")
 		(property "Reference" "#PWR0433"
-			(at 163.83 133.35 0)
+			(at 161.29 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27075,7 +27188,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 134.62 0)
+			(at 152.4 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27084,7 +27197,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 138.43 0)
+			(at 161.29 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27095,7 +27208,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 143.51 0)
+			(at 161.29 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27106,7 +27219,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 130.81 0)
+			(at 152.4 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27115,7 +27228,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 163.83 138.43 0)
+			(at 161.29 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27126,7 +27239,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 163.83 140.97 0)
+			(at 161.29 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39472,7 +39585,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0603:R_0R_22.4A_0603")
-		(at 154.94 121.92 90)
+		(at 152.4 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39480,7 +39593,7 @@
 		(dnp no)
 		(uuid "8e7dea24-3ab9-4b64-b634-61cc892b35f7")
 		(property "Reference" "R247"
-			(at 158.75 117.094 90)
+			(at 156.21 117.094 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39489,7 +39602,7 @@
 			)
 		)
 		(property "Value" "R_0R_22.4A_0603"
-			(at 146.05 119.38 0)
+			(at 143.51 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39499,7 +39612,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
-			(at 165.1 106.68 0)
+			(at 162.56 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39510,7 +39623,7 @@
 			)
 		)
 		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/pmr-jpw-e.pdf"
-			(at 167.64 106.68 0)
+			(at 165.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39521,7 +39634,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor"
-			(at 154.94 121.92 0)
+			(at 152.4 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39530,7 +39643,7 @@
 			)
 		)
 		(property "MPN" "PMR03EZPJ000"
-			(at 170.18 106.68 0)
+			(at 167.64 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39541,7 +39654,7 @@
 			)
 		)
 		(property "Manufacturer" "ROHM Semiconductor"
-			(at 172.72 106.68 0)
+			(at 170.18 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39552,7 +39665,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 157.48 119.38 90)
+			(at 154.94 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39561,7 +39674,7 @@
 			)
 		)
 		(property "Max. Curr." "22.4A"
-			(at 159.004 121.412 90)
+			(at 156.464 121.412 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39570,7 +39683,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 177.8 106.68 0)
+			(at 175.26 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39581,7 +39694,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 180.34 106.68 0)
+			(at 177.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39592,7 +39705,7 @@
 			)
 		)
 		(property "Tolerance" "template_tolerance"
-			(at 165.1 101.6 0)
+			(at 162.56 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40049,6 +40162,73 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5fb038ee-4d59-43de-81a4-b4c993aa7149"
 					(reference "C228")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:VCC")
+		(at 152.4 116.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbe5ab54-8449-43b7-acc2-07f22ddf9443")
+		(property "Reference" "#PWR0108"
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_SOM_HV"
+			(at 146.304 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0da0b671-27ff-4d43-8985-5a5746050b61")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5fb038ee-4d59-43de-81a4-b4c993aa7149"
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -40778,7 +40958,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_50V_X8L_0402")
-		(at 154.94 130.81 90)
+		(at 152.4 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40786,7 +40966,7 @@
 		(dnp no)
 		(uuid "e73359f8-8058-4a28-ab06-9be7a88da532")
 		(property "Reference" "C227"
-			(at 155.575 126.365 90)
+			(at 153.035 126.365 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40796,7 +40976,7 @@
 			)
 		)
 		(property "Value" "C_100n_50V_X8L_0402"
-			(at 177.8 115.57 0)
+			(at 175.26 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40807,7 +40987,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 180.34 115.57 0)
+			(at 177.8 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40818,7 +40998,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM155L8EH104KE07%23"
-			(at 182.88 115.57 0)
+			(at 180.34 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40829,7 +41009,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±10%, X8L"
-			(at 154.94 130.81 0)
+			(at 152.4 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40838,7 +41018,7 @@
 			)
 		)
 		(property "MPN" "GCM155L8EH104KE07D"
-			(at 185.42 115.57 0)
+			(at 182.88 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40849,7 +41029,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 155.575 130.175 90)
+			(at 153.035 130.175 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40859,7 +41039,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 165.1 115.57 0)
+			(at 162.56 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40870,7 +41050,7 @@
 			)
 		)
 		(property "Dielectric" "X8L"
-			(at 167.64 115.57 0)
+			(at 165.1 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40881,7 +41061,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 170.18 115.57 0)
+			(at 167.64 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40892,7 +41072,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 172.72 115.57 0)
+			(at 170.18 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40903,7 +41083,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 175.26 115.57 0)
+			(at 172.72 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41411,71 +41591,6 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5fb038ee-4d59-43de-81a4-b4c993aa7149"
 					(reference "#PWR0447")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:+12V")
-		(at 154.94 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc4f2c95-696f-4168-8307-db3b50b533e2")
-		(property "Reference" "#PWR0431"
-			(at 154.94 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 154.686 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "27b5caaf-a456-451a-8905-8957543dd0e1")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5fb038ee-4d59-43de-81a4-b4c993aa7149"
-					(reference "#PWR0431")
 					(unit 1)
 				)
 			)
