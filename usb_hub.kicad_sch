@@ -10437,7 +10437,7 @@
 		(uuid "36c67764-b83f-4b0a-a37e-b0b65afc70e7")
 	)
 	(no_connect
-		(at 194.31 152.4)
+		(at 194.31 151.13)
 		(uuid "3e26d624-de9d-442f-aad5-10080d41fd84")
 	)
 	(no_connect
@@ -10445,7 +10445,7 @@
 		(uuid "428a4b8f-2856-4f4f-8dc1-57d48b28e767")
 	)
 	(no_connect
-		(at 194.31 160.02)
+		(at 194.31 161.29)
 		(uuid "46833ebe-ebb8-491e-8580-f530bd2b185e")
 	)
 	(no_connect
@@ -10469,7 +10469,7 @@
 		(uuid "7af125e5-d83f-4e5e-9e6c-dc08de8983ad")
 	)
 	(no_connect
-		(at 194.31 157.48)
+		(at 194.31 158.75)
 		(uuid "8ffac03f-3938-4e7d-8806-0067dbdbc8f4")
 	)
 	(no_connect
@@ -10533,7 +10533,7 @@
 		(uuid "e25ee833-2fa7-4127-af8b-14240c4cdcb2")
 	)
 	(no_connect
-		(at 194.31 149.86)
+		(at 194.31 148.59)
 		(uuid "e34915a1-6e36-42ed-a90e-05ec30284a44")
 	)
 	(no_connect
@@ -11638,16 +11638,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 149.86) (xy 194.31 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a5e615d-4256-4700-8981-7db2ba0bfbce")
-	)
-	(wire
-		(pts
 			(xy 124.46 67.31) (xy 138.43 67.31)
 		)
 		(stroke
@@ -12735,16 +12725,6 @@
 			(type default)
 		)
 		(uuid "7f24cce5-1449-4b3b-bd1f-9c847aa37408")
-	)
-	(polyline
-		(pts
-			(xy 186.69 204.47) (xy 185.42 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "809fc5d1-05a7-441b-8d59-eed46fd0cf72")
 	)
 	(wire
 		(pts
@@ -13928,16 +13908,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 152.4) (xy 194.31 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2ccce89-d02b-4513-b35d-c0bbeb2320e7")
-	)
-	(wire
-		(pts
 			(xy 287.02 158.75) (xy 297.18 158.75)
 		)
 		(stroke
@@ -14868,16 +14838,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 160.02) (xy 194.31 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f23b4bf2-7cfd-4450-ba3d-4328282c89e2")
-	)
-	(wire
-		(pts
 			(xy 337.82 41.91) (xy 337.82 43.18)
 		)
 		(stroke
@@ -15296,7 +15256,7 @@
 		)
 		(uuid "25814532-bb6b-4a90-9331-3f8c29b0b62f")
 	)
-	(label "SPI_{HUB_DEBUG}.~{CS}"
+	(label "SPI_{HUB_DEBUG}.~{CS0}"
 		(at 55.88 279.4 0)
 		(effects
 			(font
@@ -15896,7 +15856,7 @@
 		)
 		(uuid "c9379e81-b8a9-4eb5-8f3f-fc820fce883e")
 	)
-	(label "SPI_{HUB_DEBUG}.SCLK"
+	(label "SPI_{HUB_DEBUG}.SCK"
 		(at 55.88 276.86 0)
 		(effects
 			(font
@@ -16188,7 +16148,7 @@
 		(uuid "07c7c1cb-dc83-4f5a-8c13-b38cdce93642")
 	)
 	(hierarchical_label "USB2{USB}"
-		(shape input)
+		(shape bidirectional)
 		(at 110.49 82.55 180)
 		(effects
 			(font
@@ -16221,7 +16181,7 @@
 		(uuid "6c939760-8ac4-4a74-9e05-90d7d9d8384b")
 	)
 	(hierarchical_label "I2C_{SYS}{I2C}"
-		(shape input)
+		(shape bidirectional)
 		(at 119.38 132.08 180)
 		(effects
 			(font
@@ -16254,7 +16214,7 @@
 		(uuid "c2ad4e19-fa7c-4a34-8ff5-a90598403a09")
 	)
 	(hierarchical_label "USBSS2{USBSS}"
-		(shape input)
+		(shape bidirectional)
 		(at 110.49 72.39 180)
 		(effects
 			(font
