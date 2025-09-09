@@ -19026,6 +19026,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 118.11) (xy 152.4 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f8d1f54-2bae-4b45-bd7e-c0db2058867b")
+	)
+	(wire
+		(pts
 			(xy 172.72 99.06) (xy 172.72 106.68)
 		)
 		(stroke
@@ -20493,16 +20503,6 @@
 			(type default)
 		)
 		(uuid "b356500a-8021-4964-8fe6-47e93440e7c9")
-	)
-	(wire
-		(pts
-			(xy 152.4 118.11) (xy 152.4 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b35b2709-3b55-4202-bc0f-d50025e745f9")
 	)
 	(wire
 		(pts
@@ -24589,6 +24589,73 @@
 			(justify left)
 		)
 		(uuid "f7940ced-1e69-44e5-9616-a7a9f622a4a5")
+	)
+	(symbol
+		(lib_id "antmicropower:VCC")
+		(at 152.4 116.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04bdda83-20fb-4896-930b-d0ebb1fc1599")
+		(property "Reference" "#PWR0107"
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYS_VIN_HV"
+			(at 147.066 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41a322ca-e030-4d6a-86b5-1ebd9030e335")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5fb038ee-4d59-43de-81a4-b4c993aa7149"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
@@ -39590,7 +39657,7 @@
 		(dnp no)
 		(uuid "8e7dea24-3ab9-4b64-b634-61cc892b35f7")
 		(property "Reference" "R247"
-			(at 156.21 116.332 90)
+			(at 156.21 117.094 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39662,7 +39729,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 154.94 118.618 90)
+			(at 154.94 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39671,7 +39738,7 @@
 			)
 		)
 		(property "Max. Curr." "22.4A"
-			(at 156.464 120.65 90)
+			(at 156.464 121.412 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41427,73 +41494,6 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5fb038ee-4d59-43de-81a4-b4c993aa7149"
 					(reference "C227")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:VCC")
-		(at 152.4 116.84 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f08c350d-8fe1-4f9c-940b-d5da6e0d339c")
-		(property "Reference" "#PWR0107"
-			(at 152.4 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SYS_VIN_HV"
-			(at 147.066 112.522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5904e43-fd16-4e5a-8326-5a0b9b045355")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5fb038ee-4d59-43de-81a4-b4c993aa7149"
-					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
