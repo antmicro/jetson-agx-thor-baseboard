@@ -15076,6 +15076,217 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicroCapacitors0402:C_10u_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 20.32 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "C_10u_0402"
+				(at 20.32 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+				(at 20.32 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402MRX5R5BB106"
+				(at 20.32 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CC0402MRX5R5BB106"
+				(at 20.32 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 20.32 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 20.32 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "10u"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Voltage" ""
+				(at 20.32 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" ""
+				(at 20.32 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, MLCC, CERAMIC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_10u_0402_0_1"
+				(polyline
+					(pts
+						(xy 2.032 -1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.524) (xy 3.048 1.524)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_10u_0402_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicroCapacitors0402:C_1u_25V_0402"
 			(pin_numbers
 				(hide yes)
@@ -15287,7 +15498,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroCapacitors0603:C_10u_0603"
+		(symbol "antmicroCapacitors0603:C_22u_10V_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -15307,7 +15518,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "C_10u_0603"
+			(property "Value" "C_22u_10V_0603"
 				(at 20.32 -10.16 0)
 				(effects
 					(font
@@ -15329,7 +15540,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM188R61A106KE69%23"
+			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM188R61A226ME15%23"
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -15340,7 +15551,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 10 V, 0603 [1608 Metric], ± 10%, X5R, GRM Series"
+			(property "Description" "22 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -15349,7 +15560,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "GRM188R61A106KE69D"
+			(property "MPN" "GRM188R61A226ME15D"
 				(at 20.32 -17.78 0)
 				(effects
 					(font
@@ -15393,7 +15604,7 @@
 					(hide yes)
 				)
 			)
-			(property "Val" "10u"
+			(property "Val" "22u"
 				(at 20.32 -7.62 0)
 				(effects
 					(font
@@ -15403,7 +15614,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Voltage" ""
+			(property "Voltage" "10V"
 				(at 20.32 -27.94 0)
 				(effects
 					(font
@@ -15413,7 +15624,7 @@
 					(hide yes)
 				)
 			)
-			(property "Dielectric" "template_dielectric"
+			(property "Dielectric" ""
 				(at 20.32 -30.48 0)
 				(effects
 					(font
@@ -15423,7 +15634,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "0603, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
+			(property "ki_keywords" "RESISTOR, PASSIVE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -15432,7 +15643,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_10u_0603_0_1"
+			(symbol "C_22u_10V_0603_0_1"
 				(polyline
 					(pts
 						(xy 2.032 -1.524) (xy 2.032 1.524)
@@ -15458,7 +15669,7 @@
 					)
 				)
 			)
-			(symbol "C_10u_0603_1_1"
+			(symbol "C_22u_10V_0603_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.032)
@@ -15679,226 +15890,6 @@
 				)
 			)
 			(symbol "C_22u_25V_0805_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "antmicroCapacitorsmisc:C_22u_6.3V_X7R_0805"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 20.32 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "C_22u_6.3V_X7R_0805"
-				(at 20.32 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:C_0805_2012Metric"
-				(at 20.32 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.murata.com/en-eu/products/productdetail?partno=GRM21BZ70J226ME44%23"
-				(at 20.32 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22 uF 6.3 VDC 20% 0805 X7R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "GRM21BZ70J226ME44L"
-				(at 20.32 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Murata"
-				(at 20.32 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 20.32 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 20.32 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "22u"
-				(at 20.32 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Voltage" "6.3V"
-				(at 20.32 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Dielectric" "X7R"
-				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Public" "False"
-				(at 20.32 -33.02 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "0805, SMT, CAPACITOR, PASSIVE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_22u_6.3V_X7R_0805_0_1"
-				(polyline
-					(pts
-						(xy 2.032 -1.524) (xy 2.032 1.524)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.524) (xy 3.048 1.524)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_22u_6.3V_X7R_0805_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.032)
@@ -25077,7 +25068,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitorsmisc:C_22u_6.3V_X7R_0805")
+		(lib_id "antmicroCapacitors0603:C_22u_10V_0603")
 		(at 137.16 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25086,7 +25077,7 @@
 		(dnp no)
 		(uuid "00f5cd37-3e49-4b5d-aa5b-ac77454c3e63")
 		(property "Reference" "C21"
-			(at 139.7 43.1736 90)
+			(at 139.7 44.4436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25095,7 +25086,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_22u_6.3V_X7R_0805"
+		(property "Value" "C_22u_10V_0603"
 			(at 147.32 27.94 0)
 			(effects
 				(font
@@ -25106,7 +25097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0805_2012Metric"
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
 			(at 149.86 27.94 0)
 			(effects
 				(font
@@ -25117,7 +25108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/en-eu/products/productdetail?partno=GRM21BZ70J226ME44%23"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM188R61A226ME15%23"
 			(at 152.4 27.94 0)
 			(effects
 				(font
@@ -25128,7 +25119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22 uF 6.3 VDC 20% 0805 X7R"
+		(property "Description" "22 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 137.16 48.26 0)
 			(effects
 				(font
@@ -25137,7 +25128,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM21BZ70J226ME44L"
+		(property "MPN" "GRM188R61A226ME15D"
 			(at 154.94 27.94 0)
 			(effects
 				(font
@@ -25182,7 +25173,7 @@
 			)
 		)
 		(property "Val" "22u"
-			(at 139.7 45.7136 90)
+			(at 139.7 46.9836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25191,13 +25182,14 @@
 				(justify right)
 			)
 		)
-		(property "Voltage" "6.3V"
-			(at 139.7 48.2535 90)
+		(property "Voltage" "10V"
+			(at 165.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Dielectric" "X7R"
@@ -26741,7 +26733,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitorsmisc:C_22u_6.3V_X7R_0805")
+		(lib_id "antmicroCapacitors0603:C_22u_10V_0603")
 		(at 116.84 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26750,7 +26742,7 @@
 		(dnp no)
 		(uuid "18645fd2-5e85-49ab-9134-7ec3755b808e")
 		(property "Reference" "C19"
-			(at 119.38 43.1736 90)
+			(at 119.38 44.4436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26759,7 +26751,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_22u_6.3V_X7R_0805"
+		(property "Value" "C_22u_10V_0603"
 			(at 127 27.94 0)
 			(effects
 				(font
@@ -26770,7 +26762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0805_2012Metric"
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
 			(at 129.54 27.94 0)
 			(effects
 				(font
@@ -26781,7 +26773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/en-eu/products/productdetail?partno=GRM21BZ70J226ME44%23"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM188R61A226ME15%23"
 			(at 132.08 27.94 0)
 			(effects
 				(font
@@ -26792,7 +26784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22 uF 6.3 VDC 20% 0805 X7R"
+		(property "Description" "22 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 116.84 48.26 0)
 			(effects
 				(font
@@ -26801,7 +26793,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM21BZ70J226ME44L"
+		(property "MPN" "GRM188R61A226ME15D"
 			(at 134.62 27.94 0)
 			(effects
 				(font
@@ -26846,7 +26838,7 @@
 			)
 		)
 		(property "Val" "22u"
-			(at 119.38 45.7136 90)
+			(at 119.38 46.9836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26855,13 +26847,14 @@
 				(justify right)
 			)
 		)
-		(property "Voltage" "6.3V"
-			(at 119.38 48.2535 90)
+		(property "Voltage" "10V"
+			(at 144.78 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Dielectric" "X7R"
@@ -28426,7 +28419,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitorsmisc:C_22u_6.3V_X7R_0805")
+		(lib_id "antmicroCapacitors0603:C_22u_10V_0603")
 		(at 154.94 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28435,7 +28428,7 @@
 		(dnp no)
 		(uuid "30c8b794-24ca-48e6-aacf-2c9e3d589aa9")
 		(property "Reference" "C23"
-			(at 157.48 43.1736 90)
+			(at 157.48 44.4436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28444,7 +28437,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_22u_6.3V_X7R_0805"
+		(property "Value" "C_22u_10V_0603"
 			(at 165.1 27.94 0)
 			(effects
 				(font
@@ -28455,7 +28448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0805_2012Metric"
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
 			(at 167.64 27.94 0)
 			(effects
 				(font
@@ -28466,7 +28459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/en-eu/products/productdetail?partno=GRM21BZ70J226ME44%23"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM188R61A226ME15%23"
 			(at 170.18 27.94 0)
 			(effects
 				(font
@@ -28477,7 +28470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22 uF 6.3 VDC 20% 0805 X7R"
+		(property "Description" "22 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 154.94 48.26 0)
 			(effects
 				(font
@@ -28486,7 +28479,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM21BZ70J226ME44L"
+		(property "MPN" "GRM188R61A226ME15D"
 			(at 172.72 27.94 0)
 			(effects
 				(font
@@ -28531,7 +28524,7 @@
 			)
 		)
 		(property "Val" "22u"
-			(at 157.48 45.7136 90)
+			(at 157.48 46.9836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28540,13 +28533,14 @@
 				(justify right)
 			)
 		)
-		(property "Voltage" "6.3V"
-			(at 157.48 48.2535 90)
+		(property "Voltage" "10V"
+			(at 182.88 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Dielectric" "X7R"
@@ -30106,7 +30100,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0603:C_10u_0603")
+		(lib_id "antmicroCapacitors0402:C_10u_0402")
 		(at 68.58 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30125,7 +30119,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_10u_0603"
+		(property "Value" "C_10u_0402"
 			(at 78.74 27.94 0)
 			(effects
 				(font
@@ -30136,7 +30130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
 			(at 81.28 27.94 0)
 			(effects
 				(font
@@ -30147,7 +30141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM188R61A106KE69%23"
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402MRX5R5BB106"
 			(at 83.82 27.94 0)
 			(effects
 				(font
@@ -30158,7 +30152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 10 V, 0603 [1608 Metric], ± 10%, X5R, GRM Series"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
 			(at 68.58 48.26 0)
 			(effects
 				(font
@@ -30167,7 +30161,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R61A106KE69D"
+		(property "MPN" "CC0402MRX5R5BB106"
 			(at 86.36 27.94 0)
 			(effects
 				(font
@@ -30178,7 +30172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "YAGEO"
 			(at 88.9 27.94 0)
 			(effects
 				(font
@@ -30950,7 +30944,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitorsmisc:C_22u_6.3V_X7R_0805")
+		(lib_id "antmicroCapacitors0603:C_22u_10V_0603")
 		(at 127 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30959,7 +30953,7 @@
 		(dnp no)
 		(uuid "571ef5d2-60ad-47f8-a75a-0be0b9b5f5b0")
 		(property "Reference" "C20"
-			(at 129.54 43.1736 90)
+			(at 129.54 44.4436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30968,7 +30962,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_22u_6.3V_X7R_0805"
+		(property "Value" "C_22u_10V_0603"
 			(at 137.16 27.94 0)
 			(effects
 				(font
@@ -30979,7 +30973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0805_2012Metric"
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
 			(at 139.7 27.94 0)
 			(effects
 				(font
@@ -30990,7 +30984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/en-eu/products/productdetail?partno=GRM21BZ70J226ME44%23"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM188R61A226ME15%23"
 			(at 142.24 27.94 0)
 			(effects
 				(font
@@ -31001,7 +30995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22 uF 6.3 VDC 20% 0805 X7R"
+		(property "Description" "22 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 127 48.26 0)
 			(effects
 				(font
@@ -31010,7 +31004,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM21BZ70J226ME44L"
+		(property "MPN" "GRM188R61A226ME15D"
 			(at 144.78 27.94 0)
 			(effects
 				(font
@@ -31055,7 +31049,7 @@
 			)
 		)
 		(property "Val" "22u"
-			(at 129.54 45.7136 90)
+			(at 129.54 46.9836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31064,13 +31058,14 @@
 				(justify right)
 			)
 		)
-		(property "Voltage" "6.3V"
-			(at 129.54 48.2535 90)
+		(property "Voltage" "10V"
+			(at 154.94 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Dielectric" "X7R"
@@ -32942,7 +32937,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0603:C_10u_0603")
+		(lib_id "antmicroCapacitors0402:C_10u_0402")
 		(at 77.47 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32961,7 +32956,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_10u_0603"
+		(property "Value" "C_10u_0402"
 			(at 87.63 27.94 0)
 			(effects
 				(font
@@ -32972,7 +32967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
 			(at 90.17 27.94 0)
 			(effects
 				(font
@@ -32983,7 +32978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM188R61A106KE69%23"
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402MRX5R5BB106"
 			(at 92.71 27.94 0)
 			(effects
 				(font
@@ -32994,7 +32989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 10 V, 0603 [1608 Metric], ± 10%, X5R, GRM Series"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
 			(at 77.47 48.26 0)
 			(effects
 				(font
@@ -33003,7 +32998,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R61A106KE69D"
+		(property "MPN" "CC0402MRX5R5BB106"
 			(at 95.25 27.94 0)
 			(effects
 				(font
@@ -33014,7 +33009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "YAGEO"
 			(at 97.79 27.94 0)
 			(effects
 				(font
@@ -35542,7 +35537,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitorsmisc:C_22u_6.3V_X7R_0805")
+		(lib_id "antmicroCapacitors0603:C_22u_10V_0603")
 		(at 146.05 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -35551,7 +35546,7 @@
 		(dnp no)
 		(uuid "94ad4425-e3d2-4040-b351-7b921d58ae6c")
 		(property "Reference" "C22"
-			(at 148.59 43.1736 90)
+			(at 148.59 44.4436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35560,7 +35555,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_22u_6.3V_X7R_0805"
+		(property "Value" "C_22u_10V_0603"
 			(at 156.21 27.94 0)
 			(effects
 				(font
@@ -35571,7 +35566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0805_2012Metric"
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
 			(at 158.75 27.94 0)
 			(effects
 				(font
@@ -35582,7 +35577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/en-eu/products/productdetail?partno=GRM21BZ70J226ME44%23"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM188R61A226ME15%23"
 			(at 161.29 27.94 0)
 			(effects
 				(font
@@ -35593,7 +35588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22 uF 6.3 VDC 20% 0805 X7R"
+		(property "Description" "22 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 146.05 48.26 0)
 			(effects
 				(font
@@ -35602,7 +35597,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM21BZ70J226ME44L"
+		(property "MPN" "GRM188R61A226ME15D"
 			(at 163.83 27.94 0)
 			(effects
 				(font
@@ -35647,7 +35642,7 @@
 			)
 		)
 		(property "Val" "22u"
-			(at 148.59 45.7136 90)
+			(at 148.59 46.9836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35656,13 +35651,14 @@
 				(justify right)
 			)
 		)
-		(property "Voltage" "6.3V"
-			(at 148.59 48.2535 90)
+		(property "Voltage" "10V"
+			(at 173.99 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Dielectric" "X7R"
@@ -36849,7 +36845,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0603:C_10u_0603")
+		(lib_id "antmicroCapacitors0402:C_10u_0402")
 		(at 86.36 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -36868,7 +36864,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_10u_0603"
+		(property "Value" "C_10u_0402"
 			(at 96.52 27.94 0)
 			(effects
 				(font
@@ -36879,7 +36875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
 			(at 99.06 27.94 0)
 			(effects
 				(font
@@ -36890,7 +36886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM188R61A106KE69%23"
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402MRX5R5BB106"
 			(at 101.6 27.94 0)
 			(effects
 				(font
@@ -36901,7 +36897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 10 V, 0603 [1608 Metric], ± 10%, X5R, GRM Series"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
 			(at 86.36 48.26 0)
 			(effects
 				(font
@@ -36910,7 +36906,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R61A106KE69D"
+		(property "MPN" "CC0402MRX5R5BB106"
 			(at 104.14 27.94 0)
 			(effects
 				(font
@@ -36921,7 +36917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "YAGEO"
 			(at 106.68 27.94 0)
 			(effects
 				(font
@@ -37397,7 +37393,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0603:C_10u_0603")
+		(lib_id "antmicroCapacitors0402:C_10u_0402")
 		(at 173.99 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -37415,7 +37411,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_10u_0603"
+		(property "Value" "C_10u_0402"
 			(at 184.15 27.94 0)
 			(effects
 				(font
@@ -37426,7 +37422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
 			(at 186.69 27.94 0)
 			(effects
 				(font
@@ -37437,7 +37433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM188R61A106KE69%23"
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402MRX5R5BB106"
 			(at 189.23 27.94 0)
 			(effects
 				(font
@@ -37448,7 +37444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 10 V, 0603 [1608 Metric], ± 10%, X5R, GRM Series"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
 			(at 173.99 48.26 0)
 			(effects
 				(font
@@ -37457,7 +37453,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R61A106KE69D"
+		(property "MPN" "CC0402MRX5R5BB106"
 			(at 191.77 27.94 0)
 			(effects
 				(font
@@ -37468,7 +37464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "YAGEO"
 			(at 194.31 27.94 0)
 			(effects
 				(font
@@ -41155,7 +41151,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0603:C_10u_0603")
+		(lib_id "antmicroCapacitors0402:C_10u_0402")
 		(at 59.69 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -41174,7 +41170,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_10u_0603"
+		(property "Value" "C_10u_0402"
 			(at 69.85 27.94 0)
 			(effects
 				(font
@@ -41185,7 +41181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
 			(at 72.39 27.94 0)
 			(effects
 				(font
@@ -41196,7 +41192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM188R61A106KE69%23"
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402MRX5R5BB106"
 			(at 74.93 27.94 0)
 			(effects
 				(font
@@ -41207,7 +41203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 10 V, 0603 [1608 Metric], ± 10%, X5R, GRM Series"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
 			(at 59.69 48.26 0)
 			(effects
 				(font
@@ -41216,7 +41212,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R61A106KE69D"
+		(property "MPN" "CC0402MRX5R5BB106"
 			(at 77.47 27.94 0)
 			(effects
 				(font
@@ -41227,7 +41223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "YAGEO"
 			(at 80.01 27.94 0)
 			(effects
 				(font
@@ -42466,7 +42462,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0603:C_10u_0603")
+		(lib_id "antmicroCapacitors0402:C_10u_0402")
 		(at 50.8 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -42485,7 +42481,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_10u_0603"
+		(property "Value" "C_10u_0402"
 			(at 60.96 27.94 0)
 			(effects
 				(font
@@ -42496,7 +42492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
 			(at 63.5 27.94 0)
 			(effects
 				(font
@@ -42507,7 +42503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM188R61A106KE69%23"
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402MRX5R5BB106"
 			(at 66.04 27.94 0)
 			(effects
 				(font
@@ -42518,7 +42514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 10 V, 0603 [1608 Metric], ± 10%, X5R, GRM Series"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
 			(at 50.8 48.26 0)
 			(effects
 				(font
@@ -42527,7 +42523,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R61A106KE69D"
+		(property "MPN" "CC0402MRX5R5BB106"
 			(at 68.58 27.94 0)
 			(effects
 				(font
@@ -42538,7 +42534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "YAGEO"
 			(at 71.12 27.94 0)
 			(effects
 				(font
@@ -43027,7 +43023,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitorsmisc:C_22u_6.3V_X7R_0805")
+		(lib_id "antmicroCapacitors0603:C_22u_10V_0603")
 		(at 165.1 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -43036,7 +43032,7 @@
 		(dnp no)
 		(uuid "ec644051-8673-4f65-b67d-27fecba2e22a")
 		(property "Reference" "C24"
-			(at 167.64 43.1736 90)
+			(at 167.64 44.4436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43045,7 +43041,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_22u_6.3V_X7R_0805"
+		(property "Value" "C_22u_10V_0603"
 			(at 175.26 27.94 0)
 			(effects
 				(font
@@ -43056,7 +43052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0805_2012Metric"
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
 			(at 177.8 27.94 0)
 			(effects
 				(font
@@ -43067,7 +43063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/en-eu/products/productdetail?partno=GRM21BZ70J226ME44%23"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM188R61A226ME15%23"
 			(at 180.34 27.94 0)
 			(effects
 				(font
@@ -43078,7 +43074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22 uF 6.3 VDC 20% 0805 X7R"
+		(property "Description" "22 µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
 			(at 165.1 48.26 0)
 			(effects
 				(font
@@ -43087,7 +43083,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM21BZ70J226ME44L"
+		(property "MPN" "GRM188R61A226ME15D"
 			(at 182.88 27.94 0)
 			(effects
 				(font
@@ -43132,7 +43128,7 @@
 			)
 		)
 		(property "Val" "22u"
-			(at 167.64 45.7136 90)
+			(at 167.64 46.9836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43141,13 +43137,14 @@
 				(justify right)
 			)
 		)
-		(property "Voltage" "6.3V"
-			(at 167.64 48.2535 90)
+		(property "Voltage" "10V"
+			(at 193.04 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Dielectric" "X7R"
