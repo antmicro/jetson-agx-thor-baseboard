@@ -11768,7 +11768,7 @@
 	)
 	(text "Standard requires CLK here"
 		(exclude_from_sim no)
-		(at 127.762 90.678 0)
+		(at 127.762 91.694 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11856,7 +11856,7 @@
 	)
 	(text "Standard requires CLK here"
 		(exclude_from_sim no)
-		(at 128.27 216.662 0)
+		(at 128.27 217.932 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26672,6 +26672,190 @@
 			(justify left)
 		)
 		(uuid "f7940ced-1e69-44e5-9616-a7a9f622a4a5")
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 114.3 177.8) (xy 114.3 195.58) (xy 162.56 195.58) (xy 162.56 177.8)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 2b4e9cac-b8ba-4874-ac7e-257088fe3096)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 114.3 209.55) (xy 114.3 215.9) (xy 162.56 215.9) (xy 162.56 209.55)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 9cde1e42-caee-4cd0-a7b4-326e1820a230)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 132.08 90.17) (xy 115.57 90.17) (xy 115.57 63.5) (xy 132.08 63.5)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid a0b42063-778e-43fc-b886-b2be8c4a4bd3)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 74.93 76.2) (xy 38.1 76.2) (xy 38.1 57.15) (xy 74.93 57.15)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid bef71daa-2e6b-4113-9d78-8f9ac9ac6179)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 114.3 209.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1153c6d6-85f8-45c3-ab48-8a29a5c0550b")
+		(property "Netclass" "85Ohm-diff_PCIE"
+			(at 114.9985 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -119.38 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 115.57 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13d72876-d902-4f15-897c-0fb1d1b3bded")
+		(property "Netclass" "85Ohm-diff_PCIE"
+			(at 116.2685 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -91.44 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 38.1 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e11ed9d-4ab1-46fa-bc47-85fab590b6d5")
+		(property "Netclass" "85Ohm-diff_PCIE"
+			(at 38.7985 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -124.46 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 114.3 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c976e7f5-0e10-41c7-955c-5bf692d58ed7")
+		(property "Netclass" "85Ohm-diff_PCIE"
+			(at 114.9985 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -119.38 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "antmicropower:VCC")

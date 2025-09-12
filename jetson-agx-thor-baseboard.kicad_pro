@@ -616,7 +616,7 @@
         "microvia_diameter": 0.45,
         "microvia_drill": 0.1,
         "name": "85Ohm-diff_PCIE",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(235, 0, 255)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
@@ -680,7 +680,269 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/Expansion connector/PCIe_{C2x1}.CLK+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C2x1}.CLK-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C2x1}.RX0+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C2x1}.RX0-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C2x1}.TX0+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C2x1}.TX0-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C3x2}.CLK+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C3x2}.CLK-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C3x2}.RX0+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C3x2}.RX0-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C3x2}.RX1+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C3x2}.RX1-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C3x2}.TX0+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C3x2}.TX0-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C3x2}.TX1+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C3x2}.TX1-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PET0_C2_N": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PET0_C2_P": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PET0_C3_N": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PET0_C3_P": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PET1_C3_N": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PET1_C3_P": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/M2_E_PET0_N": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/M2_E_PET0_P": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/M2_M_PET0_N": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/M2_M_PET0_P": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/M2_M_PET1_N": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/M2_M_PET1_P": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/M2_M_PET2_N": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/M2_M_PET2_P": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/M2_M_PET3_N": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/M2_M_PET3_P": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.CLK+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.CLK-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.RX0+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.RX0-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.RX1+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.RX1-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.RX2+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.RX2-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.RX3+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.RX3-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.RX4+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.RX4-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.RX5+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.RX5-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.RX6+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.RX6-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.RX7+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.RX7-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.TX0+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.TX0-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.TX1+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.TX1-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.TX2+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.TX2-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.TX3+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.TX3-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.TX4+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.TX4-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.TX5+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.TX5-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.TX6+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.TX6-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.TX7+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.TX7-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.~{CLKREQ}": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}.~{RST}": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C1x1}{PCIe}": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.CLK+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.CLK-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.RX0+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.RX0-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.RX1+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.RX1-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.RX2+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.RX2-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.RX3+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.RX3-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.TX0+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.TX0-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.TX1+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.TX1-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.TX2+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.TX2-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.TX3+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.TX3-": [
+        "85Ohm-diff_PCIE"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "100Ohm-diff_HDMI",

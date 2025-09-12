@@ -15596,6 +15596,97 @@
 		)
 		(uuid "f1ff125c-5484-45b3-b591-09be021a0bcf")
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 196.85 101.6) (xy 243.84 101.6) (xy 243.84 123.19) (xy 196.85 123.19)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 4ebafc60-0353-4333-8cde-5698d89ff1a5)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 38.1 113.03) (xy 38.1 181.61) (xy 81.28 181.61) (xy 81.28 113.03)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid ee947df0-b221-4274-9b52-50a94747e628)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 38.1 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0fa54084-db09-454f-8486-1027cfda0877")
+		(property "Netclass" "85Ohm-diff_PCIE"
+			(at 38.7985 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -102.87 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 196.85 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80227476-d935-4b4c-b378-10a2ce46e8c2")
+		(property "Netclass" "85Ohm-diff_PCIE"
+			(at 195.834 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at -22.86 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "antmicroCapacitors0603:C_22u_10V_0603")
 		(at 327.66 93.98 90)
