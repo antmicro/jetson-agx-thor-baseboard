@@ -11877,9 +11877,9 @@
 		)
 		(uuid "8739aeb7-f78a-4cbc-a1d5-47af9ca4961f")
 	)
-	(text "We can change FMC pinout according to\nhow hard it woud be to route it "
+	(text "TODO: Change the FMC pinout for optimal routing "
 		(exclude_from_sim no)
-		(at 347.345 158.369 0)
+		(at 346.202 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11888,7 +11888,7 @@
 		)
 		(uuid "92a418d6-d315-4a2e-9230-e45543aeae1e")
 	)
-	(text "Perypherials"
+	(text "Peripherals"
 		(exclude_from_sim no)
 		(at 385.445 179.705 0)
 		(effects
@@ -26676,21 +26676,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 114.3 177.8) (xy 114.3 195.58) (xy 162.56 195.58) (xy 162.56 177.8)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 2b4e9cac-b8ba-4874-ac7e-257088fe3096)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 114.3 209.55) (xy 114.3 215.9) (xy 162.56 215.9) (xy 162.56 209.55)
 			)
 			(stroke
@@ -26700,7 +26685,22 @@
 			(fill
 				(type none)
 			)
-			(uuid 9cde1e42-caee-4cd0-a7b4-326e1820a230)
+			(uuid 0c5a3cdc-d4a9-49e0-902f-6f4c37b7133b)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 114.3 177.8) (xy 114.3 195.58) (xy 162.56 195.58) (xy 162.56 177.8)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 8a545e76-0e45-4bc6-aeda-2d7576a4a685)
 		)
 	)
 	(rule_area
@@ -26715,7 +26715,7 @@
 			(fill
 				(type none)
 			)
-			(uuid a0b42063-778e-43fc-b886-b2be8c4a4bd3)
+			(uuid 97dc2263-7a2d-4ed0-b65f-661cda329c39)
 		)
 	)
 	(rule_area
@@ -26730,7 +26730,7 @@
 			(fill
 				(type none)
 			)
-			(uuid bef71daa-2e6b-4113-9d78-8f9ac9ac6179)
+			(uuid fecba807-9ed7-423e-8fbf-61775f1d33e9)
 		)
 	)
 	(netclass_flag ""
