@@ -28,6 +28,7 @@ The PCB layout design is currently in progress.
 * Two user buttons
 * Two user LEDs
 * FAN connector
+* 100 x 150 mm (3.93 x 5.90 inch) PCB outline
 
 The Jeston AGX Thor Baseboard has two 50-pin FFC connectors which makes it electrically compatible with a variety of camera modules and video accessories developed by Antmicro. These are: 
 
