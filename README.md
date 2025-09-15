@@ -2,6 +2,8 @@
 
 Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
 
+![](img/jetson-thor-baseboard-render.png)
+
 ## Overview
 
 This project contains open hardware design files for a baseboard supporting NVIDIA Jetson AGX Thor (P5000) System on Module.
