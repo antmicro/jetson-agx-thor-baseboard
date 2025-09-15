@@ -8,10 +8,24 @@ This project contains open hardware design files for a baseboard supporting NVID
 The baseboard break-routes common IO-interfaces for typical, desktop usage.
 The baseboard also features an FMC-style expansion connector so it is possible to combine it with other baseboards and custom-designed accessories in order to accelerate the development of new Thor-based products. 
 The PCB design files were prepared in KiCad 9.x.
+The PCB layout design is currently in progress. 
 
 ## Key features
 
-* 
+* 2 x 50-pin FFC connectors exposing 4 x 4-lane CSI ports from the SoM with independent I2C configuration buses per each CSI port
+* SFP port exposing Jetson Thor XFI interface for fiber or copper modules
+* M.2 (key-M) for NVMe storage (suggested usage) 
+* M.2 (key-E) for wireless adapters 
+* FMC+ expansion connector with PCIe x2, PCIe x1, DisplayPort, CAN, UART, SPI, I2S
+* On-board USB 3.2 hub with two downstream-facing ports exposed on USB-C connectors
+* Recovery USB-C port for writing Board Support Package (BSP) images to the SoM
+* Generic USB-C port which supports video ALT mode
+* Debug USB-C port with debug console
+* General purpose on-board 8KB EEPROM 
+* On-board Infineon/SLB9673AU20FW2610XTMA1 TPM
+* Two user buttons 
+* Two user LEDs
+* FAN connector
 
 The Jeston AGX Thor Baseboard has two 50-pin FFC connectors which makes it electrically compatible with a variety of camera modules and video accessories developed by Antmicro. Those are: 
 
@@ -19,6 +33,8 @@ The Jeston AGX Thor Baseboard has two 50-pin FFC connectors which makes it elect
 * [SDI-MIPI Video Converter](https://github.com/antmicro/sdi-mipi-video-converter-hw) 
 * [HDMI to MIPI CSI-2 Bridge](https://github.com/antmicro/hdmi-mipi-bridge)
 * [Composite Video to MIPI CSI-2 Bridge](https://github.com/antmicro/cvbs-mipi-bridge)
+
+In the default configuration the Jetson AGX Thor Baseboard should be powered from a DC (Molex Nano-Fit) locking connector providing 18-20VDC and at least 6A.
 
 ## Project structure
 
