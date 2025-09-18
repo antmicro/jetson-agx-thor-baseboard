@@ -16988,7 +16988,7 @@
 	)
 	(text "Switch between RP and EP\nconfiguration"
 		(exclude_from_sim no)
-		(at 31.496 69.85 0)
+		(at 31.496 66.802 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -28729,6 +28729,98 @@
 			(justify right)
 		)
 		(uuid "ec996d38-ef62-47d3-acd3-a15a061b59d8")
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 60.96 57.15) (xy 60.96 62.865) (xy 76.835 62.865) (xy 76.835 57.15)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 8727b20a-cc66-40d7-b083-38b2952d6048)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 25.4 72.39) (xy 25.4 84.455) (xy 62.23 84.455) (xy 62.23 72.39)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid dbf5c4f7-5326-4444-8675-062bffc0b535)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 60.96 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a2d40a8-d9da-4664-ab56-29050ee378cf")
+		(property "Netclass" "85Ohm-diff_SFI"
+			(at 61.6585 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -172.72 -110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 25.4 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffda8237-cbc3-43c3-bc2c-e08dabe9f6c5")
+		(property "Netclass" "85Ohm-diff_PCIE"
+			(at 26.0985 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -208.28 -95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "antmicropower:GND")

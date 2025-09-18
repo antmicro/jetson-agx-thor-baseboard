@@ -13583,7 +13583,7 @@
 		(uuid "1a766a1e-fee3-4eb5-8085-33e01e4aace2")
 	)
 	(label "USBC2_CONN_TX2_P"
-		(at 233.68 177.8 0)
+		(at 227.33 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13753,7 +13753,7 @@
 		(uuid "92258608-5ff7-4c49-82ac-6e5434bb1312")
 	)
 	(label "USBC2_CONN_TX1_N"
-		(at 233.68 160.02 0)
+		(at 227.33 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13803,7 +13803,7 @@
 		(uuid "a540876e-a578-43e3-86fe-d075f4921e9a")
 	)
 	(label "USBC2_CONN_TX2_N"
-		(at 233.68 175.26 0)
+		(at 227.33 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13863,7 +13863,7 @@
 		(uuid "bd7000a1-849a-4113-bca6-90eaf05724b5")
 	)
 	(label "USBC2_CONN_TX1_P"
-		(at 233.68 162.56 0)
+		(at 227.33 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14038,6 +14038,144 @@
 			(justify left)
 		)
 		(uuid "d5e5656e-1da6-43fe-9407-18d0e24abfc6")
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 248.92 180.975) (xy 189.3887 180.975) (xy 189.23 149.86) (xy 248.92 149.86)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 3640b939-a53b-4dd3-9f96-bf4bfb95a158)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 281.305 147.955) (xy 269.24 147.955) (xy 269.24 142.24) (xy 281.305 142.24)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 5abf3eac-f189-467c-b01c-e04b3c92955a)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 158.75 165.1) (xy 110.49 165.1) (xy 110.49 149.86) (xy 158.75 149.86)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 76eb19b5-b22a-4558-a957-73164817bcd3)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 189.23 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25efbab6-309f-41c0-a9bf-f250ce24326b")
+		(property "Netclass" "85Ohm-diff_USB_SS"
+			(at 190.246 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 26.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 269.24 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7331be3d-9699-43c3-a58b-fc0f61375dbf")
+		(property "Netclass" "85Ohm-diff_USB_2.0"
+			(at 267.716 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 106.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 110.49 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ad08f5f-a9c8-4f8b-84f7-cd61c247d89a")
+		(property "Netclass" "85Ohm-diff_USB_SS"
+			(at 111.506 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -52.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
 		(lib_id "antmicroPMICPowerDistributionSwitchesLoadDrivers:AP22615A_TSOT26")

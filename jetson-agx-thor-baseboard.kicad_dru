@@ -16,45 +16,24 @@
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
 
-#--------------------- HDMI/DP ----------------------
-(rule "(hdmi_inner"
+#--------------------- DP ----------------------
+(rule "(dp_inner"
 	(layer inner)
-	(condition "(A.NetClass == '100Ohm-diff_HDMI')")
+	(condition "(A.NetClass == '100Ohm-diff_DP')")
 	(constraint track_width (opt 0.1mm))
 	(constraint diff_pair_gap  (opt 0.2mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
-(rule "(hdmi_outer"
+(rule "(dp_outer"
 	(layer outer)
-	(condition "(A.NetClass == '100Ohm-diff_HDMI')")
+	(condition "(A.NetClass == '100Ohm-diff_DP')")
 	(constraint track_width (opt 0.1mm))
 	(constraint diff_pair_gap  (opt 0.2mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
 
 (rule "(hdmi_clearance"
-	(condition "A.NetClass == '100Ohm-diff_HDMI' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
-	(constraint clearance (min 0.2mm))
-)
-
-#--------------------- ETHERNET MDI ----------------------
-(rule "(mdi_inner"
-	(layer inner)
-	(condition "(A.NetClass == '100Ohm-diff_MDI')")
-	(constraint track_width (opt 0.125mm))
-	(constraint diff_pair_gap  (opt 0.225mm))
-#	(constraint diff_pair_uncoupled (max 2mm))
-)
-(rule "(mdi_outer"
-	(layer outer)
-	(condition "(A.NetClass == '100Ohm-diff_MDI')")
-	(constraint track_width (opt 0.125mm))
-	(constraint diff_pair_gap  (opt 0.222mm))
-#	(constraint diff_pair_uncoupled (max 2mm))
-)
-
-(rule "(mdi_clearance"
-	(condition "A.NetClass == '100Ohm-diff_MDI' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
+	(condition "A.NetClass == '100Ohm-diff_DP' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
 	(constraint clearance (min 0.2mm))
 )
 
@@ -62,14 +41,14 @@
 #-------------------- D-PHY CSI ---------------------
 (rule "(csi_inner"
 	(layer inner)
-	(condition "(A.NetClass == '85Ohm-diff_CSI')")
+	(condition "(A.NetClass == '95Ohm-diff_CSI')")
 	(constraint track_width  (opt 0.155mm))
 	(constraint diff_pair_gap  (opt 0.22mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
 (rule "(csi_outer"
 	(layer outer)
-	(condition "(A.NetClass == '85Ohm-diff_CSI')")
+	(condition "(A.NetClass == '95Ohm-diff_CSI')")
 	(constraint track_width (opt 0.14mm))
 	(constraint diff_pair_gap  (opt 0.22mm) )
 #	(constraint diff_pair_uncoupled (max 2mm))
@@ -77,7 +56,7 @@
 
 (rule "(csi_clearance"
 	(layer inner)
-	(condition "A.NetClass == '85Ohm-diff_CSI' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
+	(condition "A.NetClass == '95Ohm-diff_CSI' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
 	(constraint clearance (min 0.2mm))
 )
 
@@ -124,6 +103,28 @@
 #	(constraint clearance (min 0.8mm))
 )
 
+
+#----------------------- SFI -----------------------
+(rule "(sfi_inner"
+	(layer inner)
+	(condition "(A.NetClass == '85Ohm-diff_SFI')")
+	(constraint track_width (opt 0.1mm))
+	(constraint diff_pair_gap  (opt 0.1mm))
+#	(constraint diff_pair_uncoupled (max 2mm))
+)
+(rule "(sfi_outer"
+	(layer outer)
+	(condition "(A.NetClass == '85Ohm-diff_SFI')")
+	(constraint track_width (opt 0.175mm))
+	(constraint diff_pair_gap  (opt 0.125mm))
+#	(constraint diff_pair_uncoupled (max 2mm))
+)
+
+(rule "(sfi_clearance"
+	(condition "A.NetClass == '85Ohm-diff_SFI' && !AB.isCoupledDiffPair() && A.Type == 'Track' && B.Type == 'Track'")
+#	(constraint clearance (min 0.8mm))
+)
+
 #---------------------------------------------
 
 (rule "clearance1"
@@ -135,10 +136,6 @@
 	(constraint clearance (min 0.125mm))
 	(constraint hole_clearance (min 0.25mm))
 	(condition "A.NetName == 'GND' && !(A.Type == 'Zone' && B.Type == 'Zone')")
-)
-(rule clearance_PoE
-	(condition "A.NetClass == 'Default' && B.NetClass == 'PoE'")
-	(constraint clearance (min 0.5mm))
 )
 
 (rule "allow_overlap" 

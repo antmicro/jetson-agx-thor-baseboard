@@ -26733,6 +26733,36 @@
 			(uuid bef71daa-2e6b-4113-9d78-8f9ac9ac6179)
 		)
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 85.09 125.73) (xy 73.66 125.73) (xy 73.66 78.74) (xy 85.09 78.74)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid d62fda11-25a6-4cba-8549-65fa69764b5f)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 85.09 261.62) (xy 73.66 261.62) (xy 73.66 163.83) (xy 85.09 163.83)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid ea175fa2-cd07-4561-ae6e-eb1a3219d63d)
+		)
+	)
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
@@ -26792,6 +26822,68 @@
 					(size 1.27 1.27)
 					(italic yes)
 				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 73.66 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c94dae2-79e8-4ebb-b9ad-8c075a0b2dd6")
+		(property "Netclass" "100Ohm-diff_DP"
+			(at 73.406 159.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 85.09 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5dedccdf-1071-4ef2-ac4f-ee60a8fa3502")
+		(property "Netclass" "100Ohm-diff_DP"
+			(at 84.836 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 247.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 			)
 		)
 	)
