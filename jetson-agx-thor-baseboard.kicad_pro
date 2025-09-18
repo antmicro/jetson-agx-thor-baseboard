@@ -874,6 +874,54 @@
       "/Expansion connector/DP3.TX3-": [
         "100Ohm-diff_DP"
       ],
+      "/Expansion connector/PCIe_{C2x1}.CLK+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C2x1}.CLK-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C2x1}.RX0+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C2x1}.RX0-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C2x1}.TX0+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C2x1}.TX0-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C3x2}.CLK+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C3x2}.CLK-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C3x2}.RX0+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C3x2}.RX0-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C3x2}.RX1+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C3x2}.RX1-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C3x2}.TX0+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C3x2}.TX0-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C3x2}.TX1+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/Expansion connector/PCIe_{C3x2}.TX1-": [
+        "85Ohm-diff_PCIE"
+      ],
       "/Expansion connector/PET0_C2_N": [
         "85Ohm-diff_PCIE"
       ],
@@ -1033,6 +1081,60 @@
       "/M.2/PCIe_{C1x1}{PCIe}": [
         "85Ohm-diff_PCIE"
       ],
+      "/M.2/PCIe_{C5x4}.CLK+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.CLK-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.RX0+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.RX0-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.RX1+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.RX1-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.RX2+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.RX2-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.RX3+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.RX3-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.TX0+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.TX0-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.TX1+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.TX1-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.TX2+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.TX2-": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.TX3+": [
+        "85Ohm-diff_PCIE"
+      ],
+      "/M.2/PCIe_{C5x4}.TX3-": [
+        "85Ohm-diff_PCIE"
+      ],
       "/M.2/USB3.D+": [
         "85Ohm-diff_USB_2.0"
       ],
@@ -1040,6 +1142,12 @@
         "85Ohm-diff_USB_2.0"
       ],
       "/M.2/USB3{USB}": [
+        "85Ohm-diff_USB_2.0"
+      ],
+      "/Recovery USB/USB0.D+": [
+        "85Ohm-diff_USB_2.0"
+      ],
+      "/Recovery USB/USB0.D-": [
         "85Ohm-diff_USB_2.0"
       ],
       "/Recovery USB/USBC2_CONN_TX1_N": [
@@ -1173,6 +1281,12 @@
       ],
       "/SoM_IO2/SFI_REFCLK-": [
         "85Ohm-diff_SFI"
+      ],
+      "/SoM_IO2/USB1.D+": [
+        "85Ohm-diff_USB_2.0"
+      ],
+      "/SoM_IO2/USB1.D-": [
+        "85Ohm-diff_USB_2.0"
       ],
       "/SoM_IO2/USB2.D+": [
         "85Ohm-diff_USB_2.0"
@@ -1358,12 +1472,7 @@
         "85Ohm-diff_USB_SS"
       ]
     },
-    "netclass_patterns": [
-      {
-        "netclass": "85Ohm-diff_PCIE",
-        "pattern": "/M.2/PCIe_{C1x1}.CLK+"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {

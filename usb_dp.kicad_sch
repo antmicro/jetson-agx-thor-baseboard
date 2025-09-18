@@ -13459,6 +13459,21 @@
 	(rule_area
 		(polyline
 			(pts
+				(xy 281.305 127) (xy 269.24 127) (xy 269.24 120.65) (xy 281.305 120.65)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 388665e0-4db7-4059-aea6-2dbaf2893134)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
 				(xy 209.3912 170.18) (xy 152.5587 170.18) (xy 152.4 133.35) (xy 209.2325 133.35)
 			)
 			(stroke
@@ -13585,6 +13600,37 @@
 		)
 		(property "Component Class" ""
 			(at -86.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 269.24 127 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d981c7ed-fb15-4725-8b86-3fb3cdef36d9")
+		(property "Netclass" "85Ohm-diff_USB_2.0"
+			(at 265.176 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 227.33 289.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
