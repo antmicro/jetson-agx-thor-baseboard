@@ -6,7 +6,7 @@ Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
 
 ## Overview
 
-This project contains open hardware design files for a baseboard supporting NVIDIA Jetson AGX Thor (P5000) System on Module.
+This project contains open hardware design files for a baseboard supporting [NVIDIA Jetson AGX Thor (T5000)](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/) System on Module.
 The baseboard break-routes common IO-interfaces for standard desktop usage.
 The baseboard also features an FMC-style expansion connector, so it is possible to combine it with other baseboards and custom-designed accessories, in order to accelerate the development of new Thor-based products.
 The PCB design files were prepared in KiCad 9.x.
