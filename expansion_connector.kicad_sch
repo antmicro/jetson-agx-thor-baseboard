@@ -60,11 +60,12 @@
 				)
 			)
 			(property "Description" "FMC connector"
-				(at 0 0 0)
+				(at 36.83 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -10301,12 +10302,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroB2BConnectors:Plug_Samtec_UMPT-06-06.5-G-V-S-TR"
+		(symbol "antmicroB2BConnectors:Plug_Samtec_UMPT_1x6_UMPT-06-06.5-G-V-S-TR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 24.13 -2.54 0)
+				(at 22.86 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10315,8 +10316,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "Plug_Samtec_UMPT-06-06.5-G-V-S-TR"
-				(at 24.13 -7.62 0)
+			(property "Value" "Plug_Samtec_UMPT_1x6_UMPT-06-06.5-G-V-S-TR"
+				(at 22.86 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10326,8 +10327,8 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:Plug_Samtec_UMPT-06-06.5-G-V-S-TR"
-				(at 24.13 -10.16 0)
+			(property "Footprint" "antmicro-footprints:Conn_Plug_Samtec_UMPT_1x6_UMPT-06-06.5-G-V-S-TR"
+				(at 22.86 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10338,7 +10339,7 @@
 				)
 			)
 			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/umpt.pdf"
-				(at 24.13 -12.7 0)
+				(at 22.86 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10349,7 +10350,7 @@
 				)
 			)
 			(property "Description" "2.00 mm mPOWER® Ultra Micro Power Terminal, Vertical"
-				(at 24.13 -15.24 0)
+				(at 22.86 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10360,7 +10361,7 @@
 				)
 			)
 			(property "MPN" "UMPT-06-06.5-G-V-S-W-TR"
-				(at 24.13 -5.08 0)
+				(at 22.86 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10370,7 +10371,7 @@
 				)
 			)
 			(property "Manufacturer" "Samtec"
-				(at 24.13 -17.78 0)
+				(at 22.86 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10381,7 +10382,7 @@
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 24.13 -20.32 0)
+				(at 22.86 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10392,7 +10393,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 24.13 -22.86 0)
+				(at 22.86 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10411,10 +10412,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Plug_Samtec_UMPT-06-06.5-G-V-S-TR_1_1"
+			(symbol "Plug_Samtec_UMPT_1x6_UMPT-06-06.5-G-V-S-TR_1_1"
 				(rectangle
-					(start 5.08 2.54)
-					(end 10.16 -20.32)
+					(start 3.81 2.54)
+					(end 7.62 -20.32)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -10425,7 +10426,7 @@
 				)
 				(pin passive line
 					(at 0 0 0)
-					(length 5.08)
+					(length 3.81)
 					(name "~"
 						(effects
 							(font
@@ -10433,7 +10434,7 @@
 							)
 						)
 					)
-					(number "01"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10443,7 +10444,7 @@
 				)
 				(pin passive line
 					(at 0 -2.54 0)
-					(length 5.08)
+					(length 3.81)
 					(name "~"
 						(effects
 							(font
@@ -10451,7 +10452,7 @@
 							)
 						)
 					)
-					(number "02"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10461,7 +10462,7 @@
 				)
 				(pin passive line
 					(at 0 -5.08 0)
-					(length 5.08)
+					(length 3.81)
 					(name "~"
 						(effects
 							(font
@@ -10469,7 +10470,7 @@
 							)
 						)
 					)
-					(number "03"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10479,7 +10480,7 @@
 				)
 				(pin passive line
 					(at 0 -7.62 0)
-					(length 5.08)
+					(length 3.81)
 					(name "~"
 						(effects
 							(font
@@ -10487,7 +10488,7 @@
 							)
 						)
 					)
-					(number "04"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10497,7 +10498,7 @@
 				)
 				(pin passive line
 					(at 0 -10.16 0)
-					(length 5.08)
+					(length 3.81)
 					(name "~"
 						(effects
 							(font
@@ -10505,7 +10506,7 @@
 							)
 						)
 					)
-					(number "05"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10515,7 +10516,7 @@
 				)
 				(pin passive line
 					(at 0 -12.7 0)
-					(length 5.08)
+					(length 3.81)
 					(name "~"
 						(effects
 							(font
@@ -10523,7 +10524,7 @@
 							)
 						)
 					)
-					(number "06"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10533,7 +10534,7 @@
 				)
 				(pin passive line
 					(at 0 -15.24 0)
-					(length 5.08)
+					(length 3.81)
 					(name "~"
 						(effects
 							(font
@@ -10551,7 +10552,7 @@
 				)
 				(pin passive line
 					(at 0 -17.78 0)
-					(length 5.08)
+					(length 3.81)
 					(name "~"
 						(effects
 							(font
@@ -10624,11 +10625,12 @@
 				)
 			)
 			(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±10%, X8L"
-				(at 0 0 0)
+				(at 15.24 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -10837,11 +10839,12 @@
 				)
 			)
 			(property "Description" "SMD Multilayer Ceramic Capacitor, 220nF, 6.3V, 0402, ±20%, X7R"
-				(at 0 0 0)
+				(at 15.24 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -11024,6 +11027,7 @@
 						(thickness 0.15)
 					)
 					(justify left bottom)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
@@ -11049,11 +11053,12 @@
 				)
 			)
 			(property "Description" "SMD Chip Resistor"
-				(at 0 0 0)
+				(at 15.24 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -11248,11 +11253,12 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 15.24 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -11392,11 +11398,12 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 15.24 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -11538,11 +11545,12 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 8.89 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -11646,11 +11654,12 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -29592,144 +29601,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroB2BConnectors:Plug_Samtec_UMPT-06-06.5-G-V-S-TR")
-		(at 337.82 223.52 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "35f98099-df9e-46e6-af60-5321521bee00")
-		(property "Reference" "J19"
-			(at 329.438 216.154 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Plug_Samtec_UMPT-06-06.5-G-V-S-TR"
-			(at 313.69 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Plug_Samtec_UMPT-06-06.5-G-V-S-TR"
-			(at 313.69 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/umpt.pdf"
-			(at 313.69 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "2.00 mm mPOWER® Ultra Micro Power Terminal, Vertical"
-			(at 313.69 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "UMPT-06-06.5-G-V-S-W-TR"
-			(at 342.646 218.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Samtec"
-			(at 313.69 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 313.69 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 313.69 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "04"
-			(uuid "2f12d432-eeea-4247-a23c-be0f7993e3e5")
-		)
-		(pin "02"
-			(uuid "6b4b1042-5a89-4545-9c05-df287d840b40")
-		)
-		(pin "03"
-			(uuid "7e4b5abe-81c3-42cd-bd92-8a095c856dd9")
-		)
-		(pin "01"
-			(uuid "80ea092d-8a18-4ecd-8c8d-bcf8cd9d5eef")
-		)
-		(pin "MP2"
-			(uuid "2951f995-9886-48ea-892b-d3598f03d07c")
-		)
-		(pin "05"
-			(uuid "82f6ea19-caed-4f34-835a-0df3d004f023")
-		)
-		(pin "MP1"
-			(uuid "34d06cdd-a01f-4788-88fd-8c0106a9f528")
-		)
-		(pin "06"
-			(uuid "2db0ec0f-6441-490b-9dd5-8278ec63f2ee")
-		)
-		(instances
-			(project ""
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5fb038ee-4d59-43de-81a4-b4c993aa7149"
-					(reference "J19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
 		(at 351.79 234.95 0)
 		(mirror y)
@@ -39281,6 +39152,145 @@
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5fb038ee-4d59-43de-81a4-b4c993aa7149"
 					(reference "J18")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroB2BConnectors:Plug_Samtec_UMPT_1x6_UMPT-06-06.5-G-V-S-TR")
+		(at 337.82 223.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "656d640e-4381-453f-b986-47c308eef0ff")
+		(property "Reference" "J8"
+			(at 332.105 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Plug_Samtec_UMPT_1x6_UMPT-06-06.5-G-V-S-TR"
+			(at 314.96 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Conn_Plug_Samtec_UMPT_1x6_UMPT-06-06.5-G-V-S-TR"
+			(at 314.96 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/umpt.pdf"
+			(at 314.96 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.00 mm mPOWER® Ultra Micro Power Terminal, Vertical"
+			(at 314.96 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "UMPT-06-06.5-G-V-S-W-TR"
+			(at 332.105 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 314.96 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 314.96 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 314.96 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af336b4d-bf2b-45c9-ad29-5657e4fd363b")
+		)
+		(pin "MP2"
+			(uuid "d0a0299e-d555-4e9d-ba1c-4b460511ba7a")
+		)
+		(pin "MP1"
+			(uuid "f8a891a1-c36c-4fc1-b48e-c38efd93da74")
+		)
+		(pin "5"
+			(uuid "f2412a92-f409-4a47-912e-42009e3e63b6")
+		)
+		(pin "6"
+			(uuid "d4ea1a94-c349-48e8-a177-1f2c7443b8bb")
+		)
+		(pin "3"
+			(uuid "5804b7b5-cc27-4f76-a0d2-9d23ad7bf66f")
+		)
+		(pin "4"
+			(uuid "647de496-e53c-4689-8e78-7e68faed5f7d")
+		)
+		(pin "2"
+			(uuid "d2d64f12-5917-4b3b-bc50-bd860f400a88")
+		)
+		(instances
+			(project ""
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5fb038ee-4d59-43de-81a4-b4c993aa7149"
+					(reference "J8")
+					(unit 1)
 				)
 			)
 		)

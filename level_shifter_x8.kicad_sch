@@ -59,11 +59,12 @@
 				)
 			)
 			(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
-				(at 0 0 0)
+				(at 20.32 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -267,11 +268,12 @@
 				)
 			)
 			(property "Description" "Voltage Level Translator, 8 Input, 1.5 ns, 0 V to 5 V, VQFN-20"
-				(at 0 0 0)
+				(at 33.02 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -774,11 +776,12 @@
 				)
 			)
 			(property "Description" "SMD Chip Resistor, 200 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 0 0 0)
+				(at 20.32 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -963,11 +966,12 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 15.24 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -1107,11 +1111,12 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 15.24 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -1253,11 +1258,12 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 8.89 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -1317,6 +1323,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicropower:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 166.37 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2313ccd5-61e3-4d4a-82cd-db18557ad279")
 	)
 	(junction
 		(at 123.19 81.28)
@@ -1444,7 +1549,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 81.28) (xy 179.07 81.28)
+			(xy 162.56 81.28) (xy 166.37 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1461,6 +1566,16 @@
 			(type default)
 		)
 		(uuid "408af12b-8db4-4e66-9143-fa70ee7767d7")
+	)
+	(wire
+		(pts
+			(xy 166.37 81.28) (xy 179.07 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41d3728d-bcb1-440f-bac7-aeffef260b33")
 	)
 	(wire
 		(pts
@@ -4176,7 +4291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 123.19 87.63 0)
 			(effects
 				(font
@@ -4546,6 +4661,101 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 166.37 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4da37b53-181e-4d8f-aaa3-011540fb30b2")
+		(property "Reference" "#FLG013"
+			(at 166.37 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 166.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cca2f777-f0a2-403e-a48b-b9039cfcaf2b")
+		)
+		(instances
+			(project ""
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/3abc05cd-228c-4eb8-b63c-e3ac25c2b310"
+					(reference "#FLG013")
+					(unit 1)
+				)
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/4badc71d-812d-4df6-9069-2f39dff9a44f"
+					(reference "#FLG017")
+					(unit 1)
+				)
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/4c6f7b17-5be9-4217-b67d-50974b1b0d52"
+					(reference "#FLG014")
+					(unit 1)
+				)
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/75857eb3-9fe0-420d-9c74-9aac0fcec98c"
+					(reference "#FLG019")
+					(unit 1)
+				)
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/77a48c76-1efb-4e96-8b9e-54718d63a699"
+					(reference "#FLG020")
+					(unit 1)
+				)
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/8ce67c72-d2af-4f7d-8793-c0cab0729fb5"
+					(reference "#FLG018")
+					(unit 1)
+				)
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/9d09b695-5288-4f42-88ad-d65175bdc122"
+					(reference "#FLG015")
+					(unit 1)
+				)
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/cab0bc42-9bc8-4167-9bf4-c94b0dbb21ec"
+					(reference "#FLG016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 162.56 113.03 0)
 		(unit 1)
@@ -4718,7 +4928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 179.07 87.63 0)
 			(effects
 				(font

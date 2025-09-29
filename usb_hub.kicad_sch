@@ -12,734 +12,6 @@
 		(comment 1 "www.antmicro.com")
 	)
 	(lib_symbols
-		(symbol "C_100n_0402_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 20.32 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "C_100n_0402"
-				(at 20.32 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-				(at 20.32 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
-				(at 20.32 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "GRM155R61H104KE14D"
-				(at 20.32 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Murata"
-				(at 20.32 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 20.32 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 20.32 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "100n"
-				(at 20.32 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Voltage" "50V"
-				(at 20.32 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Dielectric" "X5R"
-				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_100n_0402_2_0_1"
-				(polyline
-					(pts
-						(xy 2.032 -1.524) (xy 2.032 1.524)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.524) (xy 3.048 1.524)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_100n_0402_2_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GND_3"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 8.89 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND_3"
-				(at 8.89 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 8.89 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 8.89 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 8.89 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 8.89 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "GND_3_1_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "R_0R_0402_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 20.32 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "R_0R_0402"
-				(at 20.32 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-				(at 20.32 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-				(at 20.32 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "ERJ2GE0R00X"
-				(at 20.32 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Panasonic"
-				(at 20.32 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 20.32 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 20.32 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "0R"
-				(at 20.32 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Tolerance" "~"
-				(at 20.32 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Current" "1A"
-				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0R_0402_2_0_1"
-				(rectangle
-					(start 0.635 0.889)
-					(end 4.445 -0.889)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0R_0402_2_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "R_0R_0402_5"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 20.32 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "R_0R_0402"
-				(at 20.32 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-				(at 20.32 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-				(at 20.32 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "ERJ2GE0R00X"
-				(at 20.32 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Panasonic"
-				(at 20.32 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 20.32 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 20.32 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "0R"
-				(at 20.32 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Tolerance" "~"
-				(at 20.32 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Current" "1A"
-				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0R_0402_5_0_1"
-				(rectangle
-					(start 0.635 0.889)
-					(end 4.445 -0.889)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0R_0402_5_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "antmicroCapacitors0402:C_100n_0402"
 			(pin_numbers
 				(hide yes)
@@ -794,11 +66,12 @@
 				)
 			)
 			(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
-				(at 0 0 0)
+				(at 20.32 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -1005,11 +278,12 @@
 				)
 			)
 			(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±5%, X7R"
-				(at 0 0 0)
+				(at 15.24 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -1218,11 +492,12 @@
 				)
 			)
 			(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±10%, X8L"
-				(at 0 0 0)
+				(at 15.24 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -1431,11 +706,12 @@
 				)
 			)
 			(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
-				(at 0 0 0)
+				(at 20.32 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -1642,11 +918,12 @@
 				)
 			)
 			(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 10 V, 0603 [1608 Metric], ± 10%, X5R, GRM Series"
-				(at 0 0 0)
+				(at 20.32 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -1853,11 +1130,12 @@
 				)
 			)
 			(property "Description" "Small Signal Schottky Diode, Single, 30 V, 200 mA, 500 mV, 1 A, 125 °C"
-				(at 0 0 0)
+				(at 22.86 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -2074,8 +1352,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB hub USB 3.2 gen 2"
-				(at 71.12 -15.24 0)
+			(property "Description" "4-Port USB 3.2 Hub, 2x Type-C with Power Delivery support, 1x USB 3.2, 1x USB 2.0"
+				(at 71.12 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2085,7 +1363,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" " USB7252CT-I/KDX "
+			(property "MPN" "USB7252CT-I/KDX "
 				(at 71.12 -5.08 0)
 				(effects
 					(font
@@ -4167,11 +3445,12 @@
 				)
 			)
 			(property "Description" "LED, Green, SMD, 0603, 20 mA, 2.1 V, 569 nm"
-				(at 0 0 0)
+				(at 22.86 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -4399,11 +3678,12 @@
 				)
 			)
 			(property "Description" "FLASH - NOR Memory IC 8Mbit SPI - Quad I/O 104 MHz 8-USON (2x3)"
-				(at 0 0 0)
+				(at 38.1 -26.67 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -4684,11 +3964,12 @@
 				)
 			)
 			(property "Description" "Oscillator, 25 MHz, HCMOS, SMD, 2mm x 1.6mm, MultiVolt ECS-2016MV Series"
-				(at 0 0 0)
+				(at 25.4 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -4902,11 +4183,12 @@
 				)
 			)
 			(property "Description" "Power Load Distribution Switch, High Side, Active High, 1 Output, 5.5 V, 3.6 A, 0.04 ohm, TSOT-26-6"
-				(at 0 0 0)
+				(at 30.48 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -5133,11 +4415,12 @@
 				)
 			)
 			(property "Description" "LDO Voltage Regulators LDO CMOS HiCurr SOT25 T&R 3K"
-				(at 0 0 0)
+				(at 33.02 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -5349,11 +4632,12 @@
 				)
 			)
 			(property "Description" "Zero Ohm Network Resistor, Jumper, 0201 [0603 Metric], Thick Film, Isolated, Flat, 4 Resistors"
-				(at 0 0 0)
+				(at 26.67 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -5721,6 +5005,206 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicroResistors0402:R_0R_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 20.32 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "R_0R_0402"
+				(at 20.32 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+				(at 20.32 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+				(at 20.32 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+				(at 20.32 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "ERJ2GE0R00X"
+				(at 20.32 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Panasonic"
+				(at 20.32 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 20.32 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "0R"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Tolerance" "~"
+				(at 20.32 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Current" "1A"
+				(at 20.32 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0R_0402_0_1"
+				(rectangle
+					(start 0.635 0.889)
+					(end 4.445 -0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0R_0402_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicroResistors0402:R_10k_0402"
 			(pin_numbers
 				(hide yes)
@@ -5775,11 +5259,12 @@
 				)
 			)
 			(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 0 0 0)
+				(at 20.32 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -5963,11 +5448,12 @@
 				)
 			)
 			(property "Description" "SMD Chip Resistor, 12 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 0 0 0)
+				(at 20.32 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -6151,11 +5637,12 @@
 				)
 			)
 			(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 0 0 0)
+				(at 20.32 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -6339,11 +5826,12 @@
 				)
 			)
 			(property "Description" "SMD Chip Resistor, 200 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 0 0 0)
+				(at 20.32 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -6527,11 +6015,12 @@
 				)
 			)
 			(property "Description" "SMD Chip Resistor, 20 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 0 0 0)
+				(at 20.32 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -6715,11 +6204,12 @@
 				)
 			)
 			(property "Description" "SMD Chip Resistor, 2.2 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 0 0 0)
+				(at 20.32 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -6903,11 +6393,12 @@
 				)
 			)
 			(property "Description" "SMD Chip Resistor"
-				(at 0 0 0)
+				(at 20.32 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -7091,11 +6582,12 @@
 				)
 			)
 			(property "Description" "SMD Chip Resistor, 470 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 0 0 0)
+				(at 20.32 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -7279,11 +6771,12 @@
 				)
 			)
 			(property "Description" "SMD Chip Resistor, 49.9 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 0 0 0)
+				(at 20.32 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -7467,11 +6960,12 @@
 				)
 			)
 			(property "Description" "Unidirectional TVS, 30 kV,  SOD-923, 5 V, 65 pF"
-				(at 0 0 0)
+				(at 21.59 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -7689,11 +7183,12 @@
 				)
 			)
 			(property "Description" "TVS diode array, 12 kV, USON-10, 5.5 V, 0.5 pF"
-				(at 0 0 0)
+				(at 24.13 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -8260,11 +7755,12 @@
 				)
 			)
 			(property "Description" "SMT test point"
-				(at 0 0 0)
+				(at 10.795 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -9177,11 +8673,12 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 15.24 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -9323,11 +8820,12 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 15.24 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -9411,6 +8909,126 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicropower:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 8.89 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 8.89 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 8.89 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 8.89 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 8.89 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 8.89 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 8.89 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "GND_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicropower:PWR_FLAG"
 			(power)
 			(pin_numbers
@@ -9459,11 +9077,12 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -18886,7 +18505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 27.94 184.15 0)
 			(effects
 				(font
@@ -19128,7 +18747,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 360.68 161.29 0)
 		(unit 1)
@@ -19272,7 +18890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unidirectional TVS, 30 kV,  SOD-923, 5 V, 65 pF"
 			(at 374.65 33.02 0)
 			(effects
 				(font
@@ -19540,7 +19158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power Load Distribution Switch, High Side, Active High, 1 Output, 5.5 V, 3.6 A, 0.04 ohm, TSOT-26-6"
 			(at 318.77 31.75 0)
 			(effects
 				(font
@@ -19619,7 +19237,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 82.55 152.4 0)
 		(mirror y)
@@ -19714,7 +19331,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 327.66 114.3 0)
 		(unit 1)
@@ -19948,7 +19564,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 373.38 161.29 0)
 		(unit 1)
@@ -20042,7 +19657,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 104.14 134.62 0)
 		(mirror y)
@@ -20290,7 +19904,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 203.2 261.62 0)
 		(mirror y)
@@ -20385,7 +19998,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 39.37 67.31 0)
 		(mirror y)
@@ -20531,7 +20143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB hub USB 3.2 gen 2"
+		(property "Description" "4-Port USB 3.2 Hub, 2x Type-C with Power Delivery support, 1x USB 3.2, 1x USB 2.0"
 			(at 200.66 78.74 0)
 			(effects
 				(font
@@ -20542,7 +20154,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " USB7252CT-I/KDX "
+		(property "MPN" "USB7252CT-I/KDX "
 			(at 163.195 57.15 0)
 			(effects
 				(font
@@ -21087,7 +20699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 285.75 104.14 0)
 			(effects
 				(font
@@ -21557,7 +21169,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 350.52 245.11 0)
 		(mirror y)
@@ -21652,7 +21263,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 350.52 123.19 0)
 		(mirror y)
@@ -21995,7 +21605,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 219.71 69.85 0)
 		(unit 1)
@@ -22291,7 +21900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 107.95 80.01 0)
 			(effects
 				(font
@@ -22529,7 +22138,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 327.66 236.22 0)
 		(unit 1)
@@ -22776,7 +22384,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 91.44 134.62 0)
 		(mirror y)
@@ -23061,7 +22668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMT test point"
 			(at 369.57 151.13 0)
 			(effects
 				(font
@@ -23177,7 +22784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 110.49 77.47 0)
 			(effects
 				(font
@@ -23275,7 +22882,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 219.71 107.95 0)
 		(unit 1)
@@ -23369,7 +22975,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 35.56 198.12 0)
 		(mirror y)
@@ -23464,7 +23069,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_0R_0402_2")
 		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 43.18 261.62 0)
 		(mirror x)
@@ -23517,7 +23121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 43.18 261.62 0)
 			(effects
 				(font
@@ -23667,7 +23271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 303.53 36.83 0)
 			(effects
 				(font
@@ -23896,7 +23500,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 93.98 152.4 0)
 		(mirror y)
@@ -23991,7 +23594,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 27.94 198.12 0)
 		(mirror y)
@@ -24135,7 +23737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS diode array, 12 kV, USON-10, 5.5 V, 0.5 pF"
 			(at 322.58 232.41 0)
 			(effects
 				(font
@@ -24371,7 +23973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 297.18 27.94 0)
 			(effects
 				(font
@@ -24510,7 +24112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 470 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 393.7 38.1 0)
 			(effects
 				(font
@@ -24833,7 +24435,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 308.61 234.95 0)
 		(unit 1)
@@ -25117,7 +24718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power Load Distribution Switch, High Side, Active High, 1 Output, 5.5 V, 3.6 A, 0.04 ohm, TSOT-26-6"
 			(at 317.5 153.67 0)
 			(effects
 				(font
@@ -25336,7 +24937,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 337.82 43.18 0)
 		(unit 1)
@@ -25430,7 +25030,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 336.55 165.1 0)
 		(unit 1)
@@ -25524,7 +25123,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 361.95 39.37 0)
 		(unit 1)
@@ -25618,7 +25216,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 393.7 45.72 0)
 		(unit 1)
@@ -25856,7 +25453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 107.95 74.93 0)
 			(effects
 				(font
@@ -26157,7 +25754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 287.02 149.86 0)
 			(effects
 				(font
@@ -26246,7 +25843,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 307.34 149.86 0)
 		(unit 1)
@@ -26391,7 +25987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS diode array, 12 kV, USON-10, 5.5 V, 0.5 pF"
 			(at 322.58 53.34 0)
 			(effects
 				(font
@@ -26957,7 +26553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 289.56 228.6 0)
 			(effects
 				(font
@@ -27245,7 +26841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FLASH - NOR Memory IC 8Mbit SPI - Quad I/O 104 MHz 8-USON (2x3)"
 			(at 88.9 251.46 0)
 			(effects
 				(font
@@ -27674,7 +27270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED, Green, SMD, 0603, 20 mA, 2.1 V, 569 nm"
 			(at 393.7 44.45 0)
 			(effects
 				(font
@@ -27905,7 +27501,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 351.79 39.37 0)
 		(unit 1)
@@ -28317,7 +27912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 307.34 144.78 0)
 			(effects
 				(font
@@ -28466,7 +28061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Zero Ohm Network Resistor, Jumper, 0201 [0603 Metric], Thick Film, Isolated, Flat, 4 Resistors"
 			(at 50.8 248.92 0)
 			(effects
 				(font
@@ -28752,7 +28347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 289.56 91.44 0)
 			(effects
 				(font
@@ -28901,7 +28496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS diode array, 12 kV, USON-10, 5.5 V, 0.5 pF"
 			(at 341.63 232.41 0)
 			(effects
 				(font
@@ -28993,7 +28588,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 350.52 161.29 0)
 		(unit 1)
@@ -29228,7 +28822,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 191.77 267.97 0)
 		(mirror y)
@@ -29375,7 +28968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 361.95 33.02 0)
 			(effects
 				(font
@@ -29474,7 +29067,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 125.73 189.23 0)
 		(mirror y)
@@ -29569,7 +29161,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 97.79 134.62 0)
 		(mirror y)
@@ -29864,7 +29455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS diode array, 12 kV, USON-10, 5.5 V, 0.5 pF"
 			(at 322.58 110.49 0)
 			(effects
 				(font
@@ -29955,7 +29546,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 109.22 265.43 0)
 		(mirror y)
@@ -30391,7 +29981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 289.56 106.68 0)
 			(effects
 				(font
@@ -30788,7 +30378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 470 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 392.43 160.02 0)
 			(effects
 				(font
@@ -31080,7 +30670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMT test point"
 			(at 370.84 29.21 0)
 			(effects
 				(font
@@ -31198,7 +30788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 10 V, 0603 [1608 Metric], ± 10%, X5R, GRM Series"
 			(at 351.79 33.02 0)
 			(effects
 				(font
@@ -31297,7 +30887,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 43.18 198.12 0)
 		(mirror y)
@@ -31392,7 +30981,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 153.67 261.62 0)
 		(mirror y)
@@ -31537,7 +31125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 285.75 210.82 0)
 			(effects
 				(font
@@ -31862,7 +31450,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 120.65 248.92 0)
 		(mirror y)
@@ -32147,7 +31734,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 392.43 167.64 0)
 		(unit 1)
@@ -32291,7 +31877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Small Signal Schottky Diode, Single, 30 V, 200 mA, 500 mV, 1 A, 125 °C"
 			(at 105.41 240.03 0)
 			(effects
 				(font
@@ -32358,7 +31944,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 308.61 27.94 0)
 		(unit 1)
@@ -32502,7 +32087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 289.56 213.36 0)
 			(effects
 				(font
@@ -32601,7 +32186,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_0R_0402_5")
 		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 43.18 264.16 0)
 		(unit 1)
@@ -32653,7 +32237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 43.18 264.16 0)
 			(effects
 				(font
@@ -33051,7 +32635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 288.29 27.94 0)
 			(effects
 				(font
@@ -33140,7 +32724,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 308.61 113.03 0)
 		(unit 1)
@@ -33284,7 +32867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 295.91 149.86 0)
 			(effects
 				(font
@@ -33373,7 +32956,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 135.89 189.23 0)
 		(mirror y)
@@ -33518,7 +33100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 2.2 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 336.55 162.56 0)
 			(effects
 				(font
@@ -33760,7 +33342,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 313.69 176.53 0)
 		(mirror y)
@@ -33905,7 +33486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 2.2 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 337.82 40.64 0)
 			(effects
 				(font
@@ -34044,7 +33625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unidirectional TVS, 30 kV,  SOD-923, 5 V, 65 pF"
 			(at 373.38 154.94 0)
 			(effects
 				(font
@@ -34163,7 +33744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS diode array, 12 kV, USON-10, 5.5 V, 0.5 pF"
 			(at 323.85 176.53 0)
 			(effects
 				(font
@@ -34255,7 +33836,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 312.42 54.61 0)
 		(mirror y)
@@ -34400,7 +33980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 302.26 158.75 0)
 			(effects
 				(font
@@ -34541,7 +34121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 360.68 154.94 0)
 			(effects
 				(font
@@ -34640,7 +34220,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 85.09 134.62 0)
 		(mirror y)
@@ -34787,7 +34366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 10 V, 0603 [1608 Metric], ± 10%, X5R, GRM Series"
 			(at 350.52 154.94 0)
 			(effects
 				(font
@@ -35319,7 +34898,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 374.65 39.37 0)
 		(unit 1)
@@ -35413,7 +34991,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 163.83 262.89 0)
 		(mirror y)
@@ -35698,7 +35275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 285.75 88.9 0)
 			(effects
 				(font
@@ -35849,7 +35426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 308.61 22.86 0)
 			(effects
 				(font
@@ -36282,7 +35859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 110.49 82.55 0)
 			(effects
 				(font
@@ -36570,7 +36147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 35.56 184.15 0)
 			(effects
 				(font
@@ -36659,7 +36236,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
 		(lib_id "antmicropower:GND")
 		(at 39.37 49.53 0)
 		(mirror y)
@@ -36805,7 +36381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED, Green, SMD, 0603, 20 mA, 2.1 V, 569 nm"
 			(at 392.43 166.37 0)
 			(effects
 				(font
@@ -36933,7 +36509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 285.75 226.06 0)
 			(effects
 				(font
@@ -37082,7 +36658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS diode array, 12 kV, USON-10, 5.5 V, 0.5 pF"
 			(at 341.63 110.49 0)
 			(effects
 				(font
@@ -37174,7 +36750,6 @@
 		)
 	)
 	(symbol
-		(lib_name "C_100n_0402_2")
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 120.65 247.65 90)
 		(unit 1)
@@ -37226,7 +36801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 120.65 247.65 0)
 			(effects
 				(font
