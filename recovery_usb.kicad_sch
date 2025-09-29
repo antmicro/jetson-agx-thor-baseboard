@@ -5596,6 +5596,12 @@
 		(uuid "20aa5461-aa17-4f29-9c64-97e099e10ed6")
 	)
 	(junction
+		(at 311.15 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "221c269c-fefc-4271-bd16-59332ff8a821")
+	)
+	(junction
 		(at 283.21 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5963,16 +5969,6 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 147.32) (xy 294.64 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bb3079f-326e-4bd1-82d0-c59eda534385")
-	)
-	(wire
-		(pts
 			(xy 218.44 90.17) (xy 226.06 90.17)
 		)
 		(stroke
@@ -6253,16 +6249,6 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 85.09) (xy 302.26 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2864442c-8eab-4903-b3b9-b0d71fb83e82")
-	)
-	(wire
-		(pts
 			(xy 134.62 152.4) (xy 160.02 152.4)
 		)
 		(stroke
@@ -6483,16 +6469,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 144.78) (xy 298.45 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4410ad2c-4a3a-498a-9a88-45f7c1df3893")
-	)
-	(wire
-		(pts
 			(xy 187.96 116.84) (xy 200.66 116.84)
 		)
 		(stroke
@@ -6500,6 +6476,16 @@
 			(type default)
 		)
 		(uuid "4644acc9-43b8-43ae-b9e4-a6a193825b66")
+	)
+	(wire
+		(pts
+			(xy 302.26 85.09) (xy 298.45 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4660eead-6003-46b3-be4c-98f2d1e17619")
 	)
 	(wire
 		(pts
@@ -6973,16 +6959,6 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 144.78) (xy 294.64 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87995ad8-032d-4639-b5b7-bda59a564cd0")
-	)
-	(wire
-		(pts
 			(xy 144.78 186.69) (xy 124.46 186.69)
 		)
 		(stroke
@@ -7273,6 +7249,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 85.09) (xy 321.31 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f13604e-b208-4cf9-9ead-237e9515d038")
+	)
+	(wire
+		(pts
 			(xy 113.03 189.23) (xy 113.03 186.69)
 		)
 		(stroke
@@ -7403,7 +7389,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 144.78) (xy 292.1 144.78)
+			(xy 289.56 144.78) (xy 298.45 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7473,7 +7459,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 85.09) (xy 321.31 85.09)
+			(xy 302.26 85.09) (xy 311.15 85.09)
 		)
 		(stroke
 			(width 0)
@@ -7503,17 +7489,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 147.32) (xy 299.72 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b80ae08c-0ffa-4f5d-9294-2fcd77cb3a85")
-	)
-	(wire
-		(pts
-			(xy 287.02 147.32) (xy 292.1 147.32)
+			(xy 287.02 147.32) (xy 299.72 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7963,7 +7939,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 82.55) (xy 298.45 85.09)
+			(xy 311.15 82.55) (xy 311.15 85.09)
 		)
 		(stroke
 			(width 0)
@@ -19930,7 +19906,7 @@
 	)
 	(symbol
 		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
-		(at 298.45 82.55 90)
+		(at 311.15 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -19938,7 +19914,7 @@
 		(dnp no)
 		(uuid "ca3dd463-36bb-46b1-a096-b5ce256f1c1a")
 		(property "Reference" "TP47"
-			(at 298.45 78.74 0)
+			(at 313.182 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19947,7 +19923,7 @@
 			)
 		)
 		(property "Value" "TP_0.75mm_SMD"
-			(at 302.26 72.39 0)
+			(at 314.96 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19958,7 +19934,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
-			(at 304.8 72.39 0)
+			(at 317.5 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19969,7 +19945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 311.15 64.77 0)
+			(at 323.85 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19980,7 +19956,7 @@
 			)
 		)
 		(property "Description" "SMT test point"
-			(at 298.45 82.55 0)
+			(at 311.15 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19989,7 +19965,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 309.88 71.755 0)
+			(at 322.58 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20000,7 +19976,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 304.8 71.755 0)
+			(at 317.5 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20011,7 +19987,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 307.34 72.39 0)
+			(at 320.04 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20022,7 +19998,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 309.88 72.39 0)
+			(at 322.58 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2294,7 +2294,7 @@
 				(pin bidirectional line
 					(at 35.56 -7.62 180)
 					(length 2.54)
-					(name "GPIO3/HPD1"
+					(name "HPD1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2309,12 +2309,11 @@
 						)
 					)
 					(alternate "GPIO3" bidirectional line)
-					(alternate "HPD1" bidirectional line)
 				)
 				(pin bidirectional line
 					(at 35.56 -10.16 180)
 					(length 2.54)
-					(name "GPIO4/HPD2"
+					(name "HPD2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2329,12 +2328,11 @@
 						)
 					)
 					(alternate "GPIO4" bidirectional line)
-					(alternate "HPD2" bidirectional line)
 				)
 				(pin bidirectional line
 					(at 35.56 -13.97 180)
 					(length 2.54)
-					(name "I2C3_SCL/GPIO5"
+					(name "I2C3_SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2349,12 +2347,11 @@
 						)
 					)
 					(alternate "GPIO5" bidirectional line)
-					(alternate "I2C3_SCL" bidirectional line)
 				)
 				(pin bidirectional line
 					(at 35.56 -16.51 180)
 					(length 2.54)
-					(name "I2C3_SDA/GPIO6"
+					(name "I2C3_SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2369,12 +2366,11 @@
 						)
 					)
 					(alternate "GPIO6" bidirectional line)
-					(alternate "I2C3_SDA" bidirectional line)
 				)
 				(pin bidirectional line
 					(at 35.56 -19.05 180)
 					(length 2.54)
-					(name "~{I2C3_IRQ}/GPIO7"
+					(name "~{I2C3_IRQ}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2389,12 +2385,11 @@
 						)
 					)
 					(alternate "GPIO7" bidirectional line)
-					(alternate "~{I2C3_IRQ}" bidirectional line)
 				)
 				(pin bidirectional line
 					(at 35.56 -22.86 180)
 					(length 2.54)
-					(name "SPI_POCI/GPIO8"
+					(name "SPI_POCI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2409,12 +2404,11 @@
 						)
 					)
 					(alternate "GPIO8" bidirectional line)
-					(alternate "SPI_POCI" bidirectional line)
 				)
 				(pin bidirectional line
 					(at 35.56 -25.4 180)
 					(length 2.54)
-					(name "SPI_PICO/GPIO9"
+					(name "SPI_PICO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2429,12 +2423,11 @@
 						)
 					)
 					(alternate "GPIO9" bidirectional line)
-					(alternate "SPI_PICO" bidirectional line)
 				)
 				(pin bidirectional line
 					(at 35.56 -27.94 180)
 					(length 2.54)
-					(name "SPI_CLK/GPIO10"
+					(name "SPI_CLK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2449,12 +2442,11 @@
 						)
 					)
 					(alternate "GPIO10" bidirectional line)
-					(alternate "SPI_CLK" bidirectional line)
 				)
 				(pin bidirectional line
 					(at 35.56 -30.48 180)
 					(length 2.54)
-					(name "~{SPI_CS}/GPIO11"
+					(name "~{SPI_CS}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2469,7 +2461,6 @@
 						)
 					)
 					(alternate "GPIO11" bidirectional line)
-					(alternate "~{SPI_CS}" bidirectional line)
 				)
 				(pin bidirectional line
 					(at 35.56 -34.29 180)
@@ -2510,7 +2501,7 @@
 				(pin bidirectional line
 					(at 35.56 -39.37 180)
 					(length 2.54)
-					(name "GPIO14/PWM1"
+					(name "PWM1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2525,12 +2516,11 @@
 						)
 					)
 					(alternate "GPIO14" bidirectional line)
-					(alternate "PWM1" output line)
 				)
 				(pin bidirectional line
 					(at 35.56 -41.91 180)
 					(length 2.54)
-					(name "GPIO15/PWM2"
+					(name "PWM2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2545,12 +2535,11 @@
 						)
 					)
 					(alternate "GPIO15" bidirectional line)
-					(alternate "PWM2" output line)
 				)
 				(pin bidirectional line
 					(at 35.56 -44.45 180)
 					(length 2.54)
-					(name "GPIO16/PP_EXT1"
+					(name "PP_EXT1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2565,12 +2554,11 @@
 						)
 					)
 					(alternate "GPIO16" bidirectional line)
-					(alternate "PP_EXT1" output line)
 				)
 				(pin bidirectional line
 					(at 35.56 -46.99 180)
 					(length 2.54)
-					(name "GPIO17/PP_EXT2"
+					(name "PP_EXT2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2585,7 +2573,6 @@
 						)
 					)
 					(alternate "GPIO17" bidirectional line)
-					(alternate "PP_EXT2" output line)
 				)
 				(pin output line
 					(at 35.56 -52.07 180)
@@ -2823,7 +2810,7 @@
 				(pin bidirectional line
 					(at 0 -12.7 0)
 					(length 2.54)
-					(name "C1_USB_N/GPIO19"
+					(name "C1_USB_N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2837,13 +2824,12 @@
 							)
 						)
 					)
-					(alternate "C1_USB_N" bidirectional line)
 					(alternate "GPIO19" bidirectional line)
 				)
 				(pin bidirectional line
 					(at 0 -15.24 0)
 					(length 2.54)
-					(name "C1_USB_P/GPIO18"
+					(name "C1_USB_P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2857,7 +2843,6 @@
 							)
 						)
 					)
-					(alternate "C1_USB_P" bidirectional line)
 					(alternate "GPIO18" bidirectional line)
 				)
 				(pin bidirectional line
@@ -3099,7 +3084,7 @@
 				(pin bidirectional line
 					(at 0 -12.7 0)
 					(length 2.54)
-					(name "C2_USB_N/GPIO21"
+					(name "C2_USB_N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3113,13 +3098,12 @@
 							)
 						)
 					)
-					(alternate "C2_USB_N" bidirectional line)
 					(alternate "GPIO21" bidirectional line)
 				)
 				(pin bidirectional line
 					(at 0 -15.24 0)
 					(length 2.54)
-					(name "C2_USB_P/GPIO20"
+					(name "C2_USB_P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3133,7 +3117,6 @@
 							)
 						)
 					)
-					(alternate "C2_USB_P" bidirectional line)
 					(alternate "GPIO20" bidirectional line)
 				)
 				(pin bidirectional line
@@ -6898,6 +6881,195 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicroResistors0402:R_470R_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 20.32 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "R_470R_0402"
+				(at 20.32 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+				(at 20.32 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+				(at 20.32 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Chip Resistor, 470 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+				(at 20.32 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CR0402-FX-4700GLF"
+				(at 20.32 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Bourns"
+				(at 20.32 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 20.32 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "470R"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 20.32 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_470R_0402_0_1"
+				(rectangle
+					(start 0.635 0.889)
+					(end 4.445 -0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_470R_0402_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicroResistors0402:R_4k7_0402"
 			(pin_numbers
 				(hide yes)
@@ -10274,7 +10446,7 @@
 		(uuid "38b419b6-bcda-4848-9fae-b092f08767ac")
 	)
 	(junction
-		(at 214.63 73.66)
+		(at 214.63 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d21d096-b1d8-423f-9e8b-b0a393c828e7")
@@ -11075,7 +11247,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 73.66) (xy 223.52 73.66)
+			(xy 214.63 74.93) (xy 223.52 74.93)
 		)
 		(stroke
 			(width 0)
@@ -11195,7 +11367,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 72.39) (xy 214.63 73.66)
+			(xy 214.63 73.66) (xy 214.63 74.93)
 		)
 		(stroke
 			(width 0)
@@ -11245,7 +11417,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 73.66) (xy 214.63 74.93)
+			(xy 214.63 74.93) (xy 214.63 76.2)
 		)
 		(stroke
 			(width 0)
@@ -12315,7 +12487,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 73.66) (xy 223.52 69.85)
+			(xy 223.52 74.93) (xy 223.52 69.85)
 		)
 		(stroke
 			(width 0)
@@ -13875,7 +14047,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 80.01) (xy 214.63 81.28)
+			(xy 214.63 81.28) (xy 214.63 82.55)
 		)
 		(stroke
 			(width 0)
@@ -20127,6 +20299,147 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroResistors0402:R_470R_0402")
+		(at 359.41 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b344bb7-b25a-486d-9b43-a371aee9574a")
+		(property "Reference" "R156"
+			(at 361.95 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_470R_0402"
+			(at 372.11 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 374.65 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 377.19 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 470 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 359.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-4700GLF"
+			(at 379.73 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 382.27 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 384.81 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 387.35 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "470R"
+			(at 361.95 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 369.57 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7ca190b9-bc7d-48dd-9728-d2300798ba42")
+		)
+		(pin "1"
+			(uuid "e3bf8c37-ab91-42e5-9935-9429eb7d43bb")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
+					(reference "R156")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroUSBConnectors:USB-C_GCT_USB4105-GF-A")
 		(at 323.85 66.04 0)
 		(mirror y)
@@ -20679,7 +20992,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 214.63 81.28 0)
+		(at 214.63 82.55 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20688,7 +21001,7 @@
 		(dnp no)
 		(uuid "375fb26d-513d-412d-abb3-9f22f7883f5c")
 		(property "Reference" "#PWR0263"
-			(at 214.63 87.63 0)
+			(at 214.63 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20698,7 +21011,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.63 85.09 0)
+			(at 214.63 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20707,7 +21020,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 88.9 0)
+			(at 205.74 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20718,7 +21031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 93.98 0)
+			(at 205.74 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20729,7 +21042,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 214.63 81.28 0)
+			(at 214.63 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20738,7 +21051,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 205.74 88.9 0)
+			(at 205.74 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20749,7 +21062,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 205.74 91.44 0)
+			(at 205.74 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22094,146 +22407,6 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_4k7_0402")
-		(at 359.41 33.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "481c3073-45ee-48f9-ad31-1aeaecd15c13")
-		(property "Reference" "R156"
-			(at 361.315 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_4k7_0402"
-			(at 346.71 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 344.17 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 341.63 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 4.7 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 359.41 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 336.55 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-4701GLF"
-			(at 339.09 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "4k7"
-			(at 361.315 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 334.01 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 331.47 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 349.25 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1db09856-9117-4f84-87f4-fdab12869bc5")
-		)
-		(pin "2"
-			(uuid "ff90ae8a-40ad-484b-8f84-8fbaacae9fd1")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
-					(reference "R156")
 					(unit 1)
 				)
 			)
@@ -30449,7 +30622,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+5V")
-		(at 214.63 72.39 0)
+		(at 214.63 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30457,7 +30630,7 @@
 		(dnp no)
 		(uuid "b9e33e31-ff06-4166-a365-13abe523041c")
 		(property "Reference" "#PWR0262"
-			(at 214.63 76.2 0)
+			(at 214.63 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30467,7 +30640,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 229.87 77.47 0)
+			(at 212.598 70.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30477,7 +30650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 80.01 0)
+			(at 229.87 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30488,7 +30661,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 82.55 0)
+			(at 229.87 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30499,7 +30672,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 214.63 72.39 0)
+			(at 214.63 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30508,7 +30681,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 229.87 80.01 0)
+			(at 229.87 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30519,7 +30692,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 229.87 82.55 0)
+			(at 229.87 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33132,7 +33305,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_10u_0402")
-		(at 214.63 80.01 90)
+		(at 214.63 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33141,7 +33314,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1955b95-f9f6-4c6d-a4b3-af0f56cf4c07")
 		(property "Reference" "C147"
-			(at 212.09 76.1936 90)
+			(at 212.09 77.4636 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33151,7 +33324,7 @@
 			)
 		)
 		(property "Value" "C_10u_0402"
-			(at 224.79 59.69 0)
+			(at 224.79 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33162,7 +33335,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 227.33 59.69 0)
+			(at 227.33 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33173,7 +33346,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402MRX5R5BB106"
-			(at 229.87 59.69 0)
+			(at 229.87 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33184,7 +33357,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
-			(at 214.63 80.01 0)
+			(at 214.63 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33193,7 +33366,7 @@
 			)
 		)
 		(property "MPN" "CC0402MRX5R5BB106"
-			(at 232.41 59.69 0)
+			(at 232.41 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33204,7 +33377,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 234.95 59.69 0)
+			(at 234.95 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33215,7 +33388,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 237.49 59.69 0)
+			(at 237.49 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33226,7 +33399,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 240.03 59.69 0)
+			(at 240.03 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33237,7 +33410,7 @@
 			)
 		)
 		(property "Val" "10u"
-			(at 212.09 78.7336 90)
+			(at 212.09 80.0036 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33247,7 +33420,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 242.57 59.69 0)
+			(at 242.57 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33257,7 +33430,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 245.11 59.69 0)
+			(at 245.11 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)

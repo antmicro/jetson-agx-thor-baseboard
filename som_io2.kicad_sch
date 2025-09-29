@@ -14235,12 +14235,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroOscillators:Oscillator_100MHz_SG3225EEN"
+		(symbol "antmicroOscillators:Oscillator_100MHz_NX324"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Y"
-				(at 20.32 -10.16 0)
+				(at 29.21 -1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -14249,19 +14249,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "Oscillator_100MHz_SG3225EEN"
-				(at 20.32 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:Oscillator_SMD_Epson_SG3225EEN_3.2x2.5x1.2mm"
-				(at 20.32 -22.86 0)
+			(property "Value" "Oscillator_100MHz_NX324"
+				(at 29.21 -12.065 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -14271,8 +14260,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG3225EEN&lang=en"
-				(at 20.32 -25.4 0)
+			(property "Footprint" "antmicro-footprints:Oscillator_SMD_Abracon_AX3_3.2x2.5x1mm"
+				(at 29.21 -14.605 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -14282,18 +14271,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "100 MHz XO (Standard) LVPECL Oscillator 3.3V Enable/Disable 6-SMD, No Lead"
-				(at 20.32 -33.02 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Epson"
-				(at 20.32 -12.7 0)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/NX324.pdf"
+				(at 29.21 -17.145 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -14303,8 +14282,29 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "SG3225EEN_100.000000M-CJGA3"
-				(at 20.32 -15.24 0)
+			(property "Description" "100 MHz XO (Standard) HCSL Oscillator 3.3V Enable/Disable 6-SMD, No Lead"
+				(at 29.21 -24.765 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Diodes Incorporated"
+				(at 29.21 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "NX3241E0100.000000"
+				(at 29.21 -6.985 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -14313,8 +14313,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Val" "100MHz"
-				(at 20.32 -17.78 0)
+			(property "Val" "100 MHz"
+				(at 29.21 -9.525 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -14324,7 +14324,7 @@
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 20.32 -27.94 0)
+				(at 29.21 -19.685 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -14335,7 +14335,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 20.32 -30.48 0)
+				(at 29.21 -22.225 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -14345,7 +14345,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "OSCILLATOR, LVDS"
+			(property "ki_keywords" "OSCILLATOR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -14354,7 +14354,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Oscillator_100MHz_SG3225EEN_1_1"
+			(symbol "Oscillator_100MHz_NX324_1_1"
 				(rectangle
 					(start 2.54 2.54)
 					(end 16.51 -7.62)
@@ -14491,7 +14491,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroOscillators:Oscillator_156.25MHz_SG3225EEN"
+		(symbol "antmicroOscillators:Oscillator_156.25MHz_AK3LPHEF1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -14505,7 +14505,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "Oscillator_156.25MHz_SG3225EEN"
+			(property "Value" "Oscillator_156.25MHz_AK3LPHEF1"
 				(at 20.32 -20.32 0)
 				(effects
 					(font
@@ -14516,7 +14516,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:Oscillator_SMD_Epson_SG3225EEN_3.2x2.5x1.2mm"
+			(property "Footprint" "antmicro-footprints:Oscillator_SMD_Abracon_AK3LPHEF1_3.2x2.5x1mm"
 				(at 20.32 -22.86 0)
 				(effects
 					(font
@@ -14527,7 +14527,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG3225EEN&lang=en"
+			(property "Datasheet" "https://eu.mouser.com/datasheet/2/3/AK3LP-3318362.pdf"
 				(at 20.32 -25.4 0)
 				(effects
 					(font
@@ -14538,7 +14538,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "156.25 MHz XO (Standard) LVPECL Oscillator 3.3V Enable/Disable 6-SMD, No Lead"
+			(property "Description" "156.25 MHz XO (Standard) HCSL Oscillator 3.3V Enable/Disable 6-SMD, +/-25ppm"
 				(at 20.32 -33.02 0)
 				(effects
 					(font
@@ -14548,7 +14548,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "SG3225EEN_156.250000M-CDGA3"
+			(property "MPN" "AK3LPHEF1-156.2500T"
 				(at 20.32 -12.7 0)
 				(effects
 					(font
@@ -14558,7 +14558,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Manufacturer" "Epson"
+			(property "Manufacturer" "Abracon"
 				(at 20.32 -17.78 0)
 				(effects
 					(font
@@ -14601,7 +14601,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "OSCILLATOR, LVDS"
+			(property "ki_keywords" "OSCILLATOR, SMT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -14610,7 +14610,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Oscillator_156.25MHz_SG3225EEN_1_1"
+			(symbol "Oscillator_156.25MHz_AK3LPHEF1_1_1"
 				(rectangle
 					(start 2.54 2.54)
 					(end 16.51 -7.62)
@@ -17187,6 +17187,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf15a6ab-afd5-4098-bc63-fc560c831836")
+	)
+	(junction
+		(at 132.08 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d98b8353-2a8b-41cb-b3bb-3faafa8af0ff")
 	)
 	(junction
 		(at 135.89 243.84)
@@ -21192,7 +21198,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 232.41) (xy 115.57 233.68)
+			(xy 132.08 232.41) (xy 132.08 233.68)
 		)
 		(stroke
 			(width 0)
@@ -21539,6 +21545,16 @@
 			(type default)
 		)
 		(uuid "83b596ca-f533-4776-b5b2-43dda2b7edd5")
+	)
+	(wire
+		(pts
+			(xy 132.08 233.68) (xy 115.57 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84345c18-a861-434d-b7e2-9755b91aaf7d")
 	)
 	(wire
 		(pts
@@ -22952,6 +22968,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 233.68) (xy 137.16 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1efd452-d39f-4352-b97e-aebae1db846e")
+	)
+	(wire
+		(pts
 			(xy 200.66 161.29) (xy 217.17 161.29)
 		)
 		(stroke
@@ -23299,16 +23325,6 @@
 			(type default)
 		)
 		(uuid "e3ae9bf6-dd2e-42f9-bb77-2cb1166dac72")
-	)
-	(wire
-		(pts
-			(xy 115.57 233.68) (xy 137.16 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3dad081-979e-4961-82fc-2add703c358b")
 	)
 	(wire
 		(pts
@@ -29559,6 +29575,146 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroOscillators:Oscillator_100MHz_NX324")
+		(at 223.52 262.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18424257-1b96-4312-8f42-ddf458ec6831")
+		(property "Reference" "Y1"
+			(at 233.045 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Oscillator_100MHz_NX324"
+			(at 252.73 274.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Oscillator_SMD_Abracon_AX3_3.2x2.5x1mm"
+			(at 252.73 277.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/NX324.pdf"
+			(at 252.73 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 MHz XO (Standard) HCSL Oscillator 3.3V Enable/Disable 6-SMD, No Lead"
+			(at 252.73 287.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 252.73 267.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NX3241E0100.000000"
+			(at 233.045 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Val" "100 MHz"
+			(at 233.045 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 252.73 282.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 252.73 285.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d68fc8a0-20bd-428f-a1e2-0cd06e495514")
+		)
+		(pin "4"
+			(uuid "dc8ca291-c301-4b24-847d-d1b775e9e7b7")
+		)
+		(pin "6"
+			(uuid "efe71237-2733-46b0-8218-ddbdac78a0b9")
+		)
+		(pin "5"
+			(uuid "898ad2ad-bb51-437e-a323-8b5bee486464")
+		)
+		(pin "1"
+			(uuid "da1049f6-c8c3-4e9f-a153-b07a3a0bdc71")
+		)
+		(pin "2"
+			(uuid "896d30dc-6b38-4158-b35f-785b82fc5da8")
+		)
+		(instances
+			(project ""
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/656db8bb-c788-4c93-9592-ce18fa1a48a2"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 62.23 255.27 0)
 		(mirror y)
@@ -35181,7 +35337,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:PWR_FLAG")
-		(at 115.57 232.41 0)
+		(at 132.08 232.41 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -35191,7 +35347,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a9d698a-5c13-4fa3-8305-e2cd47f8c882")
 		(property "Reference" "#FLG026"
-			(at 115.57 230.505 0)
+			(at 132.08 230.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35200,7 +35356,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 115.57 227.33 0)
+			(at 132.08 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35208,7 +35364,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 232.41 0)
+			(at 132.08 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35217,7 +35373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 232.41 0)
+			(at 132.08 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35226,7 +35382,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 232.41 0)
+			(at 132.08 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39705,145 +39861,6 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/656db8bb-c788-4c93-9592-ce18fa1a48a2"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroOscillators:Oscillator_100MHz_SG3225EEN")
-		(at 223.52 262.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b04d347a-ccfc-4dfd-8fb6-1b0c60830557")
-		(property "Reference" "Y4"
-			(at 233.045 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Oscillator_100MHz_SG3225EEN"
-			(at 243.84 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Oscillator_SMD_Epson_SG3225EEN_3.2x2.5x1.2mm"
-			(at 243.84 285.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG3225EEN&lang=en"
-			(at 243.84 288.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "100 MHz XO (Standard) LVPECL Oscillator 3.3V Enable/Disable 6-SMD, No Lead"
-			(at 223.52 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Epson"
-			(at 243.84 275.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SG3225EEN_100.000000M-CJGA3"
-			(at 233.045 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Val" "100MHz"
-			(at 233.045 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 243.84 290.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 243.84 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "3b05ac00-13da-43e2-9884-58311a802ac2")
-		)
-		(pin "6"
-			(uuid "657c906d-a47d-41f4-8c61-2a33d0ecc7dd")
-		)
-		(pin "2"
-			(uuid "f4ad97a0-c531-4985-9a11-cf874cff0625")
-		)
-		(pin "1"
-			(uuid "20c76801-317c-48de-9824-82e76664de2f")
-		)
-		(pin "3"
-			(uuid "14a056bf-92c5-4737-a313-4dbfcd7afa79")
-		)
-		(pin "4"
-			(uuid "8e40772a-c30d-4c65-9303-2da48fe7d3e0")
-		)
-		(instances
-			(project ""
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/656db8bb-c788-4c93-9592-ce18fa1a48a2"
-					(reference "Y4")
 					(unit 1)
 				)
 			)
@@ -45263,6 +45280,146 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroOscillators:Oscillator_156.25MHz_AK3LPHEF1")
+		(at 223.52 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d12b1b39-cdae-4a12-88fb-f1faf335f4fd")
+		(property "Reference" "Y5"
+			(at 233.045 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Oscillator_156.25MHz_AK3LPHEF1"
+			(at 243.84 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Oscillator_SMD_Abracon_AK3LPHEF1_3.2x2.5x1mm"
+			(at 243.84 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/3/AK3LP-3318362.pdf"
+			(at 243.84 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "156.25 MHz XO (Standard) HCSL Oscillator 3.3V Enable/Disable 6-SMD, +/-25ppm"
+			(at 243.84 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AK3LPHEF1-156.2500T"
+			(at 233.045 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Abracon"
+			(at 243.84 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "156.25MHz"
+			(at 233.045 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 243.84 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 243.84 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b4f5bce9-8490-42e8-8534-526f8048d5ad")
+		)
+		(pin "5"
+			(uuid "d306030e-bbb3-41ea-af7f-689a13c18979")
+		)
+		(pin "6"
+			(uuid "a57dcc31-03fd-405d-9a26-6850235cf68b")
+		)
+		(pin "2"
+			(uuid "b5f2ddb9-a628-4bf3-84b8-2f777366e13d")
+		)
+		(pin "3"
+			(uuid "8f6e4c95-c63c-47de-bbce-295d384c1240")
+		)
+		(pin "1"
+			(uuid "9666dc17-91cd-40d2-9bac-04379807d722")
+		)
+		(instances
+			(project ""
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/656db8bb-c788-4c93-9592-ce18fa1a48a2"
+					(reference "Y5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 133.35 275.59 0)
 		(mirror y)
@@ -45663,145 +45820,6 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/656db8bb-c788-4c93-9592-ce18fa1a48a2"
 					(reference "#PWR0342")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroOscillators:Oscillator_156.25MHz_SG3225EEN")
-		(at 223.52 234.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6098181-ad2c-48f6-a565-e79d6dc9a51b")
-		(property "Reference" "Y1"
-			(at 233.045 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Oscillator_156.25MHz_SG3225EEN"
-			(at 243.84 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Oscillator_SMD_Epson_SG3225EEN_3.2x2.5x1.2mm"
-			(at 243.84 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG3225EEN&lang=en"
-			(at 243.84 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "156.25 MHz XO (Standard) LVPECL Oscillator 3.3V Enable/Disable 6-SMD, No Lead"
-			(at 223.52 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SG3225EEN_156.250000M-CDGA3"
-			(at 233.045 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Epson"
-			(at 243.84 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "156.25MHz"
-			(at 233.045 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 243.84 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 243.84 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1336f8c0-0ac9-4eba-a966-a8979e289ddb")
-		)
-		(pin "4"
-			(uuid "6301a25a-a48f-466b-9d12-8ac8f198c322")
-		)
-		(pin "6"
-			(uuid "c18766ba-e8f0-4bab-94a2-ea6433c55624")
-		)
-		(pin "5"
-			(uuid "5e6adc45-a162-4e22-b041-f6344b7ddddb")
-		)
-		(pin "3"
-			(uuid "9b6d2228-cf81-4b85-a4a1-bda43fafa8ec")
-		)
-		(pin "2"
-			(uuid "cadebdc0-93c4-4187-89f2-dc11ccf61db0")
-		)
-		(instances
-			(project ""
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/656db8bb-c788-4c93-9592-ce18fa1a48a2"
-					(reference "Y1")
 					(unit 1)
 				)
 			)
