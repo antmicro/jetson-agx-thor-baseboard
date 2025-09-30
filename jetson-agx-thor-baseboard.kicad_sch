@@ -371,7 +371,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 156.21) (xy 137.16 129.54)
+			(xy 137.16 158.75) (xy 137.16 129.54)
 		)
 		(stroke
 			(width 0)
@@ -412,7 +412,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 161.29) (xy 132.08 134.62)
+			(xy 132.08 163.83) (xy 132.08 134.62)
 		)
 		(stroke
 			(width 0)
@@ -460,6 +460,16 @@
 			(color 194 194 0 1)
 		)
 		(uuid "1876034b-d864-4f82-acdb-65f1a07aad72")
+	)
+	(bus
+		(pts
+			(xy 177.8 151.13) (xy 142.24 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a205578-61fb-4c1a-9ba6-d1a1a11409a0")
 	)
 	(bus
 		(pts
@@ -913,7 +923,7 @@
 	)
 	(bus
 		(pts
-			(xy 139.7 153.67) (xy 139.7 124.46)
+			(xy 139.7 156.21) (xy 139.7 124.46)
 		)
 		(stroke
 			(width 0)
@@ -934,7 +944,7 @@
 	)
 	(bus
 		(pts
-			(xy 177.8 153.67) (xy 139.7 153.67)
+			(xy 177.8 156.21) (xy 139.7 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1058,7 +1068,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 156.21) (xy 137.16 156.21)
+			(xy 177.8 158.75) (xy 137.16 158.75)
 		)
 		(stroke
 			(width 0)
@@ -1150,9 +1160,19 @@
 		)
 		(uuid "6615f89a-fd49-4f17-9a29-e6d32c46fd1c")
 	)
+	(bus
+		(pts
+			(xy 142.24 151.13) (xy 142.24 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6665a6b6-baa9-4d7a-bd66-4c654812220d")
+	)
 	(wire
 		(pts
-			(xy 134.62 158.75) (xy 177.8 158.75)
+			(xy 134.62 161.29) (xy 177.8 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1509,7 +1529,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 132.08) (xy 134.62 158.75)
+			(xy 134.62 132.08) (xy 134.62 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1744,7 +1764,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 161.29) (xy 132.08 161.29)
+			(xy 177.8 163.83) (xy 132.08 163.83)
 		)
 		(stroke
 			(width 0)
@@ -1803,6 +1823,16 @@
 			(type default)
 		)
 		(uuid "bb54e092-008d-4eb7-956d-9261dc978c5c")
+	)
+	(bus
+		(pts
+			(xy 142.24 101.6) (xy 100.33 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe06c39-692a-45e2-97f9-8e4d57f5ab41")
 	)
 	(wire
 		(pts
@@ -5165,7 +5195,7 @@
 				(justify right)
 			)
 		)
-		(pin "CARRIER_POWER_ON" output
+		(pin "CARRIER_POWER_ON" input
 			(at 100.33 232.41 0)
 			(uuid "e6c05e4d-61b6-4392-b641-0d9b1ea6993d")
 			(effects
@@ -5175,7 +5205,7 @@
 				(justify right)
 			)
 		)
-		(pin "MODULE_POWER_ON" input
+		(pin "MODULE_POWER_ON" output
 			(at 100.33 234.95 0)
 			(uuid "4ddcd628-1547-4d08-ae2a-e5cfe831c0b1")
 			(effects
@@ -5247,7 +5277,7 @@
 				(justify left top)
 			)
 		)
-		(pin "CARRIER_POWER_ON" input
+		(pin "CARRIER_POWER_ON" output
 			(at 177.8 232.41 180)
 			(uuid "35b39eda-6982-42a0-8a19-f5bf28e55860")
 			(effects
@@ -5257,7 +5287,7 @@
 				(justify left)
 			)
 		)
-		(pin "MODULE_POWER_ON" output
+		(pin "MODULE_POWER_ON" input
 			(at 177.8 234.95 180)
 			(uuid "e286d556-8047-4fda-899a-538fc98944e9")
 			(effects
@@ -5521,6 +5551,16 @@
 				(justify right)
 			)
 		)
+		(pin "M2_E{M2_E}" bidirectional
+			(at 100.33 101.6 0)
+			(uuid "e423cb14-dee4-44d9-a32e-1837734d996d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
@@ -5676,7 +5716,7 @@
 			)
 		)
 		(pin "I2C_{SFP}{I2C}" bidirectional
-			(at 177.8 153.67 180)
+			(at 177.8 156.21 180)
 			(uuid "09e8eeda-d494-4bbd-9c89-97af222f4f3a")
 			(effects
 				(font
@@ -5686,7 +5726,7 @@
 			)
 		)
 		(pin "MOD_ABS" input
-			(at 177.8 161.29 180)
+			(at 177.8 163.83 180)
 			(uuid "361d98b5-baed-4684-b408-13f837bf5479")
 			(effects
 				(font
@@ -6056,7 +6096,7 @@
 			)
 		)
 		(pin "SFP_LEDG" output
-			(at 177.8 156.21 180)
+			(at 177.8 158.75 180)
 			(uuid "56256897-3a2d-4796-8e08-1e478c86b852")
 			(effects
 				(font
@@ -6066,8 +6106,18 @@
 			)
 		)
 		(pin "SFP_LEDY" output
-			(at 177.8 158.75 180)
+			(at 177.8 161.29 180)
 			(uuid "14658393-c19e-4d54-95ea-84d87f6fbb15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M2_E{M2_E}" bidirectional
+			(at 177.8 151.13 180)
+			(uuid "10192b1e-2657-4cf2-9fbf-5328792af0e5")
 			(effects
 				(font
 					(size 1.27 1.27)
