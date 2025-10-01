@@ -11760,17 +11760,6 @@
 		)
 		(uuid "06f974ad-0958-4a60-a954-1747959f4260")
 	)
-	(text "NOTE:\nStandard specifies\nVDD_HV to be 12V\nin our case it is up to 20V"
-		(exclude_from_sim no)
-		(at 141.224 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "705d3c29-4f78-4094-8749-49928e82ae5e")
-	)
 	(text "FMC+ expansion connector"
 		(exclude_from_sim no)
 		(at 188.214 18.542 0)
@@ -25668,6 +25657,16 @@
 		)
 		(uuid "53d67e65-da2e-4dac-a65f-6f31d1ee9495")
 	)
+	(label "+12V_CONN"
+		(at 326.39 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5403da51-8b23-4695-b21d-c479b5f71c85")
+	)
 	(label "SPI3.~{CS0}"
 		(at 200.66 240.03 0)
 		(effects
@@ -25837,16 +25836,6 @@
 			(justify right bottom)
 		)
 		(uuid "7bef1a77-05f8-4e1f-b206-a7ab57fd69ce")
-	)
-	(label "VDD_HV_CONN"
-		(at 326.39 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7ddd5ff1-ffe8-4157-8e8f-2ff2cd4c8a9d")
 	)
 	(label "PCIe_{C3x2}.CLK+"
 		(at 38.1 104.14 0)
@@ -26268,8 +26257,8 @@
 		)
 		(uuid "d3e6f0b8-4684-47a9-b79e-8a50e06f8196")
 	)
-	(label "VDD_HV_CONN"
-		(at 157.48 124.46 0)
+	(label "+12V_CONN"
+		(at 160.02 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26942,8 +26931,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "SYS_VIN_HV"
-			(at 147.066 112.522 0)
+		(property "Value" "+12V"
+			(at 149.352 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
