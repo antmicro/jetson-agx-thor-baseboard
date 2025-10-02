@@ -10221,6 +10221,16 @@
 		)
 		(uuid "15b35efa-8ad9-4563-a393-0fbd0b8d38de")
 	)
+	(text "I2C addr:\nC1: 0x43\nC2: 0x47"
+		(exclude_from_sim no)
+		(at 191.262 267.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "20f7d5a3-3498-4d81-93db-c9c85aa694d9")
+	)
 	(text "USB PORT 0"
 		(exclude_from_sim no)
 		(at 340.106 65.532 0)
@@ -10474,6 +10484,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4936f744-df5c-40aa-be85-8152e44226e2")
+	)
+	(junction
+		(at 209.55 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a01f20e-3691-40b9-9dc7-134ef17a1dc9")
 	)
 	(junction
 		(at 261.62 25.4)
@@ -11138,6 +11154,16 @@
 			(type default)
 		)
 		(uuid "0ec59f86-a751-486f-a0b1-41a587bd037c")
+	)
+	(wire
+		(pts
+			(xy 207.01 54.61) (xy 209.55 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1137185a-cb15-48ac-89cd-531f64e2b54c")
 	)
 	(wire
 		(pts
@@ -17437,6 +17463,17 @@
 			(justify left)
 		)
 		(uuid "7a312776-1ddc-4d0e-b784-73c7d616dd26")
+	)
+	(hierarchical_label "USBPD2_HV"
+		(shape output)
+		(at 207.01 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "88166c3a-7203-4764-8c06-be10fc472c9a")
 	)
 	(hierarchical_label "USBC1_CTL0"
 		(shape output)
