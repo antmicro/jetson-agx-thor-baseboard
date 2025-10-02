@@ -11099,7 +11099,7 @@
 	)
 	(text "Input selector"
 		(exclude_from_sim no)
-		(at 52.578 18.796 0)
+		(at 61.468 18.796 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -11394,12 +11394,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10dc13d5-a15e-4113-b59d-eea02c6fa115")
-	)
-	(junction
-		(at 109.22 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "120c1b09-bf27-4bb1-b50a-007407e75e47")
 	)
 	(junction
 		(at 198.12 106.68)
@@ -11718,6 +11712,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8677902e-102a-4382-8d54-97946bbe1615")
+	)
+	(junction
+		(at 109.22 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "867d8c74-8964-4d3e-9eac-451cab8d9c84")
 	)
 	(junction
 		(at 114.3 40.64)
@@ -12879,16 +12879,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 73.66) (xy 109.22 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c427cdb-5e1a-4760-b390-61e2bf6a711b")
-	)
-	(wire
-		(pts
 			(xy 259.08 255.27) (xy 252.73 255.27)
 		)
 		(stroke
@@ -13006,6 +12996,16 @@
 			(type default)
 		)
 		(uuid "35e416ef-3c4a-4811-9d2c-2f6678364a70")
+	)
+	(wire
+		(pts
+			(xy 109.22 71.12) (xy 109.22 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b2e915-0213-40e1-8da1-edce07ada36c")
 	)
 	(wire
 		(pts
@@ -13636,6 +13636,16 @@
 			(type default)
 		)
 		(uuid "5d9e1d69-ff5d-4779-b223-c747468872dc")
+	)
+	(wire
+		(pts
+			(xy 83.82 80.01) (xy 109.22 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e073a79-52b3-4f13-a23b-0be82c075e3f")
 	)
 	(wire
 		(pts
@@ -15189,6 +15199,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 71.12) (xy 109.22 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ab70b3-5829-46cd-80e7-d07c49a2916f")
+	)
+	(wire
+		(pts
 			(xy 189.23 124.46) (xy 189.23 132.08)
 		)
 		(stroke
@@ -15446,16 +15466,6 @@
 			(type default)
 		)
 		(uuid "b528a938-ffdc-4364-9f94-fbc82017adeb")
-	)
-	(wire
-		(pts
-			(xy 109.22 73.66) (xy 109.22 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5600714-a723-492a-95b1-10dc3bf5dc9c")
 	)
 	(wire
 		(pts
@@ -15799,7 +15809,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 73.66) (xy 109.22 73.66)
+			(xy 46.99 71.12) (xy 78.74 71.12)
 		)
 		(stroke
 			(width 0)
@@ -16669,7 +16679,17 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 78.74) (xy 109.22 78.74)
+			(xy 109.22 71.12) (xy 109.22 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9133d71-98b0-4941-8fb9-5b7947df6b02")
+	)
+	(wire
+		(pts
+			(xy 46.99 80.01) (xy 78.74 80.01)
 		)
 		(stroke
 			(width 0)
@@ -20160,7 +20180,7 @@
 	)
 	(hierarchical_label "USBPD1_HV"
 		(shape input)
-		(at 46.99 73.66 180)
+		(at 46.99 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20193,7 +20213,7 @@
 	)
 	(hierarchical_label "USBPD2_HV"
 		(shape input)
-		(at 46.99 78.74 180)
+		(at 46.99 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21024,6 +21044,151 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0603:R_0R_22.4A_0603")
+		(at 78.74 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "0454367e-8785-4477-9852-864b292ee244")
+		(property "Reference" "R29"
+			(at 81.28 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_0R_22.4A_0603"
+			(at 81.28 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
+			(at 93.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/pmr-jpw-e.pdf"
+			(at 93.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor"
+			(at 78.74 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROHM Semiconductor"
+			(at 93.98 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PMR03EZPJ000"
+			(at 93.98 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 81.28 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 93.98 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 93.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Max. Curr." "22.4A"
+			(at 81.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "template_tolerance"
+			(at 99.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f913dde0-9c06-4ef1-ad2c-cafaa84a9c1e")
+		)
+		(pin "2"
+			(uuid "3ab533bb-6382-4e23-93e6-2de69179eed5")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -34932,6 +35097,151 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
 					(reference "#PWR0526")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0603:R_0R_22.4A_0603")
+		(at 78.74 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "8dea8358-e5b1-43a6-b7d8-76667b46d752")
+		(property "Reference" "R30"
+			(at 81.28 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_0R_22.4A_0603"
+			(at 81.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
+			(at 93.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/pmr-jpw-e.pdf"
+			(at 93.98 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor"
+			(at 78.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROHM Semiconductor"
+			(at 93.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PMR03EZPJ000"
+			(at 93.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 81.28 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 93.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 93.98 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Max. Curr." "22.4A"
+			(at 81.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "template_tolerance"
+			(at 99.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b98e9704-2f0e-49d0-9610-349a9efc59e7")
+		)
+		(pin "2"
+			(uuid "29c641e5-81ea-41c6-a3fd-9e01348563d4")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
+					(reference "R30")
 					(unit 1)
 				)
 			)
