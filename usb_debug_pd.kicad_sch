@@ -9268,12 +9268,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroUSBConnectors:USB-C_GCT_USB4105-GF-A"
+		(symbol "antmicroUSBConnectors:USB-C_Kycon_KUSBX-SL2-CS1N24-B-TR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 38.1 -2.54 0)
+				(at 43.18 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9282,19 +9282,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "USB-C_GCT_USB4105-GF-A"
-				(at 38.1 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:USB-C_Receptacle_GCT_USB4105-GF-A"
-				(at 38.1 -7.62 0)
+			(property "Value" "USB-C_Kycon_KUSBX-SL2-CS1N24-B-TR"
+				(at 43.18 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9304,8 +9293,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://gct.co/files/drawings/usb4105.pdf"
-				(at 38.1 -10.16 0)
+			(property "Footprint" "antmicro-footprints:USB-C_Receptacle_Kycon_KUSBX-SL2-CS1N24-B-TR"
+				(at 43.18 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9315,18 +9304,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle"
-				(at 38.1 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "GCT"
-				(at 38.1 -12.7 0)
+			(property "Datasheet" "https://www.kycon.com/Pub_Eng_Draw/KUSBX-SL2-CS1N24-B-TR.pdf"
+				(at 43.18 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9336,8 +9315,18 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "USB4105-GF-A"
-				(at 38.1 -15.24 0)
+			(property "Description" "USB-C (USB TYPE-C) USB 3.2 Gen 2 (USB 3.1 Gen 2, Superspeed + (USB 3.1)) USB PD Receptacle Connector 24 Position Surface Mount"
+				(at 43.18 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "KUSBX-SL2-CS1N24-B-TR"
+				(at 43.18 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9346,8 +9335,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Author" "Antmicro"
-				(at 38.1 -17.78 0)
+			(property "Manufacturer" "Kycon"
+				(at 43.18 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9358,7 +9347,18 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 38.1 -20.32 0)
+				(at 43.18 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 43.18 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9377,10 +9377,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB-C_GCT_USB4105-GF-A_1_1"
+			(symbol "USB-C_Kycon_KUSBX-SL2-CS1N24-B-TR_1_1"
 				(rectangle
-					(start -22.86 2.54)
-					(end -3.81 -38.1)
+					(start -22.86 -68.58)
+					(end -3.81 2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -9390,7 +9390,7 @@
 					)
 				)
 				(circle
-					(center -20.066 -18.034)
+					(center -20.066 -33.274)
 					(radius 0.284)
 					(stroke
 						(width 0.254)
@@ -9402,7 +9402,7 @@
 				)
 				(polyline
 					(pts
-						(xy -19.812 -16.383) (xy -19.177 -15.24) (xy -18.542 -16.383) (xy -19.812 -16.383)
+						(xy -19.812 -31.623) (xy -19.177 -30.48) (xy -18.542 -31.623) (xy -19.812 -31.623)
 					)
 					(stroke
 						(width 0.254)
@@ -9414,7 +9414,7 @@
 				)
 				(polyline
 					(pts
-						(xy -19.177 -19.558) (xy -18.288 -18.669) (xy -18.288 -18.034)
+						(xy -19.177 -34.798) (xy -18.288 -33.909) (xy -18.288 -33.274)
 					)
 					(stroke
 						(width 0.254)
@@ -9426,7 +9426,7 @@
 				)
 				(polyline
 					(pts
-						(xy -19.177 -19.939) (xy -20.066 -19.05) (xy -20.066 -18.415)
+						(xy -19.177 -35.179) (xy -20.066 -34.29) (xy -20.066 -33.655)
 					)
 					(stroke
 						(width 0.254)
@@ -9438,7 +9438,7 @@
 				)
 				(polyline
 					(pts
-						(xy -19.177 -20.701) (xy -19.177 -16.383)
+						(xy -19.177 -35.941) (xy -19.177 -31.623)
 					)
 					(stroke
 						(width 0.254)
@@ -9449,7 +9449,7 @@
 					)
 				)
 				(circle
-					(center -19.177 -20.828)
+					(center -19.177 -36.068)
 					(radius 0.5236)
 					(stroke
 						(width 0.254)
@@ -9460,8 +9460,8 @@
 					)
 				)
 				(rectangle
-					(start -18.669 -18.034)
-					(end -17.907 -17.272)
+					(start -18.669 -33.274)
+					(end -17.907 -32.512)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -9472,7 +9472,7 @@
 				)
 				(polyline
 					(pts
-						(xy -16.51 -21.59) (xy -16.51 -13.97)
+						(xy -16.51 -36.83) (xy -16.51 -29.21)
 					)
 					(stroke
 						(width 0.254)
@@ -9483,8 +9483,8 @@
 					)
 				)
 				(rectangle
-					(start -15.24 -21.59)
-					(end -13.97 -13.97)
+					(start -15.24 -36.83)
+					(end -13.97 -29.21)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -9494,9 +9494,9 @@
 					)
 				)
 				(arc
-					(start -15.24 -13.97)
-					(mid -14.605 -13.3377)
-					(end -13.97 -13.97)
+					(start -15.24 -29.21)
+					(mid -14.605 -28.5777)
+					(end -13.97 -29.21)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -9506,9 +9506,9 @@
 					)
 				)
 				(arc
-					(start -15.24 -13.97)
-					(mid -14.605 -13.3377)
-					(end -13.97 -13.97)
+					(start -15.24 -29.21)
+					(mid -14.605 -28.5777)
+					(end -13.97 -29.21)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -9518,9 +9518,9 @@
 					)
 				)
 				(arc
-					(start -16.51 -13.97)
-					(mid -14.605 -12.0733)
-					(end -12.7 -13.97)
+					(start -16.51 -29.21)
+					(mid -14.605 -27.3133)
+					(end -12.7 -29.21)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -9530,9 +9530,9 @@
 					)
 				)
 				(arc
-					(start -12.7 -21.59)
-					(mid -14.605 -23.4867)
-					(end -16.51 -21.59)
+					(start -12.7 -36.83)
+					(mid -14.605 -38.7267)
+					(end -16.51 -36.83)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -9542,9 +9542,9 @@
 					)
 				)
 				(arc
-					(start -13.97 -21.59)
-					(mid -14.605 -22.2223)
-					(end -15.24 -21.59)
+					(start -13.97 -36.83)
+					(mid -14.605 -37.4623)
+					(end -15.24 -36.83)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -9554,9 +9554,9 @@
 					)
 				)
 				(arc
-					(start -13.97 -21.59)
-					(mid -14.605 -22.2223)
-					(end -15.24 -21.59)
+					(start -13.97 -36.83)
+					(mid -14.605 -37.4623)
+					(end -15.24 -36.83)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -9567,7 +9567,7 @@
 				)
 				(polyline
 					(pts
-						(xy -12.7 -13.97) (xy -12.7 -21.59)
+						(xy -12.7 -29.21) (xy -12.7 -36.83)
 					)
 					(stroke
 						(width 0.254)
@@ -9763,6 +9763,150 @@
 				(pin bidirectional line
 					(at 0 -25.4 180)
 					(length 3.81)
+					(name "RX_{1}+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -27.94 180)
+					(length 3.81)
+					(name "RX_{1}-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -33.02 180)
+					(length 3.81)
+					(name "TX_{1}+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -35.56 180)
+					(length 3.81)
+					(name "TX_{1}-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -40.64 180)
+					(length 3.81)
+					(name "RX_{2}+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -43.18 180)
+					(length 3.81)
+					(name "RX_{2}-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -48.26 180)
+					(length 3.81)
+					(name "TX_{2}+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -50.8 180)
+					(length 3.81)
+					(name "TX_{2}-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -55.88 180)
+					(length 3.81)
 					(name "SBU_{1}"
 						(effects
 							(font
@@ -9779,7 +9923,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 0 -27.94 180)
+					(at 0 -58.42 180)
 					(length 3.81)
 					(name "SBU_{2}"
 						(effects
@@ -9797,7 +9941,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -33.02 180)
+					(at 0 -63.5 180)
 					(length 3.81)
 					(name "GND"
 						(effects
@@ -9815,7 +9959,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -33.02 180)
+					(at 0 -63.5 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -9834,7 +9978,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -33.02 180)
+					(at 0 -63.5 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -9853,7 +9997,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -33.02 180)
+					(at 0 -63.5 180)
 					(length 3.81)
 					(hide yes)
 					(name "GND"
@@ -9872,7 +10016,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -35.56 180)
+					(at 0 -66.04 180)
 					(length 3.81)
 					(name "SH"
 						(effects
@@ -10856,7 +11000,7 @@
 		(uuid "d4c9844a-841c-4e1f-9938-84841d9e21b8")
 	)
 	(junction
-		(at 321.31 101.6)
+		(at 321.31 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d63060c0-294f-44c4-b444-b268f64a11ab")
@@ -10922,6 +11066,10 @@
 		(uuid "fecb10ef-c30b-4d2f-b4fb-edfaa7a87f97")
 	)
 	(no_connect
+		(at 323.85 99.06)
+		(uuid "06a55ad9-04fb-4ea6-a038-14bfbe387c4a")
+	)
+	(no_connect
 		(at 323.85 91.44)
 		(uuid "15030552-38f8-4f08-bffa-c01c8b807e4a")
 	)
@@ -10942,12 +11090,24 @@
 		(uuid "2a3e5b5b-61d0-46cf-a13f-d347f40227fd")
 	)
 	(no_connect
+		(at 323.85 116.84)
+		(uuid "2c06b47d-cff1-4830-917c-4f2a5b55b3ae")
+	)
+	(no_connect
+		(at 323.85 109.22)
+		(uuid "4b81cd98-5dab-4dfb-a88f-46b6e4feda47")
+	)
+	(no_connect
 		(at 256.54 81.28)
 		(uuid "4d4a7ddb-027d-4cb5-b685-d3c716ef979b")
 	)
 	(no_connect
 		(at 171.45 106.68)
 		(uuid "5241b0b1-7e28-4fe6-bfb3-1169acfe0f53")
+	)
+	(no_connect
+		(at 323.85 124.46)
+		(uuid "57cf5810-a8aa-49c4-87ea-d3622f547717")
 	)
 	(no_connect
 		(at 224.79 81.28)
@@ -10970,6 +11130,10 @@
 		(uuid "8944cc56-b563-42cb-bb8d-0cc5fc83e48d")
 	)
 	(no_connect
+		(at 323.85 121.92)
+		(uuid "8c973c2d-a4ab-4914-98e5-0f9f14731b81")
+	)
+	(no_connect
 		(at 217.17 229.87)
 		(uuid "ad72086f-86a6-4aa3-bcd1-f9410c483f49")
 	)
@@ -10984,6 +11148,18 @@
 	(no_connect
 		(at 55.88 261.62)
 		(uuid "cff675c3-99c2-4e35-b2b1-4d8a4c39b5de")
+	)
+	(no_connect
+		(at 323.85 101.6)
+		(uuid "d33c10bf-4f55-44db-8f7a-e37e07a87e11")
+	)
+	(no_connect
+		(at 323.85 106.68)
+		(uuid "d8f1b049-1a49-41ab-9758-a85062468dcd")
+	)
+	(no_connect
+		(at 323.85 114.3)
+		(uuid "e8337248-112c-4a76-b8f9-e59592483e8f")
 	)
 	(bus_entry
 		(at 281.94 248.92)
@@ -11244,6 +11420,16 @@
 			(type default)
 		)
 		(uuid "08ccd215-a482-4526-a1e5-cd327b9c63f8")
+	)
+	(wire
+		(pts
+			(xy 321.31 133.35) (xy 321.31 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09613c42-af43-4139-8177-e61ced86a3d1")
 	)
 	(wire
 		(pts
@@ -12847,7 +13033,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 101.6) (xy 321.31 99.06)
+			(xy 321.31 132.08) (xy 321.31 129.54)
 		)
 		(stroke
 			(width 0)
@@ -14107,7 +14293,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 99.06) (xy 323.85 99.06)
+			(xy 321.31 129.54) (xy 323.85 129.54)
 		)
 		(stroke
 			(width 0)
@@ -14207,7 +14393,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 101.6) (xy 323.85 101.6)
+			(xy 321.31 132.08) (xy 323.85 132.08)
 		)
 		(stroke
 			(width 0)
@@ -20640,175 +20826,8 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroUSBConnectors:USB-C_GCT_USB4105-GF-A")
-		(at 323.85 66.04 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c14728f-332e-432d-aab5-4006e070c344")
-		(property "Reference" "J7"
-			(at 347.98 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "USB-C_GCT_USB4105-GF-A"
-			(at 285.75 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:USB-C_Receptacle_GCT_USB4105-GF-A"
-			(at 285.75 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://gct.co/files/drawings/usb4105.pdf"
-			(at 285.75 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle"
-			(at 285.75 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GCT"
-			(at 285.75 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "USB4105-GF-A"
-			(at 347.98 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 285.75 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 285.75 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "A8"
-			(uuid "47bc60e9-5dda-402a-ae47-44ea6994ad27")
-		)
-		(pin "B7"
-			(uuid "4edfe08f-7715-48c0-85cd-94161d8779b6")
-		)
-		(pin "B12"
-			(uuid "0aab2037-f9c9-4592-89a5-b64fad513b5a")
-		)
-		(pin "B1"
-			(uuid "f0669a17-25e6-47ea-b409-29bdc9c84a0d")
-		)
-		(pin "A6"
-			(uuid "0de0ed92-3336-4605-80a0-564b44729d06")
-		)
-		(pin "A5"
-			(uuid "ca3b8a85-c931-4c51-8b08-49260d81a6bc")
-		)
-		(pin "B5"
-			(uuid "06ec844c-0fd6-46e4-9446-37c601f0df00")
-		)
-		(pin "SH"
-			(uuid "72128353-551e-4590-8961-d4142fc09048")
-		)
-		(pin "A7"
-			(uuid "f52a264f-967e-45ab-a923-2320ab8bdc4f")
-		)
-		(pin "B9"
-			(uuid "48ad6e62-9ec1-40a2-82f5-38dac19e6095")
-		)
-		(pin "B4"
-			(uuid "ead4c4e0-f551-472f-84ac-9d067a5a6d80")
-		)
-		(pin "A9"
-			(uuid "56aa2571-48a5-47e8-b7d1-329fe09292c5")
-		)
-		(pin "A4"
-			(uuid "a2a8647a-c13d-4286-902c-84e4c7e1978a")
-		)
-		(pin "B8"
-			(uuid "ceeb8db6-2e62-47eb-890b-e08b406fcfb4")
-		)
-		(pin "A1"
-			(uuid "592d75b4-37db-4df7-aa8c-bb41b9a3c79d")
-		)
-		(pin "A12"
-			(uuid "81e6a218-6537-4380-a345-17f87ff1f375")
-		)
-		(pin "B6"
-			(uuid "45367b76-4cc8-41d2-9b47-91b58ede3625")
-		)
-		(instances
-			(project ""
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
-		(at 321.31 101.6 0)
+		(at 321.31 133.35 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20817,7 +20836,7 @@
 		(dnp no)
 		(uuid "2ec43578-674e-48ba-8b37-2ddf7c27ce33")
 		(property "Reference" "#PWR0286"
-			(at 321.31 107.95 0)
+			(at 321.31 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20827,7 +20846,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 321.31 105.41 0)
+			(at 321.31 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20836,7 +20855,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 312.42 109.22 0)
+			(at 312.42 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20847,7 +20866,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 312.42 114.3 0)
+			(at 312.42 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20858,7 +20877,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 321.31 101.6 0)
+			(at 321.31 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20867,7 +20886,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 312.42 109.22 0)
+			(at 312.42 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20878,7 +20897,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 312.42 111.76 0)
+			(at 312.42 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26065,6 +26084,194 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroUSBConnectors:USB-C_Kycon_KUSBX-SL2-CS1N24-B-TR")
+		(at 323.85 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f4d0945-11b3-4e40-bd99-5d376076e6ea")
+		(property "Reference" "J7"
+			(at 337.185 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "USB-C_Kycon_KUSBX-SL2-CS1N24-B-TR"
+			(at 280.67 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:USB-C_Receptacle_Kycon_KUSBX-SL2-CS1N24-B-TR"
+			(at 280.67 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kycon.com/Pub_Eng_Draw/KUSBX-SL2-CS1N24-B-TR.pdf"
+			(at 280.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB-C (USB TYPE-C) USB 3.2 Gen 2 (USB 3.1 Gen 2, Superspeed + (USB 3.1)) USB PD Receptacle Connector 24 Position Surface Mount"
+			(at 280.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KUSBX-SL2-CS1N24-B-TR"
+			(at 337.185 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Kycon"
+			(at 280.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 280.67 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 280.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "A6"
+			(uuid "e6d78bc3-9a4a-40fd-9581-5696687d321e")
+		)
+		(pin "A2"
+			(uuid "6d06fbb9-0473-49f5-b530-a8721ea4fcf4")
+		)
+		(pin "SH"
+			(uuid "14523030-4d56-43f3-baab-d5ba20fb4bfc")
+		)
+		(pin "A1"
+			(uuid "4cbde530-780a-4ba2-bb57-313732fa9c72")
+		)
+		(pin "B12"
+			(uuid "7f521ffe-b165-40a7-9d21-895a1d76f06c")
+		)
+		(pin "B7"
+			(uuid "b3b2e888-c93b-4bca-a7f7-f0cb044dd467")
+		)
+		(pin "A12"
+			(uuid "ffd99f46-934a-430b-a786-1cb6287cd511")
+		)
+		(pin "A8"
+			(uuid "bf45d8eb-ac95-4adc-a93f-154a665cbe42")
+		)
+		(pin "B1"
+			(uuid "beb9e413-cfd8-4d64-b8c2-00c37dc340b0")
+		)
+		(pin "B8"
+			(uuid "b3dcc3a4-00e2-432f-97fb-828ce1724ed4")
+		)
+		(pin "A3"
+			(uuid "093d5952-e6fe-4139-aa02-437a9cbc8c30")
+		)
+		(pin "B10"
+			(uuid "f82c9c9f-344d-41a2-90c8-261e7786d50b")
+		)
+		(pin "B3"
+			(uuid "844d3834-1bc4-4be4-be5c-1f9b4ccf4cec")
+		)
+		(pin "A7"
+			(uuid "74f3b81e-ccd6-43f6-bd9b-91b0009d41e3")
+		)
+		(pin "A11"
+			(uuid "bad751ac-b0b4-4407-828b-cce3c8e6adc0")
+		)
+		(pin "B5"
+			(uuid "cc747897-e6d3-4818-832f-c18e2c3622d5")
+		)
+		(pin "B9"
+			(uuid "e3ca1888-dbeb-4a5c-b58d-0a2e4641185e")
+		)
+		(pin "A5"
+			(uuid "d44eac19-6d50-4185-9df3-dedf5d6d8fde")
+		)
+		(pin "A9"
+			(uuid "fb4b0349-e9bc-4668-b558-ab20695a2442")
+		)
+		(pin "B4"
+			(uuid "4f330928-ffde-48fa-8453-f2a9790011e0")
+		)
+		(pin "A4"
+			(uuid "a832856f-5de3-418f-9b68-c7667f5282ac")
+		)
+		(pin "B6"
+			(uuid "4113b7b1-b9d7-46b9-9d60-758a2f6af1e3")
+		)
+		(pin "B2"
+			(uuid "58c28cab-7df6-4b72-ad40-b369fd71359a")
+		)
+		(pin "B11"
+			(uuid "9c92a99e-504e-4b0f-ac06-69b4bbc1bdf1")
+		)
+		(pin "A10"
+			(uuid "37f21a78-9cec-45b6-b69b-cd1bf2ad9bd5")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 153.67 72.39 0)
 		(unit 1)
@@ -26899,7 +27106,7 @@
 		(dnp no)
 		(uuid "79bc5032-ae2f-4a40-a8ed-dcf88ede826f")
 		(property "Reference" "U42"
-			(at 312.42 106.0449 90)
+			(at 296.672 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26961,7 +27168,7 @@
 			)
 		)
 		(property "MPN" "TPD4E05U06QDQARQ1"
-			(at 311.912 109.728 90)
+			(at 296.672 114.046 90)
 			(effects
 				(font
 					(size 1.27 1.27)

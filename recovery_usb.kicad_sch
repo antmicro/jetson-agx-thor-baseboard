@@ -4239,12 +4239,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroUSBConnectors:USB-C_WE_632723300011"
+		(symbol "antmicroUSBConnectors:USB-C_Kycon_KUSBX-SL2-CS1N24-B-TR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 15.24 -2.54 0)
+				(at 43.18 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4253,19 +4253,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "USB-C_WE_632723300011"
-				(at 15.24 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:USB-C_Receptacle_WE_632723300011"
-				(at 15.24 -10.16 0)
+			(property "Value" "USB-C_Kycon_KUSBX-SL2-CS1N24-B-TR"
+				(at 43.18 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4275,8 +4264,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/632723300011.pdf"
-				(at 15.24 -12.7 0)
+			(property "Footprint" "antmicro-footprints:USB-C_Receptacle_Kycon_KUSBX-SL2-CS1N24-B-TR"
+				(at 43.18 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4286,18 +4275,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB-C (USB TYPE-C) USB 3.2 Gen 2 (USB 3.1 Gen 2, Superspeed + (USB 3.1)) Receptacle Connector 24 Position Surface Mount, Right Angle; Through Hole"
-				(at 15.24 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Würth Elektronik"
-				(at 15.24 -15.24 0)
+			(property "Datasheet" "https://www.kycon.com/Pub_Eng_Draw/KUSBX-SL2-CS1N24-B-TR.pdf"
+				(at 43.18 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4307,8 +4286,18 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "632723300011"
-				(at 15.24 -5.08 0)
+			(property "Description" "USB-C (USB TYPE-C) USB 3.2 Gen 2 (USB 3.1 Gen 2, Superspeed + (USB 3.1)) USB PD Receptacle Connector 24 Position Surface Mount"
+				(at 43.18 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "KUSBX-SL2-CS1N24-B-TR"
+				(at 43.18 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4317,8 +4306,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Author" "Antmicro"
-				(at 15.24 -17.78 0)
+			(property "Manufacturer" "Kycon"
+				(at 43.18 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4329,7 +4318,18 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 15.24 -20.32 0)
+				(at 43.18 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 43.18 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4348,7 +4348,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB-C_WE_632723300011_1_1"
+			(symbol "USB-C_Kycon_KUSBX-SL2-CS1N24-B-TR_1_1"
 				(rectangle
 					(start -22.86 -68.58)
 					(end -3.81 2.54)
@@ -4365,7 +4365,7 @@
 					(radius 0.284)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type outline)
@@ -4377,7 +4377,7 @@
 					)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type outline)
@@ -4424,18 +4424,18 @@
 					(radius 0.5236)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type outline)
 					)
 				)
 				(rectangle
-					(start -18.669 -32.512)
-					(end -17.907 -33.274)
+					(start -18.669 -33.274)
+					(end -17.907 -32.512)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type outline)
@@ -4454,11 +4454,23 @@
 					)
 				)
 				(rectangle
-					(start -15.24 -29.21)
-					(end -13.97 -36.83)
+					(start -15.24 -36.83)
+					(end -13.97 -29.21)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -15.24 -29.21)
+					(mid -14.605 -28.5777)
+					(end -13.97 -29.21)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
 					(fill
 						(type outline)
@@ -4474,18 +4486,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(arc
-					(start -15.24 -29.21)
-					(mid -14.605 -28.5777)
-					(end -13.97 -29.21)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(arc
@@ -4521,7 +4521,7 @@
 						(type default)
 					)
 					(fill
-						(type background)
+						(type outline)
 					)
 				)
 				(arc
@@ -4530,10 +4530,10 @@
 					(end -15.24 -36.83)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
 					)
 					(fill
-						(type outline)
+						(type background)
 					)
 				)
 				(polyline
@@ -10680,21 +10680,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 158.75 165.1) (xy 110.49 165.1) (xy 110.49 149.86) (xy 158.75 149.86)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 7608c02f-ee71-4226-afeb-d98f900ba3c5)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 281.305 147.955) (xy 269.24 147.955) (xy 269.24 142.24) (xy 281.305 142.24)
 			)
 			(stroke
@@ -10704,7 +10689,22 @@
 			(fill
 				(type none)
 			)
-			(uuid 9012ed2d-d39d-421b-b637-dd76879a4258)
+			(uuid 0d2c868d-8aca-4e6f-b2aa-14b433d7a1fd)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 158.75 165.1) (xy 110.49 165.1) (xy 110.49 149.86) (xy 158.75 149.86)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 32893bea-34d0-4a4e-9145-a2568ce12d65)
 		)
 	)
 	(rule_area
@@ -10719,7 +10719,7 @@
 			(fill
 				(type none)
 			)
-			(uuid dba226ac-b4bc-48dd-a708-0151c2e4b1a6)
+			(uuid e3821a07-9b6e-4090-b3b0-98a1b38afa39)
 		)
 	)
 	(netclass_flag ""
@@ -12390,197 +12390,6 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/ee0c56cd-dc85-44e4-b5e6-458df3809c6c"
 					(reference "R253")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroUSBConnectors:USB-C_WE_632723300011")
-		(at 300.99 127 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15e108ea-a1f5-4d31-b462-37a221566960")
-		(property "Reference" "J3"
-			(at 325.12 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "USB-C_WE_632723300011"
-			(at 285.75 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:USB-C_Receptacle_WE_632723300011"
-			(at 285.75 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/632723300011.pdf"
-			(at 285.75 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB-C (USB TYPE-C) USB 3.2 Gen 2 (USB 3.1 Gen 2, Superspeed + (USB 3.1)) Receptacle Connector 24 Position Surface Mount, Right Angle; Through Hole"
-			(at 285.75 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 285.75 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "632723300011"
-			(at 325.12 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 285.75 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 285.75 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "A12"
-			(uuid "528f5949-1385-471a-a803-b1424bd6710f")
-		)
-		(pin "B5"
-			(uuid "d3c88574-5f3b-4ce0-9f33-6ba9de6f8513")
-		)
-		(pin "A11"
-			(uuid "034df087-c240-4edb-a402-8ab1f532cf03")
-		)
-		(pin "B1"
-			(uuid "e3344ad0-feb0-420f-9b63-534ed2b485a2")
-		)
-		(pin "B12"
-			(uuid "de64f268-ca81-4386-8dad-0c55a6789c08")
-		)
-		(pin "A2"
-			(uuid "bea675f7-b47b-4588-9def-1d0236e19c95")
-		)
-		(pin "A10"
-			(uuid "36145ff4-8255-4a0e-8b1f-e2d4794f4576")
-		)
-		(pin "B11"
-			(uuid "612ba8b8-a62f-41ae-bd59-47872564a103")
-		)
-		(pin "B8"
-			(uuid "26d10a58-a4ef-497f-98ba-a10be6f6d871")
-		)
-		(pin "A1"
-			(uuid "ef4a7cf0-f8fd-4203-8c52-2bfb98b24bac")
-		)
-		(pin "B6"
-			(uuid "55efffec-2b6b-4c5b-b996-26268593f942")
-		)
-		(pin "B10"
-			(uuid "412b36e7-e3cf-4c7f-ba67-a94bb502d34f")
-		)
-		(pin "A9"
-			(uuid "4180c912-5ea2-4e87-a402-dbdfd05d2756")
-		)
-		(pin "B4"
-			(uuid "30214573-dfd9-432c-aaf3-34e4622a04b6")
-		)
-		(pin "A8"
-			(uuid "40bb66e4-c0b7-44c9-8105-0c1f136fc505")
-		)
-		(pin "A4"
-			(uuid "b4acadb3-9b4c-4163-ae21-c8431f651605")
-		)
-		(pin "SH"
-			(uuid "c952dc89-7eed-4d32-acb1-3f09711801db")
-		)
-		(pin "B3"
-			(uuid "b3ad4957-b496-4750-b55a-684e902fb063")
-		)
-		(pin "A7"
-			(uuid "b39a0c34-d318-4431-a2c7-8aff8701a7ad")
-		)
-		(pin "B9"
-			(uuid "0ca93c49-8b54-41f1-a2b4-26d862973006")
-		)
-		(pin "A6"
-			(uuid "881b424d-d92b-4bdd-a0a2-05d6749f9fb0")
-		)
-		(pin "A5"
-			(uuid "8b42be3a-4dfe-407c-b3da-0266fde0d0d1")
-		)
-		(pin "B7"
-			(uuid "e581d3f5-ca8f-4031-950e-7ab0a4e2b9b1")
-		)
-		(pin "B2"
-			(uuid "5104e317-dd06-4176-aaf8-eea95fdbfa7a")
-		)
-		(pin "A3"
-			(uuid "b42582b4-bd02-47e3-910d-c83e6555d5f1")
-		)
-		(instances
-			(project ""
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/ee0c56cd-dc85-44e4-b5e6-458df3809c6c"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -17599,6 +17408,194 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/ee0c56cd-dc85-44e4-b5e6-458df3809c6c"
 					(reference "D51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroUSBConnectors:USB-C_Kycon_KUSBX-SL2-CS1N24-B-TR")
+		(at 300.99 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93186176-ada3-4b82-bc09-04cc8e543deb")
+		(property "Reference" "J3"
+			(at 314.325 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "USB-C_Kycon_KUSBX-SL2-CS1N24-B-TR"
+			(at 257.81 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:USB-C_Receptacle_Kycon_KUSBX-SL2-CS1N24-B-TR"
+			(at 257.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kycon.com/Pub_Eng_Draw/KUSBX-SL2-CS1N24-B-TR.pdf"
+			(at 257.81 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB-C (USB TYPE-C) USB 3.2 Gen 2 (USB 3.1 Gen 2, Superspeed + (USB 3.1)) USB PD Receptacle Connector 24 Position Surface Mount"
+			(at 257.81 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KUSBX-SL2-CS1N24-B-TR"
+			(at 314.325 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Kycon"
+			(at 257.81 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 257.81 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 257.81 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "A6"
+			(uuid "2dc85e92-e7b7-4b9c-862c-26242494ee5b")
+		)
+		(pin "A2"
+			(uuid "e5c32b2d-cbcf-487e-8f52-98aa9fa2aa63")
+		)
+		(pin "SH"
+			(uuid "620e396b-cdd7-4747-b21c-4a01afd35452")
+		)
+		(pin "A1"
+			(uuid "b9e5c9be-715e-4d3f-99ba-61a2d5c3de45")
+		)
+		(pin "B12"
+			(uuid "9c78ed6d-3e66-45b4-a9c5-3b03498e74d3")
+		)
+		(pin "B7"
+			(uuid "d9b17ab7-5f8a-41b2-97aa-da11bffe2431")
+		)
+		(pin "A12"
+			(uuid "be8f2959-fdc8-440e-89f7-1e0ac3b560e6")
+		)
+		(pin "A8"
+			(uuid "ef1de519-cbb4-4961-95e7-4083a47875a8")
+		)
+		(pin "B1"
+			(uuid "6a110727-f972-42e6-a3cb-fbf46bd85e19")
+		)
+		(pin "B8"
+			(uuid "757cfdd1-c9d2-4d9b-8eba-2bb620526521")
+		)
+		(pin "A3"
+			(uuid "3cd932b4-b3fa-438d-a7e4-37cd0962ca46")
+		)
+		(pin "B10"
+			(uuid "182fa3b7-4cdd-4f40-8edc-8fae197248e6")
+		)
+		(pin "B3"
+			(uuid "014496b4-1551-4ec4-8e0c-baabeb3a9365")
+		)
+		(pin "A7"
+			(uuid "089e9cd4-6928-41d5-a43f-633fab771744")
+		)
+		(pin "A11"
+			(uuid "c56415d2-7781-44f6-a4d8-1a09430bb750")
+		)
+		(pin "B5"
+			(uuid "19ef3cd9-bca4-4844-a918-429c51283367")
+		)
+		(pin "B9"
+			(uuid "ff5bfa60-9795-4b6d-af56-14c20dbccd65")
+		)
+		(pin "A5"
+			(uuid "74826716-9f47-4738-b1c7-340e24e84c05")
+		)
+		(pin "A9"
+			(uuid "394b05c1-7376-495d-85e2-61e481dc1216")
+		)
+		(pin "B4"
+			(uuid "945ce9ad-91a2-424a-9945-93e9717a6881")
+		)
+		(pin "A4"
+			(uuid "82c11ea1-3e23-4ce6-823c-dd8a7e27b14a")
+		)
+		(pin "B6"
+			(uuid "784bd3b2-573b-451d-a381-9054d3f6e0ec")
+		)
+		(pin "B2"
+			(uuid "88f0769a-5cab-45ae-b204-d5af8699d2ed")
+		)
+		(pin "B11"
+			(uuid "f868dad0-baa0-4e2d-af2a-9b0ac4f923de")
+		)
+		(pin "A10"
+			(uuid "dd1c40fa-c401-4a30-ae98-d6cdf1095018")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/ee0c56cd-dc85-44e4-b5e6-458df3809c6c"
+					(reference "J3")
 					(unit 1)
 				)
 			)
