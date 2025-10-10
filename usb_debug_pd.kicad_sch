@@ -17841,7 +17841,7 @@
 		(uuid "7a312776-1ddc-4d0e-b784-73c7d616dd26")
 	)
 	(hierarchical_label "USBPD2_HV"
-		(shape output)
+		(shape bidirectional)
 		(at 207.01 54.61 180)
 		(effects
 			(font
@@ -18913,7 +18913,7 @@
 		(fields_autoplaced yes)
 		(uuid "1480405a-c643-4438-a90d-7a7f7a084e72")
 		(property "Reference" "C146"
-			(at 217.17 58.4263 90)
+			(at 217.17 57.1562 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18986,7 +18986,7 @@
 			)
 		)
 		(property "Val" "4u7"
-			(at 217.17 60.9663 90)
+			(at 217.17 59.6963 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19018,13 +19018,12 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 186.69 77.47 0)
+			(at 217.17 62.2362 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Dielectric" "X5S"
@@ -20931,12 +20930,12 @@
 		(fields_autoplaced yes)
 		(uuid "35cbf9df-423c-4209-ba10-171df04a3979")
 		(property "Reference" "C123"
-			(at 81.28 67.3163 90)
+			(at 76.2 66.0462 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "C_10u_25V_0603"
@@ -21004,13 +21003,13 @@
 			)
 		)
 		(property "Val" "10u"
-			(at 81.28 69.8563 90)
+			(at 76.2 68.5863 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "License" "Apache-2.0"
@@ -21036,13 +21035,12 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 106.68 86.36 0)
+			(at 76.2 71.1262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Dielectric" ""
@@ -29932,9 +29930,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a7925e58-6715-493d-936a-f44b9120b7ca")
 		(property "Reference" "C151"
-			(at 329.565 34.29 90)
+			(at 330.2 33.0262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30007,7 +30006,7 @@
 			)
 		)
 		(property "Val" "1u"
-			(at 329.565 36.83 90)
+			(at 330.2 35.5663 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30039,13 +30038,12 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 299.72 53.34 0)
+			(at 330.2 38.1062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Dielectric" "X5R"
