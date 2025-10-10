@@ -291,7 +291,7 @@
 	)
 	(text "SoM\n"
 		(exclude_from_sim no)
-		(at 215.646 25.146 0)
+		(at 215.9 25.4 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -523,6 +523,16 @@
 		)
 		(uuid "1e626a4e-2710-4076-9fd1-9294e17d7551")
 	)
+	(wire
+		(pts
+			(xy 100.33 232.41) (xy 177.8 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20bf1d0e-43fb-44e5-8640-c07f7260b91f")
+	)
 	(bus
 		(pts
 			(xy 254 118.11) (xy 331.47 118.11)
@@ -577,7 +587,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 250.19) (xy 100.33 250.19)
+			(xy 121.92 256.54) (xy 100.33 256.54)
 		)
 		(stroke
 			(width 0)
@@ -605,16 +615,6 @@
 			(type default)
 		)
 		(uuid "2b5d4d37-c0cb-4755-9236-a3c977202517")
-	)
-	(wire
-		(pts
-			(xy 100.33 237.49) (xy 177.8 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d2c5132-49e6-4267-8b9a-c4f4027bf3f0")
 	)
 	(bus
 		(pts
@@ -778,9 +778,19 @@
 		)
 		(uuid "3a2034ab-214b-48d1-864e-f7fc87d27633")
 	)
+	(bus
+		(pts
+			(xy 100.33 219.71) (xy 111.76 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3abbbca5-2af6-462f-9981-1cc7563f9497")
+	)
 	(wire
 		(pts
-			(xy 119.38 252.73) (xy 119.38 267.97)
+			(xy 119.38 259.08) (xy 119.38 267.97)
 		)
 		(stroke
 			(width 0)
@@ -873,7 +883,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 240.03) (xy 177.8 240.03)
+			(xy 100.33 251.46) (xy 177.8 251.46)
 		)
 		(stroke
 			(width 0)
@@ -1194,7 +1204,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 252.73) (xy 119.38 252.73)
+			(xy 100.33 259.08) (xy 119.38 259.08)
 		)
 		(stroke
 			(width 0)
@@ -1245,7 +1255,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 265.43) (xy 121.92 250.19)
+			(xy 121.92 265.43) (xy 121.92 256.54)
 		)
 		(stroke
 			(width 0)
@@ -1276,7 +1286,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 234.95) (xy 177.8 234.95)
+			(xy 100.33 248.92) (xy 177.8 248.92)
 		)
 		(stroke
 			(width 0)
@@ -1398,6 +1408,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 243.84) (xy 63.5 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98fccbc4-0b2e-4216-9d85-26db53db962b")
+	)
+	(wire
+		(pts
 			(xy 307.34 133.35) (xy 307.34 184.15)
 		)
 		(stroke
@@ -1456,6 +1476,16 @@
 			(type default)
 		)
 		(uuid "9f92290d-80b8-4a94-b2a9-cc67c3594910")
+	)
+	(wire
+		(pts
+			(xy 63.5 232.41) (xy 66.04 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0933955-0442-4c52-ba64-9f151587d61e")
 	)
 	(wire
 		(pts
@@ -1591,6 +1621,16 @@
 		)
 		(uuid "a9400ddb-6896-4797-8765-6e845999539f")
 	)
+	(wire
+		(pts
+			(xy 63.5 243.84) (xy 63.5 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a952447b-2e03-4e0b-b17e-6484d5e821fe")
+	)
 	(bus
 		(pts
 			(xy 100.33 186.69) (xy 177.8 186.69)
@@ -1630,16 +1670,6 @@
 			(type default)
 		)
 		(uuid "ac6e3c70-dd06-4fe7-b90b-37eeb6bc38d1")
-	)
-	(bus
-		(pts
-			(xy 100.33 222.25) (xy 111.76 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b116a2eb-c9f4-4558-ba34-bdd06bb4d91b")
 	)
 	(wire
 		(pts
@@ -1888,7 +1918,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 232.41) (xy 177.8 232.41)
+			(xy 100.33 246.38) (xy 177.8 246.38)
 		)
 		(stroke
 			(width 0)
@@ -4229,7 +4259,7 @@
 		(uuid "03dff8a1-6a3f-430b-b655-6f1eea67cdcb")
 	)
 	(label "I2C_{SYS}{I2C}"
-		(at 111.76 222.25 180)
+		(at 111.76 219.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4861,7 +4891,7 @@
 	)
 	(sheet
 		(at 331.47 158.75)
-		(size 34.29 40.005)
+		(size 34.29 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4963,7 +4993,7 @@
 				(justify left)
 			)
 		)
-		(pin "USBPD2_HV" output
+		(pin "USBPD2_HV" bidirectional
 			(at 331.47 186.69 180)
 			(uuid "b66ac4ab-3b63-4b42-811f-d47cd1a334fc")
 			(effects
@@ -5012,8 +5042,8 @@
 		)
 	)
 	(sheet
-		(at 66.04 219.075)
-		(size 34.29 37.465)
+		(at 66.04 241.3)
+		(size 34.29 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5028,7 +5058,7 @@
 		)
 		(uuid "18ddd5dc-52e2-402c-b2e2-8bb33f110eab")
 		(property "Sheetname" "Power"
-			(at 66.04 218.3634 0)
+			(at 66.04 240.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5037,7 +5067,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 66.04 257.1246 0)
+			(at 66.04 264.1096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5045,18 +5075,8 @@
 				(justify left top)
 			)
 		)
-		(pin "I2C_{SYS}{I2C}" input
-			(at 100.33 222.25 0)
-			(uuid "1efa4539-6cba-45ed-aeb6-ecc7bdfaaeb7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USBPD1_HV" input
-			(at 100.33 250.19 0)
+		(pin "USBPD1_HV" bidirectional
+			(at 100.33 256.54 0)
 			(uuid "b873920e-6038-47ec-a9b4-e9c6e38bc530")
 			(effects
 				(font
@@ -5065,8 +5085,8 @@
 				(justify right)
 			)
 		)
-		(pin "USBPD2_HV" input
-			(at 100.33 252.73 0)
+		(pin "USBPD2_HV" bidirectional
+			(at 100.33 259.08 0)
 			(uuid "2d6a1556-3014-45a0-97a7-ac8d9acc1039")
 			(effects
 				(font
@@ -5076,7 +5096,7 @@
 			)
 		)
 		(pin "CARRIER_POWER_ON" input
-			(at 100.33 232.41 0)
+			(at 100.33 246.38 0)
 			(uuid "e6c05e4d-61b6-4392-b641-0d9b1ea6993d")
 			(effects
 				(font
@@ -5086,7 +5106,7 @@
 			)
 		)
 		(pin "MODULE_POWER_ON" output
-			(at 100.33 234.95 0)
+			(at 100.33 248.92 0)
 			(uuid "4ddcd628-1547-4d08-ae2a-e5cfe831c0b1")
 			(effects
 				(font
@@ -5095,9 +5115,9 @@
 				(justify right)
 			)
 		)
-		(pin "~{VDDIN_PWR_BAD}" output
-			(at 100.33 237.49 0)
-			(uuid "208b9696-e492-41ba-b6ce-3dffc5684f91")
+		(pin "VIN_PWR_ON" input
+			(at 100.33 251.46 0)
+			(uuid "c66ac0d6-48fb-447c-8c05-1b0ef37300f1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5105,9 +5125,81 @@
 				(justify right)
 			)
 		)
-		(pin "VIN_PWR_ON" input
-			(at 100.33 240.03 0)
-			(uuid "c66ac0d6-48fb-447c-8c05-1b0ef37300f1")
+		(pin "16V_EN" output
+			(at 66.04 243.84 180)
+			(uuid "95eae50c-1bb0-4231-b73b-d5f448b1f13f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 216.535)
+		(size 34.29 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3")
+		(property "Sheetname" "DCDC"
+			(at 66.04 215.8234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dcdc.kicad_sch"
+			(at 66.04 236.1696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "16V_EN" input
+			(at 66.04 232.41 180)
+			(uuid "2496a67c-38c5-41e2-93aa-5225caa4a85a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_{SYS}{I2C}" bidirectional
+			(at 100.33 219.71 0)
+			(uuid "55ec52d1-3fd0-4338-a8f1-5ec69be74555")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{VDDIN_PWR_BAD}" output
+			(at 100.33 232.41 0)
+			(uuid "35e2411f-0743-4f23-ad89-23b9caf29dad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +5210,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
-					(page "5")
+					(page "23")
 				)
 			)
 		)
@@ -5158,7 +5250,7 @@
 			)
 		)
 		(pin "CARRIER_POWER_ON" output
-			(at 177.8 232.41 180)
+			(at 177.8 246.38 180)
 			(uuid "35b39eda-6982-42a0-8a19-f5bf28e55860")
 			(effects
 				(font
@@ -5168,7 +5260,7 @@
 			)
 		)
 		(pin "MODULE_POWER_ON" input
-			(at 177.8 234.95 180)
+			(at 177.8 248.92 180)
 			(uuid "e286d556-8047-4fda-899a-538fc98944e9")
 			(effects
 				(font
@@ -5178,7 +5270,7 @@
 			)
 		)
 		(pin "~{VDDIN_PWR_BAD}" input
-			(at 177.8 237.49 180)
+			(at 177.8 232.41 180)
 			(uuid "3b49b35f-d38d-40fa-a14b-986a16bb3a72")
 			(effects
 				(font
@@ -5188,7 +5280,7 @@
 			)
 		)
 		(pin "VIN_PWR_ON" output
-			(at 177.8 240.03 180)
+			(at 177.8 251.46 180)
 			(uuid "34697fb2-f618-47a6-8300-46ffbdf994a3")
 			(effects
 				(font
@@ -5411,7 +5503,7 @@
 	)
 	(sheet
 		(at 66.04 33.02)
-		(size 34.29 29.845)
+		(size 34.29 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5934,7 +6026,7 @@
 		)
 	)
 	(sheet
-		(at 66.04 145.415)
+		(at 66.04 146.05)
 		(size 34.29 64.77)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5950,7 +6042,7 @@
 		)
 		(uuid "5fb038ee-4d59-43de-81a4-b4c993aa7149")
 		(property "Sheetname" "Expansion connector"
-			(at 66.04 144.7034 0)
+			(at 66.04 145.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5959,7 +6051,7 @@
 			)
 		)
 		(property "Sheetfile" "expansion_connector.kicad_sch"
-			(at 66.04 210.7696 0)
+			(at 66.04 211.4046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6187,7 +6279,7 @@
 	)
 	(sheet
 		(at 177.8 33.02)
-		(size 76.2 90.805)
+		(size 76.2 91.44)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6438,7 +6530,7 @@
 		)
 	)
 	(sheet
-		(at 331.47 107.315)
+		(at 331.47 107.95)
 		(size 34.29 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6454,7 +6546,7 @@
 		)
 		(uuid "79924a89-4330-4c0a-9aa5-2a2f90ef321b")
 		(property "Sheetname" "USB DP Alt mode"
-			(at 331.47 106.6034 0)
+			(at 331.47 107.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6463,7 +6555,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_dp.kicad_sch"
-			(at 331.47 151.0796 0)
+			(at 331.47 151.7146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6551,7 +6643,7 @@
 				(justify left)
 			)
 		)
-		(pin "USBPD1_HV" output
+		(pin "USBPD1_HV" bidirectional
 			(at 331.47 133.35 180)
 			(uuid "beee670c-8457-4a14-acb9-11eccd2d6bd0")
 			(effects
@@ -6683,7 +6775,7 @@
 	)
 	(sheet
 		(at 331.47 69.85)
-		(size 34.29 28.575)
+		(size 34.29 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
