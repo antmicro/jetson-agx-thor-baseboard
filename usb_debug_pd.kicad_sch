@@ -1072,7 +1072,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroCapacitors0603:C_10u_25V_0603"
+		(symbol "antmicroCapacitorsmisc:C_22u_25V_0805"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1092,7 +1092,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "C_10u_25V_0603"
+			(property "Value" "C_22u_25V_0805"
 				(at 20.32 -10.16 0)
 				(effects
 					(font
@@ -1103,7 +1103,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+			(property "Footprint" "antmicro-footprints:C_0805_2012Metric"
 				(at 20.32 -12.7 0)
 				(effects
 					(font
@@ -1114,7 +1114,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1E106M080AC"
+			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL21A226MAYNNN.do"
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -1125,7 +1125,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 25 V, 0603 [1608 Metric], ± 20%, X5R, C"
+			(property "Description" "SMT Multilayer Ceramic Capacitor, 22uF, +/-20%, 25V, X5R, 0805 [2012 Metric]"
 				(at 20.32 -33.02 0)
 				(effects
 					(font
@@ -1135,7 +1135,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "C1608X5R1E106M080AC"
+			(property "MPN" "CL21A226MAYNNNE"
 				(at 20.32 -17.78 0)
 				(effects
 					(font
@@ -1146,7 +1146,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "TDK"
+			(property "Manufacturer" "Samsung Electro-Mechanics"
 				(at 20.32 -20.32 0)
 				(effects
 					(font
@@ -1179,7 +1179,7 @@
 					(hide yes)
 				)
 			)
-			(property "Val" "10u"
+			(property "Val" "22u"
 				(at 20.32 -7.62 0)
 				(effects
 					(font
@@ -1196,10 +1196,9 @@
 						(size 1.27 1.27)
 					)
 					(justify left bottom)
-					(hide yes)
 				)
 			)
-			(property "Dielectric" ""
+			(property "Dielectric" "X5R"
 				(at 20.32 -30.48 0)
 				(effects
 					(font
@@ -1209,7 +1208,17 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "0603, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
+			(property "Public" "False"
+				(at 20.32 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0805, SMT, CAPACITOR, PASSIVE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1218,7 +1227,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_10u_25V_0603_0_1"
+			(symbol "C_22u_25V_0805_0_1"
 				(polyline
 					(pts
 						(xy 2.032 -1.524) (xy 2.032 1.524)
@@ -1244,7 +1253,7 @@
 					)
 				)
 			)
-			(symbol "C_10u_25V_0603_1_1"
+			(symbol "C_22u_25V_0805_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.032)
@@ -8898,7 +8907,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroTransistorsFETsMOSFETsSingle:PJE138K"
+		(symbol "antmicroTransistorsFETsMOSFETsSingle:DMG1012T-7"
 			(pin_names
 				(offset 0)
 			)
@@ -8906,7 +8915,7 @@
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 22.86 -6.35 0)
+				(at 10.16 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8915,8 +8924,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "PJE138K"
-				(at 22.86 -8.89 0)
+			(property "Value" "DMG1012T-7"
+				(at 10.16 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8927,7 +8936,7 @@
 				)
 			)
 			(property "Footprint" "antmicro-footprints:SOT-523"
-				(at 22.86 -11.43 0)
+				(at 10.16 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8937,8 +8946,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.mouser.com/datasheet/2/1057/PJE138K-1876698.pdf"
-				(at 22.86 -13.97 0)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31783.pdf"
+				(at 10.16 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8948,8 +8957,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "MOSFET, N Channel, 50V, 0.35A, 4.5 ohm, SOT-523, Surface Mount"
-				(at 22.86 -26.67 0)
+			(property "Description" "Power MOSFET, N Channel, 20 V, 630 mA, 0.3 ohm, SOT-523, Surface Mount"
+				(at 10.16 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8958,8 +8967,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "PJE138K_R1_00001"
-				(at 22.86 -16.51 0)
+			(property "MPN" "DMG1012T-7"
+				(at 10.16 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8968,8 +8977,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Manufacturer" "PANJIT"
-				(at 22.86 -19.05 0)
+			(property "Manufacturer" "Diodes Incorporated"
+				(at 10.16 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8980,7 +8989,7 @@
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 22.86 -21.59 0)
+				(at 10.16 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8991,7 +9000,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 22.86 -24.13 0)
+				(at 10.16 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9001,7 +9010,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SMT, TRANSISTOR, SEMICONDUCTOR, MOSFET, NMOS"
+			(property "ki_keywords" "SMT, MOSFET, SEMICONDUCTOR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9010,7 +9019,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "PJE138K_1_1"
+			(symbol "DMG1012T-7_1_1"
 				(polyline
 					(pts
 						(xy 1.27 0) (xy 3.302 0) (xy 3.302 3.937)
@@ -20919,7 +20928,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0603:C_10u_25V_0603")
+		(lib_id "antmicroCapacitorsmisc:C_22u_25V_0805")
 		(at 78.74 66.04 90)
 		(mirror x)
 		(unit 1)
@@ -20938,7 +20947,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_10u_25V_0603"
+		(property "Value" "C_22u_25V_0805"
 			(at 88.9 86.36 0)
 			(effects
 				(font
@@ -20949,7 +20958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0805_2012Metric"
 			(at 91.44 86.36 0)
 			(effects
 				(font
@@ -20960,7 +20969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X5R1E106M080AC"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL21A226MAYNNN.do"
 			(at 93.98 86.36 0)
 			(effects
 				(font
@@ -20971,7 +20980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 25 V, 0603 [1608 Metric], ± 20%, X5R, C"
+		(property "Description" "SMT Multilayer Ceramic Capacitor, 22uF, +/-20%, 25V, X5R, 0805 [2012 Metric]"
 			(at 78.74 66.04 0)
 			(effects
 				(font
@@ -20980,7 +20989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 99.06 86.36 0)
 			(effects
 				(font
@@ -20991,7 +21000,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1608X5R1E106M080AC"
+		(property "MPN" "CL21A226MAYNNNE"
 			(at 96.52 86.36 0)
 			(effects
 				(font
@@ -21002,7 +21011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "10u"
+		(property "Val" "22u"
 			(at 76.2 68.5863 90)
 			(effects
 				(font
@@ -21043,8 +21052,18 @@
 				(justify left)
 			)
 		)
-		(property "Dielectric" ""
+		(property "Dielectric" "X5R"
 			(at 109.22 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Public" "False"
+			(at 111.76 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22367,7 +22386,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTransistorsFETsMOSFETsSingle:PJE138K")
+		(lib_id "antmicroTransistorsFETsMOSFETsSingle:DMG1012T-7")
 		(at 80.01 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22385,7 +22404,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PJE138K"
+		(property "Value" "DMG1012T-7"
 			(at 102.87 146.05 0)
 			(effects
 				(font
@@ -22407,7 +22426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/1057/PJE138K-1876698.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31783.pdf"
 			(at 102.87 151.13 0)
 			(effects
 				(font
@@ -22418,7 +22437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET, N Channel, 50V, 0.35A, 4.5 ohm, SOT-523, Surface Mount"
+		(property "Description" "Power MOSFET, N Channel, 20 V, 630 mA, 0.3 ohm, SOT-523, Surface Mount"
 			(at 102.87 163.83 0)
 			(effects
 				(font
@@ -22428,7 +22447,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PJE138K_R1_00001"
+		(property "MPN" "DMG1012T-7"
 			(at 60.96 133.604 0)
 			(effects
 				(font
@@ -22438,7 +22457,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" "PANJIT"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 102.87 156.21 0)
 			(effects
 				(font
@@ -22853,7 +22872,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTransistorsFETsMOSFETsSingle:PJE138K")
+		(lib_id "antmicroTransistorsFETsMOSFETsSingle:DMG1012T-7")
 		(at 104.14 137.16 0)
 		(mirror y)
 		(unit 1)
@@ -22872,7 +22891,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PJE138K"
+		(property "Value" "DMG1012T-7"
 			(at 81.28 146.05 0)
 			(effects
 				(font
@@ -22894,7 +22913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/1057/PJE138K-1876698.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31783.pdf"
 			(at 81.28 151.13 0)
 			(effects
 				(font
@@ -22905,7 +22924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET, N Channel, 50V, 0.35A, 4.5 ohm, SOT-523, Surface Mount"
+		(property "Description" "Power MOSFET, N Channel, 20 V, 630 mA, 0.3 ohm, SOT-523, Surface Mount"
 			(at 81.28 163.83 0)
 			(effects
 				(font
@@ -22915,7 +22934,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PJE138K_R1_00001"
+		(property "MPN" "DMG1012T-7"
 			(at 123.19 133.604 0)
 			(effects
 				(font
@@ -22925,7 +22944,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" "PANJIT"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 81.28 156.21 0)
 			(effects
 				(font

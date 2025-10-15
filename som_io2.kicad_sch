@@ -13528,220 +13528,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroCapacitors0402:C_100n_50V_X8L_0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 15.24 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "C_100n_50V_X8L_0402"
-				(at 15.24 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-				(at 15.24 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM155L8EH104KE07%23"
-				(at 15.24 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±10%, X8L"
-				(at 15.24 -33.02 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" "GCM155L8EH104KE07D"
-				(at 15.24 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "100n"
-				(at 15.24 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Voltage" "50V"
-				(at 15.24 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Dielectric" "X8L"
-				(at 15.24 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Murata"
-				(at 15.24 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 15.24 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 15.24 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SMT, CAPACITOR, PASSIVE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_100n_50V_X8L_0402_0_1"
-				(polyline
-					(pts
-						(xy 2.032 -1.524) (xy 2.032 1.524)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.524) (xy 3.048 1.524)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_100n_50V_X8L_0402_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "antmicroLogicTranslatorsLevelShifters:TXU0304BQAR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -16209,7 +15995,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroTransistorsFETsMOSFETsSingle:PJE138K"
+		(symbol "antmicroTransistorsFETsMOSFETsSingle:DMG1012T-7"
 			(pin_names
 				(offset 0)
 			)
@@ -16217,7 +16003,7 @@
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 22.86 -6.35 0)
+				(at 10.16 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -16226,8 +16012,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "PJE138K"
-				(at 22.86 -8.89 0)
+			(property "Value" "DMG1012T-7"
+				(at 10.16 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -16238,7 +16024,7 @@
 				)
 			)
 			(property "Footprint" "antmicro-footprints:SOT-523"
-				(at 22.86 -11.43 0)
+				(at 10.16 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -16248,8 +16034,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.mouser.com/datasheet/2/1057/PJE138K-1876698.pdf"
-				(at 22.86 -13.97 0)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31783.pdf"
+				(at 10.16 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -16259,8 +16045,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "MOSFET, N Channel, 50V, 0.35A, 4.5 ohm, SOT-523, Surface Mount"
-				(at 22.86 -26.67 0)
+			(property "Description" "Power MOSFET, N Channel, 20 V, 630 mA, 0.3 ohm, SOT-523, Surface Mount"
+				(at 10.16 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -16269,8 +16055,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "PJE138K_R1_00001"
-				(at 22.86 -16.51 0)
+			(property "MPN" "DMG1012T-7"
+				(at 10.16 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -16279,8 +16065,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Manufacturer" "PANJIT"
-				(at 22.86 -19.05 0)
+			(property "Manufacturer" "Diodes Incorporated"
+				(at 10.16 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -16291,7 +16077,7 @@
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 22.86 -21.59 0)
+				(at 10.16 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -16302,7 +16088,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 22.86 -24.13 0)
+				(at 10.16 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -16312,7 +16098,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SMT, TRANSISTOR, SEMICONDUCTOR, MOSFET, NMOS"
+			(property "ki_keywords" "SMT, MOSFET, SEMICONDUCTOR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -16321,7 +16107,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "PJE138K_1_1"
+			(symbol "DMG1012T-7_1_1"
 				(polyline
 					(pts
 						(xy 1.27 0) (xy 3.302 0) (xy 3.302 3.937)
@@ -29068,7 +28854,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_50V_X8L_0402")
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 66.04 229.87 270)
 		(mirror x)
 		(unit 1)
@@ -29087,7 +28873,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_100n_50V_X8L_0402"
+		(property "Value" "C_100n_0402"
 			(at 43.18 214.63 0)
 			(effects
 				(font
@@ -29109,7 +28895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM155L8EH104KE07%23"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
 			(at 38.1 214.63 0)
 			(effects
 				(font
@@ -29120,7 +28906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±10%, X8L"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 66.04 229.87 0)
 			(effects
 				(font
@@ -29129,7 +28915,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GCM155L8EH104KE07D"
+		(property "MPN" "GRM155R61H104KE14D"
 			(at 35.56 214.63 0)
 			(effects
 				(font
@@ -29161,7 +28947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X8L"
+		(property "Dielectric" "X5R"
 			(at 53.34 214.63 0)
 			(effects
 				(font
@@ -38656,7 +38442,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_50V_X8L_0402")
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 115.57 240.03 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -38674,7 +38460,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_100n_50V_X8L_0402"
+		(property "Value" "C_100n_0402"
 			(at 138.43 224.79 0)
 			(effects
 				(font
@@ -38696,7 +38482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM155L8EH104KE07%23"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
 			(at 143.51 224.79 0)
 			(effects
 				(font
@@ -38707,7 +38493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±10%, X8L"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 115.57 240.03 0)
 			(effects
 				(font
@@ -38716,7 +38502,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GCM155L8EH104KE07D"
+		(property "MPN" "GRM155R61H104KE14D"
 			(at 146.05 224.79 0)
 			(effects
 				(font
@@ -38748,7 +38534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X8L"
+		(property "Dielectric" "X5R"
 			(at 128.27 224.79 0)
 			(effects
 				(font
@@ -42815,12 +42601,12 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTransistorsFETsMOSFETsSingle:PJE138K")
+		(lib_id "antmicroTransistorsFETsMOSFETsSingle:DMG1012T-7")
 		(at 130.81 269.24 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -42835,7 +42621,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PJE138K"
+		(property "Value" "DMG1012T-7"
 			(at 107.95 278.13 0)
 			(effects
 				(font
@@ -42857,7 +42643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/1057/PJE138K-1876698.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31783.pdf"
 			(at 107.95 283.21 0)
 			(effects
 				(font
@@ -42868,7 +42654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET, N Channel, 50V, 0.35A, 4.5 ohm, SOT-523, Surface Mount"
+		(property "Description" "Power MOSFET, N Channel, 20 V, 630 mA, 0.3 ohm, SOT-523, Surface Mount"
 			(at 107.95 294.894 0)
 			(effects
 				(font
@@ -42878,7 +42664,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PJE138K_R1_00001"
+		(property "MPN" "DMG1012T-7"
 			(at 120.65 267.97 0)
 			(effects
 				(font
@@ -42888,7 +42674,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" "PANJIT"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 107.95 288.29 0)
 			(effects
 				(font

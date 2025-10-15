@@ -10571,7 +10571,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroCapacitors0402:C_100n_50V_X8L_0402"
+		(symbol "antmicroCapacitors0402:C_100n_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -10582,7 +10582,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 15.24 -5.08 0)
+				(at 20.32 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10591,8 +10591,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "C_100n_50V_X8L_0402"
-				(at 15.24 -22.86 0)
+			(property "Value" "C_100n_0402"
+				(at 20.32 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10603,7 +10603,7 @@
 				)
 			)
 			(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-				(at 15.24 -25.4 0)
+				(at 20.32 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10613,8 +10613,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM155L8EH104KE07%23"
-				(at 15.24 -27.94 0)
+			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+				(at 20.32 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10624,8 +10624,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±10%, X8L"
-				(at 15.24 -33.02 0)
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+				(at 20.32 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10634,40 +10634,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "GCM155L8EH104KE07D"
-				(at 15.24 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "100n"
-				(at 15.24 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Voltage" "50V"
-				(at 15.24 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Dielectric" "X8L"
-				(at 15.24 -12.7 0)
+			(property "MPN" "GRM155R61H104KE14D"
+				(at 20.32 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10678,7 +10646,7 @@
 				)
 			)
 			(property "Manufacturer" "Murata"
-				(at 15.24 -15.24 0)
+				(at 20.32 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10689,7 +10657,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 15.24 -17.78 0)
+				(at 20.32 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10700,7 +10668,7 @@
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 15.24 -20.32 0)
+				(at 20.32 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10710,7 +10678,37 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SMT, CAPACITOR, PASSIVE"
+			(property "Val" "100n"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Voltage" "50V"
+				(at 20.32 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" "X5R"
+				(at 20.32 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10719,7 +10717,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_100n_50V_X8L_0402_0_1"
+			(symbol "C_100n_0402_0_1"
 				(polyline
 					(pts
 						(xy 2.032 -1.524) (xy 2.032 1.524)
@@ -10745,7 +10743,7 @@
 					)
 				)
 			)
-			(symbol "C_100n_50V_X8L_0402_1_1"
+			(symbol "C_100n_0402_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.032)
@@ -10785,7 +10783,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroCapacitors0402:C_220n_6V3_X7R_0402"
+		(symbol "antmicroCapacitorsmisc:C_220n_0201"
 			(pin_numbers
 				(hide yes)
 			)
@@ -10796,7 +10794,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 15.24 -5.08 0)
+				(at 20.32 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10805,19 +10803,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "C_220n_6V3_X7R_0402"
-				(at 15.24 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-				(at 15.24 -25.4 0)
+			(property "Value" "C_220n_0201"
+				(at 20.32 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10827,8 +10814,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C224M9RACTU.html"
-				(at 15.24 -27.94 0)
+			(property "Footprint" "antmicro-footprints:C_0201"
+				(at 20.32 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10838,18 +10825,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor, 220nF, 6.3V, 0402, ±20%, X7R"
-				(at 15.24 -33.02 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" "C0402C224M9RACTU"
-				(at 15.24 -30.48 0)
+			(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C0603X5R1E224K030BC"
+				(at 20.32 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10859,18 +10836,18 @@
 					(hide yes)
 				)
 			)
-			(property "Val" "220n"
-				(at 15.24 -7.62 0)
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 0.22 µF, 25 V, 0201 [0603 Metric], ± 10%, X5R, C"
+				(at 20.32 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(thickness 0.15)
 					)
 					(justify left bottom)
+					(hide yes)
 				)
 			)
-			(property "Voltage" "6.3V"
-				(at 15.24 -10.16 0)
+			(property "MPN" "C0603X5R1E224K030BC"
+				(at 20.32 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10880,19 +10857,8 @@
 					(hide yes)
 				)
 			)
-			(property "Dielectric" "X7R"
-				(at 15.24 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "KEMET"
-				(at 15.24 -15.24 0)
+			(property "Manufacturer" "TDK"
+				(at 20.32 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10903,7 +10869,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 15.24 -17.78 0)
+				(at 20.32 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10914,7 +10880,7 @@
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 15.24 -20.32 0)
+				(at 20.32 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10924,7 +10890,47 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SMT, CAPACITOR, PASSIVE"
+			(property "Val" "220n"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Voltage" "25V"
+				(at 20.32 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" ""
+				(at 20.32 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Public" "False"
+				(at 20.32 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0201, SMT, CAPACITOR, PASSIVE, MLCC, CERAMIC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10933,7 +10939,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_220n_6V3_X7R_0402_0_1"
+			(symbol "C_220n_0201_0_1"
 				(polyline
 					(pts
 						(xy 2.032 -1.524) (xy 2.032 1.524)
@@ -10959,7 +10965,7 @@
 					)
 				)
 			)
-			(symbol "C_220n_6V3_X7R_0402_1_1"
+			(symbol "C_220n_0201_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.032)
@@ -28962,7 +28968,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_50V_X8L_0402")
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 213.36 133.35 270)
 		(mirror x)
 		(unit 1)
@@ -28981,7 +28987,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_100n_50V_X8L_0402"
+		(property "Value" "C_100n_0402"
 			(at 190.5 118.11 0)
 			(effects
 				(font
@@ -29003,7 +29009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM155L8EH104KE07%23"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
 			(at 185.42 118.11 0)
 			(effects
 				(font
@@ -29014,7 +29020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±10%, X8L"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 213.36 133.35 0)
 			(effects
 				(font
@@ -29023,7 +29029,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GCM155L8EH104KE07D"
+		(property "MPN" "GRM155R61H104KE14D"
 			(at 182.88 118.11 0)
 			(effects
 				(font
@@ -29055,7 +29061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X8L"
+		(property "Dielectric" "X5R"
 			(at 200.66 118.11 0)
 			(effects
 				(font
@@ -29210,7 +29216,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_220n_6V3_X7R_0402")
+		(lib_id "antmicroCapacitorsmisc:C_220n_0201")
 		(at 55.88 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29227,7 +29233,7 @@
 				)
 			)
 		)
-		(property "Value" "C_220n_6V3_X7R_0402"
+		(property "Value" "C_220n_0201"
 			(at 71.12 83.82 0)
 			(effects
 				(font
@@ -29238,7 +29244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+		(property "Footprint" "antmicro-footprints:C_0201"
 			(at 71.12 86.36 0)
 			(effects
 				(font
@@ -29249,7 +29255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C224M9RACTU.html"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C0603X5R1E224K030BC"
 			(at 71.12 88.9 0)
 			(effects
 				(font
@@ -29260,7 +29266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 220nF, 6.3V, 0402, ±20%, X7R"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.22 µF, 25 V, 0201 [0603 Metric], ± 10%, X5R, C"
 			(at 55.88 60.96 0)
 			(effects
 				(font
@@ -29269,7 +29275,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C224M9RACTU"
+		(property "MPN" "C0603X5R1E224K030BC"
 			(at 71.12 91.44 0)
 			(effects
 				(font
@@ -29289,7 +29295,7 @@
 				)
 			)
 		)
-		(property "Voltage" "6.3V"
+		(property "Voltage" "25V"
 			(at 71.12 71.12 0)
 			(effects
 				(font
@@ -29311,7 +29317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "TDK"
 			(at 71.12 76.2 0)
 			(effects
 				(font
@@ -29339,6 +29345,16 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Public" "False"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -37215,7 +37231,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_220n_6V3_X7R_0402")
+		(lib_id "antmicroCapacitorsmisc:C_220n_0201")
 		(at 63.5 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -37232,7 +37248,7 @@
 				)
 			)
 		)
-		(property "Value" "C_220n_6V3_X7R_0402"
+		(property "Value" "C_220n_0201"
 			(at 78.74 137.16 0)
 			(effects
 				(font
@@ -37243,7 +37259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+		(property "Footprint" "antmicro-footprints:C_0201"
 			(at 78.74 139.7 0)
 			(effects
 				(font
@@ -37254,7 +37270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C224M9RACTU.html"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C0603X5R1E224K030BC"
 			(at 78.74 142.24 0)
 			(effects
 				(font
@@ -37265,7 +37281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 220nF, 6.3V, 0402, ±20%, X7R"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.22 µF, 25 V, 0201 [0603 Metric], ± 10%, X5R, C"
 			(at 63.5 114.3 0)
 			(effects
 				(font
@@ -37274,7 +37290,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C224M9RACTU"
+		(property "MPN" "C0603X5R1E224K030BC"
 			(at 78.74 144.78 0)
 			(effects
 				(font
@@ -37294,7 +37310,7 @@
 				)
 			)
 		)
-		(property "Voltage" "6.3V"
+		(property "Voltage" "25V"
 			(at 78.74 124.46 0)
 			(effects
 				(font
@@ -37316,7 +37332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "TDK"
 			(at 78.74 129.54 0)
 			(effects
 				(font
@@ -37344,6 +37360,16 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Public" "False"
+			(at 83.82 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -41328,7 +41354,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_220n_6V3_X7R_0402")
+		(lib_id "antmicroCapacitorsmisc:C_220n_0201")
 		(at 55.88 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -41345,7 +41371,7 @@
 				)
 			)
 		)
-		(property "Value" "C_220n_6V3_X7R_0402"
+		(property "Value" "C_220n_0201"
 			(at 71.12 93.98 0)
 			(effects
 				(font
@@ -41356,7 +41382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+		(property "Footprint" "antmicro-footprints:C_0201"
 			(at 71.12 96.52 0)
 			(effects
 				(font
@@ -41367,7 +41393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C224M9RACTU.html"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C0603X5R1E224K030BC"
 			(at 71.12 99.06 0)
 			(effects
 				(font
@@ -41378,7 +41404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 220nF, 6.3V, 0402, ±20%, X7R"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.22 µF, 25 V, 0201 [0603 Metric], ± 10%, X5R, C"
 			(at 55.88 71.12 0)
 			(effects
 				(font
@@ -41387,7 +41413,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C224M9RACTU"
+		(property "MPN" "C0603X5R1E224K030BC"
 			(at 71.12 101.6 0)
 			(effects
 				(font
@@ -41407,7 +41433,7 @@
 				)
 			)
 		)
-		(property "Voltage" "6.3V"
+		(property "Voltage" "25V"
 			(at 71.12 81.28 0)
 			(effects
 				(font
@@ -41429,7 +41455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "TDK"
 			(at 71.12 86.36 0)
 			(effects
 				(font
@@ -41462,6 +41488,16 @@
 				(hide yes)
 			)
 		)
+		(property "Public" "False"
+			(at 76.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "53487a6e-4b8a-4406-a5db-00fce339b729")
 		)
@@ -41478,7 +41514,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_50V_X8L_0402")
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 259.08 140.97 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -41496,7 +41532,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_100n_50V_X8L_0402"
+		(property "Value" "C_100n_0402"
 			(at 281.94 125.73 0)
 			(effects
 				(font
@@ -41518,7 +41554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM155L8EH104KE07%23"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
 			(at 287.02 125.73 0)
 			(effects
 				(font
@@ -41529,7 +41565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±10%, X8L"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 259.08 140.97 0)
 			(effects
 				(font
@@ -41538,7 +41574,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GCM155L8EH104KE07D"
+		(property "MPN" "GRM155R61H104KE14D"
 			(at 289.56 125.73 0)
 			(effects
 				(font
@@ -41570,7 +41606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X8L"
+		(property "Dielectric" "X5R"
 			(at 271.78 125.73 0)
 			(effects
 				(font
@@ -41724,7 +41760,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_220n_6V3_X7R_0402")
+		(lib_id "antmicroCapacitorsmisc:C_220n_0201")
 		(at 63.5 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -41741,7 +41777,7 @@
 				)
 			)
 		)
-		(property "Value" "C_220n_6V3_X7R_0402"
+		(property "Value" "C_220n_0201"
 			(at 78.74 96.52 0)
 			(effects
 				(font
@@ -41752,7 +41788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+		(property "Footprint" "antmicro-footprints:C_0201"
 			(at 78.74 99.06 0)
 			(effects
 				(font
@@ -41763,7 +41799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C224M9RACTU.html"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C0603X5R1E224K030BC"
 			(at 78.74 101.6 0)
 			(effects
 				(font
@@ -41774,7 +41810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 220nF, 6.3V, 0402, ±20%, X7R"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.22 µF, 25 V, 0201 [0603 Metric], ± 10%, X5R, C"
 			(at 63.5 73.66 0)
 			(effects
 				(font
@@ -41783,7 +41819,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C224M9RACTU"
+		(property "MPN" "C0603X5R1E224K030BC"
 			(at 78.74 104.14 0)
 			(effects
 				(font
@@ -41803,7 +41839,7 @@
 				)
 			)
 		)
-		(property "Voltage" "6.3V"
+		(property "Voltage" "25V"
 			(at 78.74 83.82 0)
 			(effects
 				(font
@@ -41825,7 +41861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "TDK"
 			(at 78.74 88.9 0)
 			(effects
 				(font
@@ -41853,6 +41889,16 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Public" "False"
+			(at 83.82 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -42643,7 +42689,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_50V_X8L_0402")
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 161.29 266.7 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -42661,7 +42707,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_100n_50V_X8L_0402"
+		(property "Value" "C_100n_0402"
 			(at 184.15 251.46 0)
 			(effects
 				(font
@@ -42683,7 +42729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM155L8EH104KE07%23"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
 			(at 189.23 251.46 0)
 			(effects
 				(font
@@ -42694,7 +42740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±10%, X8L"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 161.29 266.7 0)
 			(effects
 				(font
@@ -42703,7 +42749,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GCM155L8EH104KE07D"
+		(property "MPN" "GRM155R61H104KE14D"
 			(at 191.77 251.46 0)
 			(effects
 				(font
@@ -42735,7 +42781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X8L"
+		(property "Dielectric" "X5R"
 			(at 173.99 251.46 0)
 			(effects
 				(font
@@ -42795,7 +42841,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_220n_6V3_X7R_0402")
+		(lib_id "antmicroCapacitorsmisc:C_220n_0201")
 		(at 63.5 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -42812,7 +42858,7 @@
 				)
 			)
 		)
-		(property "Value" "C_220n_6V3_X7R_0402"
+		(property "Value" "C_220n_0201"
 			(at 78.74 86.36 0)
 			(effects
 				(font
@@ -42823,7 +42869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+		(property "Footprint" "antmicro-footprints:C_0201"
 			(at 78.74 88.9 0)
 			(effects
 				(font
@@ -42834,7 +42880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C224M9RACTU.html"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C0603X5R1E224K030BC"
 			(at 78.74 91.44 0)
 			(effects
 				(font
@@ -42845,7 +42891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 220nF, 6.3V, 0402, ±20%, X7R"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.22 µF, 25 V, 0201 [0603 Metric], ± 10%, X5R, C"
 			(at 63.5 63.5 0)
 			(effects
 				(font
@@ -42854,7 +42900,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C224M9RACTU"
+		(property "MPN" "C0603X5R1E224K030BC"
 			(at 78.74 93.98 0)
 			(effects
 				(font
@@ -42874,7 +42920,7 @@
 				)
 			)
 		)
-		(property "Voltage" "6.3V"
+		(property "Voltage" "25V"
 			(at 78.74 73.66 0)
 			(effects
 				(font
@@ -42896,7 +42942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "TDK"
 			(at 78.74 78.74 0)
 			(effects
 				(font
@@ -42924,6 +42970,16 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Public" "False"
+			(at 83.82 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -43328,7 +43384,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_50V_X8L_0402")
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 351.79 234.95 270)
 		(mirror x)
 		(unit 1)
@@ -43347,7 +43403,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_100n_50V_X8L_0402"
+		(property "Value" "C_100n_0402"
 			(at 328.93 219.71 0)
 			(effects
 				(font
@@ -43369,7 +43425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM155L8EH104KE07%23"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
 			(at 323.85 219.71 0)
 			(effects
 				(font
@@ -43380,7 +43436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±10%, X8L"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 351.79 234.95 0)
 			(effects
 				(font
@@ -43389,7 +43445,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GCM155L8EH104KE07D"
+		(property "MPN" "GRM155R61H104KE14D"
 			(at 321.31 219.71 0)
 			(effects
 				(font
@@ -43421,7 +43477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X8L"
+		(property "Dielectric" "X5R"
 			(at 339.09 219.71 0)
 			(effects
 				(font
@@ -43670,7 +43726,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_50V_X8L_0402")
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 152.4 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -43688,7 +43744,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_100n_50V_X8L_0402"
+		(property "Value" "C_100n_0402"
 			(at 175.26 115.57 0)
 			(effects
 				(font
@@ -43710,7 +43766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM155L8EH104KE07%23"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
 			(at 180.34 115.57 0)
 			(effects
 				(font
@@ -43721,7 +43777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±10%, X8L"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 152.4 130.81 0)
 			(effects
 				(font
@@ -43730,7 +43786,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GCM155L8EH104KE07D"
+		(property "MPN" "GRM155R61H104KE14D"
 			(at 182.88 115.57 0)
 			(effects
 				(font
@@ -43762,7 +43818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X8L"
+		(property "Dielectric" "X5R"
 			(at 165.1 115.57 0)
 			(effects
 				(font
@@ -43917,7 +43973,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_220n_6V3_X7R_0402")
+		(lib_id "antmicroCapacitorsmisc:C_220n_0201")
 		(at 55.88 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -43934,7 +43990,7 @@
 				)
 			)
 		)
-		(property "Value" "C_220n_6V3_X7R_0402"
+		(property "Value" "C_220n_0201"
 			(at 71.12 134.62 0)
 			(effects
 				(font
@@ -43945,7 +44001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+		(property "Footprint" "antmicro-footprints:C_0201"
 			(at 71.12 137.16 0)
 			(effects
 				(font
@@ -43956,7 +44012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C224M9RACTU.html"
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C0603X5R1E224K030BC"
 			(at 71.12 139.7 0)
 			(effects
 				(font
@@ -43967,7 +44023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 220nF, 6.3V, 0402, ±20%, X7R"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.22 µF, 25 V, 0201 [0603 Metric], ± 10%, X5R, C"
 			(at 55.88 111.76 0)
 			(effects
 				(font
@@ -43976,7 +44032,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C224M9RACTU"
+		(property "MPN" "C0603X5R1E224K030BC"
 			(at 71.12 142.24 0)
 			(effects
 				(font
@@ -43996,7 +44052,7 @@
 				)
 			)
 		)
-		(property "Voltage" "6.3V"
+		(property "Voltage" "25V"
 			(at 71.12 121.92 0)
 			(effects
 				(font
@@ -44018,7 +44074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "TDK"
 			(at 71.12 127 0)
 			(effects
 				(font
@@ -44046,6 +44102,16 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Public" "False"
+			(at 76.2 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)

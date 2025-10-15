@@ -648,7 +648,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroCapacitors0603:C_10u_0603"
+		(symbol "antmicroCapacitorsmisc:C_22u_25V_0805"
 			(pin_numbers
 				(hide yes)
 			)
@@ -668,7 +668,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "C_10u_0603"
+			(property "Value" "C_22u_25V_0805"
 				(at 20.32 -10.16 0)
 				(effects
 					(font
@@ -679,7 +679,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+			(property "Footprint" "antmicro-footprints:C_0805_2012Metric"
 				(at 20.32 -12.7 0)
 				(effects
 					(font
@@ -690,7 +690,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM188R61A106KE69%23"
+			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL21A226MAYNNN.do"
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -701,8 +701,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 10 V, 0603 [1608 Metric], ± 10%, X5R, GRM Series"
-				(at 20.32 -30.48 0)
+			(property "Description" "SMT Multilayer Ceramic Capacitor, 22uF, +/-20%, 25V, X5R, 0805 [2012 Metric]"
+				(at 20.32 -33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -711,7 +711,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "GRM188R61A106KE69D"
+			(property "MPN" "CL21A226MAYNNNE"
 				(at 20.32 -17.78 0)
 				(effects
 					(font
@@ -722,7 +722,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Murata"
+			(property "Manufacturer" "Samsung Electro-Mechanics"
 				(at 20.32 -20.32 0)
 				(effects
 					(font
@@ -755,7 +755,7 @@
 					(hide yes)
 				)
 			)
-			(property "Val" "10u"
+			(property "Val" "22u"
 				(at 20.32 -7.62 0)
 				(effects
 					(font
@@ -765,17 +765,16 @@
 					(justify left bottom)
 				)
 			)
-			(property "Voltage" ""
+			(property "Voltage" "25V"
 				(at 20.32 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left bottom)
-					(hide yes)
 				)
 			)
-			(property "Dielectric" "template_dielectric"
+			(property "Dielectric" "X5R"
 				(at 20.32 -30.48 0)
 				(effects
 					(font
@@ -785,7 +784,17 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "0603, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
+			(property "Public" "False"
+				(at 20.32 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0805, SMT, CAPACITOR, PASSIVE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -794,7 +803,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_10u_0603_0_1"
+			(symbol "C_22u_25V_0805_0_1"
 				(polyline
 					(pts
 						(xy 2.032 -1.524) (xy 2.032 1.524)
@@ -820,7 +829,7 @@
 					)
 				)
 			)
-			(symbol "C_10u_0603_1_1"
+			(symbol "C_22u_25V_0805_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.032)
@@ -23376,7 +23385,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0603:C_10u_0603")
+		(lib_id "antmicroCapacitorsmisc:C_22u_25V_0805")
 		(at 287.02 64.77 90)
 		(mirror x)
 		(unit 1)
@@ -23395,7 +23404,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_10u_0603"
+		(property "Value" "C_22u_25V_0805"
 			(at 297.18 85.09 0)
 			(effects
 				(font
@@ -23406,7 +23415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric"
+		(property "Footprint" "antmicro-footprints:C_0805_2012Metric"
 			(at 299.72 85.09 0)
 			(effects
 				(font
@@ -23417,7 +23426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM188R61A106KE69%23"
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL21A226MAYNNN.do"
 			(at 302.26 85.09 0)
 			(effects
 				(font
@@ -23428,7 +23437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 10 V, 0603 [1608 Metric], ± 10%, X5R, GRM Series"
+		(property "Description" "SMT Multilayer Ceramic Capacitor, 22uF, +/-20%, 25V, X5R, 0805 [2012 Metric]"
 			(at 287.02 64.77 0)
 			(effects
 				(font
@@ -23437,7 +23446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 307.34 85.09 0)
 			(effects
 				(font
@@ -23448,7 +23457,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R61A106KE69D"
+		(property "MPN" "CL21A226MAYNNNE"
 			(at 304.8 85.09 0)
 			(effects
 				(font
@@ -23459,7 +23468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "10u"
+		(property "Val" "22u"
 			(at 289.56 68.5863 90)
 			(effects
 				(font
@@ -23491,7 +23500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" ""
+		(property "Voltage" "25V"
 			(at 314.96 85.09 0)
 			(effects
 				(font
@@ -23501,8 +23510,18 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "template_dielectric"
+		(property "Dielectric" "X5R"
 			(at 317.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Public" "False"
+			(at 320.04 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
