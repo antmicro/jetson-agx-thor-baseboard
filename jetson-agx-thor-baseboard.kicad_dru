@@ -17,19 +17,19 @@
 )
 
 #--------------------- DP ----------------------
-# Calculated as 95 Ohm
+# Calculated as 95 diff, 53 SE
 (rule "(dp_inner"
 	(layer inner)
 	(condition "(A.NetClass == '100Ohm-diff_DP')")
-	(constraint track_width (opt 0.125mm))
-	(constraint diff_pair_gap  (opt 0.165mm))
+	(constraint track_width  (opt 0.125mm))
+	(constraint diff_pair_gap  (opt 0.17mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
 (rule "(dp_outer"
 	(layer outer)
 	(condition "(A.NetClass == '100Ohm-diff_DP')")
-	(constraint track_width (opt 0.1mm))
-	(constraint diff_pair_gap  (opt 0.2mm))
+	(constraint track_width (opt 0.17mm))
+	(constraint diff_pair_gap  (opt 0.19mm) )
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
 
@@ -40,18 +40,19 @@
 
 
 #-------------------- D-PHY CSI ---------------------
+# Calculated as 95 diff, 53 SE
 (rule "(csi_inner"
 	(layer inner)
 	(condition "(A.NetClass == '95Ohm-diff_CSI')")
-	(constraint track_width  (opt 0.155mm))
-	(constraint diff_pair_gap  (opt 0.22mm))
+	(constraint track_width  (opt 0.125mm))
+	(constraint diff_pair_gap  (opt 0.17mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
 (rule "(csi_outer"
 	(layer outer)
 	(condition "(A.NetClass == '95Ohm-diff_CSI')")
-	(constraint track_width (opt 0.14mm))
-	(constraint diff_pair_gap  (opt 0.22mm) )
+	(constraint track_width (opt 0.17mm))
+	(constraint diff_pair_gap  (opt 0.19mm) )
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
 
