@@ -12329,6 +12329,129 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroTransistorsFETsMOSFETsSingle:DMG1012T-7")
+		(at 50.8 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dd50d51-f41c-431c-8e5d-a13512197200")
+		(property "Reference" "Q1"
+			(at 52.324 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DMG1012T-7"
+			(at 73.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:SOT-523"
+			(at 73.66 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31783.pdf"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power MOSFET, N Channel, 20 V, 630 mA, 0.3 ohm, SOT-523, Surface Mount"
+			(at 73.66 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DMG1012T-7"
+			(at 52.324 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 73.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 73.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1145f737-78cb-4f87-898f-5e28f3eb0294")
+		)
+		(pin "1"
+			(uuid "25967529-6b27-492d-bd8d-121a1d9a98c2")
+		)
+		(pin "2"
+			(uuid "262af51b-4491-47f7-84f1-c5097adc7464")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/f57c04fe-502b-4d07-880b-2cf807d3e5a1"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:+3V3")
 		(at 57.15 58.42 0)
 		(unit 1)
@@ -12673,148 +12796,6 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/f57c04fe-502b-4d07-880b-2cf807d3e5a1"
 					(reference "D35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroTVSDiodes:TPD4E05U06QDQARQ1")
-		(at 110.49 149.86 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "183523e5-5736-445a-b1b2-8afcf58826dc")
-		(property "Reference" "U?"
-			(at 98.552 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TPD4E05U06QDQARQ1"
-			(at 100.33 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:USON-10_2.5x1mm_P0.5mm"
-			(at 105.41 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd4e05u06-q1.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1663591265741&ref_url=https%253A%252F%252Fwww.mouser.com%252F"
-			(at 102.87 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "TVS diode array, 12 kV, USON-10, 5.5 V, 0.5 pF"
-			(at 110.49 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 97.79 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TPD4E05U06QDQARQ1"
-			(at 98.552 162.306 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 95.25 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 92.71 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18190b15-0443-4687-90ed-2d24bf6b790c")
-		)
-		(pin "10"
-			(uuid "48047b5a-7463-4b45-bf7b-ada32ec77c19")
-		)
-		(pin "2"
-			(uuid "20dbc842-3407-40b4-9865-7854a1ec7e18")
-		)
-		(pin "3"
-			(uuid "dc00e14e-a406-4309-8a82-8ed16e14a0e9")
-		)
-		(pin "4"
-			(uuid "8b1c3da5-8e2c-4820-be6f-0105a77ada2f")
-		)
-		(pin "5"
-			(uuid "7315c191-81b5-47b5-ac37-cf92189111cf")
-		)
-		(pin "6"
-			(uuid "17eb39c7-4725-48f1-a9fd-d717489e68d1")
-		)
-		(pin "7"
-			(uuid "45bd1287-bb77-48dd-9821-cce622ae765f")
-		)
-		(pin "8"
-			(uuid "f268becb-226a-4099-80f7-a8fd6e58e07a")
-		)
-		(pin "9"
-			(uuid "219f8811-6e54-47d7-a188-edba50b7cc4f")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/f57c04fe-502b-4d07-880b-2cf807d3e5a1"
-					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -13200,148 +13181,6 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/f57c04fe-502b-4d07-880b-2cf807d3e5a1"
 					(reference "#PWR0399")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroTVSDiodes:TPD4E05U06QDQARQ1")
-		(at 229.87 88.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d61d77c-ca3c-436e-b8ce-85e40fd22cfa")
-		(property "Reference" "U?"
-			(at 217.932 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TPD4E05U06QDQARQ1"
-			(at 219.71 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:USON-10_2.5x1mm_P0.5mm"
-			(at 224.79 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd4e05u06-q1.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1663591265741&ref_url=https%253A%252F%252Fwww.mouser.com%252F"
-			(at 222.25 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "TVS diode array, 12 kV, USON-10, 5.5 V, 0.5 pF"
-			(at 229.87 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 217.17 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TPD4E05U06QDQARQ1"
-			(at 217.932 101.346 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 214.63 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 212.09 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0071c752-e11b-4d36-8ab1-fef877a062cd")
-		)
-		(pin "10"
-			(uuid "ecb0e401-70eb-4d84-b800-18419cd3e579")
-		)
-		(pin "2"
-			(uuid "30417d42-205a-4d6b-88fd-bdc1e2fd5e14")
-		)
-		(pin "3"
-			(uuid "3e24d7d8-4241-424e-a62c-11d4b078c327")
-		)
-		(pin "4"
-			(uuid "370900c7-6d96-457e-8029-ecaa7cf26dbe")
-		)
-		(pin "5"
-			(uuid "3ff55ca5-16d1-4b19-98ad-0c55fdaabdc7")
-		)
-		(pin "6"
-			(uuid "d478a09b-4291-4b3f-b9b1-ff7e393d78a3")
-		)
-		(pin "7"
-			(uuid "24a4285a-62b6-483e-8dcb-ae8558d07600")
-		)
-		(pin "8"
-			(uuid "977f0b72-e1f2-47de-a648-d14e84a5c70f")
-		)
-		(pin "9"
-			(uuid "66bb6eee-d410-4df7-a26d-e1dd80b19680")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/f57c04fe-502b-4d07-880b-2cf807d3e5a1"
-					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -14792,7 +14631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c655643-0fb8-4f83-8612-2fba1b693170")
-		(property "Reference" "U?"
+		(property "Reference" "U54"
 			(at 208.28 134.62 0)
 			(effects
 				(font
@@ -14904,7 +14743,149 @@
 		(instances
 			(project ""
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/f57c04fe-502b-4d07-880b-2cf807d3e5a1"
-					(reference "U?")
+					(reference "U54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTVSDiodes:TPD4E05U06QDQARQ1")
+		(at 110.49 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f81eb1e-84e1-41cb-b526-0b6b0f82763a")
+		(property "Reference" "U16"
+			(at 98.552 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPD4E05U06QDQARQ1"
+			(at 100.33 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:USON-10_2.5x1mm_P0.5mm"
+			(at 105.41 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd4e05u06-q1.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1663591265741&ref_url=https%253A%252F%252Fwww.mouser.com%252F"
+			(at 102.87 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS diode array, 12 kV, USON-10, 5.5 V, 0.5 pF"
+			(at 110.49 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 97.79 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPD4E05U06QDQARQ1"
+			(at 98.552 162.306 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 95.25 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 92.71 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5fba4fb-34b6-460a-abf6-1f04580ee35c")
+		)
+		(pin "10"
+			(uuid "e07b84c0-f149-489f-af3c-7ff9704aae80")
+		)
+		(pin "2"
+			(uuid "d4c4bd56-f137-4838-9a03-190295321095")
+		)
+		(pin "3"
+			(uuid "8fbe8af2-9f02-4065-95b2-e64f36acf403")
+		)
+		(pin "4"
+			(uuid "cb328d8a-1bf5-4983-bdae-195d50653516")
+		)
+		(pin "5"
+			(uuid "e7be6ad4-ae54-46da-826b-73898c48bb5d")
+		)
+		(pin "6"
+			(uuid "4390830d-4ad8-4088-9b80-4639e686bfff")
+		)
+		(pin "7"
+			(uuid "0684dad6-3962-4926-99a2-de4e6061d8e0")
+		)
+		(pin "8"
+			(uuid "d2959536-95dc-4b4a-accd-78cfc0465c50")
+		)
+		(pin "9"
+			(uuid "cfaff06e-1793-4e3a-88db-7d99c9075356")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/f57c04fe-502b-4d07-880b-2cf807d3e5a1"
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -15989,129 +15970,6 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/f57c04fe-502b-4d07-880b-2cf807d3e5a1"
 					(reference "R236")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroTransistorsFETsMOSFETsSingle:DMG1012T-7")
-		(at 50.8 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "579d1b2d-9190-40f9-b512-40d237269cab")
-		(property "Reference" "Q?"
-			(at 52.324 68.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "DMG1012T-7"
-			(at 73.66 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:SOT-523"
-			(at 73.66 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31783.pdf"
-			(at 73.66 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power MOSFET, N Channel, 20 V, 630 mA, 0.3 ohm, SOT-523, Surface Mount"
-			(at 73.66 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "DMG1012T-7"
-			(at 52.324 71.374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Manufacturer" "Diodes Incorporated"
-			(at 73.66 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 73.66 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 73.66 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "2ed13e2c-cd29-4e13-a641-d9eaed38ddaa")
-		)
-		(pin "1"
-			(uuid "b1d72787-4328-4ad9-bc80-74ad6c4e7c04")
-		)
-		(pin "2"
-			(uuid "07599933-b3a2-4171-b512-8b5837c65e02")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/f57c04fe-502b-4d07-880b-2cf807d3e5a1"
-					(reference "Q?")
 					(unit 1)
 				)
 			)
@@ -17732,148 +17590,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTVSDiodes:TPD4E05U06QDQARQ1")
-		(at 318.77 88.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "774f0916-13e8-4214-aa0b-c3fced7e4ccf")
-		(property "Reference" "U?"
-			(at 306.832 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TPD4E05U06QDQARQ1"
-			(at 308.61 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:USON-10_2.5x1mm_P0.5mm"
-			(at 313.69 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd4e05u06-q1.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1663591265741&ref_url=https%253A%252F%252Fwww.mouser.com%252F"
-			(at 311.15 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "TVS diode array, 12 kV, USON-10, 5.5 V, 0.5 pF"
-			(at 318.77 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 306.07 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TPD4E05U06QDQARQ1"
-			(at 306.832 101.346 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 303.53 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 300.99 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0da8799b-dd35-4608-b7b5-dca93f3bc8d0")
-		)
-		(pin "10"
-			(uuid "be317d8c-d595-4f07-bec0-2bdae727d30c")
-		)
-		(pin "2"
-			(uuid "329f8385-a3bc-4125-98fb-b7b333735ae5")
-		)
-		(pin "3"
-			(uuid "a485f4c1-ff58-44a9-b8b3-5d6d3af30070")
-		)
-		(pin "4"
-			(uuid "529110a5-a674-4f49-9920-f52d6fd9854f")
-		)
-		(pin "5"
-			(uuid "6efd099e-3515-4c7d-986c-2dd84faa192b")
-		)
-		(pin "6"
-			(uuid "bc04666f-7714-4a65-8bee-8955d4ca8f84")
-		)
-		(pin "7"
-			(uuid "464350b1-20fd-4962-97c0-9bd61c592f16")
-		)
-		(pin "8"
-			(uuid "2072940d-5bf7-415a-87cc-df0985afbaec")
-		)
-		(pin "9"
-			(uuid "4aa9b043-172b-453b-af11-ce9e86e8fe55")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/f57c04fe-502b-4d07-880b-2cf807d3e5a1"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroCapacitors0402:C_10u_0402")
 		(at 48.26 36.83 90)
 		(unit 1)
@@ -18972,6 +18688,148 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroTVSDiodes:TPD4E05U06QDQARQ1")
+		(at 229.87 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94e7b78c-1b43-49a1-8ccd-75d76325edaf")
+		(property "Reference" "U67"
+			(at 217.932 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPD4E05U06QDQARQ1"
+			(at 219.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:USON-10_2.5x1mm_P0.5mm"
+			(at 224.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd4e05u06-q1.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1663591265741&ref_url=https%253A%252F%252Fwww.mouser.com%252F"
+			(at 222.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS diode array, 12 kV, USON-10, 5.5 V, 0.5 pF"
+			(at 229.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 217.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPD4E05U06QDQARQ1"
+			(at 217.932 101.346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 214.63 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 212.09 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfc39ed3-f3f6-4fe0-b58d-813dfa515292")
+		)
+		(pin "10"
+			(uuid "1e619e59-4455-44b6-8a49-84331b7c265a")
+		)
+		(pin "2"
+			(uuid "14842fef-247b-41ec-8492-c37618815ed3")
+		)
+		(pin "3"
+			(uuid "8c313948-2848-4faa-ba50-30fdb3174c8b")
+		)
+		(pin "4"
+			(uuid "ad3c4032-0701-4c31-8666-86ed4164b04c")
+		)
+		(pin "5"
+			(uuid "d3005368-c0db-4c03-98f4-8af86e7ab6f6")
+		)
+		(pin "6"
+			(uuid "3eacf2d1-b79f-49a5-aa8b-7402c8ee0253")
+		)
+		(pin "7"
+			(uuid "a399342c-dd27-4882-a468-d9a2f7196036")
+		)
+		(pin "8"
+			(uuid "9f79e043-ebb2-45a8-85f3-6e189598ead2")
+		)
+		(pin "9"
+			(uuid "28203431-56a8-441a-aa7d-85c71581fd84")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/f57c04fe-502b-4d07-880b-2cf807d3e5a1"
+					(reference "U67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 190.5 62.23 0)
 		(unit 1)
@@ -19248,6 +19106,148 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/f57c04fe-502b-4d07-880b-2cf807d3e5a1"
 					(reference "#PWR0396")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTVSDiodes:TPD4E05U06QDQARQ1")
+		(at 318.77 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99589c51-dac5-4874-bb9b-6cb5915cabcd")
+		(property "Reference" "U68"
+			(at 306.832 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPD4E05U06QDQARQ1"
+			(at 308.61 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:USON-10_2.5x1mm_P0.5mm"
+			(at 313.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd4e05u06-q1.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1663591265741&ref_url=https%253A%252F%252Fwww.mouser.com%252F"
+			(at 311.15 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS diode array, 12 kV, USON-10, 5.5 V, 0.5 pF"
+			(at 318.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 306.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPD4E05U06QDQARQ1"
+			(at 306.832 101.346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 303.53 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 300.99 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "740651bb-1195-4274-b535-3b9c1455a986")
+		)
+		(pin "10"
+			(uuid "c3f16b4d-3d4e-40a7-8e36-0c8698dad36d")
+		)
+		(pin "2"
+			(uuid "ae7db4b7-e6a1-48b3-aa06-365b0c94e0be")
+		)
+		(pin "3"
+			(uuid "ac30168c-b16b-4b3c-ba0d-04750e2cffa8")
+		)
+		(pin "4"
+			(uuid "b76ce9c4-a549-47c8-8a50-857ee6d6ab65")
+		)
+		(pin "5"
+			(uuid "52632fac-d301-4b29-8616-3ec5ee0d6377")
+		)
+		(pin "6"
+			(uuid "be88139c-591a-489c-9783-c37acfced922")
+		)
+		(pin "7"
+			(uuid "952fa184-0f8c-49e7-8629-499741113085")
+		)
+		(pin "8"
+			(uuid "5aa86240-e35b-4f31-a0ce-97d7b74bf9ad")
+		)
+		(pin "9"
+			(uuid "32dd1359-62ac-473d-a596-370b061093d8")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/f57c04fe-502b-4d07-880b-2cf807d3e5a1"
+					(reference "U68")
 					(unit 1)
 				)
 			)
@@ -21129,6 +21129,125 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroTVSDiodes:ESD9X5.0ST5G")
+		(at 107.95 129.54 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4756a47-83d3-4864-bc53-2be063401f52")
+		(property "Reference" "D39"
+			(at 102.108 131.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD9X5.0ST5G"
+			(at 123.19 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:SOD-923"
+			(at 115.57 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd9x3.3st5g-d.pdf"
+			(at 118.11 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unidirectional TVS, 30 kV,  SOD-923, 5 V, 65 pF"
+			(at 107.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ON Semiconductor"
+			(at 120.65 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESD9X5.0ST5G"
+			(at 91.948 132.842 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 125.73 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 128.27 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66c8f1da-7b14-49f1-b1db-24566687ee0c")
+		)
+		(pin "2"
+			(uuid "975b00b2-4bbf-400d-9b86-b07bfe9c0af0")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/f57c04fe-502b-4d07-880b-2cf807d3e5a1"
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 240.03 86.36 0)
 		(unit 1)
@@ -21335,125 +21454,6 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/f57c04fe-502b-4d07-880b-2cf807d3e5a1"
 					(reference "D38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroTVSDiodes:ESD9X5.0ST5G")
-		(at 107.95 129.54 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ce2e4f62-99fc-4e0f-956c-7fb11788c563")
-		(property "Reference" "D?"
-			(at 103.124 131.064 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ESD9X5.0ST5G"
-			(at 123.19 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:SOD-923"
-			(at 115.57 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd9x3.3st5g-d.pdf"
-			(at 118.11 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unidirectional TVS, 30 kV,  SOD-923, 5 V, 65 pF"
-			(at 107.95 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ON Semiconductor"
-			(at 120.65 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ESD9X5.0ST5G"
-			(at 91.948 132.842 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 125.73 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 128.27 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0eb2b2c8-222d-4b91-bcb3-ea30c0d126a6")
-		)
-		(pin "2"
-			(uuid "fe859581-6305-47d2-98cb-ebb47fddebef")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/f57c04fe-502b-4d07-880b-2cf807d3e5a1"
-					(reference "D?")
 					(unit 1)
 				)
 			)

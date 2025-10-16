@@ -17943,21 +17943,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 16.51 85.09) (xy 245.11 85.09) (xy 245.11 151.13) (xy 16.51 151.13)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 5898dc75-ff23-4192-b8d8-bdc84a7940c1)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 16.51 13.97) (xy 245.11 13.97) (xy 245.11 80.01) (xy 16.51 80.01)
 			)
 			(stroke
@@ -17967,7 +17952,83 @@
 			(fill
 				(type none)
 			)
-			(uuid f585f568-dcc6-4958-973b-f34fe5b8c6cd)
+			(uuid 0f247cc6-19ee-4f33-b063-d8ed65f6aace)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 251.46 85.09) (xy 405.13 85.09) (xy 405.13 151.13) (xy 251.46 151.13)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 863542ca-4f86-4d47-9f1b-313a781fbfc1)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 251.46 156.21) (xy 405.13 156.21) (xy 405.13 222.25) (xy 251.46 222.25)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid af22b6eb-8e00-4344-ba12-51680a6778f3)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 16.51 85.09) (xy 245.11 85.09) (xy 245.11 151.13) (xy 16.51 151.13)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid be5414ce-adc5-4325-b6bc-19d5c83dc7ca)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 255.27 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ca8c568-68f2-4512-93bd-80958d0ad7a8")
+		(property "Netclass" ""
+			(at -63.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "DCDC_1V8"
+			(at 255.9685 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
 		)
 	)
 	(netclass_flag ""
@@ -18023,6 +18084,37 @@
 		)
 		(property "Component Class" "DCDC_SOM"
 			(at 21.0185 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 255.27 222.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dde320b5-0f2a-415b-8214-70aa2d76ed4f")
+		(property "Netclass" ""
+			(at -63.5 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "DCDC_1V15"
+			(at 255.9685 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18915,7 +19007,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
-		(at 346.71 193.04 90)
+		(at 346.71 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18924,7 +19016,7 @@
 		(fields_autoplaced yes)
 		(uuid "030953d1-4274-4385-9c69-d6eda13cceed")
 		(property "Reference" "C33"
-			(at 349.25 189.2235 90)
+			(at 349.25 123.1835 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18934,7 +19026,7 @@
 			)
 		)
 		(property "Value" "C_100n_0402"
-			(at 356.87 172.72 0)
+			(at 356.87 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18945,7 +19037,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 359.41 172.72 0)
+			(at 359.41 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18956,7 +19048,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
-			(at 361.95 172.72 0)
+			(at 361.95 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18967,7 +19059,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
-			(at 346.71 193.04 0)
+			(at 346.71 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18976,7 +19068,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H104KE14D"
-			(at 364.49 172.72 0)
+			(at 364.49 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18987,7 +19079,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 367.03 172.72 0)
+			(at 367.03 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18998,7 +19090,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 369.57 172.72 0)
+			(at 369.57 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19009,7 +19101,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 372.11 172.72 0)
+			(at 372.11 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19020,7 +19112,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 349.25 191.7635 90)
+			(at 349.25 125.7235 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19030,7 +19122,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 374.65 172.72 0)
+			(at 374.65 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19040,7 +19132,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 377.19 172.72 0)
+			(at 377.19 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19614,157 +19706,6 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_0402")
-		(at 346.71 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0aad87f3-7f27-4f73-8a4e-acd453410b44")
-		(property "Reference" "C?"
-			(at 349.25 123.1835 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_100n_0402"
-			(at 356.87 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 359.41 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
-			(at 361.95 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
-			(at 346.71 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM155R61H104KE14D"
-			(at 364.49 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 367.03 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 369.57 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 372.11 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "100n"
-			(at 349.25 125.7235 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 374.65 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 377.19 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95e15c7d-7d0b-4928-8c4f-54b4b8c31741")
-		)
-		(pin "2"
-			(uuid "4b40db0b-6224-4936-8e07-b0bb3aef7c9a")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
-					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -21144,34 +21085,27 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0603:R_0R_22.4A_0603")
-		(at 367.03 116.84 0)
+		(lib_id "antmicroResistors0402:R_11k_0402")
+		(at 336.55 189.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "17c4f641-2968-4c2d-b82f-b7e8b9d67f4a")
-		(property "Reference" "R?"
-			(at 369.57 112.522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_0R_22.4A_0603"
-			(at 369.57 107.95 0)
+		(fields_autoplaced yes)
+		(uuid "165e2e68-6675-4770-a30f-fa8b67770a3c")
+		(property "Reference" "R9"
+			(at 339.09 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
-			(at 382.27 127 0)
+		(property "Value" "R_11k_0402"
+			(at 349.25 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21181,8 +21115,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/pmr-jpw-e.pdf"
-			(at 382.27 129.54 0)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 351.79 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21192,17 +21126,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor"
-			(at 367.03 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ROHM Semiconductor"
-			(at 382.27 134.62 0)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 354.33 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21212,8 +21137,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PMR03EZPJ000"
-			(at 382.27 132.08 0)
+		(property "Description" "SMD Chip Resistor, 11 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 336.55 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1102GLF"
+			(at 356.87 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21223,17 +21157,8 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "0R"
-			(at 369.57 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 382.27 139.7 0)
+		(property "Manufacturer" "Bourns"
+			(at 359.41 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21244,7 +21169,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 382.27 142.24 0)
+			(at 361.95 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21254,17 +21179,29 @@
 				(hide yes)
 			)
 		)
-		(property "Max. Curr." "22.4A"
-			(at 369.57 119.38 0)
+		(property "Author" "Antmicro"
+			(at 364.49 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
+				(hide yes)
 			)
 		)
-		(property "Tolerance" "template_tolerance"
-			(at 387.35 127 0)
+		(property "Val" "11k"
+			(at 339.09 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 346.71 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21274,15 +21211,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b276ff2a-91c0-44fe-961a-4406d9fae542")
+			(uuid "eea6b4c5-cfd7-4889-bfab-a1ae6045553c")
 		)
 		(pin "2"
-			(uuid "d1aa9729-ae73-4b41-b13b-99f4fffeb4ef")
+			(uuid "5253d2a9-6374-493f-8276-9ea9640be9d5")
 		)
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
-					(reference "R?")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -21423,6 +21360,167 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroFixedInductors:L_1u8_6.8A_WE-MAPI-4020")
+		(at 326.39 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18d5f53c-0df0-41bc-8eac-e93580384815")
+		(property "Reference" "L7"
+			(at 328.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "L_1u8_6.8A_WE-MAPI-4020"
+			(at 340.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:L_WE-MAPI-4020"
+			(at 340.36 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74438356018.pdf"
+			(at 340.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Inductors - SMD WE-MAPI 1.8uH 4.6A DCR=30mOhms AEC-Q200"
+			(at 326.39 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "1u8/6.8A"
+			(at 328.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 340.36 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74438356018"
+			(at 340.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ISat" "6.5 A"
+			(at 340.36 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "IMax" "6.8 A"
+			(at 340.36 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Size" "4.1x4.1mm"
+			(at 340.36 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 340.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 340.36 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d49e170b-aeb3-4cb2-bd23-40f122d90457")
+		)
+		(pin "1"
+			(uuid "5b80c2f7-1808-4de7-b4a0-1258e5f9ab26")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
+					(reference "L7")
 					(unit 1)
 				)
 			)
@@ -21770,6 +21868,157 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C295")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0603:C_22u_16V_0603")
+		(at 365.76 193.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bf76de2-f9fa-418e-8dfc-c3567a54f9cb")
+		(property "Reference" "C310"
+			(at 368.3 189.2235 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_22u_16V_0603"
+			(at 375.92 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
+			(at 378.46 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A226MO7JZN.do"
+			(at 381 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor"
+			(at 365.76 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A226MO7JZNC"
+			(at 383.54 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 386.08 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 388.62 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 391.16 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "22u"
+			(at 368.3 191.7635 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 393.7 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 396.24 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed12a409-6f2c-46c7-80a6-c377aea198b4")
+		)
+		(pin "2"
+			(uuid "9e128fa1-9df3-4007-9d63-affdd161cf94")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
+					(reference "C310")
 					(unit 1)
 				)
 			)
@@ -22547,7 +22796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20b11cec-0b6a-49ed-a06f-41d008e3ec8b")
-		(property "Reference" "R?"
+		(property "Reference" "R317"
 			(at 339.09 119.38 90)
 			(effects
 				(font
@@ -22672,7 +22921,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
-					(reference "R?")
+					(reference "R317")
 					(unit 1)
 				)
 			)
@@ -22680,7 +22929,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0603:C_22u_16V_0603")
-		(at 365.76 193.04 90)
+		(at 365.76 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22689,7 +22938,7 @@
 		(fields_autoplaced yes)
 		(uuid "22315310-7302-4b7d-a87d-49eff72d5b23")
 		(property "Reference" "C37"
-			(at 368.3 189.2235 90)
+			(at 368.3 123.1835 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22699,7 +22948,7 @@
 			)
 		)
 		(property "Value" "C_22u_16V_0603"
-			(at 375.92 172.72 0)
+			(at 375.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22710,7 +22959,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
-			(at 378.46 172.72 0)
+			(at 378.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22721,7 +22970,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A226MO7JZN.do"
-			(at 381 172.72 0)
+			(at 381 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22732,7 +22981,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor"
-			(at 365.76 193.04 0)
+			(at 365.76 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22741,7 +22990,7 @@
 			)
 		)
 		(property "MPN" "CL10A226MO7JZNC"
-			(at 383.54 172.72 0)
+			(at 383.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22752,7 +23001,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 386.08 172.72 0)
+			(at 386.08 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22763,7 +23012,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 388.62 172.72 0)
+			(at 388.62 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22774,7 +23023,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 391.16 172.72 0)
+			(at 391.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22785,7 +23034,7 @@
 			)
 		)
 		(property "Val" "22u"
-			(at 368.3 191.7635 90)
+			(at 368.3 125.7235 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22795,7 +23044,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 393.7 172.72 0)
+			(at 393.7 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22805,7 +23054,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 396.24 172.72 0)
+			(at 396.24 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23205,7 +23454,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0603:C_22u_16V_0603")
-		(at 266.7 190.5 90)
+		(at 266.7 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23214,7 +23463,7 @@
 		(fields_autoplaced yes)
 		(uuid "2670175b-9563-4717-a9f7-19bb69093f0b")
 		(property "Reference" "C31"
-			(at 269.24 185.4135 90)
+			(at 269.24 119.3735 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23224,7 +23473,7 @@
 			)
 		)
 		(property "Value" "C_22u_16V_0603"
-			(at 276.86 170.18 0)
+			(at 276.86 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23235,7 +23484,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
-			(at 279.4 170.18 0)
+			(at 279.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23246,7 +23495,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A226MO7JZN.do"
-			(at 281.94 170.18 0)
+			(at 281.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23257,7 +23506,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor"
-			(at 266.7 190.5 0)
+			(at 266.7 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23266,7 +23515,7 @@
 			)
 		)
 		(property "MPN" "CL10A226MO7JZNC"
-			(at 284.48 170.18 0)
+			(at 284.48 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23277,7 +23526,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 287.02 170.18 0)
+			(at 287.02 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23288,7 +23537,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 289.56 170.18 0)
+			(at 289.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23299,7 +23548,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 292.1 170.18 0)
+			(at 292.1 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23310,7 +23559,7 @@
 			)
 		)
 		(property "Val" "22u"
-			(at 269.24 187.9535 90)
+			(at 269.24 121.9135 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23320,7 +23569,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 269.24 190.4935 90)
+			(at 269.24 124.4535 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23330,7 +23579,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 297.18 170.18 0)
+			(at 297.18 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23340,7 +23589,7 @@
 			)
 		)
 		(property "Public" "False"
-			(at 299.72 170.18 0)
+			(at 299.72 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24737,167 +24986,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroFixedInductors:L_1u8_6.8A_WE-MAPI-4020")
-		(at 326.39 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2be6926a-4a16-45b6-b19d-f91fbfda6871")
-		(property "Reference" "L?"
-			(at 328.93 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "L_1u8_6.8A_WE-MAPI-4020"
-			(at 340.36 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:L_WE-MAPI-4020"
-			(at 340.36 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74438356018.pdf"
-			(at 340.36 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power Inductors - SMD WE-MAPI 1.8uH 4.6A DCR=30mOhms AEC-Q200"
-			(at 326.39 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Val" "1u8/6.8A"
-			(at 328.93 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 340.36 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "74438356018"
-			(at 340.36 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ISat" "6.5 A"
-			(at 340.36 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "IMax" "6.8 A"
-			(at 340.36 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Size" "4.1x4.1mm"
-			(at 340.36 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 340.36 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 340.36 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "03ded23c-72a5-417b-945e-c9de0f48ddb8")
-		)
-		(pin "1"
-			(uuid "8a0357b4-7f09-4bf7-837f-a549b88ca3ff")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
-					(reference "L?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroResistors0402:R_499k_0402")
 		(at 55.88 176.53 90)
 		(unit 1)
@@ -25132,7 +25220,7 @@
 	)
 	(symbol
 		(lib_id "antmicroDCDCConverters:TPS564247DRLR")
-		(at 300.99 182.88 0)
+		(at 300.99 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25141,7 +25229,7 @@
 		(fields_autoplaced yes)
 		(uuid "30066831-7a1d-4bbc-b875-f68f9f764904")
 		(property "Reference" "U7"
-			(at 308.61 176.53 0)
+			(at 308.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25149,7 +25237,7 @@
 			)
 		)
 		(property "Value" "TPS564247DRLR"
-			(at 300.99 182.88 0)
+			(at 300.99 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25158,7 +25246,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:SOT-563"
-			(at 300.99 182.88 0)
+			(at 300.99 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25167,7 +25255,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps564247.pdf?ts=1713526387938&ref_url=https%253A%252F%252Fwww.mouser.pl%252F"
-			(at 300.99 182.88 0)
+			(at 300.99 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25176,7 +25264,7 @@
 			)
 		)
 		(property "Description" "Switching Voltage Regulators 3-V to 16-V input voltage, 4-A FCCM mode, synchronous buck converter in SOT-563 package 6-SOT-5X3 -40 to 125"
-			(at 300.99 182.88 0)
+			(at 300.99 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25185,7 +25273,7 @@
 			)
 		)
 		(property "MPN" "TPS564247DRLR"
-			(at 308.61 179.07 0)
+			(at 308.61 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25193,7 +25281,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 331.47 203.2 0)
+			(at 331.47 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25204,7 +25292,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 331.47 205.74 0)
+			(at 331.47 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25215,7 +25303,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 331.47 200.66 0)
+			(at 331.47 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26195,167 +26283,6 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0537")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroCapacitors0603:C_22u_16V_0603")
-		(at 266.7 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35c03c4a-2e9a-44ff-93af-85db62b8a9ce")
-		(property "Reference" "C?"
-			(at 269.24 119.3735 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_22u_16V_0603"
-			(at 276.86 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
-			(at 279.4 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A226MO7JZN.do"
-			(at 281.94 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor"
-			(at 266.7 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL10A226MO7JZNC"
-			(at 284.48 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 287.02 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 289.56 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 292.1 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "22u"
-			(at 269.24 121.9135 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 269.24 124.4535 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 297.18 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 299.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2f056b4b-6ea5-4d90-bc2e-03b2e59d22d5")
-		)
-		(pin "1"
-			(uuid "ce9707ed-df7e-4c21-8d78-ffaf38f6d108")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
-					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -28750,6 +28677,157 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0603:C_22u_16V_0603")
+		(at 355.6 187.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43a53225-8118-42b5-9811-a14b7899a0a9")
+		(property "Reference" "C224"
+			(at 358.14 189.2363 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_22u_16V_0603"
+			(at 353.06 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
+			(at 347.98 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A226MO7JZN.do"
+			(at 345.44 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor"
+			(at 355.6 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "22u"
+			(at 358.14 191.7763 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "CL10A226MO7JZNC"
+			(at 342.9 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 340.36 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 337.82 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 335.28 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 358.14 192.5065 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 330.2 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df795862-0ee4-453e-bdd4-0d0e2599db10")
+		)
+		(pin "1"
+			(uuid "ca91061d-d01c-4538-8dc9-cbb77c96c7c8")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
+					(reference "C224")
 					(unit 1)
 				)
 			)
@@ -35958,157 +36036,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0603:C_22u_16V_0603")
-		(at 365.76 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a0a97cd-fdff-44f1-88c6-408d91a082ef")
-		(property "Reference" "C?"
-			(at 368.3 123.1835 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_22u_16V_0603"
-			(at 375.92 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
-			(at 378.46 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A226MO7JZN.do"
-			(at 381 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor"
-			(at 365.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL10A226MO7JZNC"
-			(at 383.54 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 386.08 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 388.62 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 391.16 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "22u"
-			(at 368.3 125.7235 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 393.7 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 396.24 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88a7ab40-2bea-40b8-89ab-7e0287befd09")
-		)
-		(pin "2"
-			(uuid "03f8ddd1-ef1a-4869-872f-b011d326b759")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroResistors0402:R_499k_0402")
 		(at 55.88 107.95 90)
 		(unit 1)
@@ -37320,7 +37247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "822de291-21d1-436c-85f4-3dc1a198fcb7")
-		(property "Reference" "R?"
+		(property "Reference" "R318"
 			(at 339.09 127 90)
 			(effects
 				(font
@@ -37445,7 +37372,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
-					(reference "R?")
+					(reference "R318")
 					(unit 1)
 				)
 			)
@@ -37601,17 +37528,17 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_12k_0402")
-		(at 336.55 196.85 90)
+		(lib_id "antmicroCapacitors0603:C_22u_16V_0603")
+		(at 275.59 190.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "83143558-4ef4-4de9-8116-84a80b2f8b9d")
-		(property "Reference" "R318"
-			(at 339.09 193.04 90)
+		(uuid "851f5e14-a4b5-406c-88ec-17e71b257069")
+		(property "Reference" "C76"
+			(at 278.13 185.4135 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37620,8 +37547,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_12k_0402"
-			(at 349.25 176.53 0)
+		(property "Value" "C_22u_16V_0603"
+			(at 285.75 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37631,8 +37558,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 351.79 176.53 0)
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
+			(at 288.29 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37642,8 +37569,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 354.33 176.53 0)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A226MO7JZN.do"
+			(at 290.83 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37653,8 +37580,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 12 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 336.55 196.85 0)
+		(property "Description" "SMD Multilayer Ceramic Capacitor"
+			(at 275.59 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37662,8 +37589,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-1202GLF"
-			(at 356.87 176.53 0)
+		(property "MPN" "CL10A226MO7JZNC"
+			(at 293.37 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37673,8 +37600,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 359.41 176.53 0)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 295.91 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37685,7 +37612,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 361.95 176.53 0)
+			(at 298.45 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37696,7 +37623,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 364.49 176.53 0)
+			(at 300.99 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37706,8 +37633,8 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "12k"
-			(at 339.09 195.58 90)
+		(property "Val" "22u"
+			(at 278.13 187.9535 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37716,8 +37643,18 @@
 				(justify right)
 			)
 		)
-		(property "Tolerance" "1%"
-			(at 346.71 176.53 0)
+		(property "Voltage" "16V"
+			(at 278.13 190.4935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 306.07 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37726,16 +37663,26 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "5b16f7c3-9546-4783-a20f-91d8be7bbcdf")
+		(property "Public" "False"
+			(at 308.61 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "60c1515b-8fb2-4d6a-8987-8308850b0c4d")
+			(uuid "867dc7ee-f33b-44fa-a430-7dc3cb435ce7")
+		)
+		(pin "1"
+			(uuid "236b94f7-91c2-46ef-8dc7-a45926ccda1a")
 		)
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
-					(reference "R318")
+					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -38151,157 +38098,6 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroCapacitors0603:C_22u_16V_0603")
-		(at 355.6 121.92 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8896eb9d-0fb3-49cb-bae4-7ddaf04eb5b7")
-		(property "Reference" "C?"
-			(at 358.14 123.1963 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_22u_16V_0603"
-			(at 353.06 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
-			(at 347.98 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A226MO7JZN.do"
-			(at 345.44 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor"
-			(at 355.6 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Val" "22u"
-			(at 358.14 125.7363 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "MPN" "CL10A226MO7JZNC"
-			(at 342.9 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 340.36 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 337.82 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 335.28 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 358.14 126.4665 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 330.2 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "604cfac2-16cb-47c2-b9df-a043798e9d60")
-		)
-		(pin "1"
-			(uuid "e1f8bab9-85a6-48e0-8fa9-119214c0415c")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
-					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -42401,6 +42197,157 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
+		(at 346.71 193.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ade16319-0aa4-47f0-9cc3-82a214396a4c")
+		(property "Reference" "C79"
+			(at 349.25 189.2235 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_100n_0402"
+			(at 356.87 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 359.41 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 361.95 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+			(at 346.71 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 364.49 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 367.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 369.57 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 372.11 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 349.25 191.7635 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 374.65 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 377.19 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7cf016cd-05ac-48e6-a888-72d481cf2b02")
+		)
+		(pin "2"
+			(uuid "b5ef2284-12c4-410f-8a79-f90af9e26d58")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
+					(reference "C79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 143.51 193.04 0)
 		(unit 1)
@@ -42588,7 +42535,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0603:C_22u_16V_0603")
-		(at 275.59 190.5 90)
+		(at 275.59 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42597,7 +42544,7 @@
 		(fields_autoplaced yes)
 		(uuid "afd53b02-9bb7-4203-84f8-f474ee5298cc")
 		(property "Reference" "C32"
-			(at 278.13 185.4135 90)
+			(at 278.13 119.3735 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42607,7 +42554,7 @@
 			)
 		)
 		(property "Value" "C_22u_16V_0603"
-			(at 285.75 170.18 0)
+			(at 285.75 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42618,7 +42565,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
-			(at 288.29 170.18 0)
+			(at 288.29 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42629,7 +42576,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A226MO7JZN.do"
-			(at 290.83 170.18 0)
+			(at 290.83 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42640,7 +42587,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor"
-			(at 275.59 190.5 0)
+			(at 275.59 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42649,7 +42596,7 @@
 			)
 		)
 		(property "MPN" "CL10A226MO7JZNC"
-			(at 293.37 170.18 0)
+			(at 293.37 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42660,7 +42607,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 295.91 170.18 0)
+			(at 295.91 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42671,7 +42618,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 298.45 170.18 0)
+			(at 298.45 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42682,7 +42629,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 300.99 170.18 0)
+			(at 300.99 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42693,7 +42640,7 @@
 			)
 		)
 		(property "Val" "22u"
-			(at 278.13 187.9535 90)
+			(at 278.13 121.9135 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42703,7 +42650,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 278.13 190.4935 90)
+			(at 278.13 124.4535 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42713,7 +42660,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 306.07 170.18 0)
+			(at 306.07 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42723,7 +42670,7 @@
 			)
 		)
 		(property "Public" "False"
-			(at 308.61 170.18 0)
+			(at 308.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44328,7 +44275,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0603:C_22u_16V_0603")
-		(at 355.6 187.96 270)
+		(at 355.6 121.92 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -44337,7 +44284,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9a28bee-7df2-4594-bfa3-6e17505f5023")
 		(property "Reference" "C305"
-			(at 358.14 189.2363 90)
+			(at 358.14 123.1963 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44347,7 +44294,7 @@
 			)
 		)
 		(property "Value" "C_22u_16V_0603"
-			(at 353.06 201.93 0)
+			(at 353.06 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44358,7 +44305,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
-			(at 347.98 201.93 0)
+			(at 347.98 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44369,7 +44316,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A226MO7JZN.do"
-			(at 345.44 201.93 0)
+			(at 345.44 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44380,7 +44327,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor"
-			(at 355.6 187.96 0)
+			(at 355.6 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44389,7 +44336,7 @@
 			)
 		)
 		(property "Val" "22u"
-			(at 358.14 191.7763 90)
+			(at 358.14 125.7363 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44399,7 +44346,7 @@
 			)
 		)
 		(property "MPN" "CL10A226MO7JZNC"
-			(at 342.9 201.93 0)
+			(at 342.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44410,7 +44357,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 340.36 201.93 0)
+			(at 340.36 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44421,7 +44368,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 337.82 201.93 0)
+			(at 337.82 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44432,7 +44379,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 335.28 201.93 0)
+			(at 335.28 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44443,7 +44390,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 358.14 192.5065 90)
+			(at 358.14 126.4665 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44453,7 +44400,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 330.2 201.93 0)
+			(at 330.2 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46104,60 +46051,25 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0603:C_22u_16V_0603")
-		(at 275.59 124.46 90)
+		(lib_id "antmicroDCDCConverters:TPS564247DRLR")
+		(at 300.99 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c4a4786f-5e9d-483a-9722-fd560b4374a0")
-		(property "Reference" "C?"
-			(at 278.13 119.3735 90)
+		(uuid "c3c12175-c591-459b-9995-857ef62b1acb")
+		(property "Reference" "U69"
+			(at 308.61 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "C_22u_16V_0603"
-			(at 285.75 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
-			(at 288.29 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A226MO7JZN.do"
-			(at 290.83 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor"
-			(at 275.59 124.46 0)
+		(property "Value" "TPS564247DRLR"
+			(at 300.99 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46165,19 +46077,43 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10A226MO7JZNC"
-			(at 293.37 104.14 0)
+		(property "Footprint" "antmicro-footprints:SOT-563"
+			(at 300.99 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 295.91 104.14 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps564247.pdf?ts=1713526387938&ref_url=https%253A%252F%252Fwww.mouser.pl%252F"
+			(at 300.99 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switching Voltage Regulators 3-V to 16-V input voltage, 4-A FCCM mode, synchronous buck converter in SOT-563 package 6-SOT-5X3 -40 to 125"
+			(at 300.99 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPS564247DRLR"
+			(at 308.61 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 331.47 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46188,7 +46124,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 298.45 104.14 0)
+			(at 331.47 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46198,8 +46134,8 @@
 				(hide yes)
 			)
 		)
-		(property "Author" "Antmicro"
-			(at 300.99 104.14 0)
+		(property "Manufacturer" "Texas Instruments"
+			(at 331.47 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46208,57 +46144,29 @@
 				(justify left bottom)
 				(hide yes)
 			)
-		)
-		(property "Val" "22u"
-			(at 278.13 121.9135 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 278.13 124.4535 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 306.07 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 308.61 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "06db5deb-94f2-4cfc-956d-cbcdc2cd6e24")
 		)
 		(pin "1"
-			(uuid "d02aba0f-69a5-42e5-8104-b2d6db9e9669")
+			(uuid "ab606a2b-b387-4fe6-9ce1-8b251e5bd240")
+		)
+		(pin "6"
+			(uuid "3bb2672b-70c6-4fbe-a897-c1db9bd5e618")
+		)
+		(pin "2"
+			(uuid "a2e1853a-fb8d-403e-8b1e-a70bed1f2617")
+		)
+		(pin "3"
+			(uuid "66b85eaf-fe4b-494c-bcb4-f68da790108a")
+		)
+		(pin "5"
+			(uuid "1103c792-0168-4467-a1fa-d5cd9c6a248f")
+		)
+		(pin "4"
+			(uuid "51df4c69-17b6-4f9a-b7b6-d5ff5c716160")
 		)
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
-					(reference "C?")
+					(reference "U69")
 					(unit 1)
 				)
 			)
@@ -47687,147 +47595,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_11k_0402")
-		(at 336.55 189.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc948301-5a9c-46d2-9de1-6e4fa9cd59cb")
-		(property "Reference" "R317"
-			(at 339.09 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_11k_0402"
-			(at 349.25 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 351.79 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 354.33 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 11 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 336.55 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-1102GLF"
-			(at 356.87 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 359.41 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 361.95 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 364.49 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "11k"
-			(at 339.09 187.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 346.71 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64af19db-2a25-4ad2-8e31-62bcbac5d80a")
-		)
-		(pin "2"
-			(uuid "1d1fce19-b0cc-4ea7-b3fc-7f477c1735ff")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
-					(reference "R317")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
 		(at 162.56 128.27 0)
 		(unit 1)
@@ -48571,128 +48338,6 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroDCDCConverters:TPS564247DRLR")
-		(at 300.99 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2db7238-dd6f-40c9-89c5-4800c6ad2c1a")
-		(property "Reference" "U?"
-			(at 308.61 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS564247DRLR"
-			(at 300.99 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:SOT-563"
-			(at 300.99 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps564247.pdf?ts=1713526387938&ref_url=https%253A%252F%252Fwww.mouser.pl%252F"
-			(at 300.99 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switching Voltage Regulators 3-V to 16-V input voltage, 4-A FCCM mode, synchronous buck converter in SOT-563 package 6-SOT-5X3 -40 to 125"
-			(at 300.99 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TPS564247DRLR"
-			(at 308.61 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 331.47 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 331.47 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 331.47 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e6285ff-975b-41b9-a0df-764bcb3e1906")
-		)
-		(pin "6"
-			(uuid "1dd5b851-8b17-47f8-a85e-f9f3a52610b9")
-		)
-		(pin "2"
-			(uuid "cb6f0adb-df07-47c1-be2f-d539c1fc0ce8")
-		)
-		(pin "3"
-			(uuid "7f60c818-d540-4186-bf0f-0fdb7193c3c8")
-		)
-		(pin "5"
-			(uuid "e695c635-e1ed-4f48-98d8-dbf0ac42102f")
-		)
-		(pin "4"
-			(uuid "bde59702-00be-4c3a-99ad-183dcd349472")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
-					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -50081,6 +49726,147 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroResistors0402:R_12k_0402")
+		(at 336.55 196.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dae42833-39b4-447e-b5d8-064c55cc7b79")
+		(property "Reference" "R16"
+			(at 339.09 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_12k_0402"
+			(at 349.25 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 351.79 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 354.33 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 12 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 336.55 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1202GLF"
+			(at 356.87 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 359.41 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 361.95 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 364.49 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "12k"
+			(at 339.09 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 346.71 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb74c081-2c61-483b-ae7a-ee2e6d6622b6")
+		)
+		(pin "2"
+			(uuid "b3623404-e915-44e9-91b8-19af8d6c76df")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:+5V")
 		(at 397.51 36.83 0)
 		(unit 1)
@@ -50262,6 +50048,151 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0620")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0603:R_0R_22.4A_0603")
+		(at 367.03 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc70db2e-5e34-42f5-96d2-abbb9de67b57")
+		(property "Reference" "R7"
+			(at 369.57 178.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_0R_22.4A_0603"
+			(at 369.57 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
+			(at 382.27 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/pmr-jpw-e.pdf"
+			(at 382.27 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor"
+			(at 367.03 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROHM Semiconductor"
+			(at 382.27 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PMR03EZPJ000"
+			(at 382.27 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 369.57 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 382.27 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 382.27 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Max. Curr." "22.4A"
+			(at 369.57 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "template_tolerance"
+			(at 387.35 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdfab811-c2e4-47f0-b230-7239aaf6dede")
+		)
+		(pin "2"
+			(uuid "a318d76e-06c3-4245-866d-9f5d91a6197c")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -54509,6 +54440,167 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroCapacitors0603:C_22u_16V_0603")
+		(at 266.7 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7db5ead-65f4-4d5f-bc41-e551cd187c2c")
+		(property "Reference" "C35"
+			(at 269.24 185.4135 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_22u_16V_0603"
+			(at 276.86 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0603_1608Metric_EIA"
+			(at 279.4 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10A226MO7JZN.do"
+			(at 281.94 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor"
+			(at 266.7 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A226MO7JZNC"
+			(at 284.48 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 287.02 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 289.56 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 292.1 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "22u"
+			(at 269.24 187.9535 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 269.24 190.4935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 297.18 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Public" "False"
+			(at 299.72 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8a32f9d-e766-4a96-b744-3c7b6224bb67")
+		)
+		(pin "1"
+			(uuid "646f8879-85f9-4452-b042-25c0407c7ba6")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 129.54 30.48 180)
 		(unit 1)
@@ -55189,7 +55281,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0603:R_0R_22.4A_0603")
-		(at 367.03 182.88 0)
+		(at 367.03 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -55197,7 +55289,7 @@
 		(dnp no)
 		(uuid "fb61e3f7-e15a-4ffa-b566-d5402960bcb2")
 		(property "Reference" "R10"
-			(at 369.57 178.562 0)
+			(at 369.57 112.522 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55205,7 +55297,7 @@
 			)
 		)
 		(property "Value" "R_0R_22.4A_0603"
-			(at 369.57 173.99 0)
+			(at 369.57 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55215,7 +55307,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
-			(at 382.27 193.04 0)
+			(at 382.27 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55226,7 +55318,7 @@
 			)
 		)
 		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/pmr-jpw-e.pdf"
-			(at 382.27 195.58 0)
+			(at 382.27 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55237,7 +55329,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor"
-			(at 367.03 182.88 0)
+			(at 367.03 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55246,7 +55338,7 @@
 			)
 		)
 		(property "Manufacturer" "ROHM Semiconductor"
-			(at 382.27 200.66 0)
+			(at 382.27 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55257,7 +55349,7 @@
 			)
 		)
 		(property "MPN" "PMR03EZPJ000"
-			(at 382.27 198.12 0)
+			(at 382.27 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55268,7 +55360,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 369.57 180.34 0)
+			(at 369.57 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55277,7 +55369,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 382.27 205.74 0)
+			(at 382.27 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55288,7 +55380,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 382.27 208.28 0)
+			(at 382.27 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55299,7 +55391,7 @@
 			)
 		)
 		(property "Max. Curr." "22.4A"
-			(at 369.57 185.42 0)
+			(at 369.57 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55308,7 +55400,7 @@
 			)
 		)
 		(property "Tolerance" "template_tolerance"
-			(at 387.35 193.04 0)
+			(at 387.35 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
