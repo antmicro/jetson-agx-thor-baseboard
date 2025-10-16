@@ -4,8 +4,8 @@
 (rule "(usb_2.0_inner"
 	(layer inner)
 	(condition "(A.NetClass == '85Ohm-diff_USB_2.0')")
-	(constraint track_width (opt 0.1mm))
-	(constraint diff_pair_gap  (opt 0.1mm))
+	(constraint track_width (opt 0.14mm))
+	(constraint diff_pair_gap  (opt 0.125mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
 (rule "(usb_2.0_outer"
@@ -17,11 +17,12 @@
 )
 
 #--------------------- DP ----------------------
+# Calculated as 95 Ohm
 (rule "(dp_inner"
 	(layer inner)
 	(condition "(A.NetClass == '100Ohm-diff_DP')")
-	(constraint track_width (opt 0.1mm))
-	(constraint diff_pair_gap  (opt 0.2mm))
+	(constraint track_width (opt 0.125mm))
+	(constraint diff_pair_gap  (opt 0.165mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
 (rule "(dp_outer"
@@ -64,8 +65,8 @@
 (rule "(usb_ss_inner"
 	(layer inner)
 	(condition "(A.NetClass == '85Ohm-diff_USB_SS')")
-	(constraint track_width (opt 0.1mm))
-	(constraint diff_pair_gap  (opt 0.1mm))
+	(constraint track_width (opt 0.14mm))
+	(constraint diff_pair_gap  (opt 0.125mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
 (rule "(usb_ss_outer"
@@ -86,8 +87,8 @@
 (rule "(pcie_inner"
 	(layer inner)
 	(condition "(A.NetClass == '85Ohm-diff_PCIE')")
-	(constraint track_width (opt 0.1mm))
-	(constraint diff_pair_gap  (opt 0.1mm))
+	(constraint track_width (opt 0.14mm))
+	(constraint diff_pair_gap  (opt 0.125mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
 (rule "(pcie_outer"
@@ -108,8 +109,8 @@
 (rule "(sfi_inner"
 	(layer inner)
 	(condition "(A.NetClass == '85Ohm-diff_SFI')")
-	(constraint track_width (opt 0.1mm))
-	(constraint diff_pair_gap  (opt 0.1mm))
+	(constraint track_width (opt 0.14mm))
+	(constraint diff_pair_gap  (opt 0.125mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
 (rule "(sfi_outer"
