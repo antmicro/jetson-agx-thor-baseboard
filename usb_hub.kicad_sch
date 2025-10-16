@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Jetson AGX Thor Baseboard")
-		(date "2025-10-08")
+		(date "2025-10-16")
 		(rev "1.0.0")
 		(company "Antmicro Ltd")
 		(comment 1 "www.antmicro.com")
@@ -9515,16 +9515,8 @@
 		(uuid "acab0db6-63dd-4988-ae97-1fb2b7a838fc")
 	)
 	(no_connect
-		(at 127 101.6)
-		(uuid "b6fa9da6-2d35-4c7d-89b1-316e24de8fc6")
-	)
-	(no_connect
 		(at 127 134.62)
 		(uuid "bc2b5841-233f-4d29-bf4f-8fdb530301ad")
-	)
-	(no_connect
-		(at 127 99.06)
-		(uuid "c0c53eb9-7669-48f7-8eaf-c3f3615cf5ad")
 	)
 	(no_connect
 		(at 127 109.22)
@@ -10317,6 +10309,16 @@
 			(type default)
 		)
 		(uuid "26c37ee6-c5d9-44a1-ae47-4a80750b7c72")
+	)
+	(wire
+		(pts
+			(xy 114.3 101.6) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2839373d-5051-4b90-aa21-93fe300b1299")
 	)
 	(wire
 		(pts
@@ -11557,6 +11559,16 @@
 			(type default)
 		)
 		(uuid "712a0f14-5dd1-440f-865a-88cd204fb609")
+	)
+	(wire
+		(pts
+			(xy 114.3 99.06) (xy 127 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7144939b-3c7b-4fde-a0d5-60465bee9663")
 	)
 	(wire
 		(pts
@@ -16521,6 +16533,16 @@
 		)
 		(uuid "10c9f589-6f43-4ae1-9034-1633c4902c20")
 	)
+	(label "DP2_DISCH"
+		(at 114.3 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b008fe8-8812-4759-9a5a-6177a5f4857f")
+	)
 	(label "HUB_SPI_CLK"
 		(at 31.75 246.38 0)
 		(effects
@@ -16670,6 +16692,16 @@
 			(justify right bottom)
 		)
 		(uuid "2e3c063f-2394-45b9-9de7-1a6cc3b7d0eb")
+	)
+	(label "DP1_DISCH"
+		(at 114.3 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3033df59-1513-4054-9efc-4c7a764c1a30")
 	)
 	(label "CFG_STRAP3"
 		(at 54.61 190.5 180)
@@ -17678,7 +17710,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 123.19 83.185) (xy 73.66 83.185) (xy 73.66 72.39) (xy 123.19 72.39)
+				(xy 271.145 193.675) (xy 259.08 193.675) (xy 259.08 187.96) (xy 271.145 187.96)
 			)
 			(stroke
 				(width 0)
@@ -17687,22 +17719,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 05b612d1-2114-422d-b56a-a61b2be7da29)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 313.5312 109.22) (xy 259.2387 109.22) (xy 259.08 78.74) (xy 313.3725 78.74)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 11cce600-58f3-405e-b735-c95408a6139d)
+			(uuid 0c0f6dce-07e5-476a-83e3-1e39341c0db4)
 		)
 	)
 	(rule_area
@@ -17717,7 +17734,37 @@
 			(fill
 				(type none)
 			)
-			(uuid 4e6e1bed-1e2b-4b73-9b13-da4ddc4ac0e4)
+			(uuid 823097b9-c71e-495e-99ba-9cfe5a83f158)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 123.19 83.185) (xy 73.66 83.185) (xy 73.66 72.39) (xy 123.19 72.39)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid a248f40e-9abd-4655-9cd6-4d33944f2a0a)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 313.5312 109.22) (xy 259.2387 109.22) (xy 259.08 78.74) (xy 313.3725 78.74)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid ad38c807-6ecd-454e-af26-18326e13631e)
 		)
 	)
 	(rule_area
@@ -17732,22 +17779,7 @@
 			(fill
 				(type none)
 			)
-			(uuid b5b5e190-1a54-4fc1-9233-53b78a140a98)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 271.145 193.675) (xy 259.08 193.675) (xy 259.08 187.96) (xy 271.145 187.96)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid c6e976b2-0eb6-42cf-9664-bc0e655d847c)
+			(uuid b2d40718-5e4b-487a-83f1-07c1472e69ac)
 		)
 	)
 	(rule_area
@@ -17762,7 +17794,7 @@
 			(fill
 				(type none)
 			)
-			(uuid e664854a-cf50-409e-a61b-edb133df49a8)
+			(uuid be0e225a-1a6b-4133-8141-890f2d5ff57b)
 		)
 	)
 	(netclass_flag ""
@@ -19699,6 +19731,122 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/3fd0fbfa-9a42-4c7b-8c1c-08c3e88df372"
 					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(at 114.3 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "161b17b5-c60a-44f3-989f-0affc778b96e")
+		(property "Reference" "TP66"
+			(at 110.236 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 104.14 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 114.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 103.505 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 103.505 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 104.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3afd0bfa-f66d-4999-9b60-3c9ff826d1cb")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/3fd0fbfa-9a42-4c7b-8c1c-08c3e88df372"
+					(reference "TP66")
 					(unit 1)
 				)
 			)
@@ -35447,6 +35595,122 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/3fd0fbfa-9a42-4c7b-8c1c-08c3e88df372"
 					(reference "C92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(at 114.3 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8a473df-5af3-43d0-aaac-457437bc1d40")
+		(property "Reference" "TP65"
+			(at 110.236 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 104.14 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 104.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 114.3 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 103.505 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 103.505 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 104.14 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7e0af45-dafe-4cb0-929d-b84a653ce8d7")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/3fd0fbfa-9a42-4c7b-8c1c-08c3e88df372"
+					(reference "TP65")
 					(unit 1)
 				)
 			)
