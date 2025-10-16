@@ -37,7 +37,7 @@ The Jeston AGX Thor Baseboard has two 50-pin FFC connectors which makes it elect
 * [HDMI to MIPI CSI-2 Bridge](https://github.com/antmicro/hdmi-mipi-bridge)
 * [Composite Video to MIPI CSI-2 Bridge](https://github.com/antmicro/cvbs-mipi-bridge)
 
-In the default configuration, the Jetson AGX Thor Baseboard should be powered through a DC (Molex Nano-Fit) locking connector providing 24 VDC and at least 4 A.
+In a basic configuration, the Jetson AGX Thor Baseboard should be powered with a DC source (24VDC, >130W) through a DC (Molex Mini-Fit) locking connector.
 
 ## Project structure
 
