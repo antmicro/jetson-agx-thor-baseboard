@@ -3345,235 +3345,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroTVSDiodes:DF2S30FS_SOD"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 21.59 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "DF2S30FS_SOD"
-				(at 21.59 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:SOD-923"
-				(at 21.59 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://toshiba.semicon-storage.com/info/DF2S30FS_datasheet_en_20211216.pdf?did=11156&prodName=DF2S30FS"
-				(at 21.59 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unidirectional TVS, 8 kV,  SOD-923, 23 V, 7 pF"
-				(at 21.59 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Toshiba"
-				(at 21.59 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" "DF2S30FS"
-				(at 21.59 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 21.59 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 21.59 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "DIODE, SEMICONDUCTOR, TVS, ESD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DF2S30FS_SOD_0_1"
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 0) (xy 3.175 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "DF2S30FS_SOD_1_1"
-				(polyline
-					(pts
-						(xy 1.778 1.016) (xy 1.397 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 1.016) (xy 1.778 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.159 -1.016) (xy 1.778 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 1.016) (xy 3.302 -1.016) (xy 1.778 0) (xy 3.302 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 0.635)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 0.635)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "antmicroTVSDiodes:ESD9X5.0ST5G"
 			(pin_numbers
 				(hide yes)
@@ -6154,7 +5925,7 @@
 	)
 	(text "UP TO 20A"
 		(exclude_from_sim no)
-		(at 249.936 39.878 0)
+		(at 240.538 40.132 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6165,7 +5936,7 @@
 	)
 	(text "Ideal-diode O-Ring"
 		(exclude_from_sim no)
-		(at 264.922 30.48 0)
+		(at 264.922 63.754 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6297,6 +6068,12 @@
 		(uuid "335683f8-15cd-41a8-aa60-81598bf40274")
 	)
 	(junction
+		(at 274.32 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3433c2f2-efd7-434c-b0d9-fa6a23ca3999")
+	)
+	(junction
 		(at 124.46 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6373,6 +6150,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57adcfcb-0e5d-404b-9625-4b026a55bfc7")
+	)
+	(junction
+		(at 265.43 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59ac4bf0-9719-4d04-bbce-556a6d3565c9")
 	)
 	(junction
 		(at 247.65 116.84)
@@ -6670,16 +6453,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 66.04) (xy 87.63 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0329ea23-6610-49e2-addc-8ed52ed0ac70")
-	)
-	(wire
-		(pts
 			(xy 110.49 57.15) (xy 110.49 58.42)
 		)
 		(stroke
@@ -6830,13 +6603,23 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 82.55) (xy 81.28 82.55)
+			(xy 67.31 77.47) (xy 81.28 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "207e678c-a543-46b2-afdb-46375a7a3bb4")
+	)
+	(wire
+		(pts
+			(xy 278.13 34.29) (xy 278.13 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "208c8320-fb64-410e-80a3-ceede1864368")
 	)
 	(wire
 		(pts
@@ -6850,7 +6633,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 46.99) (xy 274.32 57.15)
+			(xy 274.32 46.99) (xy 274.32 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6990,7 +6773,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 72.39) (xy 87.63 74.93)
+			(xy 87.63 66.04) (xy 87.63 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7180,6 +6963,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 48.26) (xy 274.32 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54caa1ed-8bd8-4ff4-ae91-33a155230b70")
+	)
+	(wire
+		(pts
 			(xy 336.55 217.17) (xy 336.55 218.44)
 		)
 		(stroke
@@ -7240,7 +7033,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 40.64) (xy 266.7 40.64)
+			(xy 247.65 40.64) (xy 265.43 40.64)
 		)
 		(stroke
 			(width 0)
@@ -7660,6 +7453,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 40.64) (xy 266.7 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "830360a1-23e5-4839-847f-d3855834c030")
+	)
+	(wire
+		(pts
 			(xy 336.55 210.82) (xy 339.09 210.82)
 		)
 		(stroke
@@ -7858,6 +7661,16 @@
 		)
 		(uuid "913d802a-bceb-4dbb-acfe-da319498f0eb")
 	)
+	(wire
+		(pts
+			(xy 278.13 48.26) (xy 274.32 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b797d5-79be-44a5-b51e-eb6d0d373684")
+	)
 	(polyline
 		(pts
 			(xy 12.7 102.87) (xy 189.23 102.87)
@@ -7937,6 +7750,16 @@
 			(type default)
 		)
 		(uuid "9f41d9b3-c6f2-40f2-b305-f4b23293d1ad")
+	)
+	(wire
+		(pts
+			(xy 279.4 27.94) (xy 279.4 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5363c0-bc3d-4d03-9e66-a9ccb5705bda")
 	)
 	(wire
 		(pts
@@ -8077,6 +7900,16 @@
 			(type default)
 		)
 		(uuid "ada50199-248a-42f1-bab1-aa8baa7dd0f0")
+	)
+	(wire
+		(pts
+			(xy 276.86 27.94) (xy 279.4 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae5a7bc1-1288-4e5b-91e6-7d5627d04f1f")
 	)
 	(wire
 		(pts
@@ -8260,7 +8093,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 85.09) (xy 87.63 90.17)
+			(xy 87.63 80.01) (xy 87.63 85.09)
 		)
 		(stroke
 			(width 0)
@@ -8560,6 +8393,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 27.94) (xy 265.43 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e65d49bf-d747-44a2-bfad-a5ebb70bbd05")
+	)
+	(wire
+		(pts
 			(xy 247.65 137.16) (xy 247.65 138.43)
 		)
 		(stroke
@@ -8587,6 +8430,16 @@
 			(type default)
 		)
 		(uuid "e70aadde-edc0-4b8e-b552-0c732463e224")
+	)
+	(wire
+		(pts
+			(xy 266.7 27.94) (xy 265.43 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a2c478-c32a-4402-9c67-05b319df6c63")
 	)
 	(wire
 		(pts
@@ -8627,6 +8480,16 @@
 			(type default)
 		)
 		(uuid "f05cfabf-5e04-49c3-8575-995af44372f1")
+	)
+	(wire
+		(pts
+			(xy 274.32 34.29) (xy 278.13 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f307cdcc-5307-4a5a-bb9c-880faab4d4af")
 	)
 	(wire
 		(pts
@@ -11729,7 +11592,7 @@
 	)
 	(hierarchical_label "VIN_PWR_ON"
 		(shape input)
-		(at 67.31 82.55 180)
+		(at 67.31 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14655,6 +14518,134 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroTransistorsFETsMOSFETsSingle:SISS05DN-T1-GE3")
+		(at 274.32 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "30deb9df-622f-45f2-b983-529c437a1207")
+		(property "Reference" "Q?"
+			(at 272.034 22.098 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SISS05DN-T1-GE3"
+			(at 284.48 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Vishay_PowerPAK_1212-8_Single"
+			(at 287.02 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/77029/siss05dn.pdf"
+			(at 289.56 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power MOSFET, P Channel, 30 V, 108 A, 0.0035 ohm, PowerPAK 1212, Surface Mount"
+			(at 292.1 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SISS05DN-T1-GE3"
+			(at 272.034 24.638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 294.64 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 297.18 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 299.72 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e14ab8fb-261e-4669-8d59-17d99bfa65a9")
+		)
+		(pin "4"
+			(uuid "06583f51-a959-48f7-827e-bef02dd668fc")
+		)
+		(pin "3"
+			(uuid "2f0471b5-6800-4319-8868-1e4f5264437c")
+		)
+		(pin "5"
+			(uuid "bc03a1f7-6f12-45c8-b59a-ffb5d9d21c46")
+		)
+		(pin "2"
+			(uuid "74ed0c9e-fa48-4d66-91a5-a093586babab")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroResistors0402:R_10k_0402")
 		(at 368.3 217.17 90)
 		(unit 1)
@@ -15456,7 +15447,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTVSDiodes:DF2S30FS_SOD")
+		(lib_id "antmicroTVSDiodes:ESD9X5.0ST5G")
 		(at 110.49 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15473,7 +15464,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DF2S30FS_SOD"
+		(property "Value" "ESD9X5.0ST5G"
 			(at 95.25 83.82 0)
 			(effects
 				(font
@@ -15495,7 +15486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/DF2S30FS_datasheet_en_20211216.pdf?did=11156&prodName=DF2S30FS"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd9x3.3st5g-d.pdf"
 			(at 100.33 83.82 0)
 			(effects
 				(font
@@ -15506,7 +15497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unidirectional TVS, 8 kV,  SOD-923, 23 V, 7 pF"
+		(property "Description" "Unidirectional TVS, 30 kV,  SOD-923, 5 V, 65 pF"
 			(at 110.49 62.23 0)
 			(effects
 				(font
@@ -15515,7 +15506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Toshiba"
+		(property "Manufacturer" "ON Semiconductor"
 			(at 97.79 83.82 0)
 			(effects
 				(font
@@ -15526,7 +15517,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DF2S30FS"
+		(property "MPN" "ESD9X5.0ST5G"
 			(at 111.76 66.04 90)
 			(effects
 				(font
@@ -15575,7 +15566,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 87.63 90.17 0)
+		(at 87.63 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15583,7 +15574,7 @@
 		(dnp no)
 		(uuid "48ca11e5-3964-4d4a-9ca8-b33953511e3e")
 		(property "Reference" "#PWR0194"
-			(at 87.63 96.52 0)
+			(at 87.63 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15592,7 +15583,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 93.98 0)
+			(at 87.63 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15601,7 +15592,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 97.79 0)
+			(at 96.52 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15612,25 +15603,6 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
 			(at 96.52 97.79 0)
 			(effects
 				(font
@@ -15641,8 +15613,27 @@
 				(hide yes)
 			)
 		)
+		(property "Description" ""
+			(at 87.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 96.52 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
 		(property "License" "Apache-2.0"
-			(at 96.52 100.33 0)
+			(at 96.52 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16411,7 +16402,7 @@
 	)
 	(symbol
 		(lib_id "antmicroTransistorsFETsMOSFETsSingle:DMG1012T-7")
-		(at 81.28 82.55 0)
+		(at 81.28 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -16419,7 +16410,7 @@
 		(dnp no)
 		(uuid "56687fdb-e7df-4e5e-b508-5a08787d2765")
 		(property "Reference" "Q6"
-			(at 92.71 78.74 0)
+			(at 92.71 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16429,7 +16420,7 @@
 			)
 		)
 		(property "Value" "DMG1012T-7"
-			(at 92.71 81.28 0)
+			(at 92.71 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16440,7 +16431,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:SOT-523"
-			(at 104.14 90.17 0)
+			(at 104.14 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16451,7 +16442,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31783.pdf"
-			(at 104.14 92.71 0)
+			(at 104.14 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16462,7 +16453,7 @@
 			)
 		)
 		(property "Description" "Power MOSFET, N Channel, 20 V, 630 mA, 0.3 ohm, SOT-523, Surface Mount"
-			(at 81.28 82.55 0)
+			(at 81.28 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16471,7 +16462,7 @@
 			)
 		)
 		(property "MPN" "DMG1012T-7"
-			(at 92.71 82.55 0)
+			(at 92.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16481,7 +16472,7 @@
 			)
 		)
 		(property "Manufacturer" "Diodes Incorporated"
-			(at 104.14 97.79 0)
+			(at 104.14 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16492,7 +16483,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 104.14 100.33 0)
+			(at 104.14 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16503,7 +16494,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 104.14 102.87 0)
+			(at 104.14 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22280,146 +22271,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_10k_0402")
-		(at 87.63 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bd0b3741-13b2-4b67-96ca-469dcb0f05d9")
-		(property "Reference" "R75"
-			(at 88.9 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_10k_0402"
-			(at 100.33 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 102.87 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 105.41 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 87.63 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-1002GLF"
-			(at 107.95 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 110.49 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 113.03 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 115.57 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "10k"
-			(at 88.9 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 97.79 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "605b4866-8181-4b81-b778-d891cf36c93a")
-		)
-		(pin "1"
-			(uuid "79992c46-5852-4047-a1b0-d8ab846fe0a7")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
-					(reference "R75")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_LTST-C190GKT")
 		(at 279.4 213.36 90)
 		(unit 1)
@@ -24187,10 +24038,9 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d471f72a-d29c-4fd3-b02f-c904a4fe2340")
 		(property "Reference" "Q2"
-			(at 271.78 34.29 90)
+			(at 263.652 34.798 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24243,7 +24093,7 @@
 			)
 		)
 		(property "MPN" "SISS05DN-T1-GE3"
-			(at 271.78 36.83 90)
+			(at 255.778 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
