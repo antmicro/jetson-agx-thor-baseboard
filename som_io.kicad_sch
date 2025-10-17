@@ -20112,7 +20112,7 @@
 		)
 		(uuid "0d3b7f9b-06d8-4987-b8e4-86e444ebbaae")
 	)
-	(label "USBC2_FLG_1V8"
+	(label "USBC2_ID_1V8"
 		(at 193.04 55.88 0)
 		(effects
 			(font
@@ -20852,7 +20852,7 @@
 		)
 		(uuid "5f9ca62a-d13d-4409-8dfb-708e2f411167")
 	)
-	(label "USBC2_FLG_1V8"
+	(label "USBC2_ID_1V8"
 		(at 196.85 110.49 0)
 		(effects
 			(font
@@ -22308,6 +22308,17 @@
 		)
 		(uuid "9a603120-cfe5-41dc-a208-7078e198ca97")
 	)
+	(hierarchical_label "USBC2_ID"
+		(shape input)
+		(at 240.03 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a25207bd-7694-4a75-ae23-15b897d4c973")
+	)
 	(hierarchical_label "UART2{UART}"
 		(shape bidirectional)
 		(at 77.47 123.19 0)
@@ -22351,17 +22362,6 @@
 			(justify left)
 		)
 		(uuid "ccd158fb-863f-4f5f-a949-dc5a3d88b47a")
-	)
-	(hierarchical_label "USBC2_FLG"
-		(shape input)
-		(at 240.03 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cec0abfc-4159-45c9-9cd4-46dbb1a3be67")
 	)
 	(hierarchical_label "~{PDC_I2C1_IRQ}"
 		(shape input)

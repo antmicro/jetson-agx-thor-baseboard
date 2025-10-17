@@ -6362,16 +6362,6 @@
 				(justify right)
 			)
 		)
-		(pin "USBC2_FLG" input
-			(at 254 135.89 0)
-			(uuid "8e22761b-23b1-4f9a-8135-e491d3960d20")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "USBC2_PEN" output
 			(at 254 138.43 0)
 			(uuid "b5677c34-7d33-4238-a6ef-e855e7e92872")
@@ -6440,6 +6430,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "USBC2_ID" input
+			(at 254 135.89 0)
+			(uuid "e2ad4de0-a959-4e13-8555-7bde5135b47c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -7272,16 +7272,6 @@
 				(justify left)
 			)
 		)
-		(pin "USBC2_FLG" output
-			(at 331.47 87.63 180)
-			(uuid "13209edb-e64d-4d4c-b408-bd49c579a327")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "USBC2_PEN" input
 			(at 331.47 90.17 180)
 			(uuid "854d0e98-d2c1-4c98-9e37-f9da5302cb38")
@@ -7295,6 +7285,16 @@
 		(pin "~{USBC2_INT}" input
 			(at 331.47 92.71 180)
 			(uuid "1d521c37-0884-44c9-b20e-1c6a073ade83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBC2_ID" input
+			(at 331.47 87.63 180)
+			(uuid "837f2876-e087-4c34-9308-fc714ee3f9a6")
 			(effects
 				(font
 					(size 1.27 1.27)
