@@ -6372,16 +6372,6 @@
 				(justify right)
 			)
 		)
-		(pin "USB_FLASH_ID" input
-			(at 254 143.51 0)
-			(uuid "fb13f22d-e3be-48ef-adb2-0d29fd8c9915")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "~{PDC_I2C1_IRQ}" input
 			(at 254 148.59 0)
 			(uuid "12310e39-ccec-4cac-92d4-191365aa42a2")
@@ -6435,6 +6425,16 @@
 		(pin "USBC2_ID" input
 			(at 254 135.89 0)
 			(uuid "e2ad4de0-a959-4e13-8555-7bde5135b47c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBC2_VBUS_DET" input
+			(at 254 143.51 0)
+			(uuid "ba2db52d-3fac-438b-8b3f-c4459d9ef14d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7262,27 +7262,7 @@
 				(justify left)
 			)
 		)
-		(pin "USB_FLASH_ID" input
-			(at 331.47 95.25 180)
-			(uuid "34404e09-d1d2-49a1-be5f-77d48d9e28fe")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USBC2_PEN" input
-			(at 331.47 90.17 180)
-			(uuid "854d0e98-d2c1-4c98-9e37-f9da5302cb38")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{USBC2_INT}" input
+		(pin "~{USBC2_INT}" output
 			(at 331.47 92.71 180)
 			(uuid "1d521c37-0884-44c9-b20e-1c6a073ade83")
 			(effects
@@ -7292,9 +7272,29 @@
 				(justify left)
 			)
 		)
-		(pin "USBC2_ID" input
+		(pin "USBC2_ID" output
 			(at 331.47 87.63 180)
-			(uuid "837f2876-e087-4c34-9308-fc714ee3f9a6")
+			(uuid "91a631ed-a593-4fbc-b050-dd7794b14ed3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBC2_PEN" input
+			(at 331.47 90.17 180)
+			(uuid "505f07cf-2eb8-4e43-a2da-2f33fe5fa7ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBC2_VBUS_DET" output
+			(at 331.47 95.25 180)
+			(uuid "f1871950-3f23-483f-99eb-f4079a4a36d8")
 			(effects
 				(font
 					(size 1.27 1.27)
