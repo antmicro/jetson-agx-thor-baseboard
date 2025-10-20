@@ -354,6 +354,12 @@
 		(uuid "d886e9ed-b71e-4892-bfd8-260bae7d74b2")
 	)
 	(junction
+		(at 107.95 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddcba1ea-7bc1-4d2f-a51f-3e551a566af9")
+	)
+	(junction
 		(at 116.84 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -378,6 +384,16 @@
 			(type default)
 		)
 		(uuid "0205b4cd-3d86-4ca1-9189-de793b69a2a3")
+	)
+	(wire
+		(pts
+			(xy 110.49 228.6) (xy 110.49 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0258b971-f07d-4680-a5fd-91f951b3a47b")
 	)
 	(bus
 		(pts
@@ -565,13 +581,23 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 231.14) (xy 177.8 231.14)
+			(xy 100.33 231.14) (xy 107.95 231.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "20bf1d0e-43fb-44e5-8640-c07f7260b91f")
+	)
+	(wire
+		(pts
+			(xy 107.95 246.38) (xy 177.8 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "218076f8-ad56-45bd-8e66-520a7825cdd8")
 	)
 	(bus
 		(pts
@@ -1140,6 +1166,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 231.14) (xy 107.95 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "603b6f07-76cf-4834-baab-da52e9473084")
+	)
+	(wire
+		(pts
 			(xy 116.84 270.51) (xy 297.18 270.51)
 		)
 		(stroke
@@ -1343,16 +1379,6 @@
 			(type default)
 		)
 		(uuid "82fd381a-0602-49b6-b399-ab7da42a548e")
-	)
-	(wire
-		(pts
-			(xy 100.33 248.92) (xy 177.8 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "838a9552-d71a-4d2a-b505-ad48823b6359")
 	)
 	(wire
 		(pts
@@ -2008,7 +2034,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 246.38) (xy 177.8 246.38)
+			(xy 100.33 246.38) (xy 107.95 246.38)
 		)
 		(stroke
 			(width 0)
@@ -2035,6 +2061,16 @@
 			(type default)
 		)
 		(uuid "da986fe5-fbdc-41f2-9351-37a00213d91c")
+	)
+	(wire
+		(pts
+			(xy 100.33 228.6) (xy 110.49 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db21bc28-b9d6-4b8a-babd-ea70e2c0f500")
 	)
 	(bus
 		(pts
@@ -2244,6 +2280,16 @@
 			(type default)
 		)
 		(uuid "fc1332ea-1cd7-45a4-8292-5c435984cbb1")
+	)
+	(wire
+		(pts
+			(xy 110.49 241.3) (xy 177.8 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffe1786d-8972-4fcd-b905-ab84d49e7081")
 	)
 	(image
 		(at 59.2091 270)
@@ -5526,29 +5572,19 @@
 				(justify right)
 			)
 		)
-		(pin "CARRIER_POWER_ON" input
-			(at 100.33 246.38 0)
-			(uuid "e6c05e4d-61b6-4392-b641-0d9b1ea6993d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MODULE_POWER_ON" output
-			(at 100.33 248.92 0)
-			(uuid "4ddcd628-1547-4d08-ae2a-e5cfe831c0b1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "VIN_PWR_ON" input
 			(at 100.33 243.84 0)
 			(uuid "c66ac0d6-48fb-447c-8c05-1b0ef37300f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{VDDIN_PWR_BAD}" output
+			(at 100.33 246.38 0)
+			(uuid "16f9ea02-e653-4849-a6a5-3b23525f76ee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5628,6 +5664,16 @@
 				(justify right)
 			)
 		)
+		(pin "CARRIER_PWR_ON" input
+			(at 100.33 228.6 0)
+			(uuid "b494f620-dda6-4a15-86f0-f6241439c608")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
@@ -5670,28 +5716,8 @@
 				(justify left top)
 			)
 		)
-		(pin "CARRIER_POWER_ON" output
-			(at 177.8 246.38 180)
-			(uuid "35b39eda-6982-42a0-8a19-f5bf28e55860")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "MODULE_POWER_ON" input
-			(at 177.8 248.92 180)
-			(uuid "e286d556-8047-4fda-899a-538fc98944e9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "~{VDDIN_PWR_BAD}" input
-			(at 177.8 231.14 180)
+			(at 177.8 246.38 180)
 			(uuid "3b49b35f-d38d-40fa-a14b-986a16bb3a72")
 			(effects
 				(font
@@ -5703,6 +5729,16 @@
 		(pin "VIN_PWR_ON" output
 			(at 177.8 243.84 180)
 			(uuid "34697fb2-f618-47a6-8300-46ffbdf994a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CARRIER_PWR_ON" output
+			(at 177.8 241.3 180)
+			(uuid "477a395c-8cff-46cf-99f6-ea5130dd77af")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -20287,6 +20287,16 @@
 		)
 		(uuid "1768974d-84e2-4a09-a3c1-b0ab9e45e49a")
 	)
+	(wire
+		(pts
+			(xy 194.31 78.74) (xy 194.31 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a1be031-4574-465c-841c-acd5cf03a4a3")
+	)
 	(polyline
 		(pts
 			(xy 12.065 129.54) (xy 408.305 129.54)
@@ -21209,7 +21219,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 80.01) (xy 194.31 80.01)
+			(xy 193.04 78.74) (xy 194.31 78.74)
 		)
 		(stroke
 			(width 0)
@@ -21506,6 +21516,16 @@
 			(type default)
 		)
 		(uuid "906088f6-f9e3-4538-8a45-0cc030562871")
+	)
+	(wire
+		(pts
+			(xy 176.53 82.55) (xy 194.31 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9191d2a7-3acf-427e-bc1c-053626f16677")
 	)
 	(wire
 		(pts
@@ -22096,16 +22116,6 @@
 			(type default)
 		)
 		(uuid "cddb5521-0d9f-463c-b4f9-dc2f4f210fa3")
-	)
-	(wire
-		(pts
-			(xy 193.04 82.55) (xy 194.31 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf3e3444-1d7c-431c-b589-09d4d0243f0b")
 	)
 	(wire
 		(pts
@@ -24840,7 +24850,7 @@
 		)
 		(uuid "2aa4d761-bf7a-4ec1-bf9c-56c27e864293")
 	)
-	(label "~{USR_RESET}"
+	(label "~{SYS_RESET}"
 		(at 184.15 259.08 0)
 		(effects
 			(font
@@ -24891,14 +24901,14 @@
 		(uuid "7038d36a-e036-4238-abe4-c4658964fab2")
 	)
 	(label "~{SYS_RESET}"
-		(at 186.69 201.93 0)
+		(at 176.53 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a7ee5e99-188f-441e-ac1d-3597a7934910")
+		(uuid "7965894b-2611-4110-9b5c-4568a20bbd49")
 	)
 	(label "~{FORCE_SHDN}"
 		(at 165.1 210.82 180)
@@ -24929,16 +24939,6 @@
 			(justify left bottom)
 		)
 		(uuid "af62cb1f-a492-4a11-9dd6-bf390708a88f")
-	)
-	(label "~{USR_RESET}"
-		(at 269.24 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d21fd7e5-7eb9-41e4-a071-699c7b4b2b34")
 	)
 	(label "~{MODULE_SHDN}"
 		(at 276.86 93.98 180)
@@ -27751,7 +27751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "298298b0-3394-4c48-a6f9-a7085a008098")
-		(property "Reference" "C?"
+		(property "Reference" "C239"
 			(at 370.84 81.2736 90)
 			(effects
 				(font
@@ -27888,7 +27888,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/33df10a9-5b30-4fa6-b34e-d62ce1b48c65"
-					(reference "C?")
+					(reference "C239")
 					(unit 1)
 				)
 			)
@@ -28612,7 +28612,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32404d93-6fab-48fe-bab4-eba50e8a578a")
-		(property "Reference" "R?"
+		(property "Reference" "R14"
 			(at 228.6 143.51 90)
 			(effects
 				(font
@@ -28737,7 +28737,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/33df10a9-5b30-4fa6-b34e-d62ce1b48c65"
-					(reference "R?")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -29194,7 +29194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "398d00d9-88bf-4299-bb1c-117fbba8f697")
-		(property "Reference" "U?"
+		(property "Reference" "U74"
 			(at 216.535 140.97 0)
 			(effects
 				(font
@@ -29309,7 +29309,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/33df10a9-5b30-4fa6-b34e-d62ce1b48c65"
-					(reference "U?")
+					(reference "U74")
 					(unit 1)
 				)
 			)
@@ -35886,17 +35886,15 @@
 	)
 	(symbol
 		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
-		(at 193.04 82.55 0)
-		(mirror y)
+		(at 269.24 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9d21e674-4538-4866-a228-c7dc6d68067b")
-		(property "Reference" "TP?"
-			(at 187.96 82.55 0)
+		(property "Reference" "TP48"
+			(at 274.32 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35906,7 +35904,7 @@
 			)
 		)
 		(property "Value" "TP_0.75mm_SMD"
-			(at 182.88 86.36 0)
+			(at 279.4 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35917,7 +35915,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
-			(at 182.88 88.9 0)
+			(at 279.4 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35928,7 +35926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 95.25 0)
+			(at 287.02 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35939,7 +35937,7 @@
 			)
 		)
 		(property "Description" "SMT test point"
-			(at 193.04 82.55 0)
+			(at 269.24 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35948,7 +35946,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 182.245 93.98 0)
+			(at 280.035 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35959,7 +35957,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 182.245 88.9 0)
+			(at 280.035 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35970,7 +35968,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 182.88 91.44 0)
+			(at 279.4 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35981,7 +35979,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 182.88 93.98 0)
+			(at 279.4 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35997,7 +35995,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/33df10a9-5b30-4fa6-b34e-d62ce1b48c65"
-					(reference "TP?")
+					(reference "TP48")
 					(unit 1)
 				)
 			)
@@ -40381,7 +40379,7 @@
 	)
 	(symbol
 		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
-		(at 193.04 80.01 0)
+		(at 193.04 78.74 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -40391,7 +40389,7 @@
 		(fields_autoplaced yes)
 		(uuid "c703d699-be60-4eda-ae31-2d28efa8c85e")
 		(property "Reference" "TP60"
-			(at 187.96 80.01 0)
+			(at 187.96 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40401,7 +40399,7 @@
 			)
 		)
 		(property "Value" "TP_0.75mm_SMD"
-			(at 182.88 83.82 0)
+			(at 182.88 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40412,7 +40410,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
-			(at 182.88 86.36 0)
+			(at 182.88 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40423,7 +40421,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 92.71 0)
+			(at 175.26 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40434,7 +40432,7 @@
 			)
 		)
 		(property "Description" "SMT test point"
-			(at 193.04 80.01 0)
+			(at 193.04 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40443,7 +40441,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 182.245 91.44 0)
+			(at 182.245 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40454,7 +40452,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 182.245 86.36 0)
+			(at 182.245 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40465,7 +40463,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 182.88 88.9 0)
+			(at 182.88 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40476,7 +40474,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 182.88 91.44 0)
+			(at 182.88 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41146,7 +41144,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d193ddad-457a-46db-932f-40afe2a5e367")
-		(property "Reference" "R?"
+		(property "Reference" "R50"
 			(at 359.156 157.48 90)
 			(effects
 				(font
@@ -41271,7 +41269,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/33df10a9-5b30-4fa6-b34e-d62ce1b48c65"
-					(reference "R?")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -41774,7 +41772,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e39693de-aec2-4de1-9c72-1bdbce9b8ed6")
-		(property "Reference" "Q?"
+		(property "Reference" "Q38"
 			(at 391.16 179.07 90)
 			(effects
 				(font
@@ -41881,7 +41879,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/33df10a9-5b30-4fa6-b34e-d62ce1b48c65"
-					(reference "Q?")
+					(reference "Q38")
 					(unit 1)
 				)
 			)
@@ -42014,7 +42012,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5079eaf-abf8-4a90-ae76-57420e9e4227")
-		(property "Reference" "R?"
+		(property "Reference" "R24"
 			(at 236.22 143.51 90)
 			(effects
 				(font
@@ -42139,7 +42137,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/33df10a9-5b30-4fa6-b34e-d62ce1b48c65"
-					(reference "R?")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -42154,7 +42152,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e534aabf-b4ba-43f3-898d-b770b2790c55")
-		(property "Reference" "R?"
+		(property "Reference" "R60"
 			(at 388.366 157.48 90)
 			(effects
 				(font
@@ -42279,7 +42277,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/33df10a9-5b30-4fa6-b34e-d62ce1b48c65"
-					(reference "R?")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -43907,7 +43905,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff03b632-1773-4531-9cb1-a5b00b8358b7")
-		(property "Reference" "Q?"
+		(property "Reference" "Q37"
 			(at 361.95 178.816 90)
 			(effects
 				(font
@@ -44014,7 +44012,7 @@
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/33df10a9-5b30-4fa6-b34e-d62ce1b48c65"
-					(reference "Q?")
+					(reference "Q37")
 					(unit 1)
 				)
 			)
