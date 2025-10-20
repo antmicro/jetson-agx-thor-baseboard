@@ -26686,16 +26686,6 @@
 		)
 		(uuid "cdd25af2-5f66-42ba-8774-ab723371c9e6")
 	)
-	(text "All pins CMOS 1V8, 3V3 tolarant"
-		(exclude_from_sim no)
-		(at 190.5 35.814 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ddc9cf6b-6d83-4697-9869-d08ca639a8d8")
-	)
 	(text "GPIO"
 		(exclude_from_sim no)
 		(at 223.774 18.542 0)
@@ -26761,6 +26751,10 @@
 	(no_connect
 		(at 363.22 227.33)
 		(uuid "212aa8f8-6e58-40f4-bb21-e47bed217889")
+	)
+	(no_connect
+		(at 240.03 76.2)
+		(uuid "21534dc3-6d85-4b9f-83bb-fda87319072c")
 	)
 	(no_connect
 		(at 240.03 229.87)
@@ -26863,6 +26857,10 @@
 		(uuid "7898ef60-e7fa-4db7-b615-6fb55652109b")
 	)
 	(no_connect
+		(at 215.9 165.1)
+		(uuid "7a618218-14b2-4228-b0ae-ca0770ee26ff")
+	)
+	(no_connect
 		(at 318.77 123.19)
 		(uuid "7d65951d-f8aa-4ae7-8ff0-d5e441e0a364")
 	)
@@ -26937,6 +26935,10 @@
 	(no_connect
 		(at 214.63 35.56)
 		(uuid "d1ceb412-70c2-4a23-a9cb-2227fd2293fc")
+	)
+	(no_connect
+		(at 240.03 165.1)
+		(uuid "dfa0704f-2c26-4820-86eb-5cd2e982b611")
 	)
 	(no_connect
 		(at 361.95 173.99)
@@ -27735,7 +27737,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 133.35) (xy 363.22 133.35)
+			(xy 365.76 135.89) (xy 363.22 135.89)
 		)
 		(stroke
 			(width 0)
@@ -28042,6 +28044,16 @@
 			(type default)
 		)
 		(uuid "18354ea7-ebab-4631-91f7-af81328eaf44")
+	)
+	(wire
+		(pts
+			(xy 215.9 165.1) (xy 218.44 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "184b6183-9567-40f1-9ae6-1fa1f4092d56")
 	)
 	(bus
 		(pts
@@ -28575,7 +28587,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 135.89) (xy 363.22 135.89)
+			(xy 365.76 133.35) (xy 363.22 133.35)
 		)
 		(stroke
 			(width 0)
@@ -29012,16 +29024,6 @@
 			(type default)
 		)
 		(uuid "60f94171-2711-4cc4-a36c-4c9b8bd1cc94")
-	)
-	(wire
-		(pts
-			(xy 240.03 76.2) (xy 261.62 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61e83d3d-c32e-4140-9e1b-7cbf8e22a042")
 	)
 	(wire
 		(pts
@@ -29782,16 +29784,6 @@
 			(type default)
 		)
 		(uuid "9ce9f2ae-d316-49be-b489-5b0fec9cb60d")
-	)
-	(wire
-		(pts
-			(xy 256.54 165.1) (xy 237.49 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dc910b7-a8ad-4df3-bf10-1ddd2cb4f32d")
 	)
 	(wire
 		(pts
@@ -30943,16 +30935,6 @@
 		)
 		(uuid "f44521ee-f586-468f-9e8b-33131c195f25")
 	)
-	(wire
-		(pts
-			(xy 195.58 165.1) (xy 218.44 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f485fba5-3914-4f8e-a112-d8bb9b4d33a6")
-	)
 	(bus
 		(pts
 			(xy 77.47 133.35) (xy 74.93 133.35)
@@ -30962,6 +30944,16 @@
 			(type default)
 		)
 		(uuid "f4a823e8-e2bd-4b51-a64b-f2aff1cb23ed")
+	)
+	(wire
+		(pts
+			(xy 237.49 165.1) (xy 240.03 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f58b43ad-fce2-415d-bc53-cc7055db4d66")
 	)
 	(polyline
 		(pts
@@ -34496,16 +34488,6 @@
 		)
 		(uuid "96cc8bf9-9847-4262-b1cb-8c41a211b7e6")
 	)
-	(label "I2C_CONN_PEN_1V8"
-		(at 261.62 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "978465c9-7666-48f5-b88b-95f9183dcae2")
-	)
 	(label "UART2.TX"
 		(at 60.96 130.81 0)
 		(effects
@@ -34575,16 +34557,6 @@
 			(justify left bottom)
 		)
 		(uuid "a2aadc66-fcb6-408a-933e-2d3ff47f7656")
-	)
-	(label "I2C_CONN_PEN_1V8"
-		(at 195.58 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a30d6d20-a8a4-452f-b4da-c2cfae54f374")
 	)
 	(label "SPI3_MOSI_1V8"
 		(at 20.32 217.17 0)
@@ -35241,17 +35213,6 @@
 		)
 		(uuid "1c5325f1-e46e-4f58-b79c-2eb7f6eada0c")
 	)
-	(hierarchical_label "I2C_CONN_PEN"
-		(shape input)
-		(at 256.54 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "366a67fc-6647-4a2b-84b7-183ed35da996")
-	)
 	(hierarchical_label "GPIO{GPIO}"
 		(shape bidirectional)
 		(at 186.69 38.1 180)
@@ -35309,7 +35270,7 @@
 	)
 	(hierarchical_label "FAN_PWM"
 		(shape output)
-		(at 365.76 133.35 0)
+		(at 365.76 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35419,7 +35380,7 @@
 	)
 	(hierarchical_label "FAN_TACH"
 		(shape input)
-		(at 365.76 135.89 0)
+		(at 365.76 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)

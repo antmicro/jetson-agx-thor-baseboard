@@ -6146,17 +6146,6 @@
 		)
 		(uuid "790fc1ca-fd28-49d0-9cef-32e219240fbe")
 	)
-	(text "GPIO 1V8, 3V3 tolerant"
-		(exclude_from_sim no)
-		(at 21.844 202.184 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7d9ff0be-20c7-4a5e-9fd3-a42b532b5f16")
-	)
 	(text "CSI2 x2"
 		(exclude_from_sim no)
 		(at 340.36 100.33 90)
@@ -14674,21 +14663,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 279.4 105.41) (xy 267.97 105.41) (xy 267.97 30.48) (xy 279.4 30.48)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 06c59832-e15d-4d6a-9ed3-b7a2f2759684)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 356.87 105.41) (xy 345.44 105.41) (xy 345.44 30.48) (xy 356.87 30.48)
 			)
 			(stroke
@@ -14698,7 +14672,22 @@
 			(fill
 				(type none)
 			)
-			(uuid 8e3ed42e-4b7d-4941-9539-817e7734ac9e)
+			(uuid 25f68734-9d3e-4816-a183-3693326a6ac5)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 279.4 105.41) (xy 267.97 105.41) (xy 267.97 30.48) (xy 279.4 30.48)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 3cfa8812-54f5-4608-b676-764bfb842774)
 		)
 	)
 	(netclass_flag ""
