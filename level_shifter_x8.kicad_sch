@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Jetson AGX Thor Baseboard")
-		(date "2025-10-16")
+		(date "2025-10-21")
 		(rev "1.0.0")
 		(company "Antmicro Ltd")
 		(comment 1 "www.antmicro.com")
@@ -1244,111 +1244,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicropower:PWR_FLAG"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "pwr"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 237.49 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6bd59435-2dc0-49be-9770-7715e73873f2")
-	)
-	(junction
-		(at 215.9 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85948d48-5a46-45eb-a6f2-8907c4df9304")
 	)
 	(junction
 		(at 228.6 113.03)
@@ -1367,12 +1268,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b806fd1b-9785-4925-92b2-02e3110296cb")
-	)
-	(junction
-		(at 215.9 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c00623f4-a44f-4668-a232-961abc9c68c7")
 	)
 	(junction
 		(at 190.5 149.86)
@@ -1630,16 +1525,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 113.03) (xy 215.9 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91c5be0f-2bd1-4bd8-ad1c-c7891529f772")
-	)
-	(wire
-		(pts
 			(xy 189.23 125.73) (xy 190.5 125.73)
 		)
 		(stroke
@@ -1660,7 +1545,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 113.03) (xy 228.6 113.03)
+			(xy 210.82 113.03) (xy 228.6 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1810,16 +1695,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 149.86) (xy 228.6 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd8a70f7-ae2f-44dc-bf01-10475bfd8755")
-	)
-	(wire
-		(pts
 			(xy 212.09 128.27) (xy 210.82 128.27)
 		)
 		(stroke
@@ -1860,7 +1735,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 149.86) (xy 215.9 149.86)
+			(xy 210.82 149.86) (xy 228.6 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5309,101 +5184,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:PWR_FLAG")
-		(at 215.9 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4da37b53-181e-4d8f-aaa3-011540fb30b2")
-		(property "Reference" "#FLG013"
-			(at 215.9 111.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 215.9 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 215.9 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cca2f777-f0a2-403e-a48b-b9039cfcaf2b")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/3abc05cd-228c-4eb8-b63c-e3ac25c2b310"
-					(reference "#FLG013")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/4badc71d-812d-4df6-9069-2f39dff9a44f"
-					(reference "#FLG0108")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/4c6f7b17-5be9-4217-b67d-50974b1b0d52"
-					(reference "#FLG0102")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/75857eb3-9fe0-420d-9c74-9aac0fcec98c"
-					(reference "#FLG0112")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/77a48c76-1efb-4e96-8b9e-54718d63a699"
-					(reference "#FLG0114")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/8ce67c72-d2af-4f7d-8793-c0cab0729fb5"
-					(reference "#FLG0110")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/9d09b695-5288-4f42-88ad-d65175bdc122"
-					(reference "#FLG0104")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/cab0bc42-9bc8-4167-9bf4-c94b0dbb21ec"
-					(reference "#FLG0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroLogicTranslatorsLevelShifters:NTS0104_DHVQFN")
 		(at 190.5 113.03 0)
 		(unit 1)
@@ -7147,101 +6927,6 @@
 				)
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/cab0bc42-9bc8-4167-9bf4-c94b0dbb21ec"
 					(reference "C44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:PWR_FLAG")
-		(at 215.9 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3717d76-b374-4ee8-9a92-5cad31522064")
-		(property "Reference" "#FLG08"
-			(at 215.9 147.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 215.9 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 215.9 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18996c11-926d-4699-bb77-6930e4c48196")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/3abc05cd-228c-4eb8-b63c-e3ac25c2b310"
-					(reference "#FLG08")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/4badc71d-812d-4df6-9069-2f39dff9a44f"
-					(reference "#FLG0107")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/4c6f7b17-5be9-4217-b67d-50974b1b0d52"
-					(reference "#FLG0101")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/75857eb3-9fe0-420d-9c74-9aac0fcec98c"
-					(reference "#FLG0111")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/77a48c76-1efb-4e96-8b9e-54718d63a699"
-					(reference "#FLG0113")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/8ce67c72-d2af-4f7d-8793-c0cab0729fb5"
-					(reference "#FLG0109")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/9d09b695-5288-4f42-88ad-d65175bdc122"
-					(reference "#FLG0103")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/cab0bc42-9bc8-4167-9bf4-c94b0dbb21ec"
-					(reference "#FLG0105")
 					(unit 1)
 				)
 			)

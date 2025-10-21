@@ -219,8 +219,10 @@
         0.5,
         1.4,
         2.0,
+        2.5,
         3.0,
         4.0,
+        6.0,
         8.0
       ],
       "tuning_pattern_settings": {
@@ -1446,6 +1448,18 @@
       ],
       "Net-(U21-VBUS_MON_UP)": [
         "85Ohm-diff_USB_SS"
+      ],
+      "unconnected-(C253-Pad1)": [
+        "85Ohm-diff_USB_SS"
+      ],
+      "unconnected-(C254-Pad1)": [
+        "85Ohm-diff_USB_SS"
+      ],
+      "unconnected-(C255-Pad1)": [
+        "85Ohm-diff_USB_SS"
+      ],
+      "unconnected-(C256-Pad1)": [
+        "85Ohm-diff_USB_SS"
       ]
     },
     "netclass_patterns": []
@@ -1500,22 +1514,22 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -1539,12 +1553,6 @@
           "group_by": false,
           "label": "Current",
           "name": "Current",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DNP",
-          "name": "DNP",
           "show": false
         },
         {
