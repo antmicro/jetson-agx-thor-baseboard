@@ -4267,12 +4267,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroPMICVoltageRegulatorsLinear:NCP730BMT330_WSON"
+		(symbol "antmicroPMICVoltageRegulatorsLinear:NCP718BSN330T1G"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 30.48 -2.54 0)
+				(at 35.56 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4281,19 +4281,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "NCP730BMT330_WSON"
-				(at 30.48 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:WSON-6-1EP_2x2mm_P0.65mm"
-				(at 30.48 -7.62 0)
+			(property "Value" "NCP718BSN330T1G"
+				(at 35.56 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4303,8 +4292,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/ncp730-d.pdf"
-				(at 30.48 -10.16 0)
+			(property "Footprint" "antmicro-footprints:SOT-23-5"
+				(at 35.56 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4314,8 +4303,19 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 150mA 6-WDFN (2x2)"
-				(at 30.48 -22.86 0)
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/308/NCP718_D-1224359.pdf"
+				(at 35.56 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 300mA TSOT-23-5"
+				(at 35.56 -24.13 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4324,8 +4324,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "NCP730BMT330TBG"
-				(at 30.48 -12.7 0)
+			(property "MPN" "NCP718BSN330T1G"
+				(at 35.56 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4335,7 +4335,7 @@
 				)
 			)
 			(property "Manufacturer" "ON Semiconductor"
-				(at 30.48 -15.24 0)
+				(at 35.56 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4346,7 +4346,7 @@
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 30.48 -17.78 0)
+				(at 35.56 -19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4357,7 +4357,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 30.48 -20.32 0)
+				(at 35.56 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4376,10 +4376,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "NCP730BMT330_WSON_1_1"
+			(symbol "NCP718BSN330T1G_1_1"
 				(rectangle
 					(start 2.54 2.54)
-					(end 12.7 -7.62)
+					(end 17.78 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4388,102 +4388,10 @@
 						(type background)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
-					(name "V_{IN}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -2.54 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "V_{OUT}"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4498,10 +4406,47 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 15.24 -2.54 180)
+				(pin passive line
+					(at 0 -2.54 0)
 					(length 2.54)
-					(name "PG"
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 2.54)
+					(name "VOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4509,6 +4454,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11039,7 +11002,7 @@
 		(uuid "e5be258d-fbe4-44f1-8184-d5c7b5df9b79")
 	)
 	(junction
-		(at 91.44 64.77)
+		(at 86.36 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec6b0d7c-5201-4711-9df6-64d7b78d07a9")
@@ -11582,7 +11545,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 64.77) (xy 92.71 64.77)
+			(xy 86.36 64.77) (xy 87.63 64.77)
 		)
 		(stroke
 			(width 0)
@@ -11882,16 +11845,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 69.85) (xy 92.71 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "304ca0ff-1f31-4919-bebe-28ef004d0f2d")
-	)
-	(wire
-		(pts
 			(xy 170.18 227.33) (xy 181.61 227.33)
 		)
 		(stroke
@@ -12082,7 +12035,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 67.31) (xy 92.71 67.31)
+			(xy 86.36 67.31) (xy 87.63 67.31)
 		)
 		(stroke
 			(width 0)
@@ -12322,7 +12275,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 72.39) (xy 78.74 71.12)
+			(xy 73.66 72.39) (xy 73.66 71.12)
 		)
 		(stroke
 			(width 0)
@@ -13152,6 +13105,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 64.77) (xy 113.03 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86994e77-092c-4b41-ae02-3db4dc47495e")
+	)
+	(wire
+		(pts
 			(xy 50.8 119.38) (xy 50.8 120.65)
 		)
 		(stroke
@@ -13562,7 +13525,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 67.31) (xy 91.44 64.77)
+			(xy 86.36 67.31) (xy 86.36 64.77)
 		)
 		(stroke
 			(width 0)
@@ -13689,16 +13652,6 @@
 			(type default)
 		)
 		(uuid "af057877-a751-4950-9237-f985ff10ce70")
-	)
-	(wire
-		(pts
-			(xy 91.44 69.85) (xy 91.44 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af0d1fa4-5c87-4578-af06-f9aa5de27024")
 	)
 	(wire
 		(pts
@@ -14112,7 +14065,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 64.77) (xy 91.44 64.77)
+			(xy 73.66 64.77) (xy 86.36 64.77)
 		)
 		(stroke
 			(width 0)
@@ -14500,16 +14453,6 @@
 		)
 		(uuid "e6fdb9c7-a5f7-478f-a097-1472a936c607")
 	)
-	(wire
-		(pts
-			(xy 107.95 64.77) (xy 113.03 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e75bbc77-39f7-4855-83a2-a9b1e047fdaa")
-	)
 	(bus
 		(pts
 			(xy 92.71 229.87) (xy 90.17 229.87)
@@ -14752,7 +14695,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 64.77) (xy 78.74 66.04)
+			(xy 73.66 64.77) (xy 73.66 66.04)
 		)
 		(stroke
 			(width 0)
@@ -17214,7 +17157,7 @@
 		(uuid "63ed8982-31fd-41ba-9169-8d2793cd75de")
 	)
 	(label "USBC0_VBUS"
-		(at 78.74 64.77 0)
+		(at 73.66 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18001,6 +17944,12 @@
 			(uuid "a61ecfb0-5432-47f4-9dd7-d8b44c3a31c1")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0219")
@@ -18095,6 +18044,12 @@
 			(uuid "0c8192dd-b869-4f94-8c0d-5fb244c7a5d9")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0221")
@@ -18245,6 +18200,12 @@
 			(uuid "62b2e257-36ef-48fc-b4df-6a8e6e264ce2")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R110")
@@ -18339,6 +18300,12 @@
 			(uuid "e8d8666e-56c3-4e89-9d22-548b6b87af22")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0216")
@@ -18457,6 +18424,12 @@
 			(uuid "a374af8e-630a-444e-9a6c-49fda3036519")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "D23")
@@ -18552,6 +18525,12 @@
 			(uuid "30b156fc-360f-4442-a12e-611532c589c7")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0228")
@@ -18669,6 +18648,12 @@
 			(uuid "ec1937d6-624e-417c-ae14-5875fea1fc40")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "D16")
@@ -18809,6 +18794,12 @@
 			(uuid "26698cc0-1212-4909-8622-f2717097165d")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R120")
@@ -18903,6 +18894,12 @@
 			(uuid "efacaa60-6fa8-45f0-86ef-39b3a40db1f6")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0261")
@@ -19052,6 +19049,12 @@
 			(uuid "9050d48c-74ef-4b22-94aa-33865d903b47")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "C146")
@@ -19199,6 +19202,12 @@
 			(uuid "feb7fae2-7af9-4d96-9a99-00286910ee25")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R102")
@@ -19293,6 +19302,12 @@
 			(uuid "26a9f697-acf3-490c-b8d2-3902481faa1d")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0260")
@@ -19432,6 +19447,12 @@
 			(uuid "963e9524-f995-41e1-a295-24b05b34ee1f")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R104")
@@ -19708,6 +19729,12 @@
 			(uuid "fda6a65f-d550-489f-b6bd-9031f0768361")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "U30")
@@ -19824,6 +19851,12 @@
 			(uuid "7f6c304c-5403-48d5-8052-db92df6a9440")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "TP11")
@@ -19918,6 +19951,12 @@
 			(uuid "6b24d12b-2d9e-4653-abad-79c732a49214")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0220")
@@ -20069,6 +20108,12 @@
 			(uuid "90762b58-08fa-45e4-a46e-27340a4b72cc")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "C233")
@@ -20208,6 +20253,12 @@
 			(uuid "3a526560-26ac-4267-ba22-8693b2e57e1d")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R148")
@@ -20302,6 +20353,12 @@
 			(uuid "e362e420-0250-4954-948d-d0093beca2f0")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0265")
@@ -20441,6 +20498,12 @@
 			(uuid "632dd925-02f7-4f4c-9401-779949b4dc55")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R97")
@@ -20534,6 +20597,12 @@
 			(uuid "c25db6af-89e9-49be-9243-ff68bcdba951")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0244")
@@ -20684,6 +20753,12 @@
 			(uuid "420759e9-b032-448d-96af-a6da98c776ed")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R149")
@@ -20825,6 +20900,12 @@
 			(uuid "e3bf8c37-ab91-42e5-9935-9429eb7d43bb")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R156")
@@ -20919,6 +21000,12 @@
 			(uuid "0c2b6909-071d-419f-9208-8b7b5304905d")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0286")
@@ -20929,7 +21016,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitorsmisc:C_22u_25V_0805")
-		(at 78.74 66.04 90)
+		(at 73.66 66.04 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20939,7 +21026,7 @@
 		(fields_autoplaced yes)
 		(uuid "35cbf9df-423c-4209-ba10-171df04a3979")
 		(property "Reference" "C123"
-			(at 76.2 66.0462 90)
+			(at 71.12 66.0462 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20948,7 +21035,7 @@
 			)
 		)
 		(property "Value" "C_22u_25V_0805"
-			(at 88.9 86.36 0)
+			(at 83.82 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20959,7 +21046,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0805_2012Metric"
-			(at 91.44 86.36 0)
+			(at 86.36 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20970,7 +21057,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL21A226MAYNNN.do"
-			(at 93.98 86.36 0)
+			(at 88.9 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20981,7 +21068,7 @@
 			)
 		)
 		(property "Description" "SMT Multilayer Ceramic Capacitor, 22uF, +/-20%, 25V, X5R, 0805 [2012 Metric]"
-			(at 78.74 66.04 0)
+			(at 73.66 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20990,7 +21077,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 99.06 86.36 0)
+			(at 93.98 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21001,7 +21088,7 @@
 			)
 		)
 		(property "MPN" "CL21A226MAYNNNE"
-			(at 96.52 86.36 0)
+			(at 91.44 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21012,7 +21099,7 @@
 			)
 		)
 		(property "Val" "22u"
-			(at 76.2 68.5863 90)
+			(at 71.12 68.5863 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21022,7 +21109,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 101.6 86.36 0)
+			(at 96.52 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21033,7 +21120,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 104.14 86.36 0)
+			(at 99.06 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21044,7 +21131,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 76.2 71.1262 90)
+			(at 71.12 71.1262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21053,7 +21140,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 109.22 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21063,7 +21150,7 @@
 			)
 		)
 		(property "Public" "False"
-			(at 111.76 86.36 0)
+			(at 106.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21079,6 +21166,12 @@
 			(uuid "d05638ca-5437-4ea8-abf3-669168de4407")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "C123")
@@ -21218,6 +21311,12 @@
 			(uuid "3069889b-b13e-40db-8de1-fb535dec03dd")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R109")
@@ -21312,6 +21411,12 @@
 			(uuid "5fed2a03-369b-4b21-adb5-fec7a900bee3")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0263")
@@ -21462,6 +21567,12 @@
 			(uuid "63df8348-6013-477a-95b9-f3fc43313917")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R124")
@@ -21601,6 +21712,12 @@
 			(uuid "ade4f18e-3c1a-4256-ad50-9fbaf46663d3")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R105")
@@ -21751,6 +21868,12 @@
 			(uuid "bd68c9af-be26-4d65-9bbe-5bd3e28c8b51")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R111")
@@ -21901,6 +22024,12 @@
 			(uuid "ceeebc02-bd1b-421f-a449-187ec8583ca6")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R151")
@@ -21994,6 +22123,12 @@
 			(uuid "86174b2e-0bb0-490a-a6d8-f521c9d2a326")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0245")
@@ -22144,6 +22279,12 @@
 			(uuid "76551478-7626-4974-8d11-6b4848d56cfc")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "C134")
@@ -22238,6 +22379,12 @@
 			(uuid "b4e68da4-ece4-4c58-a427-c932dfc8e8b1")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0241")
@@ -22377,6 +22524,12 @@
 			(uuid "49bac371-3415-4fe9-a45f-2b49523d1e62")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R103")
@@ -22500,6 +22653,12 @@
 			(uuid "10c486de-3c97-49f8-ad0b-34f0f80ff5df")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "Q3")
@@ -22640,6 +22799,12 @@
 			(uuid "d02c67df-c6d3-4a0d-a05d-e953aca3dd65")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R114")
@@ -22734,6 +22899,12 @@
 			(uuid "edcc7a30-7b5f-41f0-a03c-19f2327c1fed")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0274")
@@ -22863,6 +23034,12 @@
 			(uuid "15e0b6b9-995d-4441-a9d1-54e10cf0603c")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "D18")
@@ -22987,103 +23164,15 @@
 			(uuid "f7a8d396-0801-4d6e-b3f3-4c52c758b09c")
 		)
 		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
-					(reference "Q12")
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "Q?")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:GND")
-		(at 91.44 72.39 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c92e4e0-bd45-4d45-aa1f-859adf41b827")
-		(property "Reference" "#PWR0235"
-			(at 91.44 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 91.44 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 82.55 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 82.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c9a05a9-96e7-4efa-a11f-4a2d64c3371e")
-		)
-		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
-					(reference "#PWR0235")
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -23221,6 +23310,12 @@
 			(uuid "12bf3d04-7632-433b-b713-7c68f8274524")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R119")
@@ -23286,6 +23381,12 @@
 			(uuid "8f57983e-45cf-4485-869c-8a2ebd49b764")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#FLG?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#FLG09")
@@ -23436,6 +23537,12 @@
 			(uuid "172c2323-76f8-42dd-a0bb-5fbeccf3fd1b")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "C118")
@@ -23552,6 +23659,12 @@
 			(uuid "9eeb3330-db0a-4435-9327-df6bdaa6e134")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "TP10")
@@ -23668,6 +23781,12 @@
 			(uuid "7e1a4b85-54e0-4902-8ed5-7cde3fa27709")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "TP16")
@@ -23762,6 +23881,12 @@
 			(uuid "5b39ac6a-a7a3-4b8f-8b49-d537dab87d79")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0272")
@@ -23912,6 +24037,12 @@
 			(uuid "802c9795-7f51-47f3-841b-a4c689ad70c2")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R106")
@@ -24005,6 +24136,12 @@
 			(uuid "03ec8a9e-4f1e-4f0e-be53-fa661251eed9")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0258")
@@ -24154,6 +24291,12 @@
 			(uuid "fdcae404-373d-4126-95f6-574a7096a2ed")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "C119")
@@ -24306,6 +24449,12 @@
 			(uuid "81a6076f-c76b-4c8d-a7e1-4e38cb7565d8")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "C135")
@@ -24400,6 +24549,12 @@
 			(uuid "3f9b6818-ce04-4c2d-afad-1f44e2536e01")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0283")
@@ -24528,6 +24683,12 @@
 			(uuid "629187cd-44b1-4b4b-8481-762e59d062a0")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "D24")
@@ -24677,6 +24838,12 @@
 			(uuid "3cbe2a2d-43c0-4d8f-b306-9ef561a3444b")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "C152")
@@ -24816,6 +24983,12 @@
 			(uuid "e29f5ddb-3548-472a-aa6a-69da9bb91880")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R147")
@@ -24909,6 +25082,12 @@
 			(uuid "7e89c4ae-0731-42e4-98b9-af68c37ee805")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0488")
@@ -25003,6 +25182,12 @@
 			(uuid "b193bd9e-9356-4e7c-8a52-8ccea84380ad")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0217")
@@ -25097,6 +25282,12 @@
 			(uuid "f3ae5b91-cdea-4d92-8cfb-471a199b0238")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0269")
@@ -25191,6 +25382,12 @@
 			(uuid "cb7c9863-81b6-4451-ad28-c3b1075d0b5b")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0223")
@@ -25329,6 +25526,12 @@
 			(uuid "dd519064-1a70-4e83-92bc-59fa6b01a5f5")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R98")
@@ -25423,6 +25626,12 @@
 			(uuid "14b9199c-c224-48dc-93ce-7d8627b39ec4")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0270")
@@ -25564,6 +25773,12 @@
 			(uuid "e89f7378-e765-49a7-a1f0-e4f45e9d9ee1")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R113")
@@ -25692,6 +25907,12 @@
 			(uuid "4ab0d324-5e45-43c5-a5b1-fda86e50059a")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "U40")
@@ -25834,6 +26055,12 @@
 			(uuid "3a49f4b0-82b9-4580-979e-7190f93f3006")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R115")
@@ -25997,6 +26224,12 @@
 			(uuid "c016e5e2-105d-48de-b4a8-69034b89429c")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "U34")
@@ -26092,6 +26325,12 @@
 			(uuid "9a4084f7-cdfe-4d34-9b54-62ad4086e4af")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0218")
@@ -26280,6 +26519,12 @@
 			(uuid "37f21a78-9cec-45b6-b69b-cd1bf2ad9bd5")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "J7")
@@ -26373,6 +26618,12 @@
 			(uuid "2ad1659e-178e-4fb0-adfc-6776c1bcb883")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0247")
@@ -26523,6 +26774,12 @@
 			(uuid "fa48443b-a5fe-4419-ba35-0f8431789e25")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "C140")
@@ -26639,6 +26896,12 @@
 			(uuid "31a4691d-707a-42bd-b0f6-2d8cf5d21997")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "TP13")
@@ -26778,6 +27041,12 @@
 			(uuid "0cc27b8f-deb0-401b-a5f5-f796b48103b5")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R31")
@@ -26895,6 +27164,12 @@
 			(uuid "b381cf86-42c2-4d02-a5e4-cbca94f95fa4")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "D17")
@@ -26989,6 +27264,12 @@
 			(uuid "16d20e89-6a9b-45eb-84de-f007ea31faa5")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0231")
@@ -27105,6 +27386,12 @@
 			(uuid "71648cfd-d0ed-4f6f-8b59-d5e32272ddd9")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "TP12")
@@ -27247,6 +27534,12 @@
 			(uuid "7ef92185-e4fc-486e-a8ad-bd814f5020cf")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "U42")
@@ -27340,6 +27633,12 @@
 			(uuid "0f69277e-4232-4b53-b1a8-d7877c747dbd")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0237")
@@ -27479,6 +27778,12 @@
 			(uuid "6d27556f-0bb4-45d7-a9f2-cfc5be1301f7")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R107")
@@ -27573,6 +27878,12 @@
 			(uuid "55cf09e4-2470-46c5-bc91-77132a1614f3")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0213")
@@ -27689,6 +28000,12 @@
 			(uuid "d3c401c3-a7c9-4b82-b381-acf35bdfa612")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "TP15")
@@ -27835,6 +28152,12 @@
 			(uuid "27a1e095-bb52-47d0-84fd-117afc3a9ac1")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R100")
@@ -27974,6 +28297,12 @@
 			(uuid "c4d095b6-e1d5-488d-bb27-fce2e42a7e5c")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R108")
@@ -28124,6 +28453,12 @@
 			(uuid "57f5f20f-87e2-4eb1-a4c9-ffc1bc875556")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "C234")
@@ -28133,17 +28468,16 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPMICVoltageRegulatorsLinear:NCP730BMT330_WSON")
-		(at 92.71 64.77 0)
+		(lib_id "antmicroPMICVoltageRegulatorsLinear:NCP718BSN330T1G")
+		(at 87.63 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "83704fa9-0327-41c3-a1b3-afc542451c90")
 		(property "Reference" "U32"
-			(at 100.33 57.15 0)
+			(at 98.298 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28151,19 +28485,8 @@
 				)
 			)
 		)
-		(property "Value" "NCP730BMT330_WSON"
-			(at 123.19 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:WSON-6-1EP_2x2mm_P0.65mm"
-			(at 123.19 72.39 0)
+		(property "Value" "NCP718BSN330T1G"
+			(at 118.11 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28173,8 +28496,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/ncp730-d.pdf"
-			(at 123.19 74.93 0)
+		(property "Footprint" "antmicro-footprints:SOT-23-5"
+			(at 118.11 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28184,8 +28507,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 150mA 6-WDFN (2x2)"
-			(at 92.71 64.77 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/308/NCP718_D-1224359.pdf"
+			(at 118.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 300mA TSOT-23-5"
+			(at 87.63 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28193,8 +28527,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NCP730BMT330TBG"
-			(at 100.33 59.69 0)
+		(property "MPN" "NCP718BSN330T1G"
+			(at 98.298 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28203,7 +28537,7 @@
 			)
 		)
 		(property "Manufacturer" "ON Semiconductor"
-			(at 123.19 80.01 0)
+			(at 118.11 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28214,7 +28548,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 123.19 82.55 0)
+			(at 118.11 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28225,7 +28559,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 123.19 85.09 0)
+			(at 118.11 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28247,16 +28581,16 @@
 		(pin "5"
 			(uuid "6b87a4c6-c1cb-4b03-b66d-d13693ed109c")
 		)
-		(pin "7"
-			(uuid "09b0d7b5-d451-4515-b03b-3b4101c3a01a")
-		)
 		(pin "2"
 			(uuid "5637b0e5-ab1b-472a-a1a6-74a594915c33")
 		)
-		(pin "6"
-			(uuid "c695cbdc-0636-4a3f-a5bf-1911c7158471")
-		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "U32")
@@ -28397,6 +28731,12 @@
 			(uuid "a0a6fe7b-4c89-4ed1-88bf-9b259f923ec5")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R286")
@@ -28490,6 +28830,12 @@
 			(uuid "255baeda-a703-4d0d-9109-36e6c3348f21")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0225")
@@ -28766,6 +29112,12 @@
 			(uuid "39025822-72a5-4748-97e6-0f0fd57595a0")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "U30")
@@ -28903,6 +29255,12 @@
 			(uuid "254084fd-ab2a-47ee-9653-a5229d3f5087")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "U31")
@@ -29046,6 +29404,12 @@
 			(uuid "2afd90ba-e2d3-41ce-9233-f85c506b1e05")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "J4")
@@ -29175,6 +29539,12 @@
 			(uuid "576b84bf-de61-4f52-9990-8fe20eab614d")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "D19")
@@ -29269,6 +29639,12 @@
 			(uuid "500baa47-9fb7-438b-a555-0369754697a1")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0227")
@@ -29364,6 +29740,12 @@
 			(uuid "470c1e14-ce3a-4970-b7fc-68e215a810aa")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0215")
@@ -29458,6 +29840,12 @@
 			(uuid "778d8604-ef8f-4307-9fc9-4550e577b850")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0229")
@@ -29552,6 +29940,12 @@
 			(uuid "a7f0f1fd-78e7-49f0-a809-141baf93f992")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0506")
@@ -29689,6 +30083,12 @@
 			(uuid "3f24035b-0e10-468b-bea4-e8cc69d89548")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "U29")
@@ -29839,6 +30239,12 @@
 			(uuid "4ecb5662-7252-4025-a9e2-3c3cd075529d")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "C122")
@@ -29933,6 +30339,12 @@
 			(uuid "a85de360-c339-4ec6-85c1-e1504b47c47b")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0278")
@@ -30082,6 +30494,12 @@
 			(uuid "fe581871-704d-4c67-8876-f7477c8056ad")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "C151")
@@ -30198,6 +30616,12 @@
 			(uuid "b79f9e87-b0ee-4564-b78e-ca63ed9f90af")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "TP62")
@@ -30349,6 +30773,12 @@
 			(uuid "49af0b40-7f7c-4e1a-9679-d1ba2e3efc7a")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R112")
@@ -30499,6 +30929,12 @@
 			(uuid "7b939cdf-a381-495a-9869-22d35c3e328a")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "C121")
@@ -30593,6 +31029,12 @@
 			(uuid "d655180b-729e-4190-93e8-78afe5cea5a5")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0275")
@@ -30687,6 +31129,12 @@
 			(uuid "344c997d-8700-484e-8d48-df2c80fe9450")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0226")
@@ -30838,6 +31286,12 @@
 			(uuid "a480aed6-b9eb-40db-b55e-d0f8c0dc15f2")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "C143")
@@ -30931,6 +31385,12 @@
 			(uuid "d78dee26-a058-4191-9a32-9485a1108af6")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0255")
@@ -31025,6 +31485,12 @@
 			(uuid "ccdf1069-4dbc-4f6c-84ab-c4a12a5361a5")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0280")
@@ -31175,6 +31641,12 @@
 			(uuid "0f552da9-975c-4e42-8e37-eb8fe29c8bfc")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "C133")
@@ -31269,6 +31741,12 @@
 			(uuid "f9b13fbb-322f-4ea1-9c0a-ad90866a0f90")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0262")
@@ -31409,6 +31887,12 @@
 			(uuid "f32808d9-587b-4c8c-91d7-b94005506779")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R145")
@@ -31559,6 +32043,12 @@
 			(uuid "69ca3234-7e0f-4793-ac4f-db8645f59b7c")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "C149")
@@ -31569,7 +32059,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 78.74 72.39 0)
+		(at 73.66 72.39 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31578,7 +32068,7 @@
 		(dnp no)
 		(uuid "c27f5cc9-04e6-4482-9e6f-7aa1bebbf2ae")
 		(property "Reference" "#PWR0232"
-			(at 78.74 78.74 0)
+			(at 73.66 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31588,7 +32078,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 76.2 0)
+			(at 73.66 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31597,7 +32087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 80.01 0)
+			(at 64.77 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31608,7 +32098,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 85.09 0)
+			(at 64.77 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31619,7 +32109,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 72.39 0)
+			(at 73.66 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31628,7 +32118,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 69.85 80.01 0)
+			(at 64.77 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31639,7 +32129,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 69.85 82.55 0)
+			(at 64.77 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31653,6 +32143,12 @@
 			(uuid "c3a68708-a0b7-4515-a08f-d19e2b62d8d1")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0232")
@@ -31747,6 +32243,12 @@
 			(uuid "cc4a0724-e323-4649-9593-70a7b0f7afc7")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0487")
@@ -31841,6 +32343,12 @@
 			(uuid "82b673aa-ed69-4f01-884d-76715c9b3933")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0276")
@@ -31935,6 +32443,12 @@
 			(uuid "9eceecb3-ff0b-4da6-9bca-f6c76051073e")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0222")
@@ -32029,6 +32543,12 @@
 			(uuid "e709093f-49fd-452b-9531-c6521e433ed1")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0264")
@@ -32179,6 +32699,12 @@
 			(uuid "664c3514-6223-4f7f-a31f-0759c8fcc893")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "C120")
@@ -32318,6 +32844,12 @@
 			(uuid "c6325f06-930d-44d7-b99a-18193a0b6a35")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R150")
@@ -32463,6 +32995,12 @@
 			(uuid "4470cfc9-2f69-4f75-bc80-b6e04938c2e8")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R99")
@@ -32556,6 +33094,12 @@
 			(uuid "60040e52-d3e2-4889-820c-f845314a81c8")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0230")
@@ -32706,6 +33250,12 @@
 			(uuid "d2b1d546-03b3-427c-8650-3dab72cda32e")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R93")
@@ -32834,6 +33384,12 @@
 			(uuid "db43cfea-67e9-4c75-bc23-4e40d2e30368")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "D21")
@@ -32973,6 +33529,12 @@
 			(uuid "9171205c-b1b8-4cb1-a923-b1d39c8efa87")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R153")
@@ -33067,6 +33629,12 @@
 			(uuid "39eeb3d1-fb00-4304-83c8-0f620d58482a")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0224")
@@ -33218,6 +33786,12 @@
 			(uuid "1b513d99-359e-4302-b4a7-8697221bc19c")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "C148")
@@ -33357,6 +33931,12 @@
 			(uuid "2e7b24fc-0de6-462e-bacc-fd903bfa38d2")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R96")
@@ -33451,6 +34031,12 @@
 			(uuid "4d2d6a0c-f14b-44a1-aed5-5c365b6d96b6")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0214")
@@ -33603,6 +34189,12 @@
 			(uuid "12bc20b4-34cb-45b3-b34d-16da57193f9a")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "C150")
@@ -33719,6 +34311,12 @@
 			(uuid "8a9b96b4-daf2-44f9-bd0c-1d0b32b0585d")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "TP14")
@@ -33870,6 +34468,12 @@
 			(uuid "29d9c80f-48eb-4fce-acd9-60420009b0c3")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "C147")
@@ -33998,6 +34602,12 @@
 			(uuid "65b9e45b-1daa-47d8-bf32-1aed10d47887")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "D20")
@@ -34148,6 +34758,12 @@
 			(uuid "0ba53189-e6bd-43b1-92ae-3f30ab86fee3")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R123")
@@ -34287,6 +34903,12 @@
 			(uuid "02ab8292-57c9-4ce3-bd98-38e30d6020b1")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R152")
@@ -34432,6 +35054,12 @@
 			(uuid "154ccf84-95a3-439d-b745-362da882e6a1")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R101")
@@ -34571,6 +35199,12 @@
 			(uuid "77f2e2f3-72a4-4d8c-bb7e-6dfdbbe8caaa")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R95")
@@ -34687,6 +35321,12 @@
 			(uuid "1dd90f74-5e5e-4eef-89e9-c07ffd5a0749")
 		)
 		(instances
+			(project "usb_debug_pd"
+				(path "/80988dfb-cc60-4934-86e8-dc9c9a6a5d0b"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "TP19")
@@ -34695,4 +35335,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
