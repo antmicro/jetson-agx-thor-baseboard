@@ -4289,6 +4289,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "antmicroWire2BoardConnectors:Molex_Mini-Fit_2x3_50362462"
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4335,7 +4338,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Pin Header, Wire-to-Board, 2 Rows, 6 Contacts, Through Hole Right-Angle, Mini-Fit"
+			(property "Description" "Pin Header, Wire-to-Board, 2 Rows, 6 Contacts, Through Hole Right-Angle, Mini-Fit, 13A/pin, 600V, 4.2mm"
 				(at 29.21 -22.86 0)
 				(effects
 					(font
@@ -4388,7 +4391,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "CONNECTOR, THT, WIRE-BOARD"
+			(property "ki_keywords" "CONNECTOR, THT, WIRE-BOARD, HORIZONTAL, POWER"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4399,8 +4402,8 @@
 			)
 			(symbol "Molex_Mini-Fit_2x3_50362462_1_1"
 				(rectangle
-					(start 2.54 2.54)
-					(end 8.89 -7.62)
+					(start 2.54 1.27)
+					(end 7.62 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4464,7 +4467,7 @@
 					)
 				)
 				(pin input line
-					(at 11.43 0 180)
+					(at 10.16 0 180)
 					(length 2.54)
 					(name "4"
 						(effects
@@ -4482,7 +4485,7 @@
 					)
 				)
 				(pin input line
-					(at 11.43 -2.54 180)
+					(at 10.16 -2.54 180)
 					(length 2.54)
 					(name "5"
 						(effects
@@ -4500,7 +4503,7 @@
 					)
 				)
 				(pin input line
-					(at 11.43 -5.08 180)
+					(at 10.16 -5.08 180)
 					(length 2.54)
 					(name "6"
 						(effects
@@ -5578,7 +5581,7 @@
 		(uuid "14d1b796-3b54-4081-9ea3-d92824d8076d")
 	)
 	(junction
-		(at 205.74 43.18)
+		(at 207.01 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19843ce7-34b5-4aa8-8837-f4439beebc28")
@@ -5590,7 +5593,7 @@
 		(uuid "26b73d52-2c30-4b0b-83ca-d9d5c484d6e1")
 	)
 	(junction
-		(at 205.74 40.64)
+		(at 207.01 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "270fcd99-e5e6-4f76-ba1f-f15db0ef10f3")
@@ -5632,7 +5635,7 @@
 		(uuid "3f3e835f-77eb-472a-95df-a69268dc3a38")
 	)
 	(junction
-		(at 205.74 45.72)
+		(at 207.01 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4607d78a-6259-420f-aa42-00382ead08d1")
@@ -6057,7 +6060,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 40.64) (xy 205.74 40.64)
+			(xy 209.55 40.64) (xy 207.01 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6244,6 +6247,16 @@
 			(type default)
 		)
 		(uuid "2db5f417-fbc1-4c91-960a-363d7d570709")
+	)
+	(wire
+		(pts
+			(xy 247.65 78.74) (xy 247.65 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e5c1782-ce85-4483-a524-58dcf4f7b638")
 	)
 	(wire
 		(pts
@@ -6457,7 +6470,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 45.72) (xy 205.74 48.26)
+			(xy 207.01 45.72) (xy 207.01 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6587,7 +6600,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 45.72) (xy 205.74 45.72)
+			(xy 209.55 45.72) (xy 207.01 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6617,7 +6630,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 43.18) (xy 205.74 43.18)
+			(xy 209.55 43.18) (xy 207.01 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6797,6 +6810,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 115.57) (xy 247.65 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "701bd7aa-01de-4958-8b68-e8c66cf0af8d")
+	)
+	(wire
+		(pts
 			(xy 368.3 210.82) (xy 368.3 212.09)
 		)
 		(stroke
@@ -6937,7 +6960,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 40.64) (xy 205.74 43.18)
+			(xy 207.01 40.64) (xy 207.01 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7087,7 +7110,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 43.18) (xy 205.74 45.72)
+			(xy 207.01 43.18) (xy 207.01 45.72)
 		)
 		(stroke
 			(width 0)
@@ -7967,7 +7990,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 39.37) (xy 205.74 40.64)
+			(xy 207.01 39.37) (xy 207.01 40.64)
 		)
 		(stroke
 			(width 0)
@@ -19371,7 +19394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Pin Header, Wire-to-Board, 2 Rows, 6 Contacts, Through Hole Right-Angle, Mini-Fit"
+		(property "Description" "Pin Header, Wire-to-Board, 2 Rows, 6 Contacts, Through Hole Right-Angle, Mini-Fit, 13A/pin, 600V, 4.2mm"
 			(at 190.5 63.5 0)
 			(effects
 				(font
@@ -20543,7 +20566,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:PWR_FLAG")
-		(at 205.74 39.37 0)
+		(at 207.01 39.37 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20552,7 +20575,7 @@
 		(dnp no)
 		(uuid "a2598fa1-b2ba-47b1-b320-948bf1e6b491")
 		(property "Reference" "#FLG012"
-			(at 205.74 37.465 0)
+			(at 207.01 37.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20561,7 +20584,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 205.74 35.56 0)
+			(at 207.01 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20569,7 +20592,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 39.37 0)
+			(at 207.01 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20578,7 +20601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 39.37 0)
+			(at 207.01 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20587,7 +20610,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 39.37 0)
+			(at 207.01 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23067,7 +23090,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 205.74 48.26 0)
+		(at 207.01 48.26 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23076,7 +23099,7 @@
 		(dnp no)
 		(uuid "c9ab5bc0-1a4f-4f28-a485-9c8783af4e4d")
 		(property "Reference" "#PWR079"
-			(at 205.74 54.61 0)
+			(at 207.01 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23086,7 +23109,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 52.07 0)
+			(at 207.01 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23095,7 +23118,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 55.88 0)
+			(at 198.12 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23106,7 +23129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 60.96 0)
+			(at 198.12 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23117,7 +23140,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 48.26 0)
+			(at 207.01 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23126,7 +23149,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 196.85 55.88 0)
+			(at 198.12 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23137,7 +23160,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 196.85 58.42 0)
+			(at 198.12 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23154,6 +23177,71 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
 					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 247.65 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9b00788-05a2-4439-9db2-89918ee57a47")
+		(property "Reference" "#FLG08"
+			(at 247.65 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 247.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6028a114-2b20-49e9-8474-c964a2fc03dd")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -25154,6 +25242,71 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
 					(reference "#PWR0152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 247.65 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7ee592f-5620-4469-a154-17001018b463")
+		(property "Reference" "#FLG013"
+			(at 247.65 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 247.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9bb97be-3eef-4437-a7c6-99055ede4f1b")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/18ddd5dc-52e2-402c-b2e2-8bb33f110eab"
+					(reference "#FLG013")
 					(unit 1)
 				)
 			)

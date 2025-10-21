@@ -12,6 +12,254 @@
 		(comment 1 "www.antmicro.com")
 	)
 	(lib_symbols
+		(symbol "L_3u3_8.1A_Coilcraft-XAL5030_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 13.97 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "L_3u3_8.1A_Coilcraft-XAL5030"
+				(at 13.97 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:L_Coilcraft-XAL5030"
+				(at 13.97 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.coilcraft.com/getmedia/49bc46c8-4b2c-45b9-9b6c-2eaa235ea698/xal50xx.pdf"
+				(at 13.97 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power Inductor (SMD), 3.3 µH, Imax: 8.1 A, Shielded, Isat: 8.7 A, XAL5030"
+				(at 13.97 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "3u3/8.1A"
+				(at 13.97 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Coilcraft"
+				(at 13.97 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "XAL5030-332MEB"
+				(at 13.97 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ISat" "8.7 A"
+				(at 13.97 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "IMax" "8.1 A"
+				(at 13.97 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Size" "5.28x5.48"
+				(at 13.97 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 13.97 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 13.97 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SMT, INDUCTOR, PASSIVE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_3u3_8.1A_Coilcraft-XAL5030_1_0_1"
+				(arc
+					(start 0.508 0)
+					(mid 1.016 0.5058)
+					(end 1.524 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 0)
+					(mid 2.032 0.5058)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 3.048 0.5058)
+					(end 3.556 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.556 0)
+					(mid 4.064 0.5058)
+					(end 4.572 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_3u3_8.1A_Coilcraft-XAL5030_1_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicroCapacitors0402:C_100n_0402"
 			(pin_numbers
 				(hide yes)
@@ -2659,254 +2907,6 @@
 				)
 			)
 			(symbol "L_3u3_15.1A_Coilcraft-XAL7070_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 0.508)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 0.508)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "antmicroFixedInductors:L_3u3_8.1A_Coilcraft-XAL5030"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 13.97 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "L_3u3_8.1A_Coilcraft-XAL5030"
-				(at 13.97 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:L_Coilcraft-XAL5030"
-				(at 13.97 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.coilcraft.com/getmedia/49bc46c8-4b2c-45b9-9b6c-2eaa235ea698/xal50xx.pdf"
-				(at 13.97 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power Inductor (SMD), 3.3 µH, Imax: 8.1 A, Shielded, Isat: 8.7 A, XAL5030"
-				(at 13.97 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "3u3/8.1A"
-				(at 13.97 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" "Coilcraft"
-				(at 13.97 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" "XAL5030-472MEC"
-				(at 13.97 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ISat" "8.7 A"
-				(at 13.97 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "IMax" "8.1 A"
-				(at 13.97 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Size" "5.28x5.48"
-				(at 13.97 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 13.97 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 13.97 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SMT, INDUCTOR, PASSIVE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_3u3_8.1A_Coilcraft-XAL5030_0_1"
-				(arc
-					(start 0.508 0)
-					(mid 1.016 0.5058)
-					(end 1.524 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 0)
-					(mid 2.032 0.5058)
-					(end 2.54 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 0)
-					(mid 3.048 0.5058)
-					(end 3.556 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 3.556 0)
-					(mid 4.064 0.5058)
-					(end 4.572 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_3u3_8.1A_Coilcraft-XAL5030_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 0.508)
@@ -30400,6 +30400,169 @@
 		)
 	)
 	(symbol
+		(lib_name "L_3u3_8.1A_Coilcraft-XAL5030_1")
+		(lib_id "antmicroFixedInductors:L_3u3_8.1A_Coilcraft-XAL5030")
+		(at 134.62 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32066877-8061-4429-ba12-5d105efb493a")
+		(property "Reference" "L8"
+			(at 137.16 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "L_3u3_8.1A_Coilcraft-XAL5030"
+			(at 148.59 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:L_Coilcraft-XAL5030"
+			(at 148.59 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.coilcraft.com/getmedia/49bc46c8-4b2c-45b9-9b6c-2eaa235ea698/xal50xx.pdf"
+			(at 148.59 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Inductor (SMD), 3.3 µH, Imax: 8.1 A, Shielded, Isat: 8.7 A, XAL5030"
+			(at 148.59 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "3u3/8.1A"
+			(at 137.16 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Coilcraft"
+			(at 148.59 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XAL5030-332MEB"
+			(at 148.59 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ISat" "8.7 A"
+			(at 148.59 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "IMax" "8.1 A"
+			(at 148.59 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Size" "5.28x5.48"
+			(at 148.59 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 148.59 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 148.59 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "13e40e97-0c97-4abb-b5ed-daa4ba6f6d7c")
+		)
+		(pin "1"
+			(uuid "72f4e0ea-61c3-4a05-a17c-61b8efca1895")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
+					(reference "L8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 233.68 114.3 0)
 		(unit 1)
@@ -54884,168 +55047,6 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0751")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroFixedInductors:L_3u3_8.1A_Coilcraft-XAL5030")
-		(at 134.62 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3214741-03ea-4d5d-b3f0-12c87f577fa0")
-		(property "Reference" "L8"
-			(at 137.16 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "L_3u3_8.1A_Coilcraft-XAL5030"
-			(at 148.59 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:L_Coilcraft-XAL5030"
-			(at 148.59 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.coilcraft.com/getmedia/49bc46c8-4b2c-45b9-9b6c-2eaa235ea698/xal50xx.pdf"
-			(at 148.59 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power Inductor (SMD), 3.3 µH, Imax: 8.1 A, Shielded, Isat: 8.7 A, XAL5030"
-			(at 148.59 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "3u3/8.1A"
-			(at 137.16 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Coilcraft"
-			(at 148.59 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "XAL5030-472MEC"
-			(at 148.59 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ISat" "8.7 A"
-			(at 148.59 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "IMax" "8.1 A"
-			(at 148.59 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Size" "5.28x5.48"
-			(at 148.59 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 148.59 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 148.59 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6e137bf-071d-4b8c-b00b-055ece8de3ba")
-		)
-		(pin "2"
-			(uuid "9aae7b03-d217-4eca-aee5-1c7f111d6ad3")
-		)
-		(instances
-			(project ""
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
-					(reference "L8")
 					(unit 1)
 				)
 			)

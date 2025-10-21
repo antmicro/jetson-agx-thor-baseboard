@@ -14425,6 +14425,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 63.5) (xy 134.62 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e54b42eb-05a4-4320-8732-25c9ff3c158b")
+	)
+	(wire
+		(pts
 			(xy 149.86 207.01) (xy 158.75 207.01)
 		)
 		(stroke
@@ -34767,6 +34777,71 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "R123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 134.62 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f80f6b20-0ce5-4abc-b34a-861623102b6d")
+		(property "Reference" "#FLG014"
+			(at 134.62 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 134.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "853e9230-5f5b-46dc-9e58-c61513d37305")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
+					(reference "#FLG014")
 					(unit 1)
 				)
 			)
