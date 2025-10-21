@@ -224,218 +224,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroCapacitors0402:C_1u_0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 20.32 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "C_1u_0402"
-				(at 20.32 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-				(at 20.32 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC"
-				(at 20.32 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 10 V, 0402 [1005 Metric], ± 10%, X6S, C"
-				(at 20.32 -33.02 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" "C1005X6S1A105K050BC"
-				(at 20.32 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "TDK"
-				(at 20.32 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 20.32 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 20.32 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "1u"
-				(at 20.32 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Voltage" ""
-				(at 20.32 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Dielectric" ""
-				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_1u_0402_0_1"
-				(polyline
-					(pts
-						(xy 2.032 -1.524) (xy 2.032 1.524)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.524) (xy 3.048 1.524)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1u_0402_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "antmicroLogicTranslatorsLevelShifters:NTS0104_DHVQFN"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1246,12 +1034,6 @@
 		)
 	)
 	(junction
-		(at 237.49 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6bd59435-2dc0-49be-9770-7715e73873f2")
-	)
-	(junction
 		(at 228.6 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1280,12 +1062,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d964c4db-d8a1-48cc-8ba1-83e4ad51723b")
-	)
-	(junction
-		(at 237.49 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1f0d6f6-aca8-4540-aa04-ee7d5cc9fb82")
 	)
 	(junction
 		(at 228.6 149.86)
@@ -1405,7 +1181,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 148.59) (xy 237.49 149.86)
+			(xy 228.6 148.59) (xy 228.6 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1485,26 +1261,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 119.38) (xy 237.49 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82eee89a-9b50-466b-8329-642e32338be3")
-	)
-	(wire
-		(pts
-			(xy 237.49 114.3) (xy 237.49 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84cd85cf-3252-43d5-b7d8-37088cb6f3df")
-	)
-	(wire
-		(pts
 			(xy 171.45 113.03) (xy 190.5 113.03)
 		)
 		(stroke
@@ -1565,7 +1321,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 111.76) (xy 237.49 113.03)
+			(xy 228.6 111.76) (xy 228.6 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1582,16 +1338,6 @@
 			(type default)
 		)
 		(uuid "a8d19d79-161b-4a87-b11b-cbc20fb5d1b1")
-	)
-	(wire
-		(pts
-			(xy 237.49 113.03) (xy 228.6 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acc933b6-4f42-4da4-aeea-efa5e2aadc3e")
 	)
 	(wire
 		(pts
@@ -1612,26 +1358,6 @@
 			(type default)
 		)
 		(uuid "b2666abd-f103-4ab5-bd13-e54dbc12ef0d")
-	)
-	(wire
-		(pts
-			(xy 237.49 149.86) (xy 228.6 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5cddac6-3d4e-4921-80c0-1ecb3fbb4048")
-	)
-	(wire
-		(pts
-			(xy 237.49 149.86) (xy 237.49 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7954cbc-c314-4a39-983b-c1b38c127ff8")
 	)
 	(wire
 		(pts
@@ -1722,16 +1448,6 @@
 			(type default)
 		)
 		(uuid "ddf1ee55-0d70-4335-9d67-9b132d1a9077")
-	)
-	(wire
-		(pts
-			(xy 237.49 156.21) (xy 237.49 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfd6cfb1-4c4e-4c96-beef-f308f2a9bbdc")
 	)
 	(wire
 		(pts
@@ -4761,186 +4477,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_1u_0402")
-		(at 237.49 156.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "399629dc-d519-4d88-bce1-c1339172521e")
-		(property "Reference" "C4"
-			(at 240.03 152.3936 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_1u_0402"
-			(at 247.65 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 250.19 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC"
-			(at 252.73 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 10 V, 0402 [1005 Metric], ± 10%, X6S, C"
-			(at 270.51 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C1005X6S1A105K050BC"
-			(at 255.27 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TDK"
-			(at 257.81 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 260.35 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 262.89 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "1u"
-			(at 240.03 154.9336 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Voltage" ""
-			(at 265.43 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 267.97 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2f76fd8f-03a2-43e2-82f9-a66d50972923")
-		)
-		(pin "1"
-			(uuid "1f745419-15da-416b-a25a-f1a1b8b4747a")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/3abc05cd-228c-4eb8-b63c-e3ac25c2b310"
-					(reference "C4")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/4badc71d-812d-4df6-9069-2f39dff9a44f"
-					(reference "C357")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/4c6f7b17-5be9-4217-b67d-50974b1b0d52"
-					(reference "C8")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/75857eb3-9fe0-420d-9c74-9aac0fcec98c"
-					(reference "C365")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/77a48c76-1efb-4e96-8b9e-54718d63a699"
-					(reference "C369")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/8ce67c72-d2af-4f7d-8793-c0cab0729fb5"
-					(reference "C361")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/9d09b695-5288-4f42-88ad-d65175bdc122"
-					(reference "C41")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/cab0bc42-9bc8-4167-9bf4-c94b0dbb21ec"
-					(reference "C216")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
 		(at 171.45 157.48 0)
 		(unit 1)
@@ -5727,7 +5263,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+3V3")
-		(at 237.49 111.76 0)
+		(at 228.6 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5735,7 +5271,7 @@
 		(dnp no)
 		(uuid "6f09c407-4041-4fd6-854c-78d9efda70ae")
 		(property "Reference" "#PWR026"
-			(at 237.49 115.57 0)
+			(at 228.6 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5745,7 +5281,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 234.315 107.95 0)
+			(at 225.425 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5755,7 +5291,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 119.38 0)
+			(at 243.84 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5766,7 +5302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 121.92 0)
+			(at 243.84 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5777,7 +5313,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 111.76 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5786,7 +5322,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 252.73 114.3 0)
+			(at 243.84 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5797,7 +5333,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 252.73 116.84 0)
+			(at 243.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5970,248 +5506,6 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 237.49 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ca33572-5bcb-44d3-aac9-d6ef62923e02")
-		(property "Reference" "#PWR0701"
-			(at 237.49 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 237.49 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 237.49 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 246.38 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 246.38 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c24ef10a-cfea-4643-ae27-f9c4a3ffee7d")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/3abc05cd-228c-4eb8-b63c-e3ac25c2b310"
-					(reference "#PWR0701")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/4badc71d-812d-4df6-9069-2f39dff9a44f"
-					(reference "#PWR0707")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/4c6f7b17-5be9-4217-b67d-50974b1b0d52"
-					(reference "#PWR0672")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/75857eb3-9fe0-420d-9c74-9aac0fcec98c"
-					(reference "#PWR0732")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/77a48c76-1efb-4e96-8b9e-54718d63a699"
-					(reference "#PWR0742")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/8ce67c72-d2af-4f7d-8793-c0cab0729fb5"
-					(reference "#PWR0721")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/9d09b695-5288-4f42-88ad-d65175bdc122"
-					(reference "#PWR0684")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/cab0bc42-9bc8-4167-9bf4-c94b0dbb21ec"
-					(reference "#PWR0696")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:GND")
-		(at 237.49 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9fb1cd47-74bb-4b67-ba84-b9a37735cb8f")
-		(property "Reference" "#PWR0693"
-			(at 237.49 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 237.49 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 237.49 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 246.38 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 246.38 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c455963-693a-43d0-85b9-e074f91ea9d1")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/3abc05cd-228c-4eb8-b63c-e3ac25c2b310"
-					(reference "#PWR0693")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/4badc71d-812d-4df6-9069-2f39dff9a44f"
-					(reference "#PWR0702")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/4c6f7b17-5be9-4217-b67d-50974b1b0d52"
-					(reference "#PWR0423")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/75857eb3-9fe0-420d-9c74-9aac0fcec98c"
-					(reference "#PWR0727")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/77a48c76-1efb-4e96-8b9e-54718d63a699"
-					(reference "#PWR0737")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/8ce67c72-d2af-4f7d-8793-c0cab0729fb5"
-					(reference "#PWR0716")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/9d09b695-5288-4f42-88ad-d65175bdc122"
-					(reference "#PWR0679")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/cab0bc42-9bc8-4167-9bf4-c94b0dbb21ec"
-					(reference "#PWR0690")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:GND")
 		(at 212.09 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6326,186 +5620,6 @@
 				)
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/cab0bc42-9bc8-4167-9bf4-c94b0dbb21ec"
 					(reference "#PWR0689")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroCapacitors0402:C_1u_0402")
-		(at 237.49 119.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a22c2e28-6612-4ee0-89e2-7299c2a6bcd9")
-		(property "Reference" "C3"
-			(at 240.03 115.5636 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_1u_0402"
-			(at 247.65 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 250.19 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC"
-			(at 252.73 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 10 V, 0402 [1005 Metric], ± 10%, X6S, C"
-			(at 270.51 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C1005X6S1A105K050BC"
-			(at 255.27 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TDK"
-			(at 257.81 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 260.35 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 262.89 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "1u"
-			(at 240.03 118.1036 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Voltage" ""
-			(at 265.43 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 267.97 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5f9be48c-c0d1-4c4d-8765-706cea14507f")
-		)
-		(pin "1"
-			(uuid "c97e7f29-b6a2-44b8-8278-320af61ab7d7")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/3abc05cd-228c-4eb8-b63c-e3ac25c2b310"
-					(reference "C3")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/4badc71d-812d-4df6-9069-2f39dff9a44f"
-					(reference "C356")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/4c6f7b17-5be9-4217-b67d-50974b1b0d52"
-					(reference "C7")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/75857eb3-9fe0-420d-9c74-9aac0fcec98c"
-					(reference "C364")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/77a48c76-1efb-4e96-8b9e-54718d63a699"
-					(reference "C368")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/8ce67c72-d2af-4f7d-8793-c0cab0729fb5"
-					(reference "C360")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/9d09b695-5288-4f42-88ad-d65175bdc122"
-					(reference "C40")
-					(unit 1)
-				)
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/5e8e155a-019a-4868-a371-a2eb1e119b3e/cab0bc42-9bc8-4167-9bf4-c94b0dbb21ec"
-					(reference "C215")
 					(unit 1)
 				)
 			)
@@ -6634,7 +5748,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+3V3")
-		(at 237.49 148.59 0)
+		(at 228.6 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6642,7 +5756,7 @@
 		(dnp no)
 		(uuid "c14c9daa-1043-44f0-8196-25ec32fff09d")
 		(property "Reference" "#PWR05"
-			(at 237.49 152.4 0)
+			(at 228.6 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6652,7 +5766,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 234.315 144.78 0)
+			(at 225.425 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6662,7 +5776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 156.21 0)
+			(at 243.84 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6673,7 +5787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 158.75 0)
+			(at 243.84 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6684,7 +5798,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 148.59 0)
+			(at 228.6 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6693,7 +5807,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 252.73 151.13 0)
+			(at 243.84 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6704,7 +5818,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 252.73 153.67 0)
+			(at 243.84 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
