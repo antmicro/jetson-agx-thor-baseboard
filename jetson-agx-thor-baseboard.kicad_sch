@@ -5992,46 +5992,6 @@
 				(justify left top)
 			)
 		)
-		(pin "CSI0{CSI}" output
-			(at 100.33 36.83 0)
-			(uuid "284bf539-aa10-4a96-a207-3d132a420437")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CSI1{CSI}" output
-			(at 100.33 39.37 0)
-			(uuid "d26c1e39-cbc6-49ae-90b9-2d30cd3bdf1d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CSI2{CSI}" output
-			(at 100.33 41.91 0)
-			(uuid "3fa49929-9188-4093-ad9c-d3fc0a3cfd33")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CSI3{CSI}" output
-			(at 100.33 44.45 0)
-			(uuid "7f58823d-1db7-4c53-b434-7776be0a87cb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "I2C_{CAM}{I2C}" bidirectional
 			(at 100.33 57.15 0)
 			(uuid "7b4d9008-5a46-4ef0-b45c-83ce8100beca")
@@ -6045,6 +6005,46 @@
 		(pin "CAM_CTRL{CAM_CTRL}" bidirectional
 			(at 100.33 54.61 0)
 			(uuid "e5f8d1b1-c2b5-4e43-8ed1-c396cfb90e22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAM0{CSI}" output
+			(at 100.33 36.83 0)
+			(uuid "d7405bbf-0d40-4e32-a6ac-91fff5f7c97f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAM1{CSI}" output
+			(at 100.33 39.37 0)
+			(uuid "c9de9ad1-437a-4243-bdc5-6d3df790a396")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAM2{CSI}" output
+			(at 100.33 41.91 0)
+			(uuid "e252b6e8-2bd2-4e06-be84-1dd3c6ebc23c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAM3{CSI}" output
+			(at 100.33 44.45 0)
+			(uuid "fa87e287-2383-4707-8151-a74eb6e35f0f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6768,46 +6768,6 @@
 				(justify left top)
 			)
 		)
-		(pin "CSI0{CSI}" input
-			(at 177.8 36.83 180)
-			(uuid "37aab0ef-8982-409b-a003-7ad986c605a1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CSI1{CSI}" input
-			(at 177.8 39.37 180)
-			(uuid "3c2bd66a-89cf-4023-b664-603edf1801ae")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CSI2{CSI}" input
-			(at 177.8 41.91 180)
-			(uuid "99f2ed52-2297-4474-90a5-42cadf798fb3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CSI3{CSI}" input
-			(at 177.8 44.45 180)
-			(uuid "70bc14f8-7dd9-4896-b4d7-69c87adddf98")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "PCIe_{C3x2}{PCIe}" bidirectional
 			(at 177.8 106.68 180)
 			(uuid "85cf30eb-ebb1-4ce7-9f8b-b8e5fe8c7d42")
@@ -6971,6 +6931,46 @@
 		(pin "PCIe_{C5x4}{PCIe}" input
 			(at 177.8 78.74 180)
 			(uuid "5f8b1364-57da-432f-a8d4-13f061f4119c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAM1{CSI}" input
+			(at 177.8 39.37 180)
+			(uuid "b89ca482-0d2c-4c14-988b-f2b3b293f386")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAM0{CSI}" input
+			(at 177.8 36.83 180)
+			(uuid "69ae92f6-6697-4641-b6a5-22c59d44c7b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAM2{CSI}" input
+			(at 177.8 41.91 180)
+			(uuid "aeb89dad-1b6d-4e22-906b-a539cc5b9a27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAM3{CSI}" input
+			(at 177.8 44.45 180)
+			(uuid "c4037037-2053-4f56-a4e3-7189b7c74a87")
 			(effects
 				(font
 					(size 1.27 1.27)

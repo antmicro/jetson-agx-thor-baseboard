@@ -6009,7 +6009,13 @@
 		(members "DIN" "DOUT")
 	)
 	(bus_alias "CSI"
-		(members "D0+" "D0-" "D1+" "D1-" "D2+" "D2-" "D3+" "D3-" "CLK+" "CLK-")
+		(members "CSI0_CLK-" "CSI0_CLK+" "CSI2_CLK+" "CSI2_CLK-" "CSI4_CLK+" "CSI4_CLK-"
+			"CSI6_CLK+" "CSI6_CLK-" "CSI0_D1-" "CSI0_D1+" "CSI0_D0-" "CSI0_D0+" "CSI1_D0+"
+			"CSI1_D0-" "CSI1_D1-" "CSI1_D1+" "CSI2_D0-" "CSI2_D0+" "CSI2_D1-" "CSI2_D1+"
+			"CSI3_D0-" "CSI3_D0+" "CSI3_D1-" "CSI3_D1+" "CSI4_D0+" "CSI4_D0-" "CSI4_D1+"
+			"CSI4_D1-" "CSI5_D0+" "CSI5_D0-" "CSI5_D1+" "CSI5_D1-" "CSI6_D0+" "CSI6_D0-"
+			"CSI6_D1+" "CSI6_D1-" "CSI7_D0+" "CSI7_D0-" "CSI7_D1+" "CSI7_D1-"
+		)
 	)
 	(bus_alias "DP"
 		(members "TX0+" "TX0-" "TX1+" "TX1-" "TX2+" "TX2-" "TX3+" "TX3-" "AUX+"
