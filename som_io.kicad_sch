@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Jetson AGX Thor Baseboard")
-		(date "2025-10-21")
+		(date "2025-10-22")
 		(rev "1.0.0")
 		(company "Antmicro Ltd")
 		(comment 1 "www.antmicro.com")
@@ -15266,7 +15266,7 @@
 	(bus_alias "M2_E"
 		(members "W_DIS_1" "W_DIS_2" "~{UART_WAKE}" "VENDOR")
 	)
-	(text "NOTE:\nDo not use as GPIO:\nGPIO42\nGPIO38\nGPIO37\nGPIO17"
+	(text "NOTE:\nDo not use as GPIO\n(strap pins on SOM):\nGPIO42\nGPIO38\nGPIO37\nGPIO17\n"
 		(exclude_from_sim no)
 		(at 243.586 33.274 0)
 		(effects
@@ -32216,7 +32216,7 @@
 		(uuid "76d14884-cecc-41f0-8345-34af5404e885")
 	)
 	(hierarchical_label "SFP_LEDY"
-		(shape input)
+		(shape output)
 		(at 67.31 160.02 0)
 		(effects
 			(font
@@ -32260,7 +32260,7 @@
 		(uuid "a25207bd-7694-4a75-ae23-15b897d4c973")
 	)
 	(hierarchical_label "SFP_LEDG"
-		(shape input)
+		(shape output)
 		(at 67.31 162.56 0)
 		(effects
 			(font

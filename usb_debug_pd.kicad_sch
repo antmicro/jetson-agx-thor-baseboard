@@ -6,233 +6,12 @@
 	(paper "A3")
 	(title_block
 		(title "Jetson AGX Thor Baseboard")
-		(date "2025-10-21")
+		(date "2025-10-22")
 		(rev "1.0.0")
 		(company "Antmicro Ltd")
 		(comment 1 "www.antmicro.com")
 	)
 	(lib_symbols
-		(symbol "Capacitorsmisc:C_22u_25V_0805"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 20.32 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "C_22u_25V_0805"
-				(at 20.32 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:C_0805_2012Metric"
-				(at 20.32 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://product.samsungsem.com/mlcc/CL21A226MAYNNN.do"
-				(at 20.32 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMT Multilayer Ceramic Capacitor, 22uF, +/-20%, 25V, X5R, 0805 [2012 Metric]"
-				(at 20.32 -33.02 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" "CL21A226MAYNNNE"
-				(at 20.32 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Samsung Electro-Mechanics"
-				(at 20.32 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 20.32 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 20.32 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "22u"
-				(at 20.32 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Voltage" "25V"
-				(at 20.32 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Dielectric" "X5R"
-				(at 20.32 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Public" "False"
-				(at 20.32 -33.02 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "0805, SMT, CAPACITOR, PASSIVE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_22u_25V_0805_0_1"
-				(polyline
-					(pts
-						(xy 2.032 -1.524) (xy 2.032 1.524)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.524) (xy 3.048 1.524)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_22u_25V_0805_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "antmicroCapacitors0402:C_100n_0402"
 			(pin_numbers
 				(hide yes)
@@ -10729,6 +10508,12 @@
 		(uuid "25709561-49e3-412c-a188-10d250e3a66a")
 	)
 	(junction
+		(at 234.95 245.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28855e3d-e6d9-4d6b-b202-80c9ff7157a9")
+	)
+	(junction
 		(at 337.82 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10919,6 +10704,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9beb950c-7b36-44d8-8103-2450ba30d7f8")
+	)
+	(junction
+		(at 237.49 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a27e67d5-e910-43ce-90b1-4fd1cac519e1")
 	)
 	(junction
 		(at 306.07 41.91)
@@ -12854,6 +12645,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 227.33) (xy 234.95 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d9bf8f2-2bd1-4f91-8050-3e40fbd4bf01")
+	)
+	(wire
+		(pts
 			(xy 280.67 81.28) (xy 280.67 86.36)
 		)
 		(stroke
@@ -13211,6 +13012,16 @@
 			(type default)
 		)
 		(uuid "8b1664e6-b887-40f6-8e73-08cd29679f23")
+	)
+	(wire
+		(pts
+			(xy 237.49 217.17) (xy 234.95 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b193542-bb64-4f9f-9973-6bbf4efa3ea8")
 	)
 	(wire
 		(pts
@@ -13574,6 +13385,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 245.11) (xy 256.54 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a172faf6-7769-49ff-8a07-db5968e8fcad")
+	)
+	(wire
+		(pts
 			(xy 217.17 260.35) (xy 245.11 260.35)
 		)
 		(stroke
@@ -13884,7 +13705,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 245.11) (xy 256.54 245.11)
+			(xy 217.17 245.11) (xy 234.95 245.11)
 		)
 		(stroke
 			(width 0)
@@ -14081,6 +13902,16 @@
 			(type default)
 		)
 		(uuid "cb54c957-c558-485d-8afd-896b58fe0ba4")
+	)
+	(wire
+		(pts
+			(xy 234.95 217.17) (xy 234.95 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb5efd44-f1b7-4ce1-8131-472bff893c5c")
 	)
 	(wire
 		(pts
@@ -17808,7 +17639,7 @@
 		(uuid "1ffa4e30-8261-4c30-9cf0-0159b3ab0cba")
 	)
 	(hierarchical_label "~{PDC_I2C1_IRQ}"
-		(shape input)
+		(shape output)
 		(at 285.75 242.57 0)
 		(effects
 			(font
@@ -21068,6 +20899,145 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
 					(reference "#PWR0286")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_4k7_0402")
+		(at 234.95 222.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35b7b79d-913a-4e45-81fb-36b31587bd3f")
+		(property "Reference" "R225"
+			(at 234.442 222.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "R_4k7_0402"
+			(at 222.25 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 219.71 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 217.17 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 4.7 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 234.95 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 212.09 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-4701GLF"
+			(at 214.63 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "4k7"
+			(at 234.315 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right top)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 209.55 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 207.01 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 224.79 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f676443-f4a1-4268-9b92-74f27140371b")
+		)
+		(pin "2"
+			(uuid "674f74d5-2303-43ba-b242-26fe717f446f")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/12c19ba5-8fdc-4775-a33b-e8b1ade01b0a"
+					(reference "R225")
 					(unit 1)
 				)
 			)
@@ -30530,7 +30500,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitorsmisc:C_22u_25V_0805")
+		(lib_id "antmicroCapacitorsmisc:C_22u_25V_0805")
 		(at 327.66 33.02 270)
 		(unit 1)
 		(exclude_from_sim no)

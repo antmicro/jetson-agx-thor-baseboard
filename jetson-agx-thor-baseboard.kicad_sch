@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Jetson AGX Thor Baseboard")
-		(date "2025-10-21")
+		(date "2025-10-22")
 		(rev "1.0.0")
 		(company "Antmicro Ltd")
 		(comment 1 "www.antmicro.com")
@@ -5387,7 +5387,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{PDC_I2C1_IRQ}" input
+		(pin "~{PDC_I2C1_IRQ}" output
 			(at 331.47 196.85 180)
 			(uuid "2879bf6a-4e2d-4e07-9345-2efd109c4681")
 			(effects
@@ -5787,7 +5787,7 @@
 				(justify right)
 			)
 		)
-		(pin "USB3{USB}" input
+		(pin "USB3{USB}" bidirectional
 			(at 100.33 86.36 0)
 			(uuid "3ec55ccb-7189-4a28-84a5-856ab782ca79")
 			(effects
@@ -5797,7 +5797,7 @@
 				(justify right)
 			)
 		)
-		(pin "PCIe_{C1x1}{PCIe}" input
+		(pin "PCIe_{C1x1}{PCIe}" bidirectional
 			(at 100.33 76.2 0)
 			(uuid "f5349f21-dfb2-4a85-903a-85fd20437312")
 			(effects
@@ -6867,7 +6867,7 @@
 				(justify left)
 			)
 		)
-		(pin "I2C_{SYS}{I2C}" input
+		(pin "I2C_{SYS}{I2C}" bidirectional
 			(at 331.47 123.19 180)
 			(uuid "731ebf28-4bf4-49d5-a711-1489c32c6fd8")
 			(effects
@@ -6947,7 +6947,7 @@
 				(justify left)
 			)
 		)
-		(pin "USBSS1{USBSS}" input
+		(pin "USBSS1{USBSS}" bidirectional
 			(at 331.47 115.57 180)
 			(uuid "d94d9580-d413-4ef6-bf25-06e0f012f786")
 			(effects
@@ -7009,7 +7009,7 @@
 				(justify left top)
 			)
 		)
-		(pin "I2C_{SFP}{I2C}" input
+		(pin "I2C_{SFP}{I2C}" bidirectional
 			(at 100.33 124.46 0)
 			(uuid "5d84fb74-5010-4fb1-b8bf-fe1a9c9e514e")
 			(effects
@@ -7101,7 +7101,7 @@
 				(justify left top)
 			)
 		)
-		(pin "I2C_{SYS}{I2C}" input
+		(pin "I2C_{SYS}{I2C}" bidirectional
 			(at 331.47 81.28 180)
 			(uuid "27b77fa6-4217-4063-b418-e10d4e3e41fd")
 			(effects
@@ -7121,7 +7121,7 @@
 				(justify left)
 			)
 		)
-		(pin "USBSS0{USBSS}" input
+		(pin "USBSS0{USBSS}" bidirectional
 			(at 331.47 73.66 180)
 			(uuid "e5470ef0-1fe7-4566-bdd3-a03d811baae4")
 			(effects
@@ -7243,7 +7243,7 @@
 				(justify left)
 			)
 		)
-		(pin "I2C_{CONN}{I2C}" input
+		(pin "I2C_{CONN}{I2C}" bidirectional
 			(at 331.47 217.17 180)
 			(uuid "72427d7a-cd4d-4a62-978b-cd0df975122a")
 			(effects
