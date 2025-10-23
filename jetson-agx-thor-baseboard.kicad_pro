@@ -68,7 +68,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.125
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -925,6 +925,9 @@
       "/Expansion connector/DP1.AUX-": [
         "85Ohm-diff_DP"
       ],
+      "/Expansion connector/DP1.HPD": [
+        "85Ohm-diff_DP"
+      ],
       "/Expansion connector/DP1.TX0+": [
         "85Ohm-diff_DP"
       ],
@@ -955,6 +958,9 @@
       "/Expansion connector/DP2.AUX-": [
         "85Ohm-diff_DP"
       ],
+      "/Expansion connector/DP2.HPD": [
+        "85Ohm-diff_DP"
+      ],
       "/Expansion connector/DP2.TX0+": [
         "85Ohm-diff_DP"
       ],
@@ -983,6 +989,9 @@
         "85Ohm-diff_DP"
       ],
       "/Expansion connector/DP3.AUX-": [
+        "85Ohm-diff_DP"
+      ],
+      "/Expansion connector/DP3.HPD": [
         "85Ohm-diff_DP"
       ],
       "/Expansion connector/DP3.TX0+": [
@@ -1279,6 +1288,12 @@
       "/M.2/USB3{USB}": [
         "90Ohm-diff_USB_2.0"
       ],
+      "/M.2/WIFI_BT_USB_D_N": [
+        "90Ohm-diff_USB_2.0"
+      ],
+      "/M.2/WIFI_BT_USB_D_P": [
+        "90Ohm-diff_USB_2.0"
+      ],
       "/Recovery USB/USB0.D+": [
         "90Ohm-diff_USB_2.0"
       ],
@@ -1381,10 +1396,25 @@
       "/SoM_IO2/DP0.AUX-": [
         "85Ohm-diff_DP"
       ],
+      "/SoM_IO2/DP0.AUX_C+": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP0.AUX_C-": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP0.HPD": [
+        "85Ohm-diff_DP"
+      ],
       "/SoM_IO2/DP0.TX0+": [
         "85Ohm-diff_DP"
       ],
       "/SoM_IO2/DP0.TX0-": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP0.TX0_C+": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP0.TX0_C-": [
         "85Ohm-diff_DP"
       ],
       "/SoM_IO2/DP0.TX1+": [
@@ -1393,16 +1423,124 @@
       "/SoM_IO2/DP0.TX1-": [
         "85Ohm-diff_DP"
       ],
+      "/SoM_IO2/DP0.TX1_C+": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP0.TX1_C-": [
+        "85Ohm-diff_DP"
+      ],
       "/SoM_IO2/DP0.TX2+": [
         "85Ohm-diff_DP"
       ],
       "/SoM_IO2/DP0.TX2-": [
         "85Ohm-diff_DP"
       ],
+      "/SoM_IO2/DP0.TX2_C+": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP0.TX2_C-": [
+        "85Ohm-diff_DP"
+      ],
       "/SoM_IO2/DP0.TX3+": [
         "85Ohm-diff_DP"
       ],
       "/SoM_IO2/DP0.TX3-": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP0.TX3_C+": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP0.TX3_C-": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP1.AUX_C+": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP1.AUX_C-": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP1.TX0_C+": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP1.TX0_C-": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP1.TX1_C+": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP1.TX1_C-": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP1.TX2_C+": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP1.TX2_C-": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP1.TX3_C+": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP1.TX3_C-": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP2.AUX_C+": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP2.AUX_C-": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP2.TX0_C+": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP2.TX0_C-": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP2.TX1_C+": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP2.TX1_C-": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP2.TX2_C+": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP2.TX2_C-": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP2.TX3_C+": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP2.TX3_C-": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP3.AUX_C+": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP3.AUX_C-": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP3.TX0_C+": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP3.TX0_C-": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP3.TX1_C+": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP3.TX1_C-": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP3.TX2_C+": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP3.TX2_C-": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP3.TX3_C+": [
+        "85Ohm-diff_DP"
+      ],
+      "/SoM_IO2/DP3.TX3_C-": [
         "85Ohm-diff_DP"
       ],
       "/SoM_IO2/PCIe_{C2x1}R_CLK+": [
