@@ -28,3 +28,10 @@
 	(constraint track_width (opt 0.2mm))
 	(constraint diff_pair_gap  (opt 0.15mm))
 )
+
+#-------------- HS - Zone clearance --------------
+
+(rule "(hs_zone_clearance"
+	(condition "(A.NetClass == '*diff*')&&(B.Type == 'Zone')&&(A.Layer == B.Layer)")
+	(constraint clearance (min 1mm))
+)
