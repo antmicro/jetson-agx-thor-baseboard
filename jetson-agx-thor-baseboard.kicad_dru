@@ -4,14 +4,14 @@
 (rule "(85_ohm_inner"
 	(layer inner)
 	(condition "(A.NetClass == '85Ohm-diff*')")
-	(constraint track_width (opt 0.125mm))
-	(constraint diff_pair_gap  (opt 0.15mm))
+	(constraint track_width (opt 0.15mm))
+	(constraint diff_pair_gap  (opt 0.125mm))
 )
 (rule "(85_ohm_outer"
 	(layer outer)
 	(condition "(A.NetClass == '85Ohm-*')")
-	(constraint track_width (opt 0.22mm))
-	(constraint diff_pair_gap  (opt 0.15mm))
+	(constraint track_width (opt 0.19mm))
+	(constraint diff_pair_gap  (opt 0.18mm))
 )
 
 #---------------------- 90 Ohm ----------------------
@@ -19,14 +19,14 @@
 (rule "(90_ohm_inner"
 	(layer inner)
 	(condition "(A.NetClass == '90Ohm-diff*')")
-	(constraint track_width (opt 0.1mm))
-	(constraint diff_pair_gap  (opt 0.125mm))
+	(constraint track_width (opt 0.125mm))
+	(constraint diff_pair_gap  (opt 0.10mm))
 )
 (rule "(90_ohm_outer"
 	(layer outer)
 	(condition "(A.NetClass == '90Ohm-diff*')")
-	(constraint track_width (opt 0.2mm))
-	(constraint diff_pair_gap  (opt 0.15mm))
+	(constraint track_width (opt 0.17mm))
+	(constraint diff_pair_gap  (opt 0.18mm))
 )
 
 #-------------- HS - Zone clearance --------------
