@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Jetson AGX Thor Baseboard")
-		(date "2025-10-30")
-		(rev "1.0.0")
+		(date "2025-11-03")
+		(rev "1.1.0")
 		(company "Antmicro Ltd")
 		(comment 1 "www.antmicro.com")
 	)
@@ -2111,7 +2111,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroMemory:AT24CS01_SOT23"
+		(symbol "antmicroMemory:AT24CS01_SOIC8"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2125,7 +2125,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "AT24CS01_SOT23"
+			(property "Value" "AT24CS01_SOIC8"
 				(at 35.56 -5.08 0)
 				(effects
 					(font
@@ -2136,7 +2136,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:SOT-23-5"
+			(property "Footprint" "antmicro-footprints:SOIC-8-1EP_3.9x4.9x1.75mm_P1.27mm"
 				(at 35.56 -7.62 0)
 				(effects
 					(font
@@ -2147,7 +2147,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf"
+			(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/20006330A.pdf"
 				(at 35.56 -10.16 0)
 				(effects
 					(font
@@ -2158,7 +2158,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "EEPROM Memory IC 1Kbit I²C 1 MHz 550 ns SOT-23-5"
+			(property "Description" "EEPROM, 1 Kbit, 128 x 8bit, Serial I2C (2-Wire), 1 MHz, SOIC-8"
 				(at 35.56 -22.86 0)
 				(effects
 					(font
@@ -2168,7 +2168,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Atmel"
+			(property "Manufacturer" "Microchip Technology"
 				(at 35.56 -12.7 0)
 				(effects
 					(font
@@ -2179,7 +2179,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "AT24CS01-ST"
+			(property "MPN" "AT24CS01-SSHM-B"
 				(at 35.56 -15.24 0)
 				(effects
 					(font
@@ -2220,10 +2220,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "AT24CS01_SOT23_1_1"
+			(symbol "AT24CS01_SOIC8_1_1"
 				(rectangle
-					(start 2.54 -7.62)
-					(end 17.78 2.54)
+					(start 2.54 2.54)
+					(end 12.7 -13.97)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2232,26 +2232,8 @@
 						(type background)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at 0 0 0)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
 					(length 2.54)
 					(name "SCL"
 						(effects
@@ -2260,7 +2242,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2268,10 +2250,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -5.08 0)
+				(pin bidirectional line
+					(at 0 -2.54 0)
 					(length 2.54)
-					(name "WP"
+					(name "SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2286,8 +2268,62 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 20.32 0 180)
+				(pin input line
+					(at 0 -6.35 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -8.89 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -11.43 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 0 180)
 					(length 2.54)
 					(name "VCC"
 						(effects
@@ -2296,7 +2332,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2304,8 +2340,26 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 20.32 -2.54 180)
+				(pin input line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "WP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -11.43 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2314,7 +2368,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6988,7 +7042,7 @@
 	)
 	(text "I2C addres (7-bit): \n- EEPROM: 0x50\n- UUID: 0x58"
 		(exclude_from_sim no)
-		(at 199.39 158.496 0)
+		(at 198.374 164.084 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7165,6 +7219,12 @@
 		(uuid "6e4b7f19-fff0-42f7-8869-c920d8457304")
 	)
 	(junction
+		(at 218.44 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ee05970-37b6-4419-935e-a74e97642bd3")
+	)
+	(junction
 		(at 86.36 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7217,6 +7277,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9de096ef-e691-4276-b4ac-01b10b98b7c7")
+	)
+	(junction
+		(at 194.31 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e7efd68-55d0-4d00-b15e-2d380912d8c2")
 	)
 	(junction
 		(at 279.4 54.61)
@@ -7279,12 +7345,6 @@
 		(uuid "ce6762b0-ddc9-42f1-a207-254405f778fe")
 	)
 	(junction
-		(at 196.85 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf420e48-ed97-401d-9345-993260ef331e")
-	)
-	(junction
 		(at 210.82 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7295,6 +7355,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfb2412f-b5e5-48ac-8300-da75d1d4bdca")
+	)
+	(junction
+		(at 196.85 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6a3fedc-ea07-4b2c-9d50-2265fa2efb3b")
 	)
 	(junction
 		(at 208.28 250.19)
@@ -7313,6 +7379,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de09362a-7e24-458b-b452-3a72d5d4a93f")
+	)
+	(junction
+		(at 196.85 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e030b01f-7b73-4afe-9477-2fb0d5163d72")
 	)
 	(junction
 		(at 93.98 223.52)
@@ -7596,6 +7668,16 @@
 		)
 		(uuid "00bd7143-bcd0-4fd1-972f-5d0914edc133")
 	)
+	(wire
+		(pts
+			(xy 198.12 148.59) (xy 196.85 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e042d0-ac00-4890-bc89-4b300386effc")
+	)
 	(bus
 		(pts
 			(xy 292.1 77.47) (xy 294.64 77.47)
@@ -7708,7 +7790,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 138.43) (xy 196.85 144.78)
+			(xy 194.31 138.43) (xy 194.31 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7775,6 +7857,16 @@
 			(type default)
 		)
 		(uuid "10316a38-0cf3-4409-984a-40247421f799")
+	)
+	(wire
+		(pts
+			(xy 213.36 147.32) (xy 218.44 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ae1b36-923c-48f8-88ab-851c10bb3e92")
 	)
 	(wire
 		(pts
@@ -7938,7 +8030,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 142.24) (xy 218.44 142.24)
+			(xy 218.44 142.24) (xy 213.36 142.24)
 		)
 		(stroke
 			(width 0)
@@ -7948,7 +8040,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 147.32) (xy 196.85 148.59)
+			(xy 196.85 153.67) (xy 196.85 154.94)
 		)
 		(stroke
 			(width 0)
@@ -8025,6 +8117,16 @@
 			(type default)
 		)
 		(uuid "26305173-c4d4-487f-bc1c-d2e7806cf33b")
+	)
+	(wire
+		(pts
+			(xy 194.31 144.78) (xy 198.12 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26a51ecc-be04-43d5-8262-60d7eb2f03dc")
 	)
 	(wire
 		(pts
@@ -8205,6 +8307,16 @@
 			(type default)
 		)
 		(uuid "34d4b530-51a1-4204-a4ce-3df17dfdbc79")
+	)
+	(wire
+		(pts
+			(xy 196.85 148.59) (xy 196.85 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f9b9a8-d952-4e5b-a889-aa513d1c8f2e")
 	)
 	(wire
 		(pts
@@ -8918,7 +9030,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 137.16) (xy 220.98 142.24)
+			(xy 218.44 137.16) (xy 218.44 142.24)
 		)
 		(stroke
 			(width 0)
@@ -9358,7 +9470,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 144.78) (xy 196.85 144.78)
+			(xy 177.8 144.78) (xy 194.31 144.78)
 		)
 		(stroke
 			(width 0)
@@ -9518,6 +9630,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 151.13) (xy 196.85 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91dfcc90-fc00-456f-b2a4-623a1428aa79")
+	)
+	(wire
+		(pts
 			(xy 232.41 146.05) (xy 232.41 147.32)
 		)
 		(stroke
@@ -9525,6 +9647,16 @@
 			(type default)
 		)
 		(uuid "948d6d2b-e011-4220-a109-7aaebda7805c")
+	)
+	(wire
+		(pts
+			(xy 213.36 153.67) (xy 218.44 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96cca1db-216c-4de9-9316-689704262e01")
 	)
 	(wire
 		(pts
@@ -9548,7 +9680,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 144.78) (xy 220.98 148.59)
+			(xy 218.44 147.32) (xy 218.44 153.67)
 		)
 		(stroke
 			(width 0)
@@ -9778,16 +9910,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 144.78) (xy 198.12 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae6ac17d-9bf0-4f03-bd9b-fc6a96b34352")
-	)
-	(wire
-		(pts
 			(xy 283.21 49.53) (xy 283.21 38.1)
 		)
 		(stroke
@@ -9835,6 +9957,16 @@
 			(type default)
 		)
 		(uuid "b087dbf6-5158-443f-b40b-383fd73cdca9")
+	)
+	(wire
+		(pts
+			(xy 218.44 153.67) (xy 218.44 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ef1dc3-9744-4037-bad4-aa255bec610a")
 	)
 	(wire
 		(pts
@@ -9908,7 +10040,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 147.32) (xy 196.85 147.32)
+			(xy 198.12 153.67) (xy 196.85 153.67)
 		)
 		(stroke
 			(width 0)
@@ -10358,6 +10490,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 151.13) (xy 196.85 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbb49cae-e38c-4631-9699-98223156f0db")
+	)
+	(wire
+		(pts
 			(xy 68.58 151.13) (xy 68.58 147.32)
 		)
 		(stroke
@@ -10465,16 +10607,6 @@
 			(type default)
 		)
 		(uuid "e6236f5d-8759-4c54-bf1b-2c9ae5b0c730")
-	)
-	(wire
-		(pts
-			(xy 218.44 144.78) (xy 220.98 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6a70943-8afc-48f8-9b0b-ebeffc6255c4")
 	)
 	(wire
 		(pts
@@ -14448,7 +14580,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+3V3_AON")
-		(at 220.98 137.16 0)
+		(at 218.44 137.16 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14457,7 +14589,7 @@
 		(dnp no)
 		(uuid "09f2b98e-4310-47c8-a9fc-2ee274f579aa")
 		(property "Reference" "#PWR0406"
-			(at 220.98 140.97 0)
+			(at 218.44 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14466,7 +14598,7 @@
 			)
 		)
 		(property "Value" "+3V3_AON"
-			(at 226.314 132.588 0)
+			(at 223.774 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14475,7 +14607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 137.16 0)
+			(at 218.44 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14484,7 +14616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 137.16 0)
+			(at 218.44 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14493,7 +14625,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 137.16 0)
+			(at 218.44 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17306,17 +17438,16 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroMemory:AT24CS01_SOT23")
+		(lib_id "antmicroMemory:AT24CS01_SOIC8")
 		(at 198.12 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3c655643-0fb8-4f83-8612-2fba1b693170")
 		(property "Reference" "U54"
-			(at 208.28 134.62 0)
+			(at 205.994 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17324,7 +17455,7 @@
 				)
 			)
 		)
-		(property "Value" "AT24CS01_SOT23"
+		(property "Value" "AT24CS01_SOIC8"
 			(at 233.68 147.32 0)
 			(effects
 				(font
@@ -17335,7 +17466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:SOT-23-5"
+		(property "Footprint" "antmicro-footprints:SOIC-8-1EP_3.9x4.9x1.75mm_P1.27mm"
 			(at 233.68 149.86 0)
 			(effects
 				(font
@@ -17346,7 +17477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/20006330A.pdf"
 			(at 233.68 152.4 0)
 			(effects
 				(font
@@ -17357,7 +17488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "EEPROM Memory IC 1Kbit I²C 1 MHz 550 ns SOT-23-5"
+		(property "Description" "EEPROM, 1 Kbit, 128 x 8bit, Serial I2C (2-Wire), 1 MHz, SOIC-8"
 			(at 233.68 165.1 0)
 			(effects
 				(font
@@ -17367,7 +17498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Atmel"
+		(property "Manufacturer" "Microchip Technology"
 			(at 233.68 154.94 0)
 			(effects
 				(font
@@ -17378,8 +17509,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AT24CS01-ST"
-			(at 208.28 137.16 0)
+		(property "MPN" "AT24CS01-SSHM-B"
+			(at 205.994 137.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17423,6 +17554,15 @@
 		)
 		(pin "2"
 			(uuid "83d17e90-cf8a-443f-96e4-4bce2bc52fee")
+		)
+		(pin "7"
+			(uuid "862ddc8b-e023-468e-b17f-88f380def707")
+		)
+		(pin "6"
+			(uuid "1060e3dc-44e5-40c4-9b84-e1845e932e83")
+		)
+		(pin "8"
+			(uuid "bf5f7b8c-d59c-4e82-895e-1c1c0b5d65fe")
 		)
 		(instances
 			(project ""
@@ -21422,7 +21562,7 @@
 	)
 	(symbol
 		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
-		(at 196.85 138.43 90)
+		(at 194.31 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -21430,7 +21570,7 @@
 		(dnp no)
 		(uuid "7dbe9337-ad7f-48ae-9a17-5f654c9016f2")
 		(property "Reference" "TP88"
-			(at 199.39 133.35 90)
+			(at 197.358 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21440,7 +21580,7 @@
 			)
 		)
 		(property "Value" "TP_0.75mm_SMD"
-			(at 200.66 128.27 0)
+			(at 198.12 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21451,7 +21591,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
-			(at 203.2 128.27 0)
+			(at 200.66 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21462,7 +21602,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 120.65 0)
+			(at 207.01 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21473,7 +21613,7 @@
 			)
 		)
 		(property "Description" "SMT test point"
-			(at 196.85 138.43 0)
+			(at 194.31 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21482,7 +21622,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 208.28 127.635 0)
+			(at 205.74 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21493,7 +21633,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 203.2 127.635 0)
+			(at 200.66 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21504,7 +21644,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 205.74 128.27 0)
+			(at 203.2 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21515,7 +21655,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 208.28 128.27 0)
+			(at 205.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23767,17 +23907,16 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 220.98 148.59 0)
+		(at 218.44 154.94 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a99ea283-c9df-4b41-912f-ee22641d7057")
 		(property "Reference" "#PWR0629"
-			(at 212.09 151.13 0)
+			(at 209.55 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23788,7 +23927,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 153.67 0)
+			(at 218.44 159.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23797,7 +23936,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 156.21 0)
+			(at 209.55 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23808,7 +23947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 161.29 0)
+			(at 209.55 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23819,7 +23958,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 163.83 0)
+			(at 209.55 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23829,7 +23968,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 212.09 156.21 0)
+			(at 209.55 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23840,7 +23979,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 212.09 158.75 0)
+			(at 209.55 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26120,7 +26259,7 @@
 		(dnp no)
 		(uuid "d44b19c7-7439-418c-9905-c7c99a81a7d7")
 		(property "Reference" "TP87"
-			(at 194.31 133.35 90)
+			(at 190.754 135.382 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27416,7 +27555,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 196.85 148.59 0)
+		(at 196.85 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27425,7 +27564,7 @@
 		(fields_autoplaced yes)
 		(uuid "f38e3bae-c44f-4de8-8a6b-1f589b583030")
 		(property "Reference" "#PWR0628"
-			(at 205.74 151.13 0)
+			(at 205.74 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27436,7 +27575,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.85 153.67 0)
+			(at 196.85 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27445,7 +27584,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 156.21 0)
+			(at 205.74 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27456,7 +27595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 161.29 0)
+			(at 205.74 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27467,7 +27606,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 163.83 0)
+			(at 205.74 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27477,7 +27616,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 205.74 156.21 0)
+			(at 205.74 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27488,7 +27627,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 205.74 158.75 0)
+			(at 205.74 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
