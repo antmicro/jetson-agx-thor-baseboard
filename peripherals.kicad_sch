@@ -3718,7 +3718,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroTVSDiodes:ESD9X5.0ST5G"
+		(symbol "antmicroTVSDiodes:ESDA25P35-1U1M"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3729,7 +3729,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 21.59 -2.54 0)
+				(at 24.13 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3738,19 +3738,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "ESD9X5.0ST5G"
-				(at 21.59 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:SOD-923"
-				(at 21.59 -7.62 0)
+			(property "Value" "ESDA25P35-1U1M"
+				(at 24.13 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3760,8 +3749,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd9x3.3st5g-d.pdf"
-				(at 21.59 -10.16 0)
+			(property "Footprint" "antmicro-footprints:QFN-2L_1.6x1x0.55mm"
+				(at 24.13 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3771,18 +3760,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unidirectional TVS, 30 kV,  SOD-923, 5 V, 65 pF"
-				(at 21.59 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "ON Semiconductor"
-				(at 21.59 -12.7 0)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/esda25p35-1u1m.pdf"
+				(at 24.13 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3792,18 +3771,39 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "ESD9X5.0ST5G"
-				(at 21.59 -5.08 0)
+			(property "Description" "Unidirectional TVS, 30 kV, QFN-2L, 22 V, 195 pF"
+				(at 24.13 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "ESDA25P35-1U1M"
+				(at 24.13 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(thickness 0.15)
 					)
 					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "STMicroelectronics"
+				(at 24.13 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 21.59 -17.78 0)
+				(at 24.13 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3814,7 +3814,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 21.59 -20.32 0)
+				(at 24.13 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3833,7 +3833,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ESD9X5.0ST5G_0_1"
+			(symbol "ESDA25P35-1U1M_0_1"
 				(polyline
 					(pts
 						(xy 1.905 0) (xy 0.635 0)
@@ -3859,7 +3859,236 @@
 					)
 				)
 			)
-			(symbol "ESD9X5.0ST5G_1_1"
+			(symbol "ESDA25P35-1U1M_1_1"
+				(polyline
+					(pts
+						(xy 1.778 1.016) (xy 1.397 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.016) (xy 1.778 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.159 -1.016) (xy 1.778 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 1.016) (xy 3.302 -1.016) (xy 1.778 0) (xy 3.302 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 0.635)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.635)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "antmicroTVSDiodes:PESD5Z5_0F"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 15.24 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "PESD5Z5_0F"
+				(at 15.24 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:SOD-523"
+				(at 15.24 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5Z5_0.pdf"
+				(at 15.24 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unidirectional TVS, 30 kV,  SOD-523, 5 V, 89 pF"
+				(at 15.24 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Nexperia"
+				(at 15.24 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "PESD5Z5.0F"
+				(at 15.24 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 15.24 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 15.24 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DIODE, SEMICONDUCTOR, TVS, ESD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PESD5Z5_0F_0_1"
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 0) (xy 3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PESD5Z5_0F_1_1"
 				(polyline
 					(pts
 						(xy 1.778 1.016) (xy 1.397 1.016)
@@ -6669,6 +6898,12 @@
 		(uuid "10dc2793-8d9d-459b-883c-e13f89107a8e")
 	)
 	(junction
+		(at 88.9 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "153aa757-2574-4625-958e-11f0a5f20ec7")
+	)
+	(junction
 		(at 219.71 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6897,12 +7132,6 @@
 		(uuid "bddd8316-53df-4757-94e0-23b0d6e0b97d")
 	)
 	(junction
-		(at 107.95 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2251c12-f35a-4aad-b0c8-7f922c1b1f6e")
-	)
-	(junction
 		(at 73.66 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6973,6 +7202,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e192da32-ce3d-4825-99a2-c5f908d6c1e3")
+	)
+	(junction
+		(at 95.25 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e54988ed-bbed-43f0-87c0-014f0b477c0f")
 	)
 	(junction
 		(at 316.23 80.01)
@@ -7596,16 +7831,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 127) (xy 107.95 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ebb85ca-34e3-4785-938d-0f37dba147d8")
-	)
-	(wire
-		(pts
 			(xy 218.44 142.24) (xy 213.36 142.24)
 		)
 		(stroke
@@ -7633,6 +7858,16 @@
 			(type default)
 		)
 		(uuid "2158594a-160f-4957-8746-18e412962345")
+	)
+	(wire
+		(pts
+			(xy 88.9 127) (xy 88.9 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21abdb6f-4468-495e-a9c0-52ab76ca6169")
 	)
 	(wire
 		(pts
@@ -7813,6 +8048,16 @@
 			(type default)
 		)
 		(uuid "2c6f58f5-138a-4857-bb91-5a3087cadb43")
+	)
+	(wire
+		(pts
+			(xy 95.25 134.62) (xy 95.25 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb9648a-8dfa-4a38-b8bb-ccef4b3213dc")
 	)
 	(bus
 		(pts
@@ -8356,6 +8601,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 124.46) (xy 96.52 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575fe371-4da6-448e-a83b-9d60f6cfa105")
+	)
+	(wire
+		(pts
 			(xy 322.58 129.54) (xy 342.9 129.54)
 		)
 		(stroke
@@ -8406,7 +8661,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 127) (xy 107.95 127)
+			(xy 101.6 127) (xy 114.3 127)
 		)
 		(stroke
 			(width 0)
@@ -8474,16 +8729,6 @@
 		)
 		(uuid "5fab24fe-40ed-45a2-b167-2dc47f998a67")
 	)
-	(wire
-		(pts
-			(xy 96.52 127) (xy 86.36 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "602f0d22-e605-4e3d-852d-9d72354200ad")
-	)
 	(bus
 		(pts
 			(xy 196.85 77.47) (xy 199.39 77.47)
@@ -8543,6 +8788,16 @@
 			(type default)
 		)
 		(uuid "65e60fba-58f1-4ac9-b3e7-6a62dd1559d4")
+	)
+	(wire
+		(pts
+			(xy 88.9 127) (xy 96.52 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67e8fd86-28a6-47c6-ab96-41ced405d037")
 	)
 	(polyline
 		(pts
@@ -8696,16 +8951,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 134.62) (xy 107.95 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ed3f678-9b88-4c01-ab98-b954b8fd0661")
-	)
-	(wire
-		(pts
 			(xy 274.32 44.45) (xy 274.32 54.61)
 		)
 		(stroke
@@ -8796,13 +9041,23 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 124.46) (xy 96.52 124.46)
+			(xy 91.44 124.46) (xy 95.25 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "740cb6bf-5174-499b-916a-94e2c5526bc5")
+	)
+	(wire
+		(pts
+			(xy 88.9 134.62) (xy 88.9 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7443c8ac-8d71-44f1-8a87-43bc18cd33e0")
 	)
 	(wire
 		(pts
@@ -9396,16 +9651,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 127) (xy 114.3 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab49a3a6-59e5-4712-85f3-dc8dbade7bff")
-	)
-	(wire
-		(pts
 			(xy 114.3 147.32) (xy 118.11 147.32)
 		)
 		(stroke
@@ -9713,6 +9958,16 @@
 			(type default)
 		)
 		(uuid "bd60e4eb-a22a-4d96-b3a1-5c6bfa881382")
+	)
+	(wire
+		(pts
+			(xy 86.36 127) (xy 88.9 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde249cf-d166-42be-bee0-83723624d008")
 	)
 	(bus
 		(pts
@@ -10413,6 +10668,16 @@
 			(type default)
 		)
 		(uuid "f42caa8b-a828-4c5c-a192-f42da79a6018")
+	)
+	(wire
+		(pts
+			(xy 95.25 124.46) (xy 95.25 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f443e60a-266f-448c-959a-b16e2e50928f")
 	)
 	(wire
 		(pts
@@ -14600,6 +14865,126 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroTVSDiodes:ESDA25P35-1U1M")
+		(at 95.25 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "114dcbe4-01f8-4319-9cd3-0c0d053fb69c")
+		(property "Reference" "D64"
+			(at 95.25 129.794 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESDA25P35-1U1M"
+			(at 80.01 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:QFN-2L_1.6x1x0.55mm"
+			(at 85.09 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/esda25p35-1u1m.pdf"
+			(at 82.55 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unidirectional TVS, 30 kV, QFN-2L, 22 V, 195 pF"
+			(at 69.85 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESDA25P35-1U1M"
+			(at 95.504 134.112 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 77.47 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 74.93 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 72.39 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f518d27-7a72-4933-b8e8-18afe5f0dcee")
+		)
+		(pin "1"
+			(uuid "9ddbecc0-92d7-4cfc-bfeb-41ca286fa3a5")
+		)
+		(instances
+			(project ""
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/f57c04fe-502b-4d07-880b-2cf807d3e5a1"
+					(reference "D64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:+3V3")
 		(at 57.15 58.42 0)
 		(unit 1)
@@ -17432,7 +17817,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 107.95 135.89 0)
+		(at 88.9 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17441,7 +17826,7 @@
 		(fields_autoplaced yes)
 		(uuid "42d4a156-384b-4753-9bb9-77118699616d")
 		(property "Reference" "#PWR0572"
-			(at 107.95 142.24 0)
+			(at 88.9 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17451,7 +17836,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 139.7 0)
+			(at 88.9 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17460,7 +17845,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 143.51 0)
+			(at 97.79 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17471,7 +17856,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 148.59 0)
+			(at 97.79 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17482,7 +17867,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 135.89 0)
+			(at 88.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17491,7 +17876,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 116.84 143.51 0)
+			(at 97.79 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17502,7 +17887,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 116.84 146.05 0)
+			(at 97.79 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25247,6 +25632,100 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
+		(at 95.25 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9201885-0454-45c1-86c6-de7da8305cfd")
+		(property "Reference" "#PWR0131"
+			(at 95.25 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 104.14 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 104.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c934195b-c52f-4aa8-89d1-6890b08b08fb")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/f57c04fe-502b-4d07-880b-2cf807d3e5a1"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
 		(at 57.15 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25794,8 +26273,8 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTVSDiodes:ESD9X5.0ST5G")
-		(at 107.95 129.54 90)
+		(lib_id "antmicroTVSDiodes:PESD5Z5_0F")
+		(at 88.9 129.54 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25804,16 +26283,16 @@
 		(dnp no)
 		(uuid "c4756a47-83d3-4864-bc53-2be063401f52")
 		(property "Reference" "D39"
-			(at 102.108 131.064 90)
+			(at 92.964 130.302 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "ESD9X5.0ST5G"
-			(at 123.19 151.13 0)
+		(property "Value" "PESD5Z5.0F"
+			(at 104.14 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25823,8 +26302,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:SOD-923"
-			(at 115.57 151.13 0)
+		(property "Footprint" "antmicro-footprints:SOD-523"
+			(at 93.98 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25834,8 +26313,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd9x3.3st5g-d.pdf"
-			(at 118.11 151.13 0)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5Z5_0.pdf"
+			(at 96.52 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25845,17 +26324,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unidirectional TVS, 30 kV,  SOD-923, 5 V, 65 pF"
-			(at 107.95 129.54 0)
+		(property "Description" "Unidirectional TVS, 30 kV,  SOD-523, 5 V, 89 pF"
+			(at 109.22 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "ON Semiconductor"
-			(at 120.65 151.13 0)
+		(property "Manufacturer" "Nexperia"
+			(at 99.06 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25865,18 +26345,18 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ESD9X5.0ST5G"
-			(at 91.948 132.842 90)
+		(property "MPN" "PESD5Z5.0F"
+			(at 87.122 127.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
+				(justify left bottom)
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 125.73 151.13 0)
+			(at 104.14 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25887,7 +26367,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 128.27 151.13 0)
+			(at 106.68 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)

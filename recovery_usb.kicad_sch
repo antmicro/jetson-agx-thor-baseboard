@@ -3146,7 +3146,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroTVSDiodes:ESD9X5.0ST5G"
+		(symbol "antmicroTVSDiodes:PESD5Z5_0F"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3157,7 +3157,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 21.59 -2.54 0)
+				(at 15.24 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3166,19 +3166,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "ESD9X5.0ST5G"
-				(at 21.59 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:SOD-923"
-				(at 21.59 -7.62 0)
+			(property "Value" "PESD5Z5_0F"
+				(at 15.24 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3188,8 +3177,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd9x3.3st5g-d.pdf"
-				(at 21.59 -10.16 0)
+			(property "Footprint" "antmicro-footprints:SOD-523"
+				(at 15.24 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3199,18 +3188,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unidirectional TVS, 30 kV,  SOD-923, 5 V, 65 pF"
-				(at 21.59 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "ON Semiconductor"
-				(at 21.59 -12.7 0)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5Z5_0.pdf"
+				(at 15.24 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3220,8 +3199,29 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "ESD9X5.0ST5G"
-				(at 21.59 -5.08 0)
+			(property "Description" "Unidirectional TVS, 30 kV,  SOD-523, 5 V, 89 pF"
+				(at 15.24 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Nexperia"
+				(at 15.24 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "PESD5Z5.0F"
+				(at 15.24 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3231,7 +3231,7 @@
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 21.59 -17.78 0)
+				(at 15.24 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3242,7 +3242,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 21.59 -20.32 0)
+				(at 15.24 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3261,7 +3261,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ESD9X5.0ST5G_0_1"
+			(symbol "PESD5Z5_0F_0_1"
 				(polyline
 					(pts
 						(xy 1.905 0) (xy 0.635 0)
@@ -3287,7 +3287,7 @@
 					)
 				)
 			)
-			(symbol "ESD9X5.0ST5G_1_1"
+			(symbol "PESD5Z5_0F_1_1"
 				(polyline
 					(pts
 						(xy 1.778 1.016) (xy 1.397 1.016)
@@ -19659,7 +19659,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTVSDiodes:ESD9X5.0ST5G")
+		(lib_id "antmicroTVSDiodes:PESD5Z5_0F")
 		(at 302.26 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19676,7 +19676,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESD9X5.0ST5G"
+		(property "Value" "PESD5Z5.0F"
 			(at 287.02 107.95 0)
 			(effects
 				(font
@@ -19687,8 +19687,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:SOD-923"
-			(at 294.64 107.95 0)
+		(property "Footprint" "antmicro-footprints:SOD-523"
+			(at 297.18 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19698,8 +19698,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd9x3.3st5g-d.pdf"
-			(at 292.1 107.95 0)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5Z5_0.pdf"
+			(at 294.64 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19709,17 +19709,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unidirectional TVS, 30 kV,  SOD-923, 5 V, 65 pF"
-			(at 302.26 86.36 0)
+		(property "Description" "Unidirectional TVS, 30 kV,  SOD-523, 5 V, 89 pF"
+			(at 281.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "ON Semiconductor"
-			(at 289.56 107.95 0)
+		(property "Manufacturer" "Nexperia"
+			(at 292.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19729,18 +19730,18 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ESD9X5.0ST5G"
-			(at 303.53 90.17 90)
+		(property "MPN" "PESD5Z5.0F"
+			(at 303.784 90.424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 284.48 107.95 0)
+			(at 287.02 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19751,7 +19752,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 281.94 107.95 0)
+			(at 284.48 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
