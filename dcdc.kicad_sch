@@ -10084,12 +10084,6 @@
 		(uuid "9542b2e6-1aea-4b13-ae58-d1317964e641")
 	)
 	(junction
-		(at 88.9 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "954758cf-7dc4-454d-803e-e8327a55470a")
-	)
-	(junction
 		(at 34.29 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10310,12 +10304,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9660fa8-e2b9-4f9c-b183-d69ee06b383e")
-	)
-	(junction
-		(at 88.9 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9b02a65-7894-4f09-82d7-f85e5ff7c784")
 	)
 	(junction
 		(at 34.29 207.01)
@@ -12664,16 +12652,6 @@
 			(type default)
 		)
 		(uuid "4384f977-309f-4cba-8e31-1a5b0535dca6")
-	)
-	(wire
-		(pts
-			(xy 88.9 30.48) (xy 88.9 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44279dc9-9fc9-44bd-9507-b6c9d09dd9e6")
 	)
 	(wire
 		(pts
@@ -16017,16 +15995,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 38.1) (xy 88.9 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af43ef74-f723-4121-9205-e3fa481a2f0d")
-	)
-	(wire
-		(pts
 			(xy 162.56 66.04) (xy 170.18 66.04)
 		)
 		(stroke
@@ -16057,7 +16025,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 30.48) (xy 92.71 30.48)
+			(xy 48.26 30.48) (xy 92.71 30.48)
 		)
 		(stroke
 			(width 0)
@@ -16257,16 +16225,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 38.1) (xy 88.9 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b87e2d25-c45d-4676-8459-a03191fa870a")
-	)
-	(wire
-		(pts
 			(xy 55.88 99.06) (xy 55.88 100.33)
 		)
 		(stroke
@@ -16417,7 +16375,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 38.1) (xy 92.71 38.1)
+			(xy 87.63 38.1) (xy 92.71 38.1)
 		)
 		(stroke
 			(width 0)
@@ -17284,16 +17242,6 @@
 			(type default)
 		)
 		(uuid "e0b11bc0-d1ed-48a5-94c0-e92e05ae92df")
-	)
-	(wire
-		(pts
-			(xy 48.26 30.48) (xy 88.9 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0edfa19-75c1-45eb-88ac-4bc8a0f69218")
 	)
 	(wire
 		(pts
@@ -30701,73 +30649,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:VCC")
-		(at 48.26 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "31f81b26-1e35-42ed-9f37-b124c1cc51c8")
-		(property "Reference" "#PWR0661"
-			(at 48.26 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC_IN"
-			(at 46.355 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ccf2914-3ffe-43b7-a1c1-ac00af3ee45d")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
-					(reference "#PWR0661")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
 		(at 161.29 176.53 0)
 		(unit 1)
@@ -41145,146 +41026,6 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_10k_0402")
-		(at 88.9 36.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "696f38f9-4c0a-4e4e-a9ab-1160d546ee31")
-		(property "Reference" "R44"
-			(at 90.17 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_10k_0402"
-			(at 101.6 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 104.14 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 106.68 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 88.9 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-1002GLF"
-			(at 109.22 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 111.76 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 114.3 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 116.84 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "10k"
-			(at 90.17 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 99.06 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6afd4031-6772-48c3-bf35-38637820e715")
-		)
-		(pin "1"
-			(uuid "3124a258-1880-4a6e-afeb-99689369ef83")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
-					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -57086,147 +56827,6 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR094")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_499k_0402")
-		(at 48.26 140.97 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "ca646c2a-24f7-4109-ba5a-c858b24934a4")
-		(property "Reference" "R305"
-			(at 46.99 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_499k_0402"
-			(at 35.56 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 33.02 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/cr-1858361.pdf"
-			(at 30.48 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 499 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 48.26 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-4993GLF"
-			(at 27.94 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 25.4 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 22.86 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 20.32 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "499k"
-			(at 46.99 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 38.1 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "59e6bf64-debf-454d-9212-a25477337f05")
-		)
-		(pin "1"
-			(uuid "041c1ede-0ce7-43ba-8dea-9b6e5f1c6098")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
-					(reference "R305")
 					(unit 1)
 				)
 			)
