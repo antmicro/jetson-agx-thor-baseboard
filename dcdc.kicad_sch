@@ -39538,7 +39538,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:VCC")
-		(at 16.51 157.48 0)
+		(at 21.59 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39546,7 +39546,7 @@
 		(dnp no)
 		(uuid "62aed23a-4e4d-4251-8a69-b57ead595c17")
 		(property "Reference" "#PWR0663"
-			(at 16.51 161.29 0)
+			(at 21.59 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39556,7 +39556,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 16.51 153.67 0)
+			(at 21.59 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39564,7 +39564,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 16.51 157.48 0)
+			(at 21.59 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39573,7 +39573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 16.51 157.48 0)
+			(at 21.59 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39582,7 +39582,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 16.51 157.48 0)
+			(at 21.59 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41135,73 +41135,6 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C380")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:VCC")
-		(at 21.59 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6cec7999-3b7a-43ef-8339-0b1a4c815e10")
-		(property "Reference" "#PWR0573"
-			(at 21.59 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC_IN"
-			(at 19.685 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 21.59 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 21.59 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "338c5f4d-1d46-4c80-bad8-7b447e141a2b")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
-					(reference "#PWR0573")
 					(unit 1)
 				)
 			)
@@ -55533,6 +55466,72 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "U69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:VCC")
+		(at 16.51 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3f20576-e815-4813-a510-a0e1f4844b10")
+		(property "Reference" "#PWR0491"
+			(at 16.51 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 16.51 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 16.51 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 16.51 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 16.51 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bb9dfee-542f-4ca1-9ce6-a596c87f7bc9")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
+					(reference "#PWR0491")
 					(unit 1)
 				)
 			)
