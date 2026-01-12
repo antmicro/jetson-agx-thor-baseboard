@@ -12,7 +12,7 @@
 		(comment 1 "www.antmicro.com")
 	)
 	(lib_symbols
-		(symbol "antmicroMechanicalParts:Spacer_Drill3.7mm_H6.5mm_9774065151R"
+		(symbol "antmicroMechanicalParts:Spacer_Drill3.7mm_H10mm_9774100151R"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -26,18 +26,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "Spacer_Drill3.7mm_H6.5mm_9774065151R"
-				(at 15.24 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6.5mm_9774065151R"
+			(property "Value" "Spacer_Drill3.7mm_H10mm_9774100151R"
 				(at 15.24 -12.7 0)
 				(effects
 					(font
@@ -48,7 +37,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774065151R.pdf"
+			(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H10mm_9774100151R"
 				(at 15.24 -15.24 0)
 				(effects
 					(font
@@ -59,17 +48,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Standoff, Steel, M2.5, Hex Female-Female, 6.5 mm, 7.9 mm, WA-SMSI Series"
-				(at 15.24 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Würth Elektronik"
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774100151R.pdf"
 				(at 15.24 -17.78 0)
 				(effects
 					(font
@@ -80,8 +59,28 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "9774065151R"
+			(property "Description" "Spacer, SMT, Steel, Threaded, Swage Round, Tin plated, M2.5, WA-SMSI Series"
+				(at 15.24 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Würth Elektronik"
 				(at 15.24 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "MPN" "9774100151R"
+				(at 15.24 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -112,7 +111,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SPACER"
+			(property "ki_keywords" "MECHANICAL, SPACER"
 				(at 0 0 0)
 				(effects
 					(font
@@ -121,7 +120,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Spacer_Drill3.7mm_H6.5mm_9774065151R_1_1"
+			(symbol "Spacer_Drill3.7mm_H10mm_9774100151R_1_1"
 				(rectangle
 					(start 2.54 -2.54)
 					(end 7.62 2.54)
@@ -4402,17 +4401,17 @@
 		(uuid "a69ddd27-7a85-477c-883e-c2dd3eedb7fe")
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6.5mm_9774065151R")
-		(at 382.27 238.76 0)
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H10mm_9774100151R")
+		(at 382.27 207.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "273d026f-8c05-44ae-a654-0aea0bea3471")
-		(property "Reference" "H12"
-			(at 391.16 237.49 0)
+		(uuid "022fd802-5516-4bee-b8f3-05669a942af7")
+		(property "Reference" "H1"
+			(at 391.16 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,8 +4420,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Spacer_Drill3.7mm_H6.5mm_9774065151R"
-			(at 397.51 248.92 0)
+		(property "Value" "Spacer_Drill3.7mm_H10mm_9774100151R"
+			(at 397.51 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,8 +4431,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6.5mm_9774065151R"
-			(at 397.51 251.46 0)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H10mm_9774100151R"
+			(at 397.51 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,8 +4442,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774065151R.pdf"
-			(at 397.51 254 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774100151R.pdf"
+			(at 397.51 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,28 +4453,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Standoff, Steel, M2.5, Hex Female-Female, 6.5 mm, 7.9 mm, WA-SMSI Series"
-			(at 382.27 238.76 0)
+		(property "Description" "Spacer, SMT, Steel, Threaded, Swage Round, Tin plated, M2.5, WA-SMSI Series"
+			(at 397.51 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 397.51 256.54 0)
+			(at 391.16 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "MPN" "9774065151R"
-			(at 391.16 240.03 0)
+		(property "MPN" "9774100151R"
+			(at 391.16 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4485,7 +4485,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 397.51 259.08 0)
+			(at 397.51 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4496,166 +4496,6 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 397.51 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52bf8e7b-7083-4f62-a178-00ea92bd08a0")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
-					(reference "H12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6.5mm_9774065151R")
-		(at 382.27 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3aecbe15-2711-4571-b8d6-68a37e0c3603")
-		(property "Reference" "H2"
-			(at 391.16 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Spacer_Drill3.7mm_H6.5mm_9774065151R"
-			(at 397.51 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6.5mm_9774065151R"
-			(at 397.51 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774065151R.pdf"
-			(at 397.51 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Standoff, Steel, M2.5, Hex Female-Female, 6.5 mm, 7.9 mm, WA-SMSI Series"
-			(at 382.27 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 397.51 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "9774065151R"
-			(at 391.16 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 397.51 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 397.51 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a7331a3-445a-4243-b5cc-f98a349dfe9b")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6.5mm_9774065151R")
-		(at 382.27 219.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49a20d6f-7fe0-4c9f-8090-3f8d61a2d981")
-		(property "Reference" "H3"
-			(at 391.16 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Spacer_Drill3.7mm_H6.5mm_9774065151R"
 			(at 397.51 229.87 0)
 			(effects
 				(font
@@ -4666,8 +4506,40 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6.5mm_9774065151R"
-			(at 397.51 232.41 0)
+		(pin "1"
+			(uuid "508db4bb-891f-4047-a73e-69e6c54c6682")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H10mm_9774100151R")
+		(at 382.27 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c42a735-35fa-4e3d-8032-12c63bda7530")
+		(property "Reference" "H13"
+			(at 391.16 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H10mm_9774100151R"
+			(at 397.51 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4677,8 +4549,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774065151R.pdf"
-			(at 397.51 234.95 0)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H10mm_9774100151R"
+			(at 397.51 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4688,28 +4560,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Standoff, Steel, M2.5, Hex Female-Female, 6.5 mm, 7.9 mm, WA-SMSI Series"
-			(at 382.27 219.71 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774100151R.pdf"
+			(at 397.51 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spacer, SMT, Steel, Threaded, Swage Round, Tin plated, M2.5, WA-SMSI Series"
+			(at 397.51 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 397.51 237.49 0)
+			(at 391.16 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "MPN" "9774065151R"
-			(at 391.16 220.98 0)
+		(property "MPN" "9774100151R"
+			(at 391.16 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4719,7 +4603,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 397.51 240.03 0)
+			(at 397.51 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4730,7 +4614,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 397.51 242.57 0)
+			(at 397.51 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4741,12 +4625,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7b9118c5-64e7-4e1d-96c8-33a953c9aeaa")
+			(uuid "4e93bcce-f70c-4111-abcc-e702c248d9b1")
 		)
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
-					(reference "H3")
+					(reference "H13")
 					(unit 1)
 				)
 			)
@@ -4846,17 +4730,17 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6.5mm_9774065151R")
-		(at 382.27 245.11 0)
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H10mm_9774100151R")
+		(at 382.27 219.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "74f6dcd5-5497-4843-af83-8db4072868cb")
-		(property "Reference" "H13"
-			(at 391.16 243.84 0)
+		(uuid "5fe1a307-be65-4eb6-b630-66a8ab83060f")
+		(property "Reference" "H3"
+			(at 391.16 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4865,8 +4749,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Spacer_Drill3.7mm_H6.5mm_9774065151R"
-			(at 397.51 255.27 0)
+		(property "Value" "Spacer_Drill3.7mm_H10mm_9774100151R"
+			(at 397.51 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4876,8 +4760,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6.5mm_9774065151R"
-			(at 397.51 257.81 0)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H10mm_9774100151R"
+			(at 397.51 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4887,8 +4771,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774065151R.pdf"
-			(at 397.51 260.35 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774100151R.pdf"
+			(at 397.51 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4898,28 +4782,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Standoff, Steel, M2.5, Hex Female-Female, 6.5 mm, 7.9 mm, WA-SMSI Series"
-			(at 382.27 245.11 0)
+		(property "Description" "Spacer, SMT, Steel, Threaded, Swage Round, Tin plated, M2.5, WA-SMSI Series"
+			(at 397.51 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 397.51 262.89 0)
+			(at 391.16 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "MPN" "9774065151R"
-			(at 391.16 246.38 0)
+		(property "MPN" "9774100151R"
+			(at 391.16 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4929,7 +4814,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 397.51 265.43 0)
+			(at 397.51 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4940,49 +4825,6 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 397.51 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1f46175-2062-4ee1-a06f-7a9c73765ff6")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
-					(reference "H13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6.5mm_9774065151R")
-		(at 382.27 232.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ba13dd1-ab50-4e29-bbfd-bb587a17f545")
-		(property "Reference" "H11"
-			(at 391.16 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Spacer_Drill3.7mm_H6.5mm_9774065151R"
 			(at 397.51 242.57 0)
 			(effects
 				(font
@@ -4993,7 +4835,39 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6.5mm_9774065151R"
+		(pin "1"
+			(uuid "4bea0ce7-18a1-4c42-851e-8a7969ee1c9e")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H10mm_9774100151R")
+		(at 382.27 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86b36932-b495-4983-a2e1-66c61bd65137")
+		(property "Reference" "H11"
+			(at 391.16 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H10mm_9774100151R"
 			(at 397.51 245.11 0)
 			(effects
 				(font
@@ -5004,7 +4878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774065151R.pdf"
+		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H10mm_9774100151R"
 			(at 397.51 247.65 0)
 			(effects
 				(font
@@ -5015,16 +4889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Standoff, Steel, M2.5, Hex Female-Female, 6.5 mm, 7.9 mm, WA-SMSI Series"
-			(at 382.27 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774100151R.pdf"
 			(at 397.51 250.19 0)
 			(effects
 				(font
@@ -5035,7 +4900,28 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "9774065151R"
+		(property "Description" "Spacer, SMT, Steel, Threaded, Swage Round, Tin plated, M2.5, WA-SMSI Series"
+			(at 397.51 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 391.16 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774100151R"
 			(at 391.16 233.68 0)
 			(effects
 				(font
@@ -5068,7 +4954,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "11783b80-b894-46dd-abc1-0df046524a17")
+			(uuid "0997814d-7277-4d1b-a86a-0c1f58d26b1b")
 		)
 		(instances
 			(project "jetson-agx-thor-baseboard"
@@ -5080,17 +4966,17 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6.5mm_9774065151R")
-		(at 382.27 226.06 0)
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H10mm_9774100151R")
+		(at 382.27 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "99014001-8d03-4441-ae92-a45d08e91a0e")
-		(property "Reference" "H4"
-			(at 391.16 224.79 0)
+		(uuid "dcfb991c-be96-4db2-8272-2330d724a270")
+		(property "Reference" "H12"
+			(at 391.16 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5099,7 +4985,200 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Spacer_Drill3.7mm_H6.5mm_9774065151R"
+		(property "Value" "Spacer_Drill3.7mm_H10mm_9774100151R"
+			(at 397.51 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H10mm_9774100151R"
+			(at 397.51 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774100151R.pdf"
+			(at 397.51 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spacer, SMT, Steel, Threaded, Swage Round, Tin plated, M2.5, WA-SMSI Series"
+			(at 397.51 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 391.16 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774100151R"
+			(at 391.16 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 397.51 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 397.51 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8c8bb54-0aff-4fea-ac0d-52fc489ca906")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
+					(reference "H12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H10mm_9774100151R")
+		(at 382.27 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ede650f4-77c6-41dd-83af-83735acc1749")
+		(property "Reference" "H2"
+			(at 391.16 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H10mm_9774100151R"
+			(at 397.51 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H10mm_9774100151R"
+			(at 397.51 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774100151R.pdf"
+			(at 397.51 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spacer, SMT, Steel, Threaded, Swage Round, Tin plated, M2.5, WA-SMSI Series"
+			(at 397.51 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 391.16 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774100151R"
+			(at 391.16 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 397.51 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
 			(at 397.51 236.22 0)
 			(effects
 				(font
@@ -5110,7 +5189,39 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6.5mm_9774065151R"
+		(pin "1"
+			(uuid "ab09d73d-1471-4095-ae18-f81e5eb972b2")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H10mm_9774100151R")
+		(at 382.27 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fee8b366-8eac-404d-b4b3-f075d769d35d")
+		(property "Reference" "H4"
+			(at 391.16 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Spacer_Drill3.7mm_H10mm_9774100151R"
 			(at 397.51 238.76 0)
 			(effects
 				(font
@@ -5121,7 +5232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774065151R.pdf"
+		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H10mm_9774100151R"
 			(at 397.51 241.3 0)
 			(effects
 				(font
@@ -5132,16 +5243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Standoff, Steel, M2.5, Hex Female-Female, 6.5 mm, 7.9 mm, WA-SMSI Series"
-			(at 382.27 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774100151R.pdf"
 			(at 397.51 243.84 0)
 			(effects
 				(font
@@ -5152,7 +5254,28 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "9774065151R"
+		(property "Description" "Spacer, SMT, Steel, Threaded, Swage Round, Tin plated, M2.5, WA-SMSI Series"
+			(at 397.51 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 391.16 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "9774100151R"
 			(at 391.16 227.33 0)
 			(effects
 				(font
@@ -5185,129 +5308,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "556c9f12-7700-4826-8f4d-649c3d867fac")
+			(uuid "2996ef69-5bca-4183-bea9-1008dc74ee7d")
 		)
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6.5mm_9774065151R")
-		(at 382.27 207.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b68efe2f-61de-4ff2-9a42-5e202a437e91")
-		(property "Reference" "H1"
-			(at 391.16 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Spacer_Drill3.7mm_H6.5mm_9774065151R"
-			(at 397.51 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6.5mm_9774065151R"
-			(at 397.51 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774065151R.pdf"
-			(at 397.51 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Standoff, Steel, M2.5, Hex Female-Female, 6.5 mm, 7.9 mm, WA-SMSI Series"
-			(at 382.27 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 397.51 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "9774065151R"
-			(at 391.16 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 397.51 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 397.51 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21c36d4d-33d7-408a-9402-9d52ea5d3680")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
-					(reference "H1")
 					(unit 1)
 				)
 			)
