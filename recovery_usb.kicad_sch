@@ -1580,7 +1580,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroMechanicalParts:Lightpipe_Bivar_SLP3-150-300-F"
+		(symbol "antmicroMechanicalParts:Lightpipe_Mentor_1271.1001"
 			(pin_names
 				(hide yes)
 			)
@@ -1588,7 +1588,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 11.76 -2.235 0)
+				(at 20.32 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1597,19 +1597,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "Lightpipe_Bivar_SLP3-150-300-F"
-				(at 11.76 -7.315 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:Mech_Lightpipe_Bivar_SLP3-150-300-F"
-				(at 11.76 -9.855 0)
+			(property "Value" "Lightpipe_Mentor_1271.1001"
+				(at 20.32 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1619,8 +1608,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://eu.mouser.com/datasheet/2/50/Bivar_SLP3_150_XXX_X_N-3318840.pdf"
-				(at 11.76 -12.395 0)
+			(property "Footprint" "antmicro-footprints:Mech_Lightpipe_Mentor_1271.1001"
+				(at 20.32 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1630,18 +1619,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LED Light Pipe, Rigid Board, Horizontal"
-				(at 11.76 -22.555 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "BIVAR"
-				(at 11.76 -14.935 0)
+			(property "Datasheet" "https://www.mentor.de.com/productpdfs/ll/ll14-20.pdf"
+				(at 20.32 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1651,18 +1630,39 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "SLP3-150-300-F"
-				(at 11.76 -4.775 0)
+			(property "Description" "Light Pipe, 14.45 mm, 1 Pipe, Circular, PC Board, Transparent"
+				(at 20.32 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "1271.1001"
+				(at 20.32 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(thickness 0.15)
 					)
 					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Mentor Worldwide"
+				(at 20.32 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 11.76 -17.475 0)
+				(at 20.32 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1673,7 +1673,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 11.76 -20.015 0)
+				(at 20.32 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1692,10 +1692,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Lightpipe_Bivar_SLP3-150-300-F_1_1"
+			(symbol "Lightpipe_Mentor_1271.1001_1_1"
 				(rectangle
-					(start 5.08 -2.794)
-					(end -5.08 3.556)
+					(start 5.08 -2.54)
+					(end -5.08 3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1705,7 +1705,7 @@
 					)
 				)
 				(text "Horizontal"
-					(at -5.08 1.27 0)
+					(at -5.08 1.524 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1715,7 +1715,7 @@
 					)
 				)
 				(text "lightguide"
-					(at -4.826 -0.762 0)
+					(at -4.826 -0.508 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1725,7 +1725,7 @@
 					)
 				)
 				(text "1x1"
-					(at -1.905 -2.794 0)
+					(at -1.905 -2.54 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19935,7 +19935,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:Lightpipe_Bivar_SLP3-150-300-F")
+		(lib_id "antmicroMechanicalParts:Lightpipe_Mentor_1271.1001")
 		(at 332.74 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19945,7 +19945,7 @@
 		(fields_autoplaced yes)
 		(uuid "c91bfe81-8a00-4e9f-ba5f-7f9a4365d6f6")
 		(property "Reference" "H16"
-			(at 339.09 191.4717 0)
+			(at 339.09 191.2177 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19954,8 +19954,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Lightpipe_Bivar_SLP3-150-300-F"
-			(at 344.5 200.355 0)
+		(property "Value" "Lightpipe_Mentor_1271.1001"
+			(at 353.06 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19965,8 +19965,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:Mech_Lightpipe_Bivar_SLP3-150-300-F"
-			(at 344.5 202.895 0)
+		(property "Footprint" "antmicro-footprints:Mech_Lightpipe_Mentor_1271.1001"
+			(at 353.06 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19976,8 +19976,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/50/Bivar_SLP3_150_XXX_X_N-3318840.pdf"
-			(at 344.5 205.435 0)
+		(property "Datasheet" "https://www.mentor.de.com/productpdfs/ll/ll14-20.pdf"
+			(at 353.06 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19987,8 +19987,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED Light Pipe, Rigid Board, Horizontal"
-			(at 344.5 215.595 0)
+		(property "Description" "Light Pipe, 14.45 mm, 1 Pipe, Circular, PC Board, Transparent"
+			(at 353.06 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19997,8 +19997,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "BIVAR"
-			(at 344.5 207.975 0)
+		(property "Manufacturer" "Mentor Worldwide"
+			(at 353.06 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20008,8 +20008,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SLP3-150-300-F"
-			(at 339.09 194.0117 0)
+		(property "MPN" "1271.1001"
+			(at 339.09 193.7577 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20019,7 +20019,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 344.5 210.515 0)
+			(at 353.06 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20030,7 +20030,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 344.5 213.055 0)
+			(at 353.06 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
