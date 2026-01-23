@@ -7812,6 +7812,12 @@
 		(uuid "510edc7d-a051-407f-8c5e-f0af8f66e4aa")
 	)
 	(junction
+		(at 219.71 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5264fe77-9872-416d-bd43-08ee397569cf")
+	)
+	(junction
 		(at 218.44 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7828,12 +7834,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57adcfcb-0e5d-404b-9625-4b026a55bfc7")
-	)
-	(junction
-		(at 314.96 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5aca82df-1de4-4675-b627-603f2dc9561a")
 	)
 	(junction
 		(at 276.86 121.92)
@@ -9333,7 +9333,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 35.56) (xy 314.96 35.56)
+			(xy 312.42 35.56) (xy 318.77 35.56)
 		)
 		(stroke
 			(width 0)
@@ -9963,7 +9963,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 35.56) (xy 224.79 35.56)
+			(xy 214.63 35.56) (xy 219.71 35.56)
 		)
 		(stroke
 			(width 0)
@@ -10173,16 +10173,6 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 35.56) (xy 318.77 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd1d30ac-de7d-4362-b7e0-dc9e69c809cc")
-	)
-	(wire
-		(pts
 			(xy 204.47 69.85) (xy 217.17 69.85)
 		)
 		(stroke
@@ -10200,6 +10190,16 @@
 			(type default)
 		)
 		(uuid "be756fa2-0167-4aa5-b858-282101f1126b")
+	)
+	(wire
+		(pts
+			(xy 219.71 35.56) (xy 219.71 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bebee2e5-15aa-48e9-9371-93105fea342f")
 	)
 	(wire
 		(pts
@@ -10280,6 +10280,16 @@
 			(type default)
 		)
 		(uuid "c669fd89-d2a3-4033-ae08-3acfd1edecfb")
+	)
+	(wire
+		(pts
+			(xy 219.71 35.56) (xy 224.79 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a7f248-ae44-4309-9997-b886045e9771")
 	)
 	(wire
 		(pts
@@ -10873,7 +10883,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 40.64) (xy 314.96 41.91)
+			(xy 219.71 41.91) (xy 219.71 43.18)
 		)
 		(stroke
 			(width 0)
@@ -21184,7 +21194,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 314.96 41.91 0)
+		(at 219.71 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21192,7 +21202,7 @@
 		(dnp no)
 		(uuid "6c67fa29-b986-4c12-82b2-50708b07fdc1")
 		(property "Reference" "#PWR044"
-			(at 314.96 48.26 0)
+			(at 219.71 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21202,7 +21212,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 314.96 45.72 0)
+			(at 219.71 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21211,7 +21221,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 323.85 49.53 0)
+			(at 228.6 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21222,7 +21232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 323.85 54.61 0)
+			(at 228.6 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21233,7 +21243,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 314.96 41.91 0)
+			(at 219.71 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21242,7 +21252,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 323.85 49.53 0)
+			(at 228.6 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21253,7 +21263,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 323.85 52.07 0)
+			(at 228.6 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28793,7 +28803,7 @@
 	)
 	(symbol
 		(lib_id "antmicroTVSDiodes:PTVS26VS1UR,115")
-		(at 314.96 35.56 270)
+		(at 219.71 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28801,7 +28811,7 @@
 		(dnp no)
 		(uuid "d269ef27-c71d-4a69-a351-21838383054e")
 		(property "Reference" "D2"
-			(at 316.23 36.83 90)
+			(at 220.98 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28810,7 +28820,7 @@
 			)
 		)
 		(property "Value" "PTVS26VS1UR,115"
-			(at 299.72 57.15 0)
+			(at 204.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28821,7 +28831,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:D_SOD-123"
-			(at 307.34 57.15 0)
+			(at 212.09 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28832,7 +28842,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/916/PTVSXS1UR_SER-1545507.pdf"
-			(at 304.8 57.15 0)
+			(at 209.55 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28843,7 +28853,7 @@
 			)
 		)
 		(property "Description" "Unidirectional TVS, 8 kV,  SOD-123F, 26 V, 400 W"
-			(at 314.96 35.56 0)
+			(at 219.71 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28852,7 +28862,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia"
-			(at 302.26 57.15 0)
+			(at 207.01 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28863,7 +28873,7 @@
 			)
 		)
 		(property "MPN" "PTVS26VS1UR,115"
-			(at 316.23 39.37 90)
+			(at 220.98 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28873,7 +28883,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 297.18 57.15 0)
+			(at 201.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28884,7 +28894,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 294.64 57.15 0)
+			(at 199.39 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
