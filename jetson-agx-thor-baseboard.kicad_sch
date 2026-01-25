@@ -311,12 +311,6 @@
 		(uuid "33594917-d050-4a18-969a-c98b48528ec2")
 	)
 	(junction
-		(at 105.41 243.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3aac4d4e-58ba-4822-89f0-5da2f59ba815")
-	)
-	(junction
 		(at 381 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -351,12 +345,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d886e9ed-b71e-4892-bfd8-260bae7d74b2")
-	)
-	(junction
-		(at 107.95 246.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ddcba1ea-7bc1-4d2f-a51f-3e551a566af9")
 	)
 	(junction
 		(at 116.84 88.9)
@@ -590,23 +578,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 231.14) (xy 107.95 231.14)
+			(xy 100.33 233.68) (xy 105.41 233.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "20bf1d0e-43fb-44e5-8640-c07f7260b91f")
-	)
-	(wire
-		(pts
-			(xy 107.95 246.38) (xy 177.8 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "218076f8-ad56-45bd-8e66-520a7825cdd8")
 	)
 	(bus
 		(pts
@@ -703,7 +681,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 233.68) (xy 105.41 233.68)
+			(xy 100.33 231.14) (xy 107.95 231.14)
 		)
 		(stroke
 			(width 0)
@@ -935,16 +913,6 @@
 		)
 		(uuid "4114a089-a7d7-483e-bd63-8e40ccaa5ada")
 	)
-	(wire
-		(pts
-			(xy 100.33 243.84) (xy 105.41 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4262440b-a66d-40f7-8c5e-3f79f52d7886")
-	)
 	(bus
 		(pts
 			(xy 154.94 57.15) (xy 100.33 57.15)
@@ -1144,7 +1112,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 231.14) (xy 107.95 246.38)
+			(xy 105.41 233.68) (xy 105.41 246.38)
 		)
 		(stroke
 			(width 0)
@@ -1928,6 +1896,16 @@
 		)
 		(uuid "cbf3c138-1453-4b53-b440-ad70d8ff8ad1")
 	)
+	(wire
+		(pts
+			(xy 105.41 246.38) (xy 177.8 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccccd368-2c4f-4163-bb81-25ed28d3a9dd")
+	)
 	(bus
 		(pts
 			(xy 157.48 135.89) (xy 177.8 135.89)
@@ -1971,7 +1949,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 243.84) (xy 177.8 243.84)
+			(xy 107.95 243.84) (xy 177.8 243.84)
 		)
 		(stroke
 			(width 0)
@@ -2001,16 +1979,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 246.38) (xy 107.95 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7f04638-a89c-4854-9060-96a30c436c0b")
-	)
-	(wire
-		(pts
 			(xy 322.58 143.51) (xy 331.47 143.51)
 		)
 		(stroke
@@ -2021,7 +1989,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 233.68) (xy 105.41 243.84)
+			(xy 107.95 231.14) (xy 107.95 243.84)
 		)
 		(stroke
 			(width 0)
@@ -5525,26 +5493,6 @@
 				(justify right)
 			)
 		)
-		(pin "VIN_PWR_ON" input
-			(at 100.33 243.84 0)
-			(uuid "c66ac0d6-48fb-447c-8c05-1b0ef37300f1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{VDDIN_PWR_BAD}" output
-			(at 100.33 246.38 0)
-			(uuid "16f9ea02-e653-4849-a6a5-3b23525f76ee")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
@@ -5598,7 +5546,7 @@
 			)
 		)
 		(pin "~{VDDIN_PWR_BAD}" output
-			(at 100.33 231.14 0)
+			(at 100.33 233.68 0)
 			(uuid "35e2411f-0743-4f23-ad89-23b9caf29dad")
 			(effects
 				(font
@@ -5608,7 +5556,7 @@
 			)
 		)
 		(pin "VIN_PWR_ON" input
-			(at 100.33 233.68 0)
+			(at 100.33 231.14 0)
 			(uuid "09805326-9a2a-41ec-853f-537ec01222ae")
 			(effects
 				(font
