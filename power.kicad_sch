@@ -6589,6 +6589,12 @@
 		(uuid "19b377ab-d778-4aaf-900d-d8d33392baa6")
 	)
 	(junction
+		(at 265.43 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2607afad-5dbb-4253-87f6-dca71fbbda42")
+	)
+	(junction
 		(at 259.08 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6781,12 +6787,6 @@
 		(uuid "90006541-7170-4cc8-99e7-0833122487d6")
 	)
 	(junction
-		(at 288.29 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "953ff817-7a1e-4fe0-a709-fabe8f593f52")
-	)
-	(junction
 		(at 224.79 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6803,12 +6803,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4cd433a-8db5-41e3-8304-f33cc863a65c")
-	)
-	(junction
-		(at 257.81 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7fd2226-a1da-4b9f-8bc0-98168c55f8b7")
 	)
 	(junction
 		(at 281.94 143.51)
@@ -6839,6 +6833,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b55ede10-6a4f-4bc1-b5fb-85f4ab1286fd")
+	)
+	(junction
+		(at 265.43 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7469761-f165-4e68-a939-1100a5d11edb")
 	)
 	(junction
 		(at 356.87 76.2)
@@ -6967,16 +6967,16 @@
 		(uuid "eca72810-6aa9-400a-ba92-51072d947356")
 	)
 	(junction
-		(at 266.7 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef984b84-318e-4887-94b1-c54cb1bddc11")
-	)
-	(junction
 		(at 273.05 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6f619c7-5a33-4ac6-9fe3-e6a1c8dab092")
+	)
+	(junction
+		(at 265.43 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe2d5f78-0ae8-461a-931c-0faf84b71d27")
 	)
 	(no_connect
 		(at 377.19 113.03)
@@ -7120,7 +7120,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 41.91) (xy 288.29 57.15)
+			(xy 288.29 41.91) (xy 288.29 59.69)
 		)
 		(stroke
 			(width 0)
@@ -7157,6 +7157,16 @@
 			(type default)
 		)
 		(uuid "133a512e-d883-41b7-b0f0-6ef177568bdc")
+	)
+	(wire
+		(pts
+			(xy 273.05 34.29) (xy 273.05 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a30dfc-49e5-4ab8-9053-20fd89abc847")
 	)
 	(wire
 		(pts
@@ -7220,6 +7230,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 57.15) (xy 265.43 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19fd7ff5-e804-4f88-a2cb-e3b78bda572d")
+	)
+	(wire
+		(pts
 			(xy 73.66 134.62) (xy 71.12 134.62)
 		)
 		(stroke
@@ -7267,16 +7287,6 @@
 			(type default)
 		)
 		(uuid "2203f810-62ce-4c1e-ac33-64033a779665")
-	)
-	(wire
-		(pts
-			(xy 257.81 62.23) (xy 266.7 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22e17c88-ec71-483f-8aa3-d6ad253ba335")
 	)
 	(wire
 		(pts
@@ -7380,16 +7390,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 62.23) (xy 257.81 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a7f6094-37cb-4594-b5f2-dd5b4c1acbc0")
-	)
-	(wire
-		(pts
 			(xy 251.46 41.91) (xy 262.89 41.91)
 		)
 		(stroke
@@ -7417,6 +7417,16 @@
 			(type default)
 		)
 		(uuid "2efc66f5-3521-4c54-bb17-4f512fc1147e")
+	)
+	(wire
+		(pts
+			(xy 265.43 35.56) (xy 273.05 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "300281a2-4ddb-43ea-a30a-938e69cbb7b2")
 	)
 	(wire
 		(pts
@@ -7550,16 +7560,6 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 57.15) (xy 288.29 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40aa6553-fc1d-4f87-8f1f-c59d32040bd6")
-	)
-	(wire
-		(pts
 			(xy 356.87 110.49) (xy 356.87 113.03)
 		)
 		(stroke
@@ -7577,16 +7577,6 @@
 			(type default)
 		)
 		(uuid "42dfb517-56be-4843-989b-c31b1d6860d9")
-	)
-	(wire
-		(pts
-			(xy 288.29 57.15) (xy 294.64 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43bd43cd-eb54-4b35-8058-cee4be25d86b")
 	)
 	(wire
 		(pts
@@ -7860,6 +7850,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 62.23) (xy 265.43 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "610522a6-4466-4a29-b510-15801e8b8e27")
+	)
+	(wire
+		(pts
 			(xy 290.83 200.66) (xy 290.83 204.47)
 		)
 		(stroke
@@ -7970,7 +7970,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 57.15) (xy 284.48 57.15)
+			(xy 284.48 57.15) (xy 294.64 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8170,7 +8170,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 35.56) (xy 266.7 35.56)
+			(xy 260.35 35.56) (xy 265.43 35.56)
 		)
 		(stroke
 			(width 0)
@@ -8580,6 +8580,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 57.15) (xy 266.7 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a58d02bf-380a-48db-b2af-9ef547550f5d")
+	)
+	(wire
+		(pts
 			(xy 262.89 59.69) (xy 266.7 59.69)
 		)
 		(stroke
@@ -8820,16 +8830,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 35.56) (xy 273.05 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8e86fe6-e299-40ba-a015-a7b8d1f9ab9f")
-	)
-	(wire
-		(pts
 			(xy 238.76 181.61) (xy 238.76 190.5)
 		)
 		(stroke
@@ -8850,7 +8850,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 35.56) (xy 266.7 57.15)
+			(xy 265.43 35.56) (xy 265.43 57.15)
 		)
 		(stroke
 			(width 0)
@@ -9077,6 +9077,16 @@
 			(type default)
 		)
 		(uuid "d4d3e276-8bbd-431e-bc38-459218ae4e7e")
+	)
+	(wire
+		(pts
+			(xy 265.43 62.23) (xy 266.7 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d65b6de0-dca8-46bd-a897-2a21222b1e70")
 	)
 	(wire
 		(pts
@@ -13262,7 +13272,7 @@
 	)
 	(symbol
 		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
-		(at 257.81 62.23 270)
+		(at 237.49 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -13270,7 +13280,7 @@
 		(dnp no)
 		(uuid "135eab1b-cc68-4f40-a610-c571765dc4a4")
 		(property "Reference" "TP116"
-			(at 257.81 69.342 0)
+			(at 230.378 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13279,7 +13289,7 @@
 			)
 		)
 		(property "Value" "TP_0.75mm_SMD"
-			(at 254 72.39 0)
+			(at 227.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13290,7 +13300,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
-			(at 251.46 72.39 0)
+			(at 227.33 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13301,7 +13311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 80.01 0)
+			(at 219.71 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13312,7 +13322,7 @@
 			)
 		)
 		(property "Description" "SMT test point"
-			(at 243.84 73.025 0)
+			(at 226.695 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13322,7 +13332,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 246.38 73.025 0)
+			(at 226.695 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13333,7 +13343,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 251.46 73.025 0)
+			(at 226.695 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13344,7 +13354,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 248.92 72.39 0)
+			(at 227.33 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13355,7 +13365,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 246.38 72.39 0)
+			(at 227.33 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29212,7 +29222,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:VCC")
-		(at 273.05 35.56 0)
+		(at 273.05 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29220,7 +29230,7 @@
 		(dnp no)
 		(uuid "fb02e777-1e07-448b-b5dc-422d6a1f3ba7")
 		(property "Reference" "#PWR056"
-			(at 273.05 39.37 0)
+			(at 273.05 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29230,7 +29240,7 @@
 			)
 		)
 		(property "Value" "VCC_NO_OVP"
-			(at 271.145 31.75 0)
+			(at 271.145 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29239,7 +29249,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 35.56 0)
+			(at 273.05 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29248,7 +29258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 35.56 0)
+			(at 273.05 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29257,7 +29267,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 273.05 35.56 0)
+			(at 273.05 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
