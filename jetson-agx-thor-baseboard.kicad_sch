@@ -12,6 +12,99 @@
 		(comment 1 "www.antmicro.com")
 	)
 	(lib_symbols
+		(symbol "antmicroFiducialMarks:Fiducial_1mm_Mask3mm"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FD"
+				(at 7.62 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Fiducial_1mm_Mask3mm"
+				(at 7.62 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask3mm"
+				(at 7.62 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 7.315 -9.22 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial mask"
+				(at 7.62 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 7.62 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 7.62 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_1mm_Mask3mm_1_1"
+				(circle
+					(center 0 0)
+					(radius 3.1623)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicroMechanicalParts:Spacer_Drill3.7mm_H10mm_9774100151R"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4816,6 +4909,285 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroFiducialMarks:Fiducial_1mm_Mask3mm")
+		(at 21.59 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "614ae8c8-1e19-4e2a-9184-1bcce487d9b4")
+		(property "Reference" "FD4"
+			(at 26.67 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial_1mm_Mask3mm"
+			(at 26.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask3mm"
+			(at 29.21 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 28.905 52.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial mask"
+			(at 29.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 29.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 29.21 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
+					(reference "FD4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroFiducialMarks:Fiducial_1mm_Mask3mm")
+		(at 21.59 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74eb53a3-726f-41b4-9c55-f702459deb89")
+		(property "Reference" "FD2"
+			(at 26.67 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial_1mm_Mask3mm"
+			(at 26.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask3mm"
+			(at 29.21 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 28.905 37.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial mask"
+			(at 29.21 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 29.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 29.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
+					(reference "FD2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroFiducialMarks:Fiducial_1mm_Mask3mm")
+		(at 21.59 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76f4cee5-1cf9-4130-b800-5ef3502bd299")
+		(property "Reference" "FD8"
+			(at 26.67 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial_1mm_Mask3mm"
+			(at 26.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask3mm"
+			(at 29.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 28.905 82.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial mask"
+			(at 29.21 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 29.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 29.21 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
+					(reference "FD8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H10mm_9774100151R")
 		(at 382.27 232.41 0)
 		(unit 1)
@@ -4928,6 +5300,192 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
 					(reference "H11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroFiducialMarks:Fiducial_1mm_Mask3mm")
+		(at 21.59 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b502c36e-3652-4e63-8a33-bab25211f622")
+		(property "Reference" "FD7"
+			(at 26.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial_1mm_Mask3mm"
+			(at 26.67 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask3mm"
+			(at 29.21 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 28.905 75.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial mask"
+			(at 29.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 29.21 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 29.21 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
+					(reference "FD7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroFiducialMarks:Fiducial_1mm_Mask3mm")
+		(at 21.59 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9f277a3-328a-4d5b-b15b-79f5c16e27ed")
+		(property "Reference" "FD5"
+			(at 26.67 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial_1mm_Mask3mm"
+			(at 26.67 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask3mm"
+			(at 29.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 28.905 60.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial mask"
+			(at 29.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 29.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 29.21 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
+					(reference "FD5")
 					(unit 1)
 				)
 			)
@@ -5052,6 +5610,192 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroFiducialMarks:Fiducial_1mm_Mask3mm")
+		(at 21.59 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7d7a1eb-a948-4dae-8b7f-343549240c5d")
+		(property "Reference" "FD1"
+			(at 26.67 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial_1mm_Mask3mm"
+			(at 26.67 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask3mm"
+			(at 29.21 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 28.905 29.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial mask"
+			(at 29.21 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 29.21 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 29.21 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
+					(reference "FD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroFiducialMarks:Fiducial_1mm_Mask3mm")
+		(at 21.59 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8a2e150-8cf3-40fb-b270-1743ff575c5c")
+		(property "Reference" "FD3"
+			(at 26.67 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial_1mm_Mask3mm"
+			(at 26.67 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask3mm"
+			(at 29.21 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 28.905 44.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial mask"
+			(at 29.21 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 29.21 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 29.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
+					(reference "FD3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H10mm_9774100151R")
 		(at 382.27 213.36 0)
 		(unit 1)
@@ -5164,6 +5908,99 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroFiducialMarks:Fiducial_1mm_Mask3mm")
+		(at 21.59 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef210bd5-6051-4c48-9e2d-a4053fe545d5")
+		(property "Reference" "FD6"
+			(at 26.67 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial_1mm_Mask3mm"
+			(at 26.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask3mm"
+			(at 29.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 28.905 67.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial mask"
+			(at 29.21 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 29.21 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 29.21 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c"
+					(reference "FD6")
 					(unit 1)
 				)
 			)
