@@ -1,6 +1,6 @@
 # Jetson AGX Thor Baseboard
 
-Copyright (c) 2025 [Antmicro](https://www.antmicro.com)
+Copyright (c) 2025-2026 [Antmicro](https://www.antmicro.com)
 
 ![Jetson Thor Baseboard](img/jetson-thor-baseboard-render.png)
 
