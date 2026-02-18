@@ -14601,17 +14601,6 @@
 				)
 			)
 			(property "Value" "LTC6994CDCB-1_DFN"
-				(at -0.254 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:DFN-6-1EP_3x2mm_P0.5mm_EP1.65x1.35mm"
 				(at -0.254 -15.24 0)
 				(effects
 					(font
@@ -14622,7 +14611,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf"
+			(property "Footprint" "antmicro-footprints:DFN-6-1EP_3x2mm_P0.5mm_EP1.65x1.35mm"
 				(at -0.254 -17.78 0)
 				(effects
 					(font
@@ -14633,27 +14622,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Programmable delay block"
-				(at -0.254 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" "LTC6994CDCB-1#TRMPBF"
-				(at -0.254 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" "Analog Devices"
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf"
 				(at -0.254 -20.32 0)
 				(effects
 					(font
@@ -14664,7 +14633,27 @@
 					(hide yes)
 				)
 			)
-			(property "Author" "Antmicro"
+			(property "Description" "Programmable delay block"
+				(at -0.254 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "LTC6994CDCB-1#TRMPBF"
+				(at -0.254 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Analog Devices"
 				(at -0.254 -22.86 0)
 				(effects
 					(font
@@ -14675,8 +14664,19 @@
 					(hide yes)
 				)
 			)
-			(property "License" "Apache-2.0"
+			(property "Author" "Antmicro"
 				(at -0.254 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at -0.254 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -14698,7 +14698,7 @@
 			(symbol "LTC6994CDCB-1_DFN_1_1"
 				(rectangle
 					(start 2.54 2.54)
-					(end 15.24 -7.62)
+					(end 15.24 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -14743,8 +14743,26 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -5.08 0)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -22883,6 +22901,12 @@
 		(uuid "646e044a-bcdb-47b5-881b-2618fb9eb1af")
 	)
 	(junction
+		(at 165.1 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64ba640b-21a2-4976-982b-65ced682a34e")
+	)
+	(junction
 		(at 229.87 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -23542,13 +23566,23 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 241.3) (xy 165.1 246.38)
+			(xy 165.1 241.3) (xy 165.1 243.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0e3ebd28-6a90-4edf-94bd-97be76b3c7ea")
+	)
+	(wire
+		(pts
+			(xy 161.29 238.76) (xy 167.64 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ee96d3b-735a-4f14-88fa-1c1eec91ac0a")
 	)
 	(wire
 		(pts
@@ -23689,6 +23723,16 @@
 			(type default)
 		)
 		(uuid "1a87a9bc-b911-45eb-b146-8e9753f98ba7")
+	)
+	(wire
+		(pts
+			(xy 161.29 240.03) (xy 161.29 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1be41f8b-0958-428d-b669-db9b17534767")
 	)
 	(wire
 		(pts
@@ -24062,7 +24106,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 243.84) (xy 161.29 246.38)
+			(xy 161.29 245.11) (xy 161.29 246.38)
 		)
 		(stroke
 			(width 0)
@@ -25192,6 +25236,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 243.84) (xy 167.64 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79701954-6971-4f92-92f1-0729654d487d")
+	)
+	(wire
+		(pts
 			(xy 166.37 180.34) (xy 166.37 182.88)
 		)
 		(stroke
@@ -25892,6 +25946,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 243.84) (xy 165.1 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "add8e7a5-a4d2-4d33-9df8-f67fc80fc239")
+	)
+	(wire
+		(pts
 			(xy 203.2 271.78) (xy 203.2 274.32)
 		)
 		(stroke
@@ -25959,16 +26023,6 @@
 			(type default)
 		)
 		(uuid "b0d9b8c4-6601-40cc-b4eb-68e197d4f486")
-	)
-	(wire
-		(pts
-			(xy 161.29 238.76) (xy 167.64 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1b230c8-2efc-4d77-b615-8f6eaecbeb86")
 	)
 	(wire
 		(pts
@@ -46410,7 +46464,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_124k_0402")
-		(at 161.29 243.84 90)
+		(at 161.29 245.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -46419,7 +46473,7 @@
 		(fields_autoplaced yes)
 		(uuid "a53eaa71-5143-4494-bf54-e57e4ba99605")
 		(property "Reference" "R408"
-			(at 158.75 240.03 90)
+			(at 158.75 241.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46429,7 +46483,7 @@
 			)
 		)
 		(property "Value" "R_124k_0402"
-			(at 173.99 223.52 0)
+			(at 173.99 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46440,7 +46494,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 176.53 223.52 0)
+			(at 176.53 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46451,7 +46505,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 179.07 223.52 0)
+			(at 179.07 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46462,7 +46516,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 124 kohm, ± 1%, 100 mW, 0402 [1005 Metric], Thick Film, Precision"
-			(at 191.77 223.52 0)
+			(at 191.77 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46472,7 +46526,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1243GLF"
-			(at 181.61 223.52 0)
+			(at 181.61 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46483,7 +46537,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 184.15 223.52 0)
+			(at 184.15 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46494,7 +46548,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 186.69 223.52 0)
+			(at 186.69 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46505,7 +46559,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 189.23 223.52 0)
+			(at 189.23 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46516,7 +46570,7 @@
 			)
 		)
 		(property "Val" "124k"
-			(at 158.75 242.57 90)
+			(at 158.75 243.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46526,7 +46580,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 171.45 223.52 0)
+			(at 171.45 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55276,13 +55330,13 @@
 			)
 		)
 		(property "MPN" "LTC6994CDCB-1#TRMPBF"
-			(at 167.386 246.38 0)
+			(at 176.53 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left bottom)
+				(justify bottom)
 			)
 		)
 		(property "Manufacturer" "Analog Devices"
@@ -55335,6 +55389,9 @@
 		)
 		(pin "1"
 			(uuid "aaf21c64-3c58-4a04-8c1f-1059bfca4171")
+		)
+		(pin "7"
+			(uuid "51e24aec-d33a-4cd6-b115-c5c636f1a375")
 		)
 		(instances
 			(project ""
