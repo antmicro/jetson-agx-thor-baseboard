@@ -21556,12 +21556,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroWire2BoardConnectors:JST_SH_1x4_SM04B-SRSS-TB-LF-SN"
+		(symbol "antmicroWire2BoardConnectors:JST_SH_1x4_BM04B-SRSS-TB-LF-SN"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 26.67 -2.54 0)
+				(at 20.32 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21570,8 +21570,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "JST_SH_1x4_SM04B-SRSS-TB-LF-SN"
-				(at 26.67 -7.62 0)
+			(property "Value" "JST_SH_1x4_BM04B-SRSS-TB-LF-SN"
+				(at 20.32 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21581,8 +21581,8 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:Conn_JST_SH_1x4_SM04B-SRSS-TB-LF-SN"
-				(at 26.67 -10.16 0)
+			(property "Footprint" "antmicro-footprints:Conn_JST_SH_1x4_BM04B-SRSS-TB-LF-SN"
+				(at 20.32 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21593,7 +21593,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-				(at 26.67 -12.7 0)
+				(at 20.32 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21603,8 +21603,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Pin Header, Right Angle, Wire-to-Board, 1 mm, 1 Rows, 4 Contacts, Surface Mount Right Angle, SH"
-				(at 26.67 -22.86 0)
+			(property "Description" "Pin Header, Top Entry, Wire-to-Board, 1 mm, 1 Rows, 4 Contacts, Surface Mount, SR"
+				(at 20.32 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21613,8 +21613,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "SM04B-SRSS-TB(LF)(SN)"
-				(at 26.67 -5.08 0)
+			(property "MPN" "BM04B-SRSS-TB(LF)(SN) "
+				(at 20.32 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21624,7 +21624,7 @@
 				)
 			)
 			(property "Manufacturer" "JST Automotive Connectors"
-				(at 26.67 -15.24 0)
+				(at 20.32 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21635,7 +21635,7 @@
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 26.67 -17.78 0)
+				(at 20.32 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21646,7 +21646,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 26.67 -20.32 0)
+				(at 20.32 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21656,7 +21656,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "VERTICAL, SMT, WIRE-BOARD, CONNECTOR, MALE, HEADER"
+			(property "ki_keywords" "VERTICAL, SMT, WIRE-BOARD, CONNECTOR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -21665,7 +21665,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "JST_SH_1x4_SM04B-SRSS-TB-LF-SN_1_1"
+			(symbol "JST_SH_1x4_BM04B-SRSS-TB-LF-SN_1_1"
 				(rectangle
 					(start 2.54 2.54)
 					(end 5.08 -12.7)
@@ -30208,7 +30208,7 @@
 		(at 284.48 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "04e0682e-79c1-4114-b53a-94aa149333ef")
@@ -33031,7 +33031,7 @@
 		(at 337.82 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "28165689-6890-4d51-99e4-438598924bc4")
@@ -33695,132 +33695,6 @@
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/33df10a9-5b30-4fa6-b34e-d62ce1b48c65"
 					(reference "TP57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroWire2BoardConnectors:JST_SH_1x4_SM04B-SRSS-TB-LF-SN")
-		(at 228.6 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(uuid "2dd2a307-8eba-459c-8223-eeae9670c727")
-		(property "Reference" "J21"
-			(at 232.41 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "JST_SH_1x4_SM04B-SRSS-TB-LF-SN"
-			(at 255.27 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Conn_JST_SH_1x4_SM04B-SRSS-TB-LF-SN"
-			(at 255.27 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-			(at 255.27 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header, Right Angle, Wire-to-Board, 1 mm, 1 Rows, 4 Contacts, Surface Mount Right Angle, SH"
-			(at 228.6 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SM04B-SRSS-TB(LF)(SN)"
-			(at 235.585 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "JST Automotive Connectors"
-			(at 255.27 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 255.27 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 255.27 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c72598d-431a-4062-8d6b-40fe04981c7b")
-		)
-		(pin "2"
-			(uuid "121e4ac7-67ef-4eed-9842-f9a8fca1e1c1")
-		)
-		(pin "3"
-			(uuid "24ffdb2d-33ce-4f9a-9ab5-803689ca044b")
-		)
-		(pin "4"
-			(uuid "f4e229d3-3720-46c4-be5b-b77166cc5469")
-		)
-		(pin "MP"
-			(uuid "cb5d997c-6a50-435d-88ea-acf5be485a17")
-		)
-		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/33df10a9-5b30-4fa6-b34e-d62ce1b48c65"
-					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -35470,7 +35344,7 @@
 		(at 284.48 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -36727,7 +36601,7 @@
 		(at 354.33 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "433ee40f-56e2-4501-b72c-7474b61f73fb")
@@ -38833,7 +38707,7 @@
 		(at 48.26 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "56687fdb-e7df-4e5e-b508-5a08787d2765")
@@ -40264,7 +40138,7 @@
 		(at 300.99 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "644f87aa-71cb-4d0f-94c5-0f6caa8d8127")
@@ -41024,7 +40898,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp yes)
 		(uuid "6af2b36f-c138-4b48-a23d-7c9b7826fd14")
 		(property "Reference" "U4"
@@ -42095,7 +41969,7 @@
 		(at 121.92 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -42218,7 +42092,7 @@
 		(at 209.55 274.32 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -42554,7 +42428,7 @@
 		(at 213.36 210.82 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -42955,7 +42829,7 @@
 		(at 213.36 234.95 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7f804dfb-7db8-40a9-8822-60da93721da6")
@@ -47986,7 +47860,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b5d959e8-75ef-4413-9836-7ea7d1bda121")
@@ -54137,6 +54011,135 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroWire2BoardConnectors:JST_SH_1x4_BM04B-SRSS-TB-LF-SN")
+		(at 228.6 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "da23bb50-42ec-4a9d-a5f2-fc91fe8b53df")
+		(property "Reference" "J21"
+			(at 230.505 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST_SH_1x4_BM04B-SRSS-TB-LF-SN"
+			(at 248.92 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Conn_JST_SH_1x4_BM04B-SRSS-TB-LF-SN"
+			(at 248.92 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+			(at 248.92 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin Header, Top Entry, Wire-to-Board, 1 mm, 1 Rows, 4 Contacts, Surface Mount, SR"
+			(at 248.92 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BM04B-SRSS-TB(LF)(SN) "
+			(at 235.585 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "JST Automotive Connectors"
+			(at 248.92 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 248.92 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 248.92 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c0ca061b-a8ed-4bfa-9872-66c549064d63")
+		)
+		(pin "MP"
+			(uuid "59c74d6a-b1f2-49e4-8d3e-cf9f35b0106b")
+		)
+		(pin "1"
+			(uuid "674c69e8-7226-47ed-b815-e7684661759f")
+		)
+		(pin "4"
+			(uuid "f1a202cb-d903-4ed5-a4d5-d2d53288aca9")
+		)
+		(pin "2"
+			(uuid "f88a0afa-65e0-46e9-94dd-64f809b6165b")
+		)
+		(instances
+			(project ""
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/33df10a9-5b30-4fa6-b34e-d62ce1b48c65"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroPushbuttonSwitches:SW_KMR211NGLFS_SMD")
 		(at 91.44 201.93 0)
 		(unit 1)
@@ -54333,7 +54336,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -54456,7 +54459,7 @@
 		(at 384.81 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e39693de-aec2-4de1-9c72-1bdbce9b8ed6")
@@ -56496,7 +56499,7 @@
 		(at 369.57 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "fd928efc-f7b5-4666-89f8-1230b8fccc93")
@@ -56981,7 +56984,7 @@
 		(at 317.5 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ff03b632-1773-4531-9cb1-a5b00b8358b7")
