@@ -37,7 +37,8 @@ These are:
 * [HDMI to MIPI CSI-2 Bridge](https://github.com/antmicro/hdmi-mipi-bridge)
 * [Composite Video to MIPI CSI-2 Bridge](https://github.com/antmicro/cvbs-mipi-bridge)
 
-In a basic configuration, the Jetson AGX Thor Baseboard should be powered with a DC source (24VDC, >130W) through a DC (Molex Mini-Fit) locking connector.
+There is an open hardware CNC-milled [enclosure design](https://github.com/antmicro/jetson-agx-thor-baseboard-enclosure) available for this board. 
+In a basic configuration, the Antmicro baseboard for Jetson AGX Thor should be powered with a DC source (24VDC, >130W) through a DC (Molex Mini-Fit) locking connector.
 
 ## Project structure
 
