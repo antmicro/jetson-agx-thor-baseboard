@@ -9096,7 +9096,7 @@
 		)
 		(uuid "1c44b661-0af5-4640-9507-d5fc69bb6ce3")
 	)
-	(text "ADDR: 0x43"
+	(text "ADDR: 0x48"
 		(exclude_from_sim no)
 		(at 206.248 136.398 0)
 		(effects
@@ -10514,12 +10514,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8b1828b-d4ff-49a2-a33f-a6808c94863a")
-	)
-	(junction
-		(at 203.2 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fbbd4278-ec04-472c-9253-db81d6588d6f")
 	)
 	(junction
 		(at 177.8 132.08)
@@ -11961,16 +11955,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 128.27) (xy 203.2 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dcbcb72-bf0c-4a87-8646-8ef5cdfcdea1")
-	)
-	(wire
-		(pts
 			(xy 219.71 128.27) (xy 220.98 128.27)
 		)
 		(stroke
@@ -12158,16 +12142,6 @@
 			(type default)
 		)
 		(uuid "328fa6a1-ff2d-486f-95e1-cfd9b918a9bf")
-	)
-	(wire
-		(pts
-			(xy 200.66 125.73) (xy 200.66 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32c8b0fc-a937-4f29-966d-039d2c3be463")
 	)
 	(wire
 		(pts
@@ -12548,6 +12522,16 @@
 			(type default)
 		)
 		(uuid "3f9b5d0a-db27-4a4f-8a2f-c244a54301f4")
+	)
+	(wire
+		(pts
+			(xy 194.31 125.73) (xy 204.47 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "401421db-0ba4-4763-8eee-64ce31ab7d0e")
 	)
 	(wire
 		(pts
@@ -13421,7 +13405,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 123.19) (xy 204.47 123.19)
+			(xy 194.31 123.19) (xy 204.47 123.19)
 		)
 		(stroke
 			(width 0)
@@ -13998,6 +13982,16 @@
 			(type default)
 		)
 		(uuid "710b7210-ae3a-4bbd-a7ea-9c5391870e9a")
+	)
+	(wire
+		(pts
+			(xy 201.93 132.08) (xy 201.93 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7124c67a-1b19-4960-8f4e-4166cd81e777")
 	)
 	(wire
 		(pts
@@ -15601,16 +15595,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 125.73) (xy 204.47 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ff37556-e402-4c23-b0a0-8458967f7588")
-	)
-	(wire
-		(pts
 			(xy 300.99 124.46) (xy 299.72 124.46)
 		)
 		(stroke
@@ -16759,16 +16743,6 @@
 		)
 		(uuid "cd0f9b79-43d4-4641-8077-0f6e8aa46c08")
 	)
-	(wire
-		(pts
-			(xy 194.31 123.19) (xy 203.2 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd584e49-9528-409e-abf3-6d58464fadd9")
-	)
 	(polyline
 		(pts
 			(xy 12.7 242.57) (xy 248.285 242.57)
@@ -16991,6 +16965,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 128.27) (xy 204.47 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d70d7590-22ee-4a78-ab42-fe39893e9fe9")
+	)
+	(wire
+		(pts
 			(xy 185.42 124.46) (xy 185.42 125.73)
 		)
 		(stroke
@@ -17028,16 +17012,6 @@
 			(type default)
 		)
 		(uuid "d8a0cdb6-5ed4-4278-847b-bb17426ee255")
-	)
-	(wire
-		(pts
-			(xy 204.47 128.27) (xy 203.2 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9639bea-66b2-420e-ae10-e8962e900d56")
 	)
 	(wire
 		(pts
@@ -20662,6 +20636,16 @@
 		)
 		(uuid "8ca2170d-0020-442d-8964-5a703942fff8")
 	)
+	(label "I2C_{SYS}.SDA"
+		(at 194.31 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ffcd5a6-f451-4eb8-939b-10e401a1b9e8")
+	)
 	(label "I2C_{SYS}.SCL"
 		(at 186.69 182.88 0)
 		(effects
@@ -21492,6 +21476,12 @@
 			(uuid "ddf3df07-d910-468f-8ac4-186496dd7ee6")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R41")
@@ -21585,6 +21575,12 @@
 			(uuid "e6c6ccff-0bdd-4f22-8b88-a2ec46461efd")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0545")
@@ -21704,6 +21700,12 @@
 			(uuid "46f5a2cc-3416-4a5a-8dde-a9cc5cf867e3")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "D7")
@@ -21823,6 +21825,12 @@
 			(uuid "6ffd07ec-bf3e-4673-91a1-85f358b1214a")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "D8")
@@ -21982,6 +21990,12 @@
 			(uuid "a12d6d00-7b1b-4aa8-9b88-7b71a87a6888")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C268")
@@ -22075,6 +22089,12 @@
 			(uuid "98705068-1697-4448-b9c5-ddb6db4fab6f")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0143")
@@ -22235,6 +22255,12 @@
 			(uuid "60cc9d63-e73d-4317-96bf-260df6b36e4c")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C304")
@@ -22328,6 +22354,12 @@
 			(uuid "3a16f910-f196-4625-87b4-643e09264209")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0748")
@@ -22488,6 +22520,12 @@
 			(uuid "fbddaf39-dea1-4b65-869a-ea4dba3ec7a6")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C381")
@@ -22639,6 +22677,12 @@
 			(uuid "f25bba5b-e38b-4e17-8bf1-d6c9a06ccb9a")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C33")
@@ -22788,6 +22832,12 @@
 			(uuid "8f7690d7-91c4-4ee9-bfaa-7a62c98dc42d")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C375")
@@ -22882,6 +22932,12 @@
 			(uuid "2063bc73-790f-43ce-b1e8-cb8a1cbb0c98")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR069")
@@ -23041,6 +23097,12 @@
 			(uuid "00a372e6-7476-4cc3-93ba-92b5cda5f0e4")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C270")
@@ -23203,6 +23265,12 @@
 			(uuid "c4ac21a1-4efa-4261-9cb5-f2f583149f61")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "L?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "L6")
@@ -23343,6 +23411,12 @@
 			(uuid "23a97230-4699-4930-ae41-7cae3a8bc647")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R364")
@@ -23483,6 +23557,12 @@
 			(uuid "6de2fe65-69b8-4b0f-8617-3e09aa82ad4d")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R37")
@@ -23548,6 +23628,12 @@
 			(uuid "053067d0-f5b8-4452-8f87-7844fa5435a4")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#FLG?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#FLG0115")
@@ -23690,6 +23776,12 @@
 			(uuid "3c5ad237-83e3-4f39-9b38-94036a1b6d0d")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R251")
@@ -23850,6 +23942,12 @@
 			(uuid "9859b4de-24c6-459e-9ad3-f882826e3c27")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C247")
@@ -24009,6 +24107,12 @@
 			(uuid "c1b1d2f7-5bd4-4715-a198-628cc3fe6b0e")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C275")
@@ -24148,6 +24252,12 @@
 			(uuid "e318be91-c722-4795-a2bf-b1ac277a002f")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R367")
@@ -24241,6 +24351,12 @@
 			(uuid "5f6e4cfe-3cf1-49f7-8fbd-666f561dc82c")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0549")
@@ -24334,6 +24450,12 @@
 			(uuid "0895394a-6364-4e5e-9223-535b698009a5")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0154")
@@ -24428,6 +24550,12 @@
 			(uuid "03c6b320-f886-496d-9c07-c323c151098f")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR050")
@@ -24586,6 +24714,12 @@
 			(uuid "8ef53336-74dc-4035-b59c-0cc4e6d7f125")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C222")
@@ -24735,6 +24869,12 @@
 			(uuid "f8261990-b20a-4000-8c7f-e0c40aa146c1")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C54")
@@ -24875,6 +25015,12 @@
 			(uuid "51976ada-77fe-4066-b59f-87561a01a245")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R13")
@@ -25034,6 +25180,12 @@
 			(uuid "f586dca4-f164-4d10-a5f0-3e92d0b4e452")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C372")
@@ -25194,6 +25346,12 @@
 			(uuid "9042bb6d-09b4-415a-8924-8d6e74d381f6")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C387")
@@ -25288,6 +25446,12 @@
 			(uuid "4b6cab42-2c8b-4c4d-b787-d0321137694d")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0627")
@@ -25428,6 +25592,12 @@
 			(uuid "f3adb5f3-9b32-4fe1-a266-94b2a7e3d70e")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R30")
@@ -25521,6 +25691,12 @@
 			(uuid "cf65b239-3013-4892-b127-d8626b8b761a")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0136")
@@ -25662,6 +25838,12 @@
 			(uuid "5253d2a9-6374-493f-8276-9ea9640be9d5")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R9")
@@ -25802,6 +25984,12 @@
 			(uuid "8eed4ad9-7679-441d-b3a8-992c83968e1b")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R42")
@@ -25963,6 +26151,12 @@
 			(uuid "5b80c2f7-1808-4de7-b4a0-1258e5f9ab26")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "L?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "L7")
@@ -26057,6 +26251,12 @@
 			(uuid "5fc91a8a-b788-4cb5-9dca-128383399b35")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR054")
@@ -26150,6 +26350,12 @@
 			(uuid "63102c12-7a23-433f-bed7-98bae49fd067")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0536")
@@ -26310,6 +26516,12 @@
 			(uuid "61c1ee10-e663-4f31-b834-a9a3cefd7755")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C295")
@@ -26461,6 +26673,12 @@
 			(uuid "9e128fa1-9df3-4007-9d63-affdd161cf94")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C310")
@@ -26554,6 +26772,12 @@
 			(uuid "6feeb7ac-9e29-4cd1-9ac5-a752bfdeaf7b")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0583")
@@ -26694,6 +26918,12 @@
 			(uuid "b3c4a3a4-a678-454b-b77b-b7187d3a0f29")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R371")
@@ -26852,6 +27082,12 @@
 			(uuid "2576b1d9-e02b-4957-9c3d-0bc5d3674ebd")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C308")
@@ -26972,6 +27208,12 @@
 			(uuid "9b40f094-7c39-4e40-beb2-740f24cb9d9d")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "D13")
@@ -27037,6 +27279,12 @@
 			(uuid "a7051f9e-c19a-4e43-afa0-3d188a0a8d6c")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#FLG?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#FLG03")
@@ -27130,103 +27378,15 @@
 			(uuid "6b6ece98-9bc9-4a73-87ba-bed75b6f6696")
 		)
 		(instances
-			(project "jetson-agx-thor-baseboard"
-				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
-					(reference "#PWR066")
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:GND")
-		(at 200.66 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "20190844-e21a-4d8e-946d-e2479cbbc27e")
-		(property "Reference" "#PWR0566"
-			(at 209.55 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 200.66 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 200.66 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 209.55 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 209.55 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7213afbd-7f6f-43bd-a021-900cfc782dc0")
-		)
-		(instances
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
-					(reference "#PWR0566")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -27364,6 +27524,12 @@
 			(uuid "d7f49c20-3031-433c-bb6c-2091be576e9d")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R26")
@@ -27505,6 +27671,12 @@
 			(uuid "786e2286-bf04-4734-9389-6e241c57b216")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R317")
@@ -27656,6 +27828,12 @@
 			(uuid "415738ef-bf69-455b-a647-dc1841f6e5f2")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C37")
@@ -27721,6 +27899,12 @@
 			(uuid "976425ba-6d6b-43ef-b440-92369fe75737")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#FLG?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#FLG05")
@@ -27840,6 +28024,12 @@
 			(uuid "59f16667-f543-4de4-b31b-ace5ec16c5c8")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "D62")
@@ -27933,6 +28123,12 @@
 			(uuid "da008bea-a69a-4153-8f17-3258eca37054")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0745")
@@ -28026,6 +28222,12 @@
 			(uuid "a3d3f4e3-292b-497a-a9a9-35548a58b7dc")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0602")
@@ -28093,6 +28295,12 @@
 			(uuid "69a272a8-bf28-44e6-a748-462e48ee3143")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#FLG?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#FLG024")
@@ -28242,6 +28450,12 @@
 			(uuid "9de6f223-8c15-4bbb-aec5-17f6cc459a52")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C63")
@@ -28403,6 +28617,12 @@
 			(uuid "6ae7cf0b-ce05-4bda-aba6-bf34da0ff826")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C31")
@@ -28496,6 +28716,12 @@
 			(uuid "c0afad37-2bf4-4c42-91fe-dd66d68694ac")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0543")
@@ -28637,6 +28863,12 @@
 			(uuid "d59385a2-6194-4b54-8959-f3f50b5f0d67")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R311")
@@ -28796,6 +29028,12 @@
 			(uuid "f1eb4de4-32da-444e-ae9c-ae21bf6c5602")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C42")
@@ -28889,6 +29127,12 @@
 			(uuid "a2005487-37d5-421a-a2de-e6bbb2953d2d")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0606")
@@ -28982,6 +29226,12 @@
 			(uuid "01f3853e-88ad-43de-93c6-904ff57f07cc")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0593")
@@ -29178,6 +29428,12 @@
 			(uuid "7a27c82d-9c49-46e1-8dd0-49d870243682")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "U65")
@@ -29271,6 +29527,12 @@
 			(uuid "cfdc8911-0bca-4eca-b119-1fdc5287bdda")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0100")
@@ -29420,6 +29682,12 @@
 			(uuid "c03f8ddb-1dc7-4ed8-ab27-3285a11c0108")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C66")
@@ -29513,6 +29781,12 @@
 			(uuid "ddcd3a84-69bb-460f-a8b8-d4185d728bde")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0607")
@@ -29673,6 +29947,12 @@
 			(uuid "57ee0f4e-9b78-4ec1-a1eb-e1a4bf27f7e9")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C300")
@@ -29823,6 +30103,12 @@
 			(uuid "eb91acbd-2d46-46f9-ab77-9bbb3755f3cc")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C245")
@@ -29917,6 +30203,12 @@
 			(uuid "dbc9e800-1ba2-4469-aa3a-076e54e13ea6")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0525")
@@ -30057,6 +30349,12 @@
 			(uuid "8862f867-6543-483f-af18-8a06cfb8ad22")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R36")
@@ -30150,6 +30448,12 @@
 			(uuid "9b1d4726-11d4-49d1-9a6b-19e3007d8aff")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0153")
@@ -30272,6 +30576,12 @@
 			(uuid "dedc295a-e8f4-4661-a86c-8e354ad05c56")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "U7")
@@ -30414,6 +30724,12 @@
 			(uuid "5c94d410-9b9e-4b00-801d-eae3ea1821ff")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R69")
@@ -30574,6 +30890,12 @@
 			(uuid "0fb83277-f5b5-46ee-a2b3-6e2baaa68e2e")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C298")
@@ -30667,6 +30989,12 @@
 			(uuid "b429254d-812d-487b-be7d-57c7b669917c")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0546")
@@ -30760,6 +31088,12 @@
 			(uuid "669d02d4-1143-4a69-8279-08258f73b3f5")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0757")
@@ -30853,6 +31187,12 @@
 			(uuid "5841388c-7f9e-4cc1-a92e-7bbf9e6f1b34")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0574")
@@ -31015,6 +31355,12 @@
 			(uuid "99440e33-ba0c-4223-8905-150ca8bde4a5")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "L?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "L8")
@@ -31140,6 +31486,12 @@
 			(uuid "cc1cc60e-6473-403b-a68d-3eedd7e7ab78")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "U50")
@@ -31289,6 +31641,12 @@
 			(uuid "5765ffe2-a989-4afd-9cdf-b4f1c8c1b5c0")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C243")
@@ -31382,6 +31740,12 @@
 			(uuid "db1d327e-9d96-4ed7-889c-0f45fc3fda11")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0547")
@@ -31475,6 +31839,12 @@
 			(uuid "93801a30-27de-4a0b-9c9e-61c7db6dcac8")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0537")
@@ -31568,6 +31938,12 @@
 			(uuid "8f4c7dc6-0ccb-4bb0-b12a-42da650cc8d8")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR083")
@@ -31661,6 +32037,12 @@
 			(uuid "2e1a7a87-f659-4574-a7f7-f38ff4a66eed")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0592")
@@ -31821,6 +32203,12 @@
 			(uuid "bbe3e422-406a-4095-8a3c-7d90300824e1")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C283")
@@ -31981,6 +32369,12 @@
 			(uuid "af34fbaa-27c9-4531-ac99-44e02694cf59")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C248")
@@ -32123,6 +32517,12 @@
 			(uuid "fc42acc9-7914-4b56-9d9e-2f934368435c")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R326")
@@ -32283,6 +32683,12 @@
 			(uuid "589bc39f-74e6-4220-a8ba-bd5a50111131")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C299")
@@ -32377,6 +32783,12 @@
 			(uuid "237342d0-4add-464c-90c4-4f929c8a731e")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR059")
@@ -32525,6 +32937,12 @@
 			(uuid "c79e100c-6a0b-4928-9966-09a540c7bebe")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C221")
@@ -32665,6 +33083,12 @@
 			(uuid "4e2d83f1-9294-4757-9397-cb2d3fc0d134")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R54")
@@ -32758,6 +33182,12 @@
 			(uuid "1fd230a4-12a8-4951-b715-d036039a66c8")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0553")
@@ -32898,6 +33328,12 @@
 			(uuid "36706479-c253-454b-8f71-5b5336246443")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R15")
@@ -33058,6 +33494,12 @@
 			(uuid "fe2ae2ed-7548-4f89-856e-27b38d87145d")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C249")
@@ -33151,6 +33593,12 @@
 			(uuid "b3509f6a-b039-4b84-87c6-675ffce85d0f")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0558")
@@ -33244,6 +33692,12 @@
 			(uuid "3b805e54-497c-4d6e-9a59-6bf3a31eadad")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0587")
@@ -33337,6 +33791,12 @@
 			(uuid "d464a886-861d-4d0c-a883-9d776e0db25d")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR089")
@@ -33496,6 +33956,12 @@
 			(uuid "c15822cf-2ff1-47d8-a220-0e5543e53e8b")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C373")
@@ -33590,6 +34056,12 @@
 			(uuid "367f0e47-1d7c-4c97-88f6-0c008b0f7ee4")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0624")
@@ -33748,6 +34220,12 @@
 			(uuid "b19187a9-9685-4e9f-8f4a-dfc7a48ba185")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C306")
@@ -33842,6 +34320,12 @@
 			(uuid "a781ff4d-8a14-4e90-a6bc-bfa724276653")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0625")
@@ -33935,6 +34419,12 @@
 			(uuid "8529d9df-9ece-47ae-ac70-732addea5631")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR097")
@@ -34028,6 +34518,12 @@
 			(uuid "67770292-5d04-4071-975a-bad629d9e208")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0105")
@@ -34179,6 +34675,12 @@
 			(uuid "ca91061d-d01c-4538-8dc9-cbb77c96c7c8")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C224")
@@ -34319,6 +34821,12 @@
 			(uuid "7149243f-baf1-4001-ae1e-e7cf978f3ea0")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R38")
@@ -34412,6 +34920,12 @@
 			(uuid "3bf438bb-e092-457e-9742-c1a6ad45cacc")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR046")
@@ -34560,6 +35074,12 @@
 			(uuid "07c73e82-cb9a-421c-8c6a-f5f31696b5d7")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R366")
@@ -34654,6 +35174,12 @@
 			(uuid "f496f664-0201-4bd9-897a-71cf4b59b3b1")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0568")
@@ -34813,6 +35339,12 @@
 			(uuid "c0e05e80-f85c-4daa-89a1-e8a4ead5480d")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C242")
@@ -34953,6 +35485,12 @@
 			(uuid "59d6d930-87e3-4d1f-bdfd-221a17a6c755")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R313")
@@ -35046,6 +35584,12 @@
 			(uuid "2b56a597-e5c0-4259-bece-d62dad6d4d11")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0495")
@@ -35139,6 +35683,12 @@
 			(uuid "d4da8408-7991-4233-a792-105d7f457fa0")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0753")
@@ -35232,6 +35782,12 @@
 			(uuid "fb89c085-f7f8-421a-87ad-faf2d49a1c09")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0103")
@@ -35382,6 +35938,12 @@
 			(uuid "b9612cdd-e373-4ea4-95c8-ac0766b795d1")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C56")
@@ -35475,6 +36037,12 @@
 			(uuid "02f93c3a-185a-4da2-8cad-2b85019bd611")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0653")
@@ -35634,6 +36202,12 @@
 			(uuid "bdc90f95-1e00-47b9-9b2e-4c6bb9c3a279")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C271")
@@ -35728,6 +36302,12 @@
 			(uuid "18e557aa-0cdd-4e96-9944-9729d167d71a")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0133")
@@ -35876,6 +36456,12 @@
 			(uuid "2624078d-6f2a-4aa4-9c90-8664806a16db")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C377")
@@ -35995,6 +36581,12 @@
 			(uuid "70c129f1-b028-40f8-a992-4b574378bd5f")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "D9")
@@ -36145,6 +36737,12 @@
 			(uuid "29510ddf-7dda-4081-99a2-2d6ad7411d5b")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C376")
@@ -36238,6 +36836,12 @@
 			(uuid "9dba192e-1b62-4cec-be2d-d754ac88dae0")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0664")
@@ -36378,6 +36982,12 @@
 			(uuid "0ec1572f-2e2b-4877-85d5-ed144accf07e")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R314")
@@ -36471,6 +37081,12 @@
 			(uuid "5e5b95a1-3776-4081-8478-48c21f9bf80c")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0106")
@@ -36565,6 +37181,12 @@
 			(uuid "a4c0bea6-6bd4-4f13-8903-49e248d5ed31")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0157")
@@ -36724,6 +37346,12 @@
 			(uuid "1028f85a-78c1-4326-9b1e-65b412c6c562")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C274")
@@ -36872,6 +37500,12 @@
 			(uuid "cc9743f0-4e90-464c-b650-a5d7bd482ae2")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R77")
@@ -37031,6 +37665,12 @@
 			(uuid "f255c543-a9e9-4b71-ae9a-cbb3090ae96b")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C276")
@@ -37096,6 +37736,12 @@
 			(uuid "f57d6314-d1d6-4db0-8edf-a9ff4de14d9a")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0655")
@@ -37189,6 +37835,12 @@
 			(uuid "346428c9-af38-4e0d-a74f-d84e61d38f38")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR099")
@@ -37282,6 +37934,12 @@
 			(uuid "9cf3aadf-cbbb-4931-b4d9-278fb07f63a7")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0755")
@@ -37429,6 +38087,12 @@
 			(uuid "a16b6e9b-6f4d-4059-aad1-de91fe178e41")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C385")
@@ -37625,6 +38289,12 @@
 			(uuid "568fc77a-f299-46a7-849d-617cf4d38326")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "U75")
@@ -37764,6 +38434,12 @@
 			(uuid "9ad35e0b-87cc-4525-8ae5-72212e4e6a80")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R368")
@@ -37857,6 +38533,12 @@
 			(uuid "853d8926-d920-4f9d-8d46-741c474ad625")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0584")
@@ -38018,6 +38700,12 @@
 			(uuid "c4a5aab1-5e16-475f-81bd-63f787f3e6a9")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "L?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "L2")
@@ -38111,6 +38799,12 @@
 			(uuid "898632e2-4e0e-4b4e-bf3a-ef1fe3ac67ad")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0113")
@@ -38258,6 +38952,12 @@
 			(uuid "afadcbb9-bfea-40c5-bd7d-cd873f4d0236")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C384")
@@ -38352,6 +39052,12 @@
 			(uuid "0e946635-593b-4eec-a37f-6858987f5cd1")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR072")
@@ -38492,6 +39198,12 @@
 			(uuid "30b358ae-7b3e-42e1-888d-a6855e5bffef")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R309")
@@ -38585,6 +39297,12 @@
 			(uuid "b8f4de4e-09f9-43ff-a5a3-c573ff3affd8")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0594")
@@ -38678,6 +39396,12 @@
 			(uuid "0855bdf7-4929-43d5-8b57-de1229db7e27")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0110")
@@ -38818,6 +39542,12 @@
 			(uuid "3e1b8d27-60bf-47fb-9ae0-9986241c0e62")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R365")
@@ -38980,6 +39710,12 @@
 			(uuid "0ec3faf3-77f6-4fb2-aa73-9659a6792442")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "L?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "L4")
@@ -39045,6 +39781,12 @@
 			(uuid "f9fd0fd4-5560-4b18-907f-7519d3dc3461")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#FLG?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#FLG04")
@@ -39139,6 +39881,12 @@
 			(uuid "b92dc1e8-d3a5-45b0-ae93-216eeaac4bfd")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0622")
@@ -39280,6 +40028,12 @@
 			(uuid "070777a1-bb2b-458e-99f6-77884d078c99")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R18")
@@ -39373,6 +40127,12 @@
 			(uuid "16cab1e7-b764-40e9-a971-aac7d2675c39")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0111")
@@ -39513,6 +40273,12 @@
 			(uuid "ff8e2ef8-ec69-4c33-b3bf-9cd944c321a3")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R312")
@@ -39579,6 +40345,12 @@
 			(uuid "a077f764-48be-482a-b782-7983970d9a79")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0663")
@@ -39672,6 +40444,12 @@
 			(uuid "97fefa06-bde5-4877-80ec-da546eada2b0")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0756")
@@ -39813,6 +40591,12 @@
 			(uuid "f63a6c31-a274-4bb6-9cc6-a3b28b3f5ac0")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R34")
@@ -39938,6 +40722,12 @@
 			(uuid "eaedd073-04eb-40f5-b7c2-8914b877e804")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "U66")
@@ -40080,6 +40870,12 @@
 			(uuid "bbeb3c2e-fb8b-4f51-b7da-2607a3f0ee88")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R29")
@@ -40219,6 +41015,12 @@
 			(uuid "6374ef76-47a2-4fa5-a9e7-72a29b2be3c9")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R369")
@@ -40312,6 +41114,12 @@
 			(uuid "a347169d-d1bd-47dd-b02d-7d38f07b35df")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0494")
@@ -40472,6 +41280,12 @@
 			(uuid "b37e3000-0464-4891-b38e-32ddc3eba3d5")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C284")
@@ -40565,6 +41379,12 @@
 			(uuid "ae2c7136-eba8-4daf-9637-428ae9ae4420")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0591")
@@ -40658,6 +41478,12 @@
 			(uuid "ea9c10d4-3e96-4144-8664-221ddf2e1755")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0618")
@@ -40817,6 +41643,12 @@
 			(uuid "4dd5d809-7410-404f-8442-3405d2db060c")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C269")
@@ -40957,6 +41789,12 @@
 			(uuid "6592a251-6b9d-4ef2-8aae-603a983376f9")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R12")
@@ -41117,6 +41955,12 @@
 			(uuid "0d69a75a-6896-4a16-9a6f-34ee2b53403e")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C380")
@@ -41277,6 +42121,12 @@
 			(uuid "9ac3b7d7-84b9-42ea-b69a-bf314a4839a3")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C288")
@@ -41417,6 +42267,12 @@
 			(uuid "89c0e679-a564-493d-8390-f4b4ce560320")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R52")
@@ -41566,6 +42422,12 @@
 			(uuid "feb6ccbc-d03c-4f89-b8f4-8ad1537fd092")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C48")
@@ -41659,6 +42521,12 @@
 			(uuid "fffb7bdb-bf02-4186-937d-6f7ca22dbccb")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0548")
@@ -41807,6 +42675,12 @@
 			(uuid "3ec87fb8-019d-45d0-93fd-9fa531aefb86")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C374")
@@ -41900,6 +42774,12 @@
 			(uuid "02d30621-15ba-427d-af20-d2f96b65ec0f")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0596")
@@ -42060,6 +42940,12 @@
 			(uuid "d04d4fd1-86ca-46be-9c9c-b6adcf4be27d")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C292")
@@ -42200,6 +43086,12 @@
 			(uuid "1fcac344-2bba-44a1-9601-462070f62b01")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R55")
@@ -42293,6 +43185,12 @@
 			(uuid "da778117-9803-4a1d-83e4-22bfe9ec433a")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0604")
@@ -42358,6 +43256,12 @@
 			(uuid "eb303b4b-197f-44df-8551-45e98bc881f0")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0147")
@@ -42451,6 +43355,12 @@
 			(uuid "b7aff996-b540-4fdb-a761-1e6874075e08")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0146")
@@ -42544,6 +43454,12 @@
 			(uuid "ba5d7148-7dea-4109-964c-3b723d0b50d6")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0589")
@@ -42685,6 +43601,12 @@
 			(uuid "ca519b75-2436-43c2-a550-2aa956bb95e1")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R75")
@@ -42825,6 +43747,12 @@
 			(uuid "69fea626-2343-40ad-b883-918416eecc10")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R39")
@@ -42986,6 +43914,12 @@
 			(uuid "62e6bacc-98c3-4f0b-8abf-a12989688ec3")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "L?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "L1")
@@ -43146,6 +44080,12 @@
 			(uuid "d4e5be7c-ebea-43a4-9f91-0fb570829261")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C303")
@@ -43239,6 +44179,12 @@
 			(uuid "73a3bd1b-6c20-4e93-a4e3-4fc6226e42ce")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR084")
@@ -43397,6 +44343,12 @@
 			(uuid "28cc4bc4-b2bf-4c93-ae32-72d2ea296bd6")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C28")
@@ -43537,6 +44489,12 @@
 			(uuid "b8cd641d-8aec-438b-a8d5-62dfb7b81723")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R315")
@@ -43685,6 +44643,12 @@
 			(uuid "a6b9eb0e-0754-4bed-84fb-744d48c90a8d")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C59")
@@ -43810,6 +44774,12 @@
 			(uuid "ff4fecfa-6f88-4646-95cb-5b369c78650e")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "U60")
@@ -43969,6 +44939,12 @@
 			(uuid "ba2b7c00-bc7a-4b1e-9e9d-fa88be3c4d0b")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C241")
@@ -44109,6 +45085,12 @@
 			(uuid "45c001fd-573a-4113-a391-e9f7ccbf9ab7")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R23")
@@ -44202,9 +45184,109 @@
 			(uuid "2bff636a-25a6-4bd0-8426-a1fefbf1c308")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0550")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 201.93 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bbf70f2-58c0-4b7a-ac04-a4d6720ce602")
+		(property "Reference" "#PWR0161"
+			(at 210.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 210.82 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 210.82 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b188d68e-a4a2-4b0d-bf9a-2bb605419a8a")
+		)
+		(instances
+			(project "jetson-agx-thor-baseboard"
+				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)
@@ -44295,6 +45377,12 @@
 			(uuid "ba786e89-a1e6-4077-8b53-fbaad3c74aaa")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0585")
@@ -44455,6 +45543,12 @@
 			(uuid "0c839312-6e7d-43a2-91da-9ff14f4f553a")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C296")
@@ -44548,6 +45642,12 @@
 			(uuid "631d3ad4-d030-49d1-8800-e7f72eb6c472")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR093")
@@ -44708,6 +45808,12 @@
 			(uuid "051e155e-cb44-4dd7-8c46-0c71a1abea77")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C260")
@@ -44868,6 +45974,12 @@
 			(uuid "19811d11-7b31-4690-be7d-a06c1a71d2b2")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C302")
@@ -45029,6 +46141,12 @@
 			(uuid "52090550-9456-45bf-8ce8-c9b36f789c75")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C257")
@@ -45171,6 +46289,12 @@
 			(uuid "d7c3f616-0264-4237-8af6-c995f4ce0f59")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R20")
@@ -45312,6 +46436,12 @@
 			(uuid "4b727f3b-b79b-4c1e-9b06-d9e58b88db4a")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R318")
@@ -45461,6 +46591,12 @@
 			(uuid "ee82a9fa-5e06-4f71-8302-de9e1d87a2a6")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C49")
@@ -45620,6 +46756,12 @@
 			(uuid "b13062a4-4314-4e00-959b-519dd6fb21b0")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C370")
@@ -45780,6 +46922,12 @@
 			(uuid "236b94f7-91c2-46ef-8dc7-a45926ccda1a")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C76")
@@ -45940,6 +47088,12 @@
 			(uuid "e65977c6-16ac-47f1-822a-32d1b5f1b9b2")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C250")
@@ -46101,6 +47255,12 @@
 			(uuid "cd0ac058-e04b-4df0-a01e-6c9ed47559e8")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C285")
@@ -46195,6 +47355,12 @@
 			(uuid "1bc42e11-4d12-4319-8269-35cf9cb9acb4")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR060")
@@ -46261,6 +47427,12 @@
 			(uuid "3d80ef55-9bee-4a31-a95b-a7286f9cd5b1")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0658")
@@ -46354,6 +47526,12 @@
 			(uuid "5438278d-4827-4ab5-a4c4-14bb4c90c6e2")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0102")
@@ -46447,6 +47625,12 @@
 			(uuid "2c4b7f55-5fb2-4443-af9c-d7abacfad8ed")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0603")
@@ -46595,6 +47779,12 @@
 			(uuid "f65a1d3a-c88d-4c23-8780-f71a0763e233")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R65")
@@ -46660,6 +47850,12 @@
 			(uuid "94093a3f-b18f-4fb1-baab-dba636146764")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0144")
@@ -46754,6 +47950,12 @@
 			(uuid "863b36b2-14f4-4daf-a6a3-c6b08659210c")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR053")
@@ -46819,6 +48021,12 @@
 			(uuid "1954437e-fb1c-4a76-9c8a-6a89f08438d5")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0530")
@@ -46977,6 +48185,12 @@
 			(uuid "c04ee277-1fdf-4f46-9496-20c2629b74e1")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C307")
@@ -47071,6 +48285,12 @@
 			(uuid "65d3a39f-f64d-46a1-87cc-694a61d9e7c0")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0526")
@@ -47164,6 +48384,12 @@
 			(uuid "7a7b8d53-4c90-4474-aab4-9242de78032c")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0531")
@@ -47257,6 +48483,12 @@
 			(uuid "4cd47c8d-98ee-4b2c-9997-44f2dbef5b37")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0114")
@@ -47407,6 +48639,12 @@
 			(uuid "e140ddab-691a-4e56-8e23-b813297b751a")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C55")
@@ -47500,6 +48738,12 @@
 			(uuid "8ed7b481-75ff-416e-bde0-3e266c03039e")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR051")
@@ -47659,6 +48903,12 @@
 			(uuid "70838012-bf64-47a6-b65c-cb68b4248cf8")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C46")
@@ -47752,6 +49002,12 @@
 			(uuid "6912b237-d9bb-4972-8843-0b5ae46b7b0a")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0759")
@@ -47846,6 +49102,12 @@
 			(uuid "0ccdf33a-6abb-4bb0-ad91-d316c0f433fc")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0616")
@@ -48006,6 +49268,12 @@
 			(uuid "73675868-d0e9-4388-bb82-64129789023f")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C197")
@@ -48166,6 +49434,12 @@
 			(uuid "dd41eff3-bb3f-4fca-85a1-15cedfb5fafe")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C289")
@@ -48232,6 +49506,12 @@
 			(uuid "1a2d5251-a539-401b-a281-f76c83e6c8fd")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0529")
@@ -48325,6 +49605,12 @@
 			(uuid "d74a1d01-a113-4381-affd-e72820c5cc80")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0746")
@@ -48485,6 +49771,12 @@
 			(uuid "f2b4940e-b30f-4e8c-9d91-3b5945bdd413")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C286")
@@ -48625,6 +49917,12 @@
 			(uuid "1e362bd5-6dc2-49fe-8120-fee01f76545e")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R53")
@@ -48774,6 +50072,12 @@
 			(uuid "d850b320-8722-44bb-92b6-8fc952f7062f")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C64")
@@ -48914,6 +50218,12 @@
 			(uuid "b5ef5b97-f0de-49aa-a063-4424ea317ee8")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R370")
@@ -49075,6 +50385,12 @@
 			(uuid "48fedd4c-84a3-4548-9dff-3d68745915b0")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "L?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "L5")
@@ -49221,6 +50537,12 @@
 			(uuid "208fb6f8-9e18-4b31-adf7-899ecc53cbd7")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R22")
@@ -49286,6 +50608,12 @@
 			(uuid "f823003c-17ac-4513-b02d-8e0cd36f4383")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#FLG?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#FLG023")
@@ -49353,6 +50681,12 @@
 			(uuid "802b4c81-7664-4709-8b30-63ef860e2be9")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0772")
@@ -49493,6 +50827,12 @@
 			(uuid "851e2f3f-1548-4081-98a4-68899f30fdd3")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R125")
@@ -49586,6 +50926,12 @@
 			(uuid "d4d997ed-f196-4701-bb43-286228b2ba52")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0121")
@@ -49680,6 +51026,12 @@
 			(uuid "4fef3792-ac5b-4c02-8b2e-7c161cb80501")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0521")
@@ -49773,6 +51125,12 @@
 			(uuid "1713eb87-6b36-46b3-8e68-9fe5a0924aa1")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0544")
@@ -49866,6 +51224,12 @@
 			(uuid "091d461a-7af2-4903-90a9-66effa57c20b")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0149")
@@ -49959,6 +51323,12 @@
 			(uuid "b74ed158-87bd-4241-a3ff-7e9d8c56514e")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR087")
@@ -50121,6 +51491,12 @@
 			(uuid "bf747b53-5826-479f-96b9-33ebb3c7f83c")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "L?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "L3")
@@ -50262,6 +51638,12 @@
 			(uuid "841b8a44-55a1-4464-8f58-fccd1c9202b4")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R310")
@@ -50355,6 +51737,12 @@
 			(uuid "c3812b3e-ae32-4484-a860-54748cea1d7a")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0654")
@@ -50504,6 +51892,12 @@
 			(uuid "f6f6b26d-cfc4-45aa-9e34-925515dccb0f")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C53")
@@ -50597,6 +51991,12 @@
 			(uuid "0ddd91f0-c2b3-4452-9e7c-d22afa663877")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0130")
@@ -50690,6 +52090,12 @@
 			(uuid "bd8effa1-2979-4861-a653-4320a8f2da30")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0540")
@@ -50837,6 +52243,12 @@
 			(uuid "15522547-5d61-4365-b4da-f77ce7a57903")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C386")
@@ -50996,6 +52408,12 @@
 			(uuid "6e456f64-ee57-40f8-abc8-1aca384d24c6")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C371")
@@ -51145,6 +52563,12 @@
 			(uuid "c2ba1b07-4e5a-45fe-9229-a62eea4dd784")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C52")
@@ -51296,6 +52720,12 @@
 			(uuid "b5ef2284-12c4-410f-8a79-f90af9e26d58")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C79")
@@ -51389,6 +52819,12 @@
 			(uuid "7595accd-d877-46cc-9185-cd4b8967c213")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0129")
@@ -51482,6 +52918,12 @@
 			(uuid "8b8d72ea-bef3-4a75-a65b-185a8d2ca749")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0605")
@@ -51643,6 +53085,12 @@
 			(uuid "55cdbf5e-4603-483a-a49a-e7a4923e16d3")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C32")
@@ -51736,6 +53184,12 @@
 			(uuid "a32176f8-8cdf-496a-97bb-acebc105dd6e")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0528")
@@ -51895,6 +53349,12 @@
 			(uuid "1892ebc7-248d-47c1-8a48-0ac3b663b8dc")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C267")
@@ -52053,6 +53513,12 @@
 			(uuid "2d88def6-5887-4121-94a7-a127decf392f")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C309")
@@ -52201,6 +53667,12 @@
 			(uuid "5222237c-05ba-4f1a-8deb-c9299716cf4f")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C281")
@@ -52268,6 +53740,12 @@
 			(uuid "dfbfe4d8-ecde-402e-aec5-5eae17b86cd5")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0101")
@@ -52417,6 +53895,12 @@
 			(uuid "4c416bdb-4d2d-4810-96cf-76b9ecc1c9bd")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C244")
@@ -52511,6 +53995,12 @@
 			(uuid "96b6dde8-0087-4549-9fe4-207ee9de7bdb")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0621")
@@ -52671,6 +54161,12 @@
 			(uuid "37afcaa6-3497-4ce7-9934-dc876b6e2254")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C290")
@@ -52819,6 +54315,12 @@
 			(uuid "0adbb735-ae37-4ae8-a57b-c45e054a4fe8")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R284")
@@ -52913,6 +54415,12 @@
 			(uuid "9c279c70-924f-41dc-af44-bfa9b5642612")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0626")
@@ -53062,6 +54570,12 @@
 			(uuid "2918cee0-7dae-4b8e-9250-0610d07b3d8c")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C73")
@@ -53222,6 +54736,12 @@
 			(uuid "0d786991-748e-4c90-93aa-649a0c11d8bb")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C259")
@@ -53373,6 +54893,12 @@
 			(uuid "7f50fe67-f176-4e10-835b-aed83fe1bbb5")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C305")
@@ -53467,6 +54993,12 @@
 			(uuid "65705f3c-ce9c-4f98-aaec-7f3371817680")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR052")
@@ -53608,6 +55140,12 @@
 			(uuid "4cb297b3-0da4-4e02-9d3b-e7a7e1a88e3d")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R94")
@@ -53701,6 +55239,12 @@
 			(uuid "d6ec9b9b-dc13-4e6f-b80c-29deb04928a6")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0535")
@@ -53860,6 +55404,12 @@
 			(uuid "cd2828f6-b063-48c8-9684-15a69da7e43d")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C277")
@@ -53953,6 +55503,12 @@
 			(uuid "7bc8d20e-7e32-428f-a3c1-a3b0f8dd0b92")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0586")
@@ -54047,6 +55603,12 @@
 			(uuid "54e2fa04-eef1-4c01-80c6-3a6b14402129")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0617")
@@ -54140,6 +55702,12 @@
 			(uuid "61a8026d-b68f-43c8-8b4f-78c4d54fefb9")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0555")
@@ -54233,6 +55801,12 @@
 			(uuid "802a863e-c308-4907-aead-1069ef0f85d1")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0145")
@@ -54392,6 +55966,12 @@
 			(uuid "8be0a494-50be-4fbe-982f-ffd3bc185e2e")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C45")
@@ -54485,6 +56065,12 @@
 			(uuid "630c8844-5be9-4187-b6ed-56c609e166ee")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0542")
@@ -54550,6 +56136,12 @@
 			(uuid "345d2244-ff52-4d8d-b90d-af74376f30cc")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0523")
@@ -54710,6 +56302,12 @@
 			(uuid "83bbd251-a7b6-4102-a39e-5d2884fc43d9")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C379")
@@ -54860,6 +56458,12 @@
 			(uuid "9f8daa81-d906-4988-a228-d02069e98355")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C280")
@@ -55009,6 +56613,12 @@
 			(uuid "b2304680-bc98-409e-a0ec-299c10c0f209")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C70")
@@ -55102,6 +56712,12 @@
 			(uuid "13123b13-46cd-4642-92ee-8f72b688505f")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0751")
@@ -55251,6 +56867,12 @@
 			(uuid "d2bca4ea-2501-4b66-b8ba-5cd64c530e6e")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C72")
@@ -55373,6 +56995,12 @@
 			(uuid "51df4c69-17b6-4f9a-b7b6-d5ff5c716160")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "U69")
@@ -55439,6 +57067,12 @@
 			(uuid "0bb9dfee-542f-4ca1-9ce6-a596c87f7bc9")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0491")
@@ -55599,6 +57233,12 @@
 			(uuid "bdfe5585-44e7-45a9-a9dc-e958f282fb9d")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C217")
@@ -55746,6 +57386,12 @@
 			(uuid "b62c0fc8-d53d-4580-826d-1b2b3b906ab7")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C382")
@@ -55812,6 +57458,12 @@
 			(uuid "876c9555-1771-4153-b8c2-661ae5bfbc33")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0527")
@@ -56008,6 +57660,12 @@
 			(uuid "1243b30e-0336-401f-b767-4f6d826401f1")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "U12")
@@ -56133,6 +57791,12 @@
 			(uuid "99cb10af-f525-4ba1-9e3f-ff45e243ec8c")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "U76")
@@ -56226,6 +57890,12 @@
 			(uuid "165c5ce5-c0e8-410e-99df-4cae0427946c")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0137")
@@ -56319,6 +57989,12 @@
 			(uuid "6c8b2204-cc9a-4e7a-9f40-2b4b9f3573a8")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0758")
@@ -56412,6 +58088,12 @@
 			(uuid "d64381a8-5123-4fcd-adae-8c10e31d05a1")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0747")
@@ -56505,6 +58187,12 @@
 			(uuid "7bfbda5e-6f9b-43db-be86-679e5028e702")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0590")
@@ -56654,6 +58342,12 @@
 			(uuid "4218c771-3ad8-47db-a52d-ae6175690081")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C69")
@@ -56747,6 +58441,12 @@
 			(uuid "000ba371-cc9d-470e-9810-7142ce0cda02")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR094")
@@ -56840,6 +58540,12 @@
 			(uuid "547ac73b-d332-499f-88f5-68e7f2451643")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0556")
@@ -56933,6 +58639,12 @@
 			(uuid "35d22e85-7b38-43fa-9953-17f905ae5df5")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR096")
@@ -57082,6 +58794,12 @@
 			(uuid "c21b2dd8-e6fa-493a-81d8-b83d3ba758ec")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C279")
@@ -57175,6 +58893,12 @@
 			(uuid "99cfd3f4-bf1c-4630-a221-62e683c332be")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0534")
@@ -57268,6 +58992,12 @@
 			(uuid "5035dd59-2137-49e8-b5b2-d02685494d5d")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0557")
@@ -57362,6 +59092,12 @@
 			(uuid "53529d31-3099-4827-aa51-d6f00b6fd5ef")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR057")
@@ -57522,6 +59258,12 @@
 			(uuid "a473f14b-8111-40dd-b623-085a1a8d4f22")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C293")
@@ -57589,6 +59331,12 @@
 			(uuid "05fa82f2-ef4f-4b9e-8a89-fc129fd4a9e1")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR098")
@@ -57737,6 +59485,12 @@
 			(uuid "932337db-8fbb-4c03-a87e-4aae4a618c31")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R258")
@@ -57831,6 +59585,12 @@
 			(uuid "b814a0f4-877f-4adc-ab1d-45843bc8fb5f")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0623")
@@ -57924,6 +59684,12 @@
 			(uuid "2a9dbf17-e03b-4ce9-bb42-f57b9acf42b2")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0120")
@@ -58064,6 +59830,12 @@
 			(uuid "f9fd58a2-15f4-4819-ba6f-4be9b1474aad")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R43")
@@ -58129,6 +59901,12 @@
 			(uuid "21b54a88-7915-4132-a810-5d1c29dedf74")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#FLG?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#FLG021")
@@ -58325,6 +60103,12 @@
 			(uuid "10aab51b-e33a-4ec6-a8af-8bb843332835")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "U11")
@@ -58485,6 +60269,12 @@
 			(uuid "55726d12-b840-4511-9b41-c6e615c37c6b")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C294")
@@ -58578,6 +60368,12 @@
 			(uuid "832b380f-2415-4ec4-90bf-75c239435b8f")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR068")
@@ -58736,6 +60532,12 @@
 			(uuid "dccb752b-0508-4b96-bed4-4dbab99d3d35")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C29")
@@ -58883,6 +60685,12 @@
 			(uuid "e777671e-4b65-4fad-b2a9-8ce705ae4847")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C383")
@@ -59043,6 +60851,12 @@
 			(uuid "cf421edb-7bc6-4330-ade4-a597e3b9f96c")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C291")
@@ -59192,6 +61006,12 @@
 			(uuid "07c0227c-2191-4632-b1b8-08d80c31afd9")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C278")
@@ -59259,6 +61079,12 @@
 			(uuid "2d161e73-a903-41a7-b967-072997d47924")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR045")
@@ -59455,6 +61281,12 @@
 			(uuid "e57bcc31-4426-45cf-b063-361f0986b0a3")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "U8")
@@ -59596,6 +61428,12 @@
 			(uuid "b3623404-e915-44e9-91b8-19af8d6c76df")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R16")
@@ -59689,6 +61527,12 @@
 			(uuid "0468458e-c3a2-48f9-92f2-3d272c843689")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR090")
@@ -59783,6 +61627,12 @@
 			(uuid "9d7aadec-d327-4fe1-981d-fa90577c2846")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0620")
@@ -59935,6 +61785,12 @@
 			(uuid "4db887be-1f96-4590-85a8-15b9e70fcad6")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C6")
@@ -60080,6 +61936,12 @@
 			(uuid "a318d76e-06c3-4245-866d-9f5d91a6197c")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R7")
@@ -60173,6 +62035,12 @@
 			(uuid "2d1693bc-43bc-4a7d-aaf6-b26a0455d2ac")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0582")
@@ -60266,6 +62134,12 @@
 			(uuid "ecf8043f-7e73-445a-b7b7-b0d215fc7db0")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0148")
@@ -60359,6 +62233,12 @@
 			(uuid "0ca671f6-78fc-4458-94f5-544e434527e7")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0532")
@@ -60499,6 +62379,12 @@
 			(uuid "b8e825df-b419-4d8c-899c-558f03050800")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R70")
@@ -60593,6 +62479,12 @@
 			(uuid "ba62b22e-c5b1-4911-9eb3-27b03ca149f9")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0657")
@@ -60753,6 +62645,12 @@
 			(uuid "b2f42b5d-cd31-45f0-b925-028339cba65f")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C301")
@@ -60846,6 +62744,12 @@
 			(uuid "61981024-0839-40d8-b985-40102240032f")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0652")
@@ -60986,6 +62890,12 @@
 			(uuid "4982af93-cc5b-4714-904b-019c9d18e11d")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R316")
@@ -61146,6 +63056,12 @@
 			(uuid "62c68f16-47bb-439c-ad4d-bf4e69da1758")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C378")
@@ -61271,6 +63187,12 @@
 			(uuid "f864e309-a97b-40ed-bd50-bd944072f418")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "U22")
@@ -61364,6 +63286,12 @@
 			(uuid "ebc3c8b8-38ad-4cc6-8364-ac7212ceddd2")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR064")
@@ -61513,6 +63441,12 @@
 			(uuid "060300b2-5f61-42dd-be18-36b26f5b6df1")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C67")
@@ -61606,6 +63540,12 @@
 			(uuid "3088cbc5-899f-4253-8f20-d39f68796351")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0541")
@@ -61754,6 +63694,12 @@
 			(uuid "a44d2fd2-f1a4-48d3-8c8b-5d11008363d0")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C60")
@@ -61847,6 +63793,12 @@
 			(uuid "74116e7b-ff16-4854-aec0-9eff391eb5c1")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0554")
@@ -61941,6 +63893,12 @@
 			(uuid "5ba44831-99ad-4559-bbe9-ea4f551e2f29")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR055")
@@ -62034,6 +63992,12 @@
 			(uuid "61d8bf2f-a7da-4c70-83e3-e2223f659c84")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR058")
@@ -62230,6 +64194,12 @@
 			(uuid "6cc19963-01b5-4f29-8141-988aa6223eec")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "U13")
@@ -62297,6 +64267,12 @@
 			(uuid "1a9dbede-7659-4fa5-8cc8-237689f95db2")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR043")
@@ -62458,6 +64434,12 @@
 			(uuid "552229a8-5dda-4bc6-b64f-0f6d567b8643")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C282")
@@ -62551,6 +64533,12 @@
 			(uuid "f3ba9b18-96f4-41f7-a548-c0eb617c8df7")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0533")
@@ -62709,6 +64697,12 @@
 			(uuid "5175fd54-85e9-429b-b867-66c9151b6dc2")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C235")
@@ -62802,6 +64796,12 @@
 			(uuid "fca3d8e0-7d2f-438d-b61c-91c21bacf98e")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0750")
@@ -62895,6 +64895,12 @@
 			(uuid "d04c6ea1-476e-457a-8148-c419b3fd5ea7")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0561")
@@ -62988,6 +64994,12 @@
 			(uuid "2c0b125b-71e0-41f0-add9-b734b35b1103")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0431")
@@ -63081,6 +65093,12 @@
 			(uuid "d1e4dd5a-942e-4e2a-9c56-6f859beb0a9c")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0142")
@@ -63174,6 +65192,12 @@
 			(uuid "42c0ea3a-901f-40a3-a659-a400fe28a96a")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0752")
@@ -63334,6 +65358,12 @@
 			(uuid "da698bbb-85f6-4129-bdf6-db31b6965e75")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C258")
@@ -63427,6 +65457,12 @@
 			(uuid "2a447013-ff41-4692-95d6-4d0eb2b69df0")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0588")
@@ -63586,6 +65622,12 @@
 			(uuid "e73348e2-1f00-4031-a18e-91df5678ce12")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C43")
@@ -63653,6 +65695,12 @@
 			(uuid "c237eb74-f2ae-4889-9199-de5e78adfef4")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0451")
@@ -63719,6 +65767,12 @@
 			(uuid "11f8ba6b-2ef8-4524-b124-35981cff1157")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR037")
@@ -63812,6 +65866,12 @@
 			(uuid "c51b18f3-4430-4f8e-a708-09232de65d8a")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0749")
@@ -63972,6 +66032,12 @@
 			(uuid "1daf4ef2-2325-4129-b3f6-f21d27b46a41")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C36")
@@ -64122,6 +66188,12 @@
 			(uuid "9e76f4f0-fd4f-4737-8813-63a4ab347ee6")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R217")
@@ -64215,6 +66287,12 @@
 			(uuid "2e1eed2a-b1e5-4bc3-997e-7a18966f1b8c")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0619")
@@ -64308,6 +66386,12 @@
 			(uuid "c342f7e7-48c3-488f-8bba-9e45e20173eb")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR085")
@@ -64401,6 +66485,12 @@
 			(uuid "56c12c1f-a457-498a-961f-d91e900276b2")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR067")
@@ -64494,6 +66584,12 @@
 			(uuid "f2e3219d-f59b-4b4b-a559-6721fc338563")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0597")
@@ -64613,6 +66709,12 @@
 			(uuid "d4258e69-5981-4ac3-bfd8-e15838125f9d")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "D56")
@@ -64762,6 +66864,12 @@
 			(uuid "e4774efa-2f44-4aa4-b822-b55b8650cda6")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C51")
@@ -64855,6 +66963,12 @@
 			(uuid "55872474-6e89-4d3a-9c38-a433588d58bc")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR065")
@@ -64921,6 +67035,12 @@
 			(uuid "33e9a383-2efb-4844-941c-a8c4cd87481f")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0138")
@@ -65081,6 +67201,12 @@
 			(uuid "b7795e05-b070-4264-9c66-81c56443cb03")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C297")
@@ -65147,6 +67273,12 @@
 			(uuid "f3c80c5d-641c-4028-97f9-c21700c4b360")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0156")
@@ -65308,6 +67440,12 @@
 			(uuid "646f8879-85f9-4452-b042-25c0407c7ba6")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C35")
@@ -65456,6 +67594,12 @@
 			(uuid "35c55296-2044-4f54-a1fd-4a622da07c12")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C246")
@@ -65550,6 +67694,12 @@
 			(uuid "3f95eb2f-ecb6-4a64-aab6-a6ad4ca33d29")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0524")
@@ -65643,6 +67793,12 @@
 			(uuid "47615901-1b94-454d-b685-6af75f684db9")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0551")
@@ -65736,6 +67892,12 @@
 			(uuid "22bda894-f398-4fc6-9d35-e735b4188143")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR047")
@@ -65829,6 +67991,12 @@
 			(uuid "24251f7a-591d-4e0c-a2c2-c417d7d9b0ab")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0562")
@@ -65894,6 +68062,12 @@
 			(uuid "51a01e51-b772-4d19-8f53-7871955288ad")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0570")
@@ -65987,6 +68161,12 @@
 			(uuid "feda1b29-8162-4b0c-98dc-77903d08e9be")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0564")
@@ -66132,6 +68312,12 @@
 			(uuid "568ace3d-898f-47d2-966b-95eb2b065f33")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "R10")
@@ -66292,6 +68478,12 @@
 			(uuid "fbc9c8ea-4e6c-402d-b066-4978ffa9abaa")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C287")
@@ -66442,6 +68634,12 @@
 			(uuid "936a7f2a-e23c-4eaf-9c84-8f2a6a945ef6")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C218")
@@ -66535,6 +68733,12 @@
 			(uuid "ac444e23-b148-4d76-8d73-be65b9f16b74")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#PWR0595")
@@ -66694,6 +68898,12 @@
 			(uuid "ae6d3303-5292-459d-8327-8a11aa3a613f")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "C273")
@@ -66761,6 +68971,12 @@
 			(uuid "3c1f5aaa-073f-45f6-bab7-43174279c8a8")
 		)
 		(instances
+			(project "dcdc"
+				(path "/4c5ba2e6-cc79-4dee-8639-15d7eb19957e"
+					(reference "#FLG?")
+					(unit 1)
+				)
+			)
 			(project "jetson-agx-thor-baseboard"
 				(path "/f569b0be-0afd-48b7-93ee-28582a4c645c/24bfa3d1-0a03-41a0-8beb-0ef00bfb4ba3"
 					(reference "#FLG011")
@@ -66769,4 +68985,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
