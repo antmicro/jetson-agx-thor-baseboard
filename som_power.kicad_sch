@@ -15813,12 +15813,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroMechanicalParts:Spacer_Drill4.45mm_H4mm_9774040960R"
+		(symbol "antmicroMechanicalParts:Spacer_Drill4.4mm_H4mm_9774040360R"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 22.86 -2.54 0)
+				(at 15.24 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -15827,18 +15827,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "Spacer_Drill4.45mm_H4mm_9774040960R"
-				(at 22.86 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:Spacer_Drill4.45mm_H4mm_9774040960R"
-				(at 22.86 -7.62 0)
+			(property "Value" "Spacer_Drill4.4mm_H4mm_9774040360R"
+				(at 15.24 -10.414 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -15848,8 +15838,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774040960R.pdf"
-				(at 22.86 -10.16 0)
+			(property "Footprint" "antmicro-footprints:Spacer_Drill4.4mm_H4mm_9774040360R"
+				(at 15.24 -12.954 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -15859,8 +15849,19 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 6 mm x 4 mm, 3.3 mm Internal, WA-SMST Series"
-				(at 22.86 -22.86 0)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774040360R.pdf"
+				(at 15.24 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Standoff, SMT, Non Stop, Steel, Round Female, M3, 6 mm x 4 mm, 4 mm Overall, WA_SMSI Series"
+				(at 15.24 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -15870,7 +15871,7 @@
 				)
 			)
 			(property "Manufacturer" "Würth Elektronik"
-				(at 22.86 -12.7 0)
+				(at 15.24 -18.034 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -15880,19 +15881,18 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "9774040960R"
-				(at 22.86 -15.24 0)
+			(property "MPN" "9774040360R"
+				(at 15.24 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(thickness 0.15)
 					)
 					(justify left bottom)
-					(hide yes)
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 22.86 -17.78 0)
+				(at 15.24 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -15903,7 +15903,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 22.86 -20.32 0)
+				(at 15.24 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -15922,7 +15922,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Spacer_Drill4.45mm_H4mm_9774040960R_1_1"
+			(symbol "Spacer_Drill4.4mm_H4mm_9774040360R_1_1"
 				(rectangle
 					(start 2.54 -2.54)
 					(end 7.62 2.54)
@@ -32135,7 +32135,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill4.45mm_H4mm_9774040960R")
+		(lib_id "antmicroMechanicalParts:Spacer_Drill4.4mm_H4mm_9774040360R")
 		(at 378.46 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32144,28 +32144,17 @@
 		(dnp no)
 		(uuid "1d1e9644-4f47-40d2-a8e0-b00c1cc500be")
 		(property "Reference" "H7"
-			(at 387.35 50.8 0)
+			(at 387.35 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "Spacer_Drill4.45mm_H4mm_9774040960R"
-			(at 387.35 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Spacer_Drill4.45mm_H4mm_9774040960R"
-			(at 401.32 59.69 0)
+		(property "Value" "Spacer_Drill4.4mm_H4mm_9774040360R"
+			(at 393.7 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32175,8 +32164,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774040960R.pdf"
-			(at 401.32 62.23 0)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill4.4mm_H4mm_9774040360R"
+			(at 393.7 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32186,17 +32175,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 6 mm x 4 mm, 3.3 mm Internal, WA-SMST Series"
-			(at 378.46 52.07 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774040360R.pdf"
+			(at 393.7 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standoff, SMT, Non Stop, Steel, Round Female, M3, 6 mm x 4 mm, 4 mm Overall, WA_SMSI Series"
+			(at 393.7 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 401.32 64.77 0)
+			(at 393.7 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32206,8 +32207,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "9774040960R"
-			(at 387.35 54.102 0)
+		(property "MPN" "9774040360R"
+			(at 387.35 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32217,7 +32218,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 401.32 69.85 0)
+			(at 393.7 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32228,7 +32229,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 401.32 72.39 0)
+			(at 393.7 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38408,7 +38409,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill4.45mm_H4mm_9774040960R")
+		(lib_id "antmicroMechanicalParts:Spacer_Drill4.4mm_H4mm_9774040360R")
 		(at 378.46 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -38417,28 +38418,17 @@
 		(dnp no)
 		(uuid "5317a8b0-f2c8-4af4-9d27-b5cbdbd0d475")
 		(property "Reference" "H6"
-			(at 387.35 43.18 0)
+			(at 387.35 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "Spacer_Drill4.45mm_H4mm_9774040960R"
-			(at 387.35 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Spacer_Drill4.45mm_H4mm_9774040960R"
-			(at 401.32 52.07 0)
+		(property "Value" "Spacer_Drill4.4mm_H4mm_9774040360R"
+			(at 393.7 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38448,8 +38438,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774040960R.pdf"
-			(at 401.32 54.61 0)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill4.4mm_H4mm_9774040360R"
+			(at 393.7 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38459,17 +38449,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 6 mm x 4 mm, 3.3 mm Internal, WA-SMST Series"
-			(at 378.46 44.45 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774040360R.pdf"
+			(at 393.7 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standoff, SMT, Non Stop, Steel, Round Female, M3, 6 mm x 4 mm, 4 mm Overall, WA_SMSI Series"
+			(at 393.7 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 401.32 57.15 0)
+			(at 393.7 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38479,8 +38481,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "9774040960R"
-			(at 387.35 46.482 0)
+		(property "MPN" "9774040360R"
+			(at 387.35 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38490,7 +38492,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 401.32 62.23 0)
+			(at 393.7 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38501,7 +38503,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 401.32 64.77 0)
+			(at 393.7 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40381,7 +40383,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill4.45mm_H4mm_9774040960R")
+		(lib_id "antmicroMechanicalParts:Spacer_Drill4.4mm_H4mm_9774040360R")
 		(at 378.46 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -40390,28 +40392,17 @@
 		(dnp no)
 		(uuid "65ef0e92-bfad-410d-b82b-33407b6c7ca0")
 		(property "Reference" "H5"
-			(at 387.35 35.56 0)
+			(at 387.35 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "Spacer_Drill4.45mm_H4mm_9774040960R"
-			(at 387.35 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Spacer_Drill4.45mm_H4mm_9774040960R"
-			(at 401.32 44.45 0)
+		(property "Value" "Spacer_Drill4.4mm_H4mm_9774040360R"
+			(at 393.7 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40421,8 +40412,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774040960R.pdf"
-			(at 401.32 46.99 0)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill4.4mm_H4mm_9774040360R"
+			(at 393.7 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40432,17 +40423,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 6 mm x 4 mm, 3.3 mm Internal, WA-SMST Series"
-			(at 378.46 36.83 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774040360R.pdf"
+			(at 393.7 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standoff, SMT, Non Stop, Steel, Round Female, M3, 6 mm x 4 mm, 4 mm Overall, WA_SMSI Series"
+			(at 393.7 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 401.32 49.53 0)
+			(at 393.7 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40452,8 +40455,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "9774040960R"
-			(at 387.35 38.862 0)
+		(property "MPN" "9774040360R"
+			(at 387.35 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40463,7 +40466,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 401.32 54.61 0)
+			(at 393.7 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40474,7 +40477,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 401.32 57.15 0)
+			(at 393.7 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41624,7 +41627,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:Spacer_Drill4.45mm_H4mm_9774040960R")
+		(lib_id "antmicroMechanicalParts:Spacer_Drill4.4mm_H4mm_9774040360R")
 		(at 378.46 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -41633,28 +41636,17 @@
 		(dnp no)
 		(uuid "75dadc64-4ffe-45f6-a6a2-0df25bcc141f")
 		(property "Reference" "H8"
-			(at 387.35 58.42 0)
+			(at 387.35 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "Spacer_Drill4.45mm_H4mm_9774040960R"
-			(at 387.35 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Spacer_Drill4.45mm_H4mm_9774040960R"
-			(at 401.32 67.31 0)
+		(property "Value" "Spacer_Drill4.4mm_H4mm_9774040360R"
+			(at 393.7 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41664,8 +41656,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774040960R.pdf"
-			(at 401.32 69.85 0)
+		(property "Footprint" "antmicro-footprints:Spacer_Drill4.4mm_H4mm_9774040360R"
+			(at 393.7 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41675,17 +41667,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 6 mm x 4 mm, 3.3 mm Internal, WA-SMST Series"
-			(at 378.46 59.69 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774040360R.pdf"
+			(at 393.7 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standoff, SMT, Non Stop, Steel, Round Female, M3, 6 mm x 4 mm, 4 mm Overall, WA_SMSI Series"
+			(at 393.7 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 401.32 72.39 0)
+			(at 393.7 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41695,8 +41699,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "9774040960R"
-			(at 387.35 61.722 0)
+		(property "MPN" "9774040360R"
+			(at 387.35 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41706,7 +41710,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 401.32 77.47 0)
+			(at 393.7 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41717,7 +41721,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 401.32 80.01 0)
+			(at 393.7 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
