@@ -216,6 +216,9 @@ The Jetson SoM will stay in the recovery mode for ~45s and then it will make an 
 If needed, repeat the procedure to force the SoM back into recovery mode.
 
 ### 6. Flash the board
+:::{important}
+If you're using a system that is not based on Debian go to the [Docker image](#docker-image) section.
+:::
 
 Open another terminal instance on your PC and navigate to the directory which holds the downloaded and unpacked BSP, as described in the [Get the BSP image](#get-the-bsp-image) section.
 ```bash
@@ -249,7 +252,106 @@ Flashing finish
 Cleaning up...
 ```
 
-### Post-flashing procedure
+Continue to [Post-flashing procedure](#post-flashing-procedure).
+
+### Docker image
+
+If you're using a system that is not based on Debian it is recommended to create and use a Docker image to run NVIDIA's scripts.
+
+**Step 1**
+
+Make sure you have docker installed and that your user is added to the `docker` group:
+
+If your system does not have docker installed follow the official guide: https://docs.docker.com/engine/install/
+
+Remember add your USER to the docker group:
+
+```bash
+sudo usermod -aG docker $USER
+```
+After adding your USER to the docker group make sure to log out and log back in
+
+Confirm the installation with:
+
+```bash
+docker run hello-world
+```
+Expected outcome:
+
+```bash
+Hello from Docker!
+```
+**Step 2**
+
+Prepare `Dockerfile`
+
+```bash
+cd $WORK/Linux_for_Tegra
+touch Dockerfile
+nano Dockerfile
+```
+
+Save the text shown below inside the Dockerfile:
+
+```docker
+FROM ubuntu:20.04
+
+ENV DEBIAN_FRONTEND noninteractive
+RUN apt update && apt install -y sudo usbutils abootimg binfmt-support binutils cpp device-tree-compiler \
+                            dosfstools lbzip2 libxml2-utils nfs-kernel-server python python3-yaml \
+                            qemu-user-static sshpass udev uuid-runtime whois openssl cpio lz4 \
+                            python2 python3 python3-pip curl git wget unzip e2fsprogs vim iputils-ping \
+                            iproute2 parted xmlstarlet zstd
+RUN update-alternatives --install /usr/bin/python python /usr/bin/python2 1 && pip3 install pyyaml
+
+WORKDIR build
+```
+**Step 3**
+
+Build the docker image:
+
+```bash
+docker build -t l4t .
+```
+Create an alias for the docker command:
+
+```bash
+alias l4t_docker='docker container run --rm -it --network host --privileged -v /dev/:/dev/ -v `pwd`:/build l4t'
+```
+**Step 4**
+
+To use this image simply add `l4t_docker` before any command that is supposed to be run inside of the docker container:
+
+```bash
+cd $WORK/Linux_for_Tegra
+l4t_docker sudo ./l4t_initrd_flash.sh jetson-agx-thor-devkit internal
+```
+```{note}
+The flashing process alone usually takes about 5 minutes 
+```
+
+You should see that the tool flashes all QSPI partitions one-by-one and then moves onto populating the rootfs. 
+
+Expected outcome (host PC):
+
+```bash
+[flash_bsp_jetson-t264_die0]: [AdbShell(325)] : EXITCODE = 0
+[flash_bsp_jetson-t264_die0]: [resizeFilesystem(904)] : done
+[flash_bsp_jetson-t264_die0]: [FlashImages(3237)] : flashExcept return code - None
+[flash_bsp_jetson-t264_die0]: [flashFirmware(343)] :      in flashFirmware 
+[flash_bsp_jetson-t264_die0]: [flashFirmware(354)] :  This is a l4t Run, Skipping FW flashing
+[flash_bsp_jetson-t264]: start time  = 1774010741.4020789
+[flash_bsp_jetson-t264]: end time  = 1774011040.634902
+[flash_bsp_jetson-t264]: Total Time = 299.2328231334686
+[flash_bsp_jetson-t264]: Image Flashing took 299.2328231334686
+[flash_bsp_jetson-t264]: Flashing finished Successfully!!
+
+Flashing finish
+Cleaning up...
+```
+
+
+## Post-flashing procedure
 
 After the flashing process, restart the Jetson AGX Thor board by pressing the `RESET` button. 
 
