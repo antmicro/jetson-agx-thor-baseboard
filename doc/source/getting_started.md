@@ -11,7 +11,7 @@ To get started with the Jetson AGX Thor Baseboard, you'll need the following har
 
 ### 1. Jetson SoM
 
-The Jetson AGX Thor Baseboard targets the [Jetson Thor AGX T5000 SoM](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/).
+The Jetson AGX Thor Baseboard targets the [Jetson AGX Thor T5000 SoM](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/).
 
 ### 2. Power supply
 
@@ -20,9 +20,13 @@ The Jetson AGX Thor Baseboard should be powered through a 6-pin Molex Mini-Fit l
 Recommended power supply to mate with the 6-pin Molex Mini-Fit connector ([`J2`](#J2)) is the [MeanWell/GST360B24-C6P(24V/360W)](https://www.tme.eu/Document/7fa982c5fc04a55e4bde3e7ea1a6b4ec/GST360B-spec.pdf).
 
 Power consumption of the device varies depending on the utilized peripherals and specific application.  
-We suggest to use a power supply capable of providing at least 4 A of current (~100 W) for basic functionality.   
-The estimated maximal power required from the source when using both USB PD lines reaches around 450 W.   
+We suggest to use a power supply capable of providing at 130 W for basic functionality.   
+The estimated maximal power required from the source when using both USB PD lines reaches around 450 W.
+:::{figure-md}
+![](img/thor_power_connection.png)
 
+Jetson AGX Thor Baseboard DC power connection with polarity marking (yellow - bottom row: VCC, black - top row: GND).
+:::
 ### 3. Storage
 
 You should equip the Jetson AGX Thor Baseboard with M.2 NVMe SSD storage with at least 64GB of capacity.
@@ -82,6 +86,12 @@ Please disconnect all power sources from the baseboard and wait minimum 10s befo
 Install the NVMe M.2 SSD storage in the [`J13`](#J13) M.2 (key-M) slot located on the bottom side (i.e opposite side to the SoM) of the Jetson AGX Thor Baseboard.
 You need to fasten the SSD with one metric M2.5 (5mm long) bolt to ensure reliable connection.
 
+:::{figure-md}
+![](img/thor_nvme_location.png)
+
+Jetson AGX Thor Baseboard with the NVMe ready to be screwed down. 
+:::
+
 ### 4. Apply power supply
 
 Apply power to the board with the help of a power supply that meets the requirements described in the [Power supply](#power-supply) section.
@@ -98,6 +108,12 @@ You can check the ``lsusb`` or ``dmesg`` commands to verify if the serial bridge
 Connect the flashing USB-C 2 ([`J3`](#J3)) port to your PC.
 This should cause the [`D51`](#D51) LED indicator located next to the USB port to light up.
 Now you are ready to prepare the BSP flashing image and initialize the flashing process.
+
+:::{figure-md}
+![](img/thor_ready_for_flashing.png)
+
+Jetson AGX Thor Baseboard ready for flashing (with cooling module not pictured for clarity). 
+:::
 
 ## Flash the BSP image
 
