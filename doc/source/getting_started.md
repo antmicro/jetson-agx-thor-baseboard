@@ -19,9 +19,11 @@ The Jetson AGX Thor Baseboard should be powered through a 6-pin Molex Mini-Fit l
 
 Recommended power supply to mate with the 6-pin Molex Mini-Fit connector ([`J2`](#J2)) is the [MeanWell/GST360B24-C6P(24V/360W)](https://www.tme.eu/Document/7fa982c5fc04a55e4bde3e7ea1a6b4ec/GST360B-spec.pdf).
 
+Additionally, the board provides two 100W 20V Power Delivery sources on USB-C port 0 and port 1 ([`J7`](#J7) and [`J9`](#J9)).
+
 Power consumption of the device varies depending on the utilized peripherals and specific application.  
-We suggest to use a power supply capable of providing at 130 W for basic functionality.   
-The estimated maximal power required from the source when using both USB PD lines reaches around 450 W.
+We suggest to use a power supply capable of providing at least 130 W for basic functionality.   
+The estimated maximal power required from the source (when using both USB PD lines) reaches around 450 W.
 :::{figure-md}
 ![](img/thor_power_connection.png)
 
@@ -41,9 +43,7 @@ Using the SoM without any cooling solution attached will make it throttle and ev
 :::
 ### 5. Fastening bolts
 
-You will need at least one metric M2.5 (5mm long) bolt and a matching screwdriver to fasten the SSD to the baseboard.
-You may want to use more bolts to fasten the SoM and the baseboard to the baseplate.
-The SoM is fastened to the baseboard using four bolts with metric M3 thread (ISO 7045). All other mechanical fastening points located on the board support bolts with metric M2.5 thread (ISO 7045).
+You will need at least one metric M2.5 (5 mm long) bolt and a matching screwdriver to fasten the SSD to the baseboard and four bolts with a metric M3 thread (their length depends on the cooling module used) to secure the SoM and the cooling module to the baseboard. All other mechanical fastening points located on the board support bolts with metric M2.5 thread (ISO 7045).
 
 ### 6. Host PC
 
@@ -62,24 +62,25 @@ You should avoid using USB hubs for the flashing interface to get the optimal fl
 
 Video output is optional.\
 USB-C 1 port ([`J9`](#J9)) supports DisplayPort alternative mode and is the main way of obtaining video output. 
-Additionally, the expansion connector ([`J18`](#J18)) `ASP-218650-01` compatible with the [FMC+ standard](https://suddendocs.samtec.com/notesandwhitepapers/samtec-vita574fmcplus-extender-application-note.pdf) exposes 3 DisplayPort interfaces. For more information regarding expansion connector pinout plese check [mappings](mappings.md#expansion-connector-pinout).
+Additionally, the expansion connector ([`J18`](#J18)) `ASP-218650-01` compatible with the [FMC+ standard](https://suddendocs.samtec.com/notesandwhitepapers/samtec-vita574fmcplus-extender-application-note.pdf) exposes 3 DisplayPort interfaces. 
 
 ## Build your setup
 
 To prepare the Jetson AGX Thor Baseboard for initial usage, follow the steps described below:
 
-### 1. Install the cooling module
-
-### 2. Install the SoM
+### 1. Install the SoM
 
 Securely attach the NVIDIA Jetson AGX Thor SoM to the [`J1`](#J1) connector of the Jetson AGX Thor Baseboard.
-Remember to connect the cooling fan plug into the [`J15`](#J15) fan receptacle.
-You can fasten the SoM to the baseboard with four metric M3 bolts.
 
 :::{caution}
 The baseboard does not support hot-swapping of the SoM. 
-Please disconnect all power sources from the baseboard and wait minimum 10s before removing/inserting the SoM.
+Please disconnect all power sources from the baseboard and wait minimum 10 s before removing/inserting the SoM.
 :::
+
+### 2. Install the cooling module
+
+Attach the cooling module to the top of the integrated thermal transfer plate of the SoM and secure it with four metric M3 bolts that also fasten the SoM to the baseboard. 
+Remember to connect the cooling fan plug into the [`J15`](#J15) fan receptacle.
 
 ### 3. Install the storage
 
@@ -89,7 +90,7 @@ You need to fasten the SSD with one metric M2.5 (5mm long) bolt to ensure reliab
 :::{figure-md}
 ![](img/thor_nvme_location.png)
 
-Jetson AGX Thor Baseboard with the NVMe ready to be screwed down. 
+Jetson AGX Thor Baseboard with the NVMe ready to secured with a screw. 
 :::
 
 ### 4. Apply power supply
