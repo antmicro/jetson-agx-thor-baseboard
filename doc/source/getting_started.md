@@ -15,7 +15,9 @@ The Jetson AGX Thor Baseboard targets the [Jetson AGX Thor T5000 SoM](https://ww
 
 ### 2. Power supply
 
-The Jetson AGX Thor Baseboard should be powered through a 6-pin Molex Mini-Fit locking connector ([`J2`](#J2)). The input voltage is 24 VDC and must not exceed that value to prevent damage to the onboard DC-DC converters and module itself.
+The Jetson AGX Thor Baseboard should be powered through a 6-pin Molex Mini-Fit locking connector ([`J2`](#J2)). You can use an off-the-shelf Mini-Fit Cable assembly (Molex/[2153252062](https://www.molex.com/en-us/products/part-detail/2153252062)) or build a custom one from a Mini-Fit receptacle (Molex/[39039062](https://www.molex.com/en-us/products/part-detail/39039062)) and pre-crimped wires (Molex/[2153411224](https://www.molex.com/en-us/products/part-detail/2153411224)). Please observe the polarity marked in the render below.
+
+The Jetson AGX Thor Baseboard can be powered with a benchtop PSU or AC/DC wall adapter providing DC voltage.The input voltage is 24 VDC and must not exceed that value to prevent damage to the onboard DC-DC converters and the module itself.
 
 Recommended power supply to mate with the 6-pin Molex Mini-Fit connector ([`J2`](#J2)) is the [MeanWell/GST360B24-C6P(24V/360W)](https://www.tme.eu/Document/7fa982c5fc04a55e4bde3e7ea1a6b4ec/GST360B-spec.pdf).
 
@@ -31,19 +33,19 @@ Jetson AGX Thor Baseboard DC power connection with polarity marking (yellow - bo
 :::
 ### 3. Storage
 
-You should equip the Jetson AGX Thor Baseboard with M.2 NVMe SSD storage with at least 64GB of capacity.
+You should equip the Jetson AGX Thor Baseboard with M.2 NVMe SSD storage with at least 100 GB of capacity.
 That will be the primary storage device from which the SoM will boot.
 
 ### 4. Cooling 
 
-Antmicro designed a dedicated [enclosure](https://github.com/antmicro/jetson-agx-thor-baseboard-enclosure) for the Jetson AGX Thor. The project contains files for CNC milling both the aluminum enclosure and a copper heatsink that together with two blower fans allow for efficient cooling of the SoM.  
+Antmicro designed a dedicated [enclosure](https://github.com/antmicro/jetson-agx-thor-baseboard-enclosure) for the Jetson AGX Thor Baseboard. The project contains files for CNC milling both the aluminum enclosure and a copper heatsink that together with two blower fans allow for efficient cooling of the SoM.  
 Alternative commercial cooling solutions for the Jetson AGX Thor SoM are [ATS-NVP-3739-C1-R0](https://www.qats.com/Product/Heat-Sinks/BGA-Heat-Sink---High-Performance/Device-Specific---NVIDIA/ATS-NVP-3739-C1-R0/3692.aspx) and [ATS-NVA-3740-C1-R0](https://www.qats.com/Product/Heat-Sinks/BGA-Heat-Sink---High-Performance/Device-Specific---NVIDIA/ATS-NVA-3740-C1-R0/3693.aspx) for low to medium power applications and [ATS-NVA-3752-C2-R0](https://www.qats.com/Product/Heat-Sinks/BGA-Heat-Sink---High-Performance/Device-Specific---NVIDIA/ATS-NVA-3752-C2-R0/3694.aspx) for running at full power. 
 :::{caution}
 Using the SoM without any cooling solution attached will make it throttle and eventually reboot or crash the system due to overheating.
 :::
 ### 5. Fastening bolts
 
-You will need at least one metric M2.5 (5 mm long) bolt and a matching screwdriver to fasten the SSD to the baseboard and four bolts with a metric M3 thread (their length depends on the cooling module used) to secure the SoM and the cooling module to the baseboard. All other mechanical fastening points located on the board support bolts with metric M2.5 thread (ISO 7045).
+You will need at least one metric M2.5 (5 mm long) bolt to fasten the SSD to the baseboard and four bolts with a metric M3 thread (their length depends on the cooling module used) to secure the SoM and the cooling module to the baseboard. All other mechanical fastening points located on the board support bolts with metric M2.5 thread (ISO 7045).
 
 ### 6. Host PC
 
@@ -79,7 +81,7 @@ Please disconnect all power sources from the baseboard and wait minimum 10 s bef
 
 ### 2. Install the cooling module
 
-Attach the cooling module to the top of the integrated thermal transfer plate of the SoM and secure it with four metric M3 bolts that also fasten the SoM to the baseboard. 
+Attach the cooling module to the top of the integrated thermal transfer plate of the SoM (use thermal compound if it's not already applied on the cooling module) and secure it with four metric M3 bolts that also fasten the SoM to the baseboard. 
 Remember to connect the cooling fan plug into the [`J15`](#J15) fan receptacle.
 
 ### 3. Install the storage

@@ -22,12 +22,7 @@ Jetson AGX Thor Baseboard interface map
 
 ## Power
 
-The Jetson AGX Thor Baseboard can be powered with a stable 24V DC voltage via the on-board 6-pin Molex Mini-Fit locking connector ([`J2`](#J2)). 
-Recommended power supply to mate with the 6-pin Molex Mini-Fit connector ([`J2`](#J2)) is the [MeanWell/GST360B24-C6P(24V/360W)](https://www.tme.eu/Document/7fa982c5fc04a55e4bde3e7ea1a6b4ec/GST360B-spec.pdf).
-
-Power consumption of the device varies depending on the utilized peripherals and specific application.
-We suggest to use a power supply capable of providing at 130 W for basic functionality.
-The estimated maximal power required from the source when using both USB PD lines reaches around 450 W.
+The Jetson AGX Thor Baseboard can be powered with a stable 24V DC voltage via the on-board 6-pin Molex Mini-Fit locking connector ([`J2`](#J2)). See the [Power Supply](getting_started.md#power-supply) section for details related to Mini-Fit power harness assembly, power consumption and a recommended power supply.
 
 ### USB-C Power Delivery
 
