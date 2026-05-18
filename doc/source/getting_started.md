@@ -19,7 +19,7 @@ The Jetson AGX Thor Baseboard should be powered through a 6-pin Molex Mini-Fit l
 
 The Jetson AGX Thor Baseboard can be powered with a benchtop PSU or AC/DC wall adapter providing DC voltage.The input voltage is 24 VDC and must not exceed that value to prevent damage to the onboard DC-DC converters and the module itself.
 
-Recommended power supply to mate with the 6-pin Molex Mini-Fit connector ([`J2`](#J2)) is the [MeanWell/GST360B24-C6P(24V/360W)](https://www.tme.eu/Document/7fa982c5fc04a55e4bde3e7ea1a6b4ec/GST360B-spec.pdf).
+Recommended power supply to mate with the 6-pin Molex Mini-Fit connector ([`J2`](#J2)) is the [MeanWell/GST360B24-C6P(24V/360W)](https://www.meanwell.com/webapp/product/search.aspx?prod=GST360B).
 
 Additionally, the board provides two 100W 20V Power Delivery sources on USB-C port 0 and port 1 ([`J7`](#J7) and [`J9`](#J9)).
 
@@ -64,7 +64,7 @@ You should avoid using USB hubs for the flashing interface to get the optimal fl
 
 Video output is optional.\
 USB-C 1 port ([`J9`](#J9)) supports DisplayPort alternative mode and is the main way of obtaining video output. 
-Additionally, the expansion connector ([`J18`](#J18)) `ASP-218650-01` compatible with the [FMC+ standard](https://suddendocs.samtec.com/notesandwhitepapers/samtec-vita574fmcplus-extender-application-note.pdf) exposes 3 DisplayPort interfaces. 
+Additionally, the expansion connector ([`J18`](#J18)) `ASP-218650-01` compatible with the [FMC+ standard](https://suddendocs.samtec.com/notesandwhitepapers/samtec-vita574fmcplus-extender-application-note.pdf) allows to connect an expansion board that can expose up to 3 DisplayPort interfaces.  
 
 ## Build your setup
 
