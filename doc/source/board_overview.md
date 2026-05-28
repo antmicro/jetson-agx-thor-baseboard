@@ -1,8 +1,8 @@
 # Board overview
 
-Jetson AGX Thor Baseboard is an open hardware board design supporting the NVIDIA Jetson AGX Thor T5000 SoM.
+Jetson AGX Thor Baseboard is an open hardware board design supporting the NVIDIA Jetson AGX Thor T5000 System on Module.
 The board design files were created in KiCad 9.x. and are available in this GitHub [repository](https://github.com/antmicro/jetson-agx-thor-baseboard).
-The board is a versatile development kit which can be adopted for standalone, desktop usage but it can be also integrated into a bigger computing system. It features a range of typical IO interfaces and offers compatibility with camera modules and video accessories developed by Antmicro. This makes it possible to use it for developing advanced vision systems, robots, autonomous vehicles and many more.  
+The board is a versatile development kit which can be adopted for standalone, desktop usage but it can be also integrated into a bigger computing system. It features a range of typical IO interfaces and offers compatibility with camera modules and video accessories developed by Antmicro. This makes the open source baseboard a perfect starting point for developing advanced vision systems, robots, autonomous vehicles and many more.  
 
 You can find out more about the Jetson AGX Thor Baseboard in this [blog article](https://antmicro.com/blog/2025/10/open-hardware-jetson-agx-thor-baseboard), or by visiting Antmicro's portals listed below:
 * [Open Hardware Portal](https://openhardware.antmicro.com/boards/jetson-agx-thor-baseboard/)
@@ -162,14 +162,15 @@ cd antmicro-jetson-orin-baseboard-tps65988-config
 Run:
 
 ```
-python3 TPS65988_flash.py --erase --write JOBrev1_1_6.bin
+python3 TPS65988_flash.py --erase --write config.bin
 ```
+where `config.bin` is the binary configuration file created by the TPS6598X-CONFIG utility as described in [USB-C Power Delivery controller configuration](#usb-c-power-delivery-controller-configuration) and placed in `antmicro-jetson-orin-baseboard-tps65988-config/tps-config-binaries`.
 
 Expected outcome:
 ```
 (...)
-Writing 42KB to flash memory...
-Write completed 43968 bytes written
+Writing XXKB to flash memory...
+Write completed XXXXX bytes written
 The PD Controller has been flashed successfully
 Performing cold reset
 ```
@@ -200,15 +201,17 @@ cd antmicro-jetson-orin-baseboard-tps65988-config
 
 #### 3. Write the configuration
 ```
-python3 TPS65988_flash.py --erase --write ./JOBrev1_1_6.bin --ft230x
+python3 TPS65988_flash.py --erase --write ./config.bin --ft230x
 ```
+where `config.bin` is the binary configuration file created by the TPS6598X-CONFIG utility as described in [USB-C Power Delivery controller configuration](#usb-c-power-delivery-controller-configuration) and placed in `antmicro-jetson-orin-baseboard-tps65988-config/tps-config-binaries`.
+
 During the flashing process the [`D21`](#D21) LED should light up.
 
 Expected outcome:
 ```
 (...)
-Writing 42KB to flash memory...
-Write completed 43968 bytes written
+Writing XXKB to flash memory...
+Write completed XXXXX bytes written
 The PD Controller has been flashed successfully
 Performing cold reset
 Reverting FT230X to UART configuration
@@ -219,4 +222,8 @@ The [`D21`](#D21) RX LED should turn off indicating end of communication.
 
 The Jetson AGX Thor Baseboard PCB is 180x100 millimeters (WxL) which translates into 7.09x3.94 inch. The overall height of the set depends on the cooling module attached. The base setup with the integrated thermal transfer plate (TTP) without a cooling module is 29 mm or 1.14 inch tall. The KiCad PCB design files include mechanical layers with dimensions specified for the fastening holes and notable components. 
 
+:::{figure-md}
+![](img/dimensions.png)
 
+Jetson AGX Thor Baseboard dimensions
+:::

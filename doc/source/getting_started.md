@@ -15,17 +15,14 @@ The Jetson AGX Thor Baseboard targets the [Jetson AGX Thor T5000 SoM](https://ww
 
 ### 2. Power supply
 
-The Jetson AGX Thor Baseboard should be powered through a 6-pin Molex Mini-Fit locking connector ([`J2`](#J2)). You can use an off-the-shelf Mini-Fit Cable assembly (Molex/[2153252062](https://www.molex.com/en-us/products/part-detail/2153252062)) or build a custom one from a Mini-Fit receptacle (Molex/[39039062](https://www.molex.com/en-us/products/part-detail/39039062)) and pre-crimped wires (Molex/[2153411224](https://www.molex.com/en-us/products/part-detail/2153411224)). Please observe the polarity marked in the render below.
+The Jetson AGX Thor Baseboard should be powered through a 6-pin Molex Mini-Fit locking connector ([`J2`](#J2)). The recommended power supply to mate with this connector is the [MeanWell/GST360B24-C6P(24V/360W)](https://www.meanwell.com/webapp/product/search.aspx?prod=GST360B).
 
-The Jetson AGX Thor Baseboard can be powered with a benchtop PSU or AC/DC wall adapter providing DC voltage.The input voltage is 24 VDC and must not exceed that value to prevent damage to the onboard DC-DC converters and the module itself.
-
-Recommended power supply to mate with the 6-pin Molex Mini-Fit connector ([`J2`](#J2)) is the [MeanWell/GST360B24-C6P(24V/360W)](https://www.meanwell.com/webapp/product/search.aspx?prod=GST360B).
+The Jetson AGX Thor Baseboard can also be powered with a benchtop PSU or AC/DC wall adapter providing DC voltage. The input voltage is 24 VDC and must not exceed that value to prevent damage to the onboard DC-DC converters and the module itself. You can use an off-the-shelf Mini-Fit Cable assembly (Molex/[2153252062](https://www.molex.com/en-us/products/part-detail/2153252062)) or build a custom one from a Mini-Fit receptacle (Molex/[39039062](https://www.molex.com/en-us/products/part-detail/39039062)) and pre-crimped wires (Molex/[2153411224](https://www.molex.com/en-us/products/part-detail/2153411224)). Please observe the polarity marked in the render below.
 
 Additionally, the board provides two 100W 20V Power Delivery sources on USB-C port 0 and port 1 ([`J7`](#J7) and [`J9`](#J9)).
 
 Power consumption of the device varies depending on the utilized peripherals and specific application.  
-We suggest to use a power supply capable of providing at least 130 W for basic functionality.   
-The estimated maximal power required from the source (when using both USB PD lines) reaches around 450 W.
+The estimated maximal power required from the source without drawing power from the USB lines reaches around 180W. Utilizing the power from all USB lines can increase the consumption up to 450 W.
 :::{figure-md}
 ![](img/thor_power_connection.png)
 
@@ -83,6 +80,8 @@ Please disconnect all power sources from the baseboard and wait minimum 10 s bef
 
 Attach the cooling module to the top of the integrated thermal transfer plate of the SoM (use thermal compound if it's not already applied on the cooling module) and secure it with four metric M3 bolts that also fasten the SoM to the baseboard. 
 Remember to connect the cooling fan plug into the [`J15`](#J15) fan receptacle.
+
+By default, the board supplies +12V DC to the fan and controls the fan speed via PWM, which requires 4-wire fans. To change the voltage to +5V DC remove `R25` and place `R28` instead. To use 2 or 3-wire fans remove `R25`/`R28`and place both `R418` and `R419` which will change the control method from PWM to voltage regulation. This regulation is by default configured to work with 12V fans. To change the range to +5V or other voltages follow the notes in the `DCDC` page of the schematic. 
 
 ### 3. Install the storage
 
@@ -235,47 +234,8 @@ The Jetson SoM will stay in the recovery mode for ~45s and then it will make an 
 If needed, repeat the procedure to force the SoM back into recovery mode.
 
 ### 6. Flash the board
-:::{important}
-If you're using a system that is not based on Debian go to the [Docker image](#docker-image) section.
-:::
 
-Open another terminal instance on your PC and navigate to the directory which holds the downloaded and unpacked BSP, as described in the [Get the BSP image](#get-the-bsp-image) section.
-```bash
-cd $WORK/Linux_for_Tegra
-```
-Make sure your SoM remains in the recovery mode.
-Then, execute the flashing script from the same directory:
-```bash
-sudo ./l4t_initrd_flash.sh jetson-agx-thor-devkit internal
-```
-```{note}
-The flashing process alone usually takes from 5 to 20 minutes 
-```
-You should see that the tool flashes all QSPI partitions one-by-one and then moves onto populating the rootfs.
-
-Expected outcome (host PC):
-
-```bash
-[flash_bsp_jetson-t264_die0]: [AdbShell(325)] : EXITCODE = 0
-[flash_bsp_jetson-t264_die0]: [resizeFilesystem(904)] : done
-[flash_bsp_jetson-t264_die0]: [FlashImages(3237)] : flashExcept return code - None
-[flash_bsp_jetson-t264_die0]: [flashFirmware(343)] :      in flashFirmware 
-[flash_bsp_jetson-t264_die0]: [flashFirmware(354)] :  This is a l4t Run, Skipping FW flashing
-[flash_bsp_jetson-t264]: start time  = 1774010741.4020789
-[flash_bsp_jetson-t264]: end time  = 1774011040.634902
-[flash_bsp_jetson-t264]: Total Time = 299.2328231334686
-[flash_bsp_jetson-t264]: Image Flashing took 299.2328231334686
-[flash_bsp_jetson-t264]: Flashing finished Successfully!!
-
-Flashing finish
-Cleaning up...
-```
-
-Continue to [Post-flashing procedure](#post-flashing-procedure).
-
-### Docker image
-
-If you're using a system that is not based on Debian it is recommended to create and use a Docker image to run NVIDIA's scripts.
+The recommended way to run NVIDIA's scripts is to create and use a Docker image as described below. Alternatively, if you are using Ubuntu you can flash the board without Docker as shown [here](#flashing-without-docker).
 
 **Step 1**
 
@@ -369,6 +329,42 @@ Flashing finish
 Cleaning up...
 ```
 
+Continue to [Post-flashing procedure](#post-flashing-procedure).
+
+
+#### Flashing without Docker
+
+Open another terminal instance on your PC and navigate to the directory which holds the downloaded and unpacked BSP, as described in the [Get the BSP image](#get-the-bsp-image) section.
+```bash
+cd $WORK/Linux_for_Tegra
+```
+Make sure your SoM remains in the recovery mode.
+Then, execute the flashing script from the same directory:
+```bash
+sudo ./l4t_initrd_flash.sh jetson-agx-thor-devkit internal
+```
+```{note}
+The flashing process alone usually takes from 5 to 20 minutes 
+```
+You should see that the tool flashes all QSPI partitions one-by-one and then moves onto populating the rootfs.
+
+Expected outcome (host PC):
+
+```bash
+[flash_bsp_jetson-t264_die0]: [AdbShell(325)] : EXITCODE = 0
+[flash_bsp_jetson-t264_die0]: [resizeFilesystem(904)] : done
+[flash_bsp_jetson-t264_die0]: [FlashImages(3237)] : flashExcept return code - None
+[flash_bsp_jetson-t264_die0]: [flashFirmware(343)] :      in flashFirmware 
+[flash_bsp_jetson-t264_die0]: [flashFirmware(354)] :  This is a l4t Run, Skipping FW flashing
+[flash_bsp_jetson-t264]: start time  = 1774010741.4020789
+[flash_bsp_jetson-t264]: end time  = 1774011040.634902
+[flash_bsp_jetson-t264]: Total Time = 299.2328231334686
+[flash_bsp_jetson-t264]: Image Flashing took 299.2328231334686
+[flash_bsp_jetson-t264]: Flashing finished Successfully!!
+
+Flashing finish
+Cleaning up...
+```
 
 ## Post-flashing procedure
 
@@ -393,6 +389,6 @@ Please note that the login prompt may differ depending on the BSP version you us
 Use the following login credentials to get access to the system:
 
 ```bash
-login: root
-password: root
+login: antmicro
+password: antmicro
 ``` 
