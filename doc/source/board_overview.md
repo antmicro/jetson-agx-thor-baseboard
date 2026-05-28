@@ -84,7 +84,7 @@ Debug Toolkit Jumper configuration for writing the USB-C PD configuration file.
 #### 3. Prepare the PC for flashing
 
   * Install the [flashrom](https://github.com/flashrom/flashrom) utility on your host PC.
-    On Debian-based distributions you can use a package manager for that.
+    On Ubuntu you can use a package manager for that.
 ```
 sudo apt install flashrom
 ```
@@ -185,7 +185,7 @@ This option allows for flashing the USB-C Power Delivery controller without SoM 
 #### 1. Prepare hardware
 * Disconnect power supply from the baseboard
 * Remove Jetson module from the baseboard
-* Connect a host PC to Jetson AGX Thor Baseboard USB-C Debug Connector ([`J7`](#J7))
+* Connect a host PC to Jetson AGX Thor Baseboard USB-C debug connector ([`J7`](#J7))
 
 #### 2. Install dependencies
 

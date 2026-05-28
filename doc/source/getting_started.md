@@ -79,7 +79,7 @@ Please disconnect all power sources from the baseboard and wait minimum 10 s bef
 ### 2. Install the cooling module
 
 Attach the cooling module to the top of the integrated thermal transfer plate of the SoM (use thermal compound if it's not already applied on the cooling module) and secure it with four metric M3 bolts that also fasten the SoM to the baseboard. 
-Remember to connect the cooling fan plug into the [`J15`](#J15) fan receptacle.
+Remember to connect the cooling fan plug to the [`J15`](#J15) fan connector.
 
 By default, the board supplies +12V DC to the fan and controls the fan speed via PWM, which requires 4-wire fans. To change the voltage to +5V DC remove `R25` and place `R28` instead. To use 2 or 3-wire fans remove `R25`/`R28`and place both `R418` and `R419` which will change the control method from PWM to voltage regulation. This regulation is by default configured to work with 12V fans. To change the range to +5V or other voltages follow the notes in the `DCDC` page of the schematic. 
 
@@ -107,7 +107,7 @@ You can check the ``lsusb`` or ``dmesg`` commands to verify if the serial bridge
 
 ### 6. Connect the flashing interface
 
-Connect the flashing USB-C 2 ([`J3`](#J3)) port to your PC.
+Connect the recovery USB-C port 2 ([`J3`](#J3)) to your PC.
 This should cause the [`D51`](#D51) LED indicator located next to the USB port to light up.
 Now you are ready to prepare the BSP flashing image and initialize the flashing process.
 
@@ -370,7 +370,7 @@ Cleaning up...
 
 After the flashing process, restart the Jetson AGX Thor board by pressing the `RESET` button. 
 
-You can also disconnect the USB-C cable from the Recovery USB port USB-C 2 ([`J3`](#J3)) - leave the Debug UART connected.
+You can also disconnect the USB-C cable from the recovery USB port USB-C 2 ([`J3`](#J3)) - leave the Debug UART connected.
 
 Observe the board reboot, you should see the booting log in the debug console. The SoM should boot up to the login screen visible in the debug console.
 
