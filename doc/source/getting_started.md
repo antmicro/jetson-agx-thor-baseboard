@@ -1,23 +1,23 @@
 # Getting started guide
 
-This manual will guide you through the initial setup of the open hardware [Jetson AGX Thor Baseboard](https://github.com/antmicro/jetson-agx-thor-baseboard).
+This manual will guide you through the initial setup of the open hardware [Antmicro baseboard for Jetson AGX Thor](https://github.com/antmicro/jetson-agx-thor-baseboard).
 It describes the basic steps required to assemble the board with required peripheral accessories, write a compiled Board Support Package (BSP) to the processing module and get it booted.
-If you want to learn more about the Jetson AGX Thor Baseboard itself, go to the [Board Overview](./board_overview.md) section.
+If you want to learn more about the Antmicro baseboard for Jetson AGX Thor itself, go to the [Board Overview](./board_overview.md) section.
 That section also includes an [I/O map](./board_overview.md#io-map) that may come in handy when locating interface connectors mentioned in this guide.
 
 ## Collect the hardware
 
-To get started with the Jetson AGX Thor Baseboard, you'll need the following hardware:
+To get started with the Antmicro baseboard for Jetson AGX Thor, you'll need the following hardware:
 
 ### 1. Jetson SoM
 
-The Jetson AGX Thor Baseboard targets the [Jetson AGX Thor T5000 SoM](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/).
+The Antmicro baseboard for Jetson AGX Thor targets the [Jetson AGX Thor T5000 SoM](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/).
 
 ### 2. Power supply
 
-The Jetson AGX Thor Baseboard should be powered through a 6-pin Molex Mini-Fit locking connector ([`J2`](#J2)). The recommended power supply to mate with this connector is the [MeanWell/GST360B24-C6P(24V/360W)](https://www.meanwell.com/webapp/product/search.aspx?prod=GST360B).
+The baseboard should be powered through a 6-pin Molex Mini-Fit locking connector ([`J2`](#J2)). The recommended power supply to mate with this connector is the [MeanWell/GST360B24-C6P(24V/360W)](https://www.meanwell.com/webapp/product/search.aspx?prod=GST360B).
 
-The Jetson AGX Thor Baseboard can also be powered with a benchtop PSU or AC/DC wall adapter providing DC voltage. The input voltage is 24 VDC and must not exceed that value to prevent damage to the onboard DC-DC converters and the module itself. You can use an off-the-shelf Mini-Fit Cable assembly (Molex/[2153252062](https://www.molex.com/en-us/products/part-detail/2153252062)) or build a custom one from a Mini-Fit receptacle (Molex/[39039062](https://www.molex.com/en-us/products/part-detail/39039062)) and pre-crimped wires (Molex/[2153411224](https://www.molex.com/en-us/products/part-detail/2153411224)). Please observe the polarity marked in the render below.
+The Antmicro baseboard for Jetson AGX Thor can also be powered with a benchtop PSU or AC/DC wall adapter providing DC voltage. The input voltage is 24 VDC and must not exceed that value to prevent damage to the onboard DC-DC converters and the module itself. You can use an off-the-shelf Mini-Fit Cable assembly (Molex/[2153252062](https://www.molex.com/en-us/products/part-detail/2153252062)) or build a custom one from a Mini-Fit receptacle (Molex/[39039062](https://www.molex.com/en-us/products/part-detail/39039062)) and pre-crimped wires (Molex/[2153411224](https://www.molex.com/en-us/products/part-detail/2153411224)). Please observe the polarity marked in the render below.
 
 Additionally, the board provides two 100W 20V Power Delivery sources on USB-C port 0 and port 1 ([`J7`](#J7) and [`J9`](#J9)).
 
@@ -26,16 +26,16 @@ The estimated maximal power required from the source without drawing power from 
 :::{figure-md}
 ![](img/thor_power_connection.png)
 
-Jetson AGX Thor Baseboard DC power connection with polarity marking (yellow - bottom row: VCC, black - top row: GND).
+Antmicro baseboard for Jetson AGX Thor DC power connection with polarity marking (yellow - bottom row: VCC, black - top row: GND).
 :::
 ### 3. Storage
 
-You should equip the Jetson AGX Thor Baseboard with M.2 NVMe SSD storage with at least 100 GB of capacity.
+You should equip the  baseboard with M.2 NVMe SSD storage with at least 100 GB of capacity.
 That will be the primary storage device from which the SoM will boot.
 
 ### 4. Cooling 
 
-Antmicro designed a dedicated [enclosure](https://github.com/antmicro/jetson-agx-thor-baseboard-enclosure) for the Jetson AGX Thor Baseboard. The project contains files for CNC milling both the aluminum enclosure and a copper heatsink that together with two blower fans allow for efficient cooling of the SoM.  
+Antmicro designed a dedicated [enclosure](https://github.com/antmicro/jetson-agx-thor-baseboard-enclosure) for the Antmicro baseboard for Jetson AGX Thor. The project contains files for CNC milling both the aluminum enclosure and a copper heatsink that together with two blower fans allow for efficient cooling of the SoM.  
 Alternative commercial cooling solutions for the Jetson AGX Thor SoM are [ATS-NVP-3739-C1-R0](https://www.qats.com/Product/Heat-Sinks/BGA-Heat-Sink---High-Performance/Device-Specific---NVIDIA/ATS-NVP-3739-C1-R0/3692.aspx) and [ATS-NVA-3740-C1-R0](https://www.qats.com/Product/Heat-Sinks/BGA-Heat-Sink---High-Performance/Device-Specific---NVIDIA/ATS-NVA-3740-C1-R0/3693.aspx) for low to medium power applications and [ATS-NVA-3752-C2-R0](https://www.qats.com/Product/Heat-Sinks/BGA-Heat-Sink---High-Performance/Device-Specific---NVIDIA/ATS-NVA-3752-C2-R0/3694.aspx) for running at full power. 
 :::{caution}
 Using the SoM without any cooling solution attached will make it throttle and eventually reboot or crash the system due to overheating.
@@ -54,7 +54,7 @@ You may need to introduce adjustments for other Linux distros.
 
 #### SoM Flashing and debug console
 
-You will need two USB-C cables for connecting the SoM flashing port and the debug port located on the Jetson AGX Thor Baseboard to your PC.
+You will need two USB-C cables for connecting the SoM flashing port and the debug port located on the Antmicro baseboard for Jetson AGX Thor to your PC.
 You should avoid using USB hubs for the flashing interface to get the optimal flashing speed/performance.
 
 #### Video output
@@ -65,11 +65,11 @@ Additionally, the expansion connector ([`J18`](#J18)) `ASP-218650-01` compatible
 
 ## Build your setup
 
-To prepare the Jetson AGX Thor Baseboard for initial usage, follow the steps described below:
+To prepare the Antmicro baseboard for Jetson AGX Thor for initial usage, follow the steps described below:
 
 ### 1. Install the SoM
 
-Securely attach the NVIDIA Jetson AGX Thor SoM to the [`J1`](#J1) connector of the Jetson AGX Thor Baseboard.
+Securely attach the NVIDIA Jetson AGX Thor SoM to the [`J1`](#J1) connector of the Antmicro baseboard for Jetson AGX Thor.
 
 :::{caution}
 The baseboard does not support hot-swapping of the SoM. 
@@ -85,13 +85,13 @@ By default, the board supplies +12V DC to the fan and controls the fan speed via
 
 ### 3. Install the storage
 
-Install the NVMe M.2 SSD storage in the [`J13`](#J13) M.2 (key-M) slot located on the bottom side (i.e opposite side to the SoM) of the Jetson AGX Thor Baseboard.
+Install the NVMe M.2 SSD storage in the [`J13`](#J13) M.2 (key-M) slot located on the bottom side (i.e opposite side to the SoM) of the Antmicro baseboard for Jetson AGX Thor.
 You need to fasten the SSD with one metric M2.5 (5mm long) bolt to ensure reliable connection.
 
 :::{figure-md}
 ![](img/thor_nvme_location.png)
 
-Jetson AGX Thor Baseboard with the NVMe ready to secured with a screw. 
+Antmicro baseboard for Jetson AGX Thor with the NVMe ready to secured with a screw. 
 :::
 
 ### 4. Apply power supply
@@ -114,14 +114,14 @@ Now you are ready to prepare the BSP flashing image and initialize the flashing 
 :::{figure-md}
 ![](img/thor_ready_for_flashing.png)
 
-Jetson AGX Thor Baseboard ready for flashing (with cooling module not pictured for clarity). 
+Antmicro baseboard for Jetson AGX Thor ready for flashing (with cooling module not pictured for clarity). 
 :::
 
 ## Flash the BSP image
 
-Jetson AGX Thor Baseboard comes with a reference Linux for Tegra BSP with kernel, DTB and modules. 
+Antmicro baseboard for Jetson AGX Thor comes with a reference Linux for Tegra BSP with kernel, DTB and modules. 
 This BSP will let you verify the basic functionality of the board.
-The following steps will guide you through the process of downloading and flashing a precompiled Board Support Package (BSP) for the Jetson AGX Thor Baseboard.
+The following steps will guide you through the process of downloading and flashing a precompiled Board Support Package (BSP) for the Antmicro baseboard for Jetson AGX Thor.
 
 ### 1. Get the BSP image
 
@@ -193,7 +193,7 @@ gsettings set org.gnome.desktop.media-handling automount-open false
 
 ### 4. Open debug console
 
-Whenever developing with the Jetson AGX Thor Baseboard, it always makes sense to have a terminal hooked to the Debug UART on your host PC.
+Whenever developing with the Antmicro baseboard for Jetson AGX Thor, it always makes sense to have a terminal hooked to the Debug UART on your host PC.
 You can use any serial port terminal emulator for that, but we’ll use ``picocom`` in this guide.
 Make sure that the [debug console USB](#connect-the-debug-console) is connected to your host PC and the USB-serial converter is enumerated:
 ```bash
@@ -214,7 +214,7 @@ That will give you an insight into the progress and debug log messages displayed
 ### 5. Enter recovery mode
 
 Use of all Nvidia flashing tools requires the board to be in Recovery Mode.  
-Make sure that the Jetson AGX Thor Baseboard is [connected to a power source](#apply-power-supply) and that you have connected the [debug console USB](#connect-the-debug-console) and the [flashing USB interface](#connect-the-flashing-interface) to your PC, as described in the [Build your setup](#build-your-setup) section.
+Make sure that the Antmicro baseboard for Jetson AGX Thor is [connected to a power source](#apply-power-supply) and that you have connected the [debug console USB](#connect-the-debug-console) and the [flashing USB interface](#connect-the-flashing-interface) to your PC, as described in the [Build your setup](#build-your-setup) section.
 As already mentioned in the [Cabling](#cabling) section, you should be entering the recovery mode with direct connection of the flashing USB interface to the PC (i.e. there should be no USB hubs in between).  
 
 In order to enter the recovery mode:
@@ -368,7 +368,7 @@ Cleaning up...
 
 ## Post-flashing procedure
 
-After the flashing process, restart the Jetson AGX Thor board by pressing the `RESET` button. 
+After the flashing process, restart the Antmicro baseboard for Jetson AGX Thor by pressing the `RESET` button. 
 
 You can also disconnect the USB-C cable from the recovery USB port USB-C 2 ([`J3`](#J3)) - leave the Debug UART connected.
 

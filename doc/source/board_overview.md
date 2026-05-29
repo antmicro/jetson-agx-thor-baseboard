@@ -1,10 +1,10 @@
 # Board overview
 
-Jetson AGX Thor Baseboard is an open hardware board design supporting the NVIDIA Jetson AGX Thor T5000 System on Module.
+Antmicro baseboard for Jetson AGX Thor is an open hardware board design supporting the NVIDIA Jetson AGX Thor T5000 System on Module.
 The board design files were created in KiCad 9.x. and are available in this GitHub [repository](https://github.com/antmicro/jetson-agx-thor-baseboard).
 The board is a versatile development kit which can be adopted for standalone, desktop usage but it can be also integrated into a bigger computing system. It features a range of typical IO interfaces and offers compatibility with camera modules and video accessories developed by Antmicro. This makes the open source baseboard a perfect starting point for developing advanced vision systems, robots, autonomous vehicles and many more.  
 
-You can find out more about the Jetson AGX Thor Baseboard in this [blog article](https://antmicro.com/blog/2025/10/open-hardware-jetson-agx-thor-baseboard), or by visiting Antmicro's portals listed below:
+You can find out more about the Antmicro baseboard for Jetson AGX Thor in this [blog article](https://antmicro.com/blog/2025/10/open-hardware-jetson-agx-thor-baseboard), or by visiting Antmicro's portals listed below:
 * [Open Hardware Portal](https://openhardware.antmicro.com/boards/jetson-agx-thor-baseboard/)
 * [System Designer](https://designer.antmicro.com/library/devices/jetson-agx-thor-baseboard)
 
@@ -17,12 +17,12 @@ A map of on-board connectors, status LEDs, control buttons and I/O interfaces is
 :::{figure-md}
 ![](img/wireframe_io_map.png)
 
-Jetson AGX Thor Baseboard interface map
+Antmicro baseboard for Jetson AGX Thor interface map
 :::
 
 ## Power
 
-The Jetson AGX Thor Baseboard can be powered with a stable 24V DC voltage via the on-board 6-pin Molex Mini-Fit locking connector ([`J2`](#J2)). See the [Power Supply](getting_started.md#power-supply) section for details related to Mini-Fit power harness assembly, power consumption and a recommended power supply.
+The Antmicro baseboard for Jetson AGX Thor can be powered with a stable 24V DC voltage via the on-board 6-pin Molex Mini-Fit locking connector ([`J2`](#J2)). See the [Power Supply](getting_started.md#power-supply) section for details related to Mini-Fit power harness assembly, power consumption and a recommended power supply.
 
 ### USB-C Power Delivery
 
@@ -37,7 +37,7 @@ This controller needs to be configured in order to make it implement one of the 
 
 The on-board USB-C Power Delivery controller (Texas Instruments/[TPS65988](https://www.ti.com/product/TPS65988/part-details/TPS65988DHRSHR)) can be configured for a specific power profile by writing a binary configuration file to an SPI flash.
 You can generate your own configuration file with the [TPS6598X-CONFIG](https://www.ti.com/tool/TPS6598X-CONFIG) utility provided by Texas Instruments.
-Please refer to the Jetson AGX Thor Baseboard [schematics](https://github.com/antmicro/jetson-agx-thor/blob/main/doc/jetson-agx-thor-baseboard-schematic.pdf) to identify the USB port and power supply rail associated with it to generate a valid power profile setting while using the `TPS6598X-CONFIG` tool.
+Please refer to the Antmicro baseboard for Jetson AGX Thor [schematics](https://github.com/antmicro/jetson-agx-thor/blob/main/doc/jetson-agx-thor-baseboard-schematic.pdf) to identify the USB port and power supply rail associated with it to generate a valid power profile setting while using the `TPS6598X-CONFIG` tool.
 Also please refer to the [TPS65987DDH and TPS65988DH Host Interface Technical Reference Manual](https://www.ti.com/lit/ug/slvubh2b/slvubh2b.pdf) for further details.
 
 There are several ways to write the USB-C PD configuration to the on-board controller:
@@ -51,7 +51,7 @@ You will need the following pieces of hardware to proceed with writing the USB-C
 
 * A computer running Linux 
 * USB dongle based on FTDI/(FT4232H-56Q) [FTDI4232](https://ftdichip.com/products/ft4232hq/).
-  We suggest using Antmicro's open hardware [Debug Toolkit](https://github.com/antmicro/ftdi-toolkit) to simplify the setup (the cable mentioned below connects its J2 straight with Jetson AGX Thor Baseboard's J4)
+  We suggest using Antmicro's open hardware [Debug Toolkit](https://github.com/antmicro/ftdi-toolkit) to simplify the setup (the cable mentioned below connects its J2 straight with the baseboard's J4)
 * 10 Pin Tag-Connect [TC2050-IDC-NL](https://www.tag-connect.com/product/tc2050-idc-nl-10-pin-no-legs-cable-with-ribbon-connector) cable
   This cable should be connected to the signals from FTDI FT4232 according to the following table:
 
@@ -95,14 +95,14 @@ truncate -s 1048576 config.bin
 
 #### 4. Write the configuration
 
-  * Connect [Tag-Connect Plug-of-Nails](https://www.tag-connect.com/product/tc2050-idc-nl-050) to the [`J4`](#J4) connector on the Jetson AGX Thor Baseboard.
+  * Connect [Tag-Connect Plug-of-Nails](https://www.tag-connect.com/product/tc2050-idc-nl-050) to the [`J4`](#J4) connector on the Antmicro baseboard for Jetson AGX Thor.
    Hold the plug in place firmly during the flashing process.
-   The SPI flash will be powered via the programming cable during the flashing process - you do not have to provide your Jetson AGX Thor Baseboard with power.
+   The SPI flash will be powered via the programming cable during the flashing process - you do not have to provide your Antmicro baseboard for Jetson AGX Thor with power.
    
 :::{figure-md}
 ![](img/thor_tag_connect_plugged.png)
 
-Jetson AGX Thor Baseboard with Tag-Connect plugged for PD controller flashing.
+Antmicro baseboard for Jetson AGX Thor with Tag-Connect plugged for PD controller flashing.
 :::
    
  * Check if SPI Flash can be detected via Debug Toolkit:
@@ -136,7 +136,7 @@ Erase/write done.
 ```
 
 ```{important}
-The section below uses scripts originally designed for the Jetson Orin Baseboard, hence the difference in the repository and file names. The Jetson Orin Baseboard uses the same TPS65988 USB PD Controller and SPI Flash memory as the Jetson AGX Thor, that's why they can be also used for this board. 
+The section below uses scripts originally designed for the Antmicro baseboard for Jetson Orin, hence the difference in the repository and file names. The Antmicro baseboard for Jetson AGX Thor uses the same TPS65988 USB PD Controller and SPI Flash memory as the Antmicro baseboard for Jetson Orin, that's why the scripts can be used here as well. 
 ```
 
 ### TPS65988-config tool from Jetson AGX Thor user space
@@ -145,7 +145,7 @@ The TPS65988-config flashing script can be found in the [antmicro-jetson-orin-ba
 
 #### 1. Prepare hardware
 
-To properly execute this script, boot the Jetson AGX Thor Baseboard, and connect to it via the [debug console](getting_started.md#connect-the-debug-console) or via SSH. 
+To properly execute this script, boot the Antmicro baseboard for Jetson AGX Thor, and connect to it via the [debug console](getting_started.md#connect-the-debug-console) or via SSH. 
 Internet connection is also suggested.
 
 #### 2. Install dependencies
@@ -176,7 +176,7 @@ Performing cold reset
 ```
 
 ```{important}
-The section below uses scripts originally designed for the Jetson Orin Baseboard, hence the difference in the repository and file names. The Jetson Orin Baseboard uses the same TPS65988 USB PD Controller and SPI Flash memory as the Jetson AGX Thor, that's why they can be also used for this board. 
+The section below uses scripts originally designed for the Antmicro baseboard for Jetson Orin, hence the difference in the repository and file names. The Antmicro baseboard for Jetson AGX Thor uses the same TPS65988 USB PD Controller and SPI Flash memory as the Antmicro baseboard for Jetson Orin, that's why the scripts can be used here as well.  
 ```
 
 ### TPS65988-config tool via the debug console interface port
@@ -185,7 +185,7 @@ This option allows for flashing the USB-C Power Delivery controller without SoM 
 #### 1. Prepare hardware
 * Disconnect power supply from the baseboard
 * Remove Jetson module from the baseboard
-* Connect a host PC to Jetson AGX Thor Baseboard USB-C debug connector ([`J7`](#J7))
+* Connect a host PC to Antmicro baseboard for Jetson AGX Thor USB-C debug connector ([`J7`](#J7))
 
 #### 2. Install dependencies
 
@@ -220,10 +220,10 @@ The [`D21`](#D21) RX LED should turn off indicating end of communication.
 
 ## Mechanics
 
-The Jetson AGX Thor Baseboard PCB is 180x100 millimeters (WxL) which translates into 7.09x3.94 inch. The overall height of the set depends on the cooling module attached. The base setup with the integrated thermal transfer plate (TTP) without a cooling module is 29 mm or 1.14 inch tall. The KiCad PCB design files include mechanical layers with dimensions specified for the fastening holes and notable components. 
+The Antmicro baseboard for Jetson AGX Thor PCB is 180x100 millimeters (WxL) which translates into 7.09x3.94 inch. The overall height of the set depends on the cooling module attached. The base setup with the integrated thermal transfer plate (TTP) without a cooling module is 29 mm or 1.14 inch tall. The KiCad PCB design files include mechanical layers with dimensions specified for the fastening holes and notable components. 
 
 :::{figure-md}
 ![](img/dimensions.png)
 
-Jetson AGX Thor Baseboard dimensions
+Antmicro baseboard for Jetson AGX Thor dimensions
 :::
