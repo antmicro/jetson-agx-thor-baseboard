@@ -80,7 +80,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -198,27 +198,39 @@
           ""
         ],
         [
-          "silk_over_copper|235331000|58449999|96373bbe-83eb-4536-ae51-7b5c62eec3eb|ca60b4de-acef-4add-b5eb-31fca3b125ac",
+          "silk_over_copper|101973950|57735191|b7e23aaf-bec2-42f1-95d9-153f44ad6414|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "silk_over_copper|235331000|68888999|7fb0f5d4-addb-4347-ba68-4aae8d448c62|b24c1582-d7d1-4fab-a722-5509af97a70b",
+          "silk_over_copper|102000000|59645074|e10bd552-2e6a-40d3-a09e-6c61288829ff|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "silk_over_copper|76920532|74931000|849be54c-e9c6-4677-8f1c-007006df4034|72a92ae9-c753-4b12-a5e8-14630b2bd4da",
+          "silk_over_copper|105597099|59630491|c583f3b9-01d8-47a7-895f-ca70a66231f6|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "silk_over_copper|76920532|74931000|f5be6a1f-b1de-4c99-93cc-5c8734b0f935|72a92ae9-c753-4b12-a5e8-14630b2bd4da",
+          "silk_over_copper|111805052|120278558|df1572ad-d4e1-4172-91ce-60f782b6edf7|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "silk_overlap|186623889|57134297|65833571-5ea5-4ba4-9325-ece48ca6278b|ec9e8bf7-af59-47cb-8a4e-f278189f0ef8",
+          "silk_over_copper|236447675|58449999|96373bbe-83eb-4536-ae51-7b5c62eec3eb|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "silk_overlap|192572141|64793395|67b815a9-55f8-4c9b-b197-ef1063ef0d74|a0aa5332-ebcb-48c1-b9bb-16366b3894c0",
+          "silk_over_copper|236488677|68888999|7fb0f5d4-addb-4347-ba68-4aae8d448c62|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|76855219|148177000|0981ecbb-4e17-4a98-8537-7138e3640830|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|76920532|75010451|f5be6a1f-b1de-4c99-93cc-5c8734b0f935|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|77104612|74931000|849be54c-e9c6-4677-8f1c-007006df4034|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -415,7 +427,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1.1.3"
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -689,14 +701,11 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
-      "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
-      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
-      "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -719,7 +728,6 @@
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
-      "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -1786,9 +1794,6 @@
       "/SoM_IO2/DP1.AUX_C-": [
         "85Ohm-diff_DP"
       ],
-      "/SoM_IO2/DP1.HPD": [
-        "85Ohm-diff_DP"
-      ],
       "/SoM_IO2/DP1.TX0_C+": [
         "85Ohm-diff_DP"
       ],
@@ -1819,9 +1824,6 @@
       "/SoM_IO2/DP2.AUX_C-": [
         "85Ohm-diff_DP"
       ],
-      "/SoM_IO2/DP2.HPD": [
-        "85Ohm-diff_DP"
-      ],
       "/SoM_IO2/DP2.TX0_C+": [
         "85Ohm-diff_DP"
       ],
@@ -1850,9 +1852,6 @@
         "85Ohm-diff_DP"
       ],
       "/SoM_IO2/DP3.AUX_C-": [
-        "85Ohm-diff_DP"
-      ],
-      "/SoM_IO2/DP3.HPD": [
         "85Ohm-diff_DP"
       ],
       "/SoM_IO2/DP3.TX0_C+": [
@@ -2138,10 +2137,6 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "annotation": {
-      "method": 0,
-      "sort_order": 0
-    },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -2319,229 +2314,9 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": false,
-      "sort_field": "Value"
+      "sort_field": "Reference"
     },
-    "bus_aliases": {
-      "CAM_CTRL": [
-        "CSIA_PEN",
-        "CSIB_PEN",
-        "CSIA_FLG",
-        "CSIB_FLG",
-        "VSYNC_CAM0",
-        "VSYNC_CAM1",
-        "VSYNC_CAM2",
-        "VSYNC_CAM3"
-      ],
-      "CAN": [
-        "DIN",
-        "DOUT"
-      ],
-      "CSI": [
-        "CSI0_CLK-",
-        "CSI0_CLK+",
-        "CSI2_CLK+",
-        "CSI2_CLK-",
-        "CSI4_CLK+",
-        "CSI4_CLK-",
-        "CSI6_CLK+",
-        "CSI6_CLK-",
-        "CSI0_D1-",
-        "CSI0_D1+",
-        "CSI0_D0-",
-        "CSI0_D0+",
-        "CSI1_D0+",
-        "CSI1_D0-",
-        "CSI1_D1-",
-        "CSI1_D1+",
-        "CSI2_D0-",
-        "CSI2_D0+",
-        "CSI2_D1-",
-        "CSI2_D1+",
-        "CSI3_D0-",
-        "CSI3_D0+",
-        "CSI3_D1-",
-        "CSI3_D1+",
-        "CSI4_D0+",
-        "CSI4_D0-",
-        "CSI4_D1+",
-        "CSI4_D1-",
-        "CSI5_D0+",
-        "CSI5_D0-",
-        "CSI5_D1+",
-        "CSI5_D1-",
-        "CSI6_D0+",
-        "CSI6_D0-",
-        "CSI6_D1+",
-        "CSI6_D1-",
-        "CSI7_D0+",
-        "CSI7_D0-",
-        "CSI7_D1+",
-        "CSI7_D1-"
-      ],
-      "DP": [
-        "TX0+",
-        "TX0-",
-        "TX1+",
-        "TX1-",
-        "TX2+",
-        "TX2-",
-        "TX3+",
-        "TX3-",
-        "AUX+",
-        "AUX-",
-        "HPD"
-      ],
-      "GPIO": [
-        "USER_LED0",
-        "USER_LED1",
-        "USER_BTN0",
-        "USER_BTN1",
-        "04",
-        "05",
-        "08",
-        "09",
-        "10",
-        "11",
-        "12",
-        "13",
-        "14",
-        "15",
-        "16",
-        "17",
-        "18",
-        "19",
-        "20",
-        "21",
-        "24",
-        "MCLK02",
-        "MCLK03",
-        "MCLK04",
-        "MCLK05",
-        "MCLK01",
-        "27",
-        "32",
-        "34",
-        "36",
-        "64",
-        "65",
-        "67"
-      ],
-      "HDMI": [
-        "D2+",
-        "D2-",
-        "D1+",
-        "D1-",
-        "D0+",
-        "D0-",
-        "CK+",
-        "CK-",
-        "SCL",
-        "SDA",
-        "HPD"
-      ],
-      "I2C": [
-        "SDA",
-        "SCL",
-        "~{INT}"
-      ],
-      "I2S": [
-        "CLK",
-        "FS",
-        "SDOUT",
-        "SDIN"
-      ],
-      "M2_E": [
-        "W_DIS_1",
-        "W_DIS_2",
-        "~{UART_WAKE}",
-        "VENDOR"
-      ],
-      "PCIe": [
-        "TX0+",
-        "TX0-",
-        "TX1+",
-        "TX1-",
-        "TX2+",
-        "TX2-",
-        "TX3+",
-        "TX3-",
-        "RX0+",
-        "RX0-",
-        "RX1+",
-        "RX1-",
-        "RX2+",
-        "RX2-",
-        "RX3+",
-        "RX3-",
-        "~{RST}",
-        "~{CLKREQ}",
-        "CLK+",
-        "CLK-",
-        "TX4+",
-        "TX4-",
-        "TX5+",
-        "TX5-",
-        "TX6+",
-        "TX6-",
-        "TX7+",
-        "TX7-",
-        "RX4+",
-        "RX4-",
-        "RX5+",
-        "RX5-",
-        "RX6+",
-        "RX6-",
-        "RX7+",
-        "RX7-"
-      ],
-      "RGMII": [
-        "TX0",
-        "TX1",
-        "TX2",
-        "TX3",
-        "TXC",
-        "TX_CTL",
-        "RX0",
-        "RX1",
-        "RX2",
-        "RX3",
-        "RXC",
-        "RX_CTL",
-        "MDC",
-        "MDIO",
-        "~{RESET}",
-        "~{INT}"
-      ],
-      "SFI": [
-        "RX+",
-        "RX-",
-        "TX+",
-        "TX-"
-      ],
-      "SPI": [
-        "MISO",
-        "MOSI",
-        "SCK",
-        "~{CS0}",
-        "~{CS1}"
-      ],
-      "UART": [
-        "TX",
-        "RX",
-        "CTS",
-        "RTS"
-      ],
-      "USB": [
-        "D+",
-        "D-"
-      ],
-      "USBSS": [
-        "TX+",
-        "TX-",
-        "RX+",
-        "RX-"
-      ]
-    },
+    "bus_aliases": {},
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -2549,7 +2324,6 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -2581,7 +2355,6 @@
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
-    "reuse_designators": true,
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -2595,16 +2368,14 @@
       {
         "filename": "jetson-agx-thor-baseboard.kicad_sch",
         "name": "jetson-agx-thor-baseboard",
-        "uuid": "f569b0be-0afd-48b7-93ee-28582a4c645c"
+        "uuid": "00000000-0000-0000-0000-000000000000"
       }
-    ],
-    "used_designators": "",
-    "variants": []
+    ]
   },
   "sheets": [
     [
       "f569b0be-0afd-48b7-93ee-28582a4c645c",
-      "jetson-agx-thor-baseboard"
+      "Root"
     ],
     [
       "5e8e155a-019a-4868-a371-a2eb1e119b3e",
